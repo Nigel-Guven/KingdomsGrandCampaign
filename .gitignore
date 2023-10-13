@@ -1,0 +1,184 @@
+# Large memory items
+data/sounds/Music.dat
+data/sounds/Voice.dat
+
+# Sounds
+data/sounds/
+data/export_descr_sounds*
+data/descr_sounds_accents.txt
+data/descr_sounds_advice.txt
+data/descr_sounds_battle_events.txt
+data/descr_sounds_db.xml
+data/descr_sounds_enviro.txt
+data/descr_sounds_events.txt
+data/descr_sounds_generic.txt
+data/descr_sounds_engine.txt
+data/descr_sounds_interface.txt
+data/descr_sounds_narration.txt
+data/descr_sounds_prebattle.txt
+data/descr_sounds_units_celebrate.txt
+data/descr_sounds_units_anims.txt
+data/descr_sounds_units.txt
+data/descr_sounds_units_ambient.txt
+data/descr_sounds_units_charge.txt
+data/descr_sounds_units_collide.txt
+data/descr_sounds_units_confirm.txt
+data/descr_sounds_units_fight.txt
+data/descr_sounds_units_fire.txt
+data/descr_sounds_units_idle.txt
+data/descr_sounds_units_march.txt
+data/descr_sounds_units_reform.txt
+data/descr_sounds_units_retreat.txt
+data/descr_sounds_units_run.txt
+data/descr_sounds_units_taunt.txt
+data/descr_sounds_units_voice.txt
+data/descr_sounds_weapons.txt
+data/descr_sounds_structures.txt
+data/descr_sounds_stratmap_voice.txt
+data/descr_sounds_stratmap.txt
+
+#Terrain
+data/terrain/
+
+#Settlements
+data/settlements/
+
+#Siege Engines
+data/siege_engines/
+
+#Menu Items
+data/menu/
+
+#Animations
+data/animations/
+
+#Banners
+data/banners/
+
+#Blocksets
+data/blockset/
+
+#Global Lighting
+data/globallighting/
+
+#Models
+data/models_effects/
+data/models_strat/
+
+#Vegetation
+data/new_vegetation/
+
+#Loading Screens
+data/loading_screen/
+
+#Event Pictures
+data/ui/*/eventpics/
+
+#Animations
+data/animations/
+data/battlefield/
+data/descr_area_effects.xml
+data/descr_arrow_trail_effects.txt
+data/descr_artillery_effects.txt
+
+#Character portaits
+data/ui/*/portraits/
+data/ui/custom_portraits/
+
+#Faction Interfaces
+data/ui/*/interface/
+
+#Resources
+data/ui/resources/
+
+#Buildings
+data/ui/*/buildings/
+
+#UI Elements
+data/ui/faction_symbols/*
+data/ui/*/cities
+data/ui/captain*
+
+#Custom Locations
+data/custom_locations.txt
+
+#Textures
+data/overlaytextures/
+
+#AI Battle Config
+data/config_ai_battle.xml
+data/battle_config.xml
+
+#Ancillaries
+data/ui/ancillaries/
+
+#Verifies
+verify/*
+
+#Dummy Files
+*file.txt
+
+#Map Elements
+data/world/maps/base/
+
+#Unit Elements
+data/unit_sprites/
+data/unit_models/
+data/ui/units/
+data/ui/unit_info
+
+Binary/BIK Files
+*.bin
+*.bik
+
+#Weather DB
+data/weather*
+
+#Files DO NOT EDIT
+*.bat
+
+#Text Binaries
+data/text/
+
+#Packages
+data/packagedb.txt
+
+#Descriptors Not to edit
+data/descr_aerial_map_ground_types.txt
+data/descr_campaign_db.xml
+data/descr_campaign_ai_db.xml
+data/descr_banners_new.xml
+data/descr_battle_map_movement_modifiers.txt
+data/descr_boiling_oil.txt
+data/descr_cursor_actions_battle_classic.txt
+data/descr_diplomacy.xml
+data/descr_effect_impacts.txt
+data/descr_effects.txt
+data/descr_engine_skeleton.txt
+data/descr_engines.txt
+data/descr_flaming_projectiles.txt
+data/descr_formations.txt
+data/descr_formations_ai.txt
+data/descr_event_images.txt
+data/descr_ik_controller_db.txt
+data/descr_lbc_db.txt
+data/descr_misc.txt
+data/descr_offmap_models.txt
+data/descr_pathfinding.db
+data/descr_pathfinding.txt
+data/descr_projectile.txt
+data/descr_particle.txt
+data/descr_mount.txt
+data/descr_model_strat.txt
+data/descr_walls.txt
+data/descr_ui_colour_db.txt
+data/descr_standards.txt
+data/descr_sm_resources.txt
+data/descr_rebel_factions.txt
+data/descr_skeleton.txt
+data/export_descr_advice.txt
+data/export_descr_character_traits.txt
+
+
+
+
