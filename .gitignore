@@ -146,9 +146,6 @@ data/weather*
 #Files DO NOT EDIT
 *.bat
 
-#Text Binaries
-data/text/
-
 #Packages
 data/packagedb.txt
 
@@ -156,7 +153,6 @@ data/packagedb.txt
 data/descr_aerial_map_ground_types.txt
 data/descr_campaign_db.xml
 data/descr_campaign_ai_db.xml
-data/descr_banners_new.xml
 data/descr_battle_map_movement_modifiers.txt
 data/descr_boiling_oil.txt
 data/descr_cursor_actions_battle_classic.txt
