@@ -27,6 +27,7 @@ playable
 	moors
 	hre
 	byzantium
+	timurids
 end
 unlockable
 end
@@ -34,7 +35,6 @@ nonplayable
 	portugal
 	papal_states
 	aztecs
-	timurids
 	slave
 end
 
@@ -5894,6 +5894,191 @@ character_record		Mandughai, 	female, age 38, alive, never_a_leader
 
 relative 	Genghis,	Mandughai,	Ogedei,	Batu,	end
 
+faction	timurids, balanced smith
+ai_label		mongol
+denari	20000
+denari_kings_purse	5000
+settlement
+{
+	level large_town
+	region Tbilisi_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kutais_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Tabriz_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Timur, named character, male, leader, age 32, x 481, y 195, battle_model eastern_sultan 
+traits Factionleader 1 , EasternWarlord 2 , Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3 
+ancillaries crown_mongols
+army
+unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
+unit		ME Town Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Town Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Town Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Town Militia			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Turkomans			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+
+character	Bodonchar, named character, male, heir, age 17, x 456, y 198 
+traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
+army
+unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
+unit		ME Halberd Militia				exp 0 armour 0 weapon_lvl 0
+unit		ME Halberd Militia				exp 0 armour 0 weapon_lvl 0
+unit		ME Halberd Militia				exp 0 armour 0 weapon_lvl 0
+unit		ME Halberd Militia				exp 0 armour 0 weapon_lvl 0
+unit		ME Halberd Militia				exp 0 armour 0 weapon_lvl 0
+unit		Afghan Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Afghan Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Afghan Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Afghan Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Afghan Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Turkomans			exp 0 armour 0 weapon_lvl 0
+unit		Khan's Guard			exp 2 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+
+character	Dagun, named character, male, age 16, x 498, y 168 
+traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
+army
+unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Dismounted Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		Turkish Horse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Turkomans			exp 0 armour 0 weapon_lvl 0
+unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+
+character	Inalchi, priest, male, age 20, x 478, y 195
+traits NaturalPriestSkill 1 
+
+character	Khubilai, diplomat, male, age 28, x 457, y 195 
+traits GoodDiplomat 4 
+
+character	Achigh, merchant, male, age 26, x 467, y 199 
+traits GoodMerchant 2
+
+character_record		Hogelun, 	female, age 24, alive, never_a_leader
+
+relative 	Timur,	Hogelun,	Bodonchar,	Dagun,	end
+
 faction	egypt, balanced smith
 ai_label		islam
 denari	8000
@@ -7502,49 +7687,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Tbilisi_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_muslim_castle c_masjid
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 settlement
 {
 	level large_town
@@ -7585,45 +7727,6 @@ settlement
 	building
 	{
 		type hinterland_mines mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region Tabriz_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type taverns brothel
 	}
 	building
 	{
@@ -7949,7 +8052,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Sundak Ciller, general, male, age 21, x 498, y 168 
+character	Sundak Ciller, general, male, age 21, x 407, y 163 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -7972,7 +8075,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Kuchuk Ilker, general, male, age 23, x 481, y 195 
+character	Kuchuk Ilker, general, male, age 23, x 452, y 158 
 army
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
@@ -10518,13 +10621,6 @@ relative 	Montezuma,	Teotalco,	Nopaltzin,	Cuitlauac,	Huitzilihuitl,	end
 relative 	Nopaltzin,	Necahual,	Papantzin,	end
 relative 	Cuitlauac,	Atototl,	end
 
-faction	timurids, balanced smith
-ai_label		mongol
-dead_until_resurrected
-denari	20000
-denari_kings_purse	5000
-
-
 faction	slave, balanced smith
 ai_label		slave_faction
 denari	10000
@@ -11216,37 +11312,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Kutais_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -12080,14 +12145,6 @@ unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Janbulat, general, male, age 21, x 456, y 198 
-army
-unit		Armenian Cavalry			exp 0 armour 0 weapon_lvl 0
-unit		Armenian Archers			exp 0 armour 0 weapon_lvl 0
-unit		Armenian Archers			exp 0 armour 0 weapon_lvl 0
-unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction byzantium, Demetrios, general, male, age 25, x 358, y 184 
 army
