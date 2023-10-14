@@ -208,9 +208,21 @@ pool Spain
 	unit Pilgrims				exp 0 cost 45 replenish 0.36 - 1.0 max 6 initial 1 religions { catholic } crusading
 	unit Crusader Knights			exp 0 cost 320 replenish 0.15 - 0.35 max 3 initial 1  end_year 1280 religions { catholic } crusading
 	unit Crusader Sergeants			exp 0 cost 210 replenish 0.15 - 0.35 max 3 initial 1  end_year 1280 religions { catholic } crusading
+	unit Great Cross				exp 0 cost 400 replenish 0.03 - 0.07 max 1 initial 0  end_year 1280 religions { catholic } crusading
+	unit Flagellants				exp 0 cost 100 replenish 0.18 - 0.5 max 4 initial 1 start_year 1200 end_year 1370 religions { catholic } crusading
 	unit Ghazis				exp 0 cost 200 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
 	unit Mutatawwi'a			exp 0 cost 70 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
 	unit Swiss Pikemen Mercs		exp 0 cost 790 replenish 0.06 - 0.18 max 3 initial 0 start_year 1280 religions { catholic }
+	unit Irish Kerns Mercs			exp 0 cost 480 replenish 0.04 - 0.13 max 2 initial 1
+	unit Galloglaich Mercs			exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0
+	unit Flemish Pikemen Mercs		exp 0 cost 570 replenish 0.06 - 0.18 max 3 initial 0 start_year 1280
+	unit Welsh Spearmen Mercs		exp 0 cost 570 replenish 0.06 - 0.18 max 3 initial 1 end_year 1280
+	unit Alan Light Cavalry			exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 1
+	unit Akinjis					exp 0 cost 720 replenish 0.18 - 0.5 max 6 initial 1
+	unit Greek Firethrower			exp 0 cost 1280 replenish 0.04 - 0.13 max 2 initial 0
+	unit Alamanoi					exp 0 cost 930 replenish 0.06 - 0.18 max 3 initial 1 start_year 1200
+	unit Landschneckt Pikemen		exp 0 cost 630 replenish 0.04 - 0.13 max 2 initial 0 start_year 1280 religions { catholic orthodox }
+	unit Elephants Mercs			exp 0 cost 3000 replenish 0.02 - 0.04 max 1 initial 1
 
 pool Northern_Italy
 	regions Roman_Province Venice_Province Milan_Province Ancona_Province Turin_Province Bologna_Province Genoa_Province Florence_Province
@@ -304,8 +316,8 @@ pool Arabia
 	unit Ghazis				exp 0 cost 540 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
 	unit Mutatawwi'a			exp 0 cost 500 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
 	unit Turkomans Mercs			exp 0 cost 840 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-	unit Elephants Mercs			exp 0 cost 3000 replenish 0.02 - 0.04 max 1 initial 0 end_year 1280 events { gunpowder_discovered }
-	unit Elephant Artillery Mercs		exp 0 cost 5000 replenish 0.02 - 0.04 max 1 initial 0 start_year 1280 events { gunpowder_discovered }
+	unit Elephants Mercs			exp 0 cost 3000 replenish 0.02 - 0.04 max 1 initial 1
+	unit Elephant Artillery Mercs		exp 0 cost 5000 replenish 0.02 - 0.04 max 1 initial 0 start_year 1200 events { gunpowder_discovered }
 	unit Afghan Javelinmen Mercs		exp 0 cost 1020 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
 
 pool Brazil

@@ -6029,6 +6029,8 @@ unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
 character	Bodonchar, named character, male, heir, age 17, x 456, y 198 
 traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
@@ -6050,6 +6052,7 @@ unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
 character	Dagun, named character, male, age 16, x 498, y 168 
 traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
@@ -6065,6 +6068,8 @@ unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		Turkish Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Turkomans			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
 character	Inalchi, priest, male, age 20, x 478, y 195
 traits NaturalPriestSkill 1 

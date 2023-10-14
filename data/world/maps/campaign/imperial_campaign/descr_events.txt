@@ -5,40 +5,40 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 event	historic	first_windmill
-date	10
+date	2
 
 event	historic	earthquake_in_aleppo
-date	18
+date	10
 position	444, 130
 
 event	historic	science_alchemy_book
-date	30
+date	16
 
 event	historic	first_european_paper
-date	40
+date	20
 
 event	historic	first_rudder
-date	44
+date	32
 
 event	historic	first_magnetic_compass
-date	50
+date	34
 
 event	historic	first_wheelbarrow
-date	55
+date	38
 
 event	historic	gunpowder_discovered
-date	60 90
+date	46 50
 movie	event/gunpowder_invented.bik
 
 event	earthquake	earthquake_in_silicia
-date	95
+date	50
 position	401, 136
 
 event	historic	science_maths_zero_europe
-date	96
+date	52
 
 event	plague	black_death_hits
-date	100
+date	70
 position	496, 293
 position	446, 240
 position	402, 212
@@ -46,7 +46,7 @@ position	481, 195
 movie	event/black_death.bik
 
 event	plague	black_death_1
-date	102
+date	74
 position	481, 180
 position	446, 186
 position	369, 165
@@ -109,7 +109,7 @@ position	456, 198
 position	188, 177
 
 event	plague	black_death_2
-date	104
+date	78
 position	486, 141
 position	448, 115
 position	444, 130
@@ -160,7 +160,7 @@ position	136, 291
 position	219, 268
 
 event	plague	black_death_3
-date	106
+date	80
 position	355, 224
 position	339, 203
 position	172, 323
@@ -192,7 +192,7 @@ position	264, 291
 position	358, 184
 
 event	plague	black_death_4
-date	108
+date	84
 position	406, 302
 position	350, 319
 position	348, 283
@@ -237,7 +237,7 @@ event	historic	football_banned
 date	124
 
 event	historic	world_is_round
-date	125 130
+date	40 44
 
 event	historic	first_sawmill
 date	130

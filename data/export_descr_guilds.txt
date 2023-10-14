@@ -8,84 +8,84 @@
 ;------------------------------------------
 Guild assassins_guild
     building guild_assassins_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild assassins_muslim_guild
     building guild_assassins_muslim_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild masons_guild
     building guild_masons_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild theologians_guild
     building guild_theologians_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild merchants_guild
     building guild_merchants_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild alchemists_guild
     building guild_alchemists_guild
-    levels  100 250 500
+    levels  20 25 50
 
 ;------------------------------------------
 Guild thiefs_guild
     building guild_thiefs_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild explorers_guild
     building guild_explorers_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild swordsmiths_guild
     building guild_swordsmiths_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild templars_chapter_house
     building guild_templars_chapter_house
     exclude st_johns_chapter_house
-    levels  50 250 500
+    levels  5 25 50
 
 ;------------------------------------------
 Guild st_johns_chapter_house
     building guild_st_johns_chapter_house
     exclude templars_chapter_house
-    levels  50 250 500
+    levels  5 25 50
 
 ;------------------------------------------
 Guild teutonic_knights_chapter_house
     building guild_teutonic_knights_chapter_house
-    levels  50 250 500
+    levels  5 25 50
 
 ;------------------------------------------
 Guild knights_of_santiago_chapter_house
     building guild_knights_of_santiago_chapter_house
-    levels  50 250 500
+    levels  5 25 50
 
 ;------------------------------------------
 Guild woodsmens_guild
     building guild_woodsmens_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild horse_breeders_guild
     building guild_horse_breeders_guild
-    levels  100 250 500
+    levels  10 25 50
 
 ;------------------------------------------
 Guild hanseatic_guild
     building guild_hanseatic_guild
-    levels  500
+    levels  200
 
 
 
