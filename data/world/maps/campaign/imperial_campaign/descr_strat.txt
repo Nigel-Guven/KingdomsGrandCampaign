@@ -49,8 +49,8 @@ rebelling_characters_active
 gladiator_uprising_disabled
 night_battles_enabled
 show_date_as_turns
-brigand_spawn_value 40
-pirate_spawn_value 80
+brigand_spawn_value 20000
+pirate_spawn_value 20000
 free_upkeep_forts 3
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10550,6 +10550,52 @@ settlement
 		type hinterland_farms farms
 	}
 }
+settlement
+{
+	level city
+	region Utrecht_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type temple_pagan great_pyramid
+	}
+	building
+	{
+		type meso_palace palace_complex
+	}
+	building
+	{
+		type meso_market plaza
+	}
+	building
+	{
+		type ball_court ball_court
+	}
+	building
+	{
+		type skull_rack skull_rack
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type aztec_aqueduct aztec_aqueduct
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 
 character	Montezuma, named character, male, leader, age 58, x 5, y 234 
 traits Factionleader 1 , GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , ReligionStarter 1 
@@ -10616,6 +10662,68 @@ unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Ahexotl, named character, male, age 22, x 219, y 268 
+traits LoyaltyStarter 4 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
+army
+unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
+
+character	Axoacatzin, named character, male, age 40, x 218, y 268 
+traits LoyaltyStarter 3 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
+army
+unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
+
+character	Cuautemoc, named character, male, age 23, x 220, y 268 
+traits LoyaltyStarter 7 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
+army
+unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
+unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
 character_record		Teotalco, 	female, age 58, alive, never_a_leader
 character_record		Necahual, 	female, age 36, alive, never_a_leader
@@ -10826,45 +10934,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Utrecht_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -12271,7 +12340,7 @@ unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction hre, Albrecht, general, male, age 29, x 219, y 268 
+character	sub_faction hre, Albrecht, general, male, age 29, x 168, y 204 
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -12535,7 +12604,8 @@ faction_standings	russia,			-0.40	papal_states, teutonic_order
 faction_standings	russia,			-0.60	slave
 faction_standings	russia,			-0.80	mongols
 faction_standings	mongols,		0.40	turks
-faction_standings	mongols,		-0.60	novgorod, teutonic_order
+faction_standings	mongols,		-0.60	novgorod, teutonic_order, timurids
+faction_standings	mongols,		-0.80	russia
 faction_standings	mongols,		-0.80	russia
 faction_standings	egypt,			0.40	turks
 faction_standings	egypt,			-0.60	slave, byzantium
@@ -12567,6 +12637,10 @@ faction_standings	papal_states,		0.20	milan
 faction_standings	papal_states,		-0.40	russia
 faction_standings	papal_states,		-0.60	hre
 faction_standings	papal_states,		-0.80	egypt
+faction_standings	timurids,		-0.80	turks, byzantium
+faction_standings	timurids,		-0.60	antioch, jerusalem
+faction_standings	timurids,		-0.20	egypt
+faction_standings	timurids,		-0.40	mongols
 faction_standings	slave,			-0.60	wales, russia, ireland, lithuania, hungary, egypt, moors, england, turks, poland
 
 faction_relationships 	wales, at_war_with 	slave
