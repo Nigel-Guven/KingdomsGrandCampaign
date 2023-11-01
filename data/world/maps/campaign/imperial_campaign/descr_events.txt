@@ -27,18 +27,18 @@ event	historic	first_wheelbarrow
 date	38
 
 event	historic	gunpowder_discovered
-date	46 50
+date	64 70
 movie	event/gunpowder_invented.bik
 
 event	earthquake	earthquake_in_silicia
-date	50
+date	72
 position	401, 136
 
 event	historic	science_maths_zero_europe
-date	52
+date	76
 
 event	plague	black_death_hits
-date	70
+date	80
 position	496, 293
 position	446, 240
 position	402, 212
@@ -46,7 +46,7 @@ position	481, 195
 movie	event/black_death.bik
 
 event	plague	black_death_1
-date	74
+date	84
 position	481, 180
 position	446, 186
 position	369, 165
@@ -109,7 +109,7 @@ position	456, 198
 position	188, 177
 
 event	plague	black_death_2
-date	78
+date	86
 position	486, 141
 position	448, 115
 position	444, 130
@@ -160,7 +160,7 @@ position	136, 291
 position	219, 268
 
 event	plague	black_death_3
-date	80
+date	88
 position	355, 224
 position	339, 203
 position	172, 323
@@ -192,7 +192,7 @@ position	264, 291
 position	358, 184
 
 event	plague	black_death_4
-date	84
+date	90
 position	406, 302
 position	350, 319
 position	348, 283

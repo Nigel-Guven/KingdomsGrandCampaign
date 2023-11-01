@@ -28,13 +28,13 @@ playable
 	hre
 	byzantium
 	timurids
+	aztecs
+	portugal
 end
 unlockable
 end
 nonplayable
-	portugal
 	papal_states
-	aztecs
 	slave
 end
 
@@ -1185,56 +1185,7 @@ settlement castle
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Donegal_Province
 
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
 
 character	Brian O'Neill, named character, male, leader, age 38, x 137, y 276, portrait brian, battle_model oneill_general 
 traits Factionleader 1 , Intelligent 1 , NaturalMilitarySkill 1 , GoodCommander 2 , BattleDread 3 , StrategyDread 1 , Fertile 1 
@@ -1261,7 +1212,7 @@ unit		Cliathairi				exp 0 armour 0 weapon_lvl 0
 unit		Cliathairi				exp 0 armour 0 weapon_lvl 0
 unit		Hobiguir				exp 0 armour 0 weapon_lvl 0
 
-character	Connor MacMurrough, named character, male, age 26, x 146, y 302, portrait connor 
+character	Connor MacMurrough, named character, male, age 26, x 147, y 293, portrait connor 
 traits GoodCommander 2 , BattleChivalry 2 , StrategyChivalry 1 , ReligionStarter 1 , PublicFaith 1 , LoyaltyStarter 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -1610,6 +1561,88 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level large_town
+	region Isle_of_Cyprus
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Isle_of_Cyprus2
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Gunther von Schwarzenburg, named character, male, leader, age 36, x 293, y 270, portrait gunther, battle_model Teutonic_Hochmeister 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 1 , BattleChivalry 4 , ReligionStarter 1 
 ancillaries crown_teutonic_order
@@ -1632,10 +1665,38 @@ unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 
+character	Adolf, general, male, age 17, x 412, y 109 
+traits LoyaltyStarter 1 , GoodCommander 1 , HaleAndHearty 1 , ReligionStarter 1 
+army
+unit		TO Bodyguard				exp 3 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
+unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
+
 character	Ludwig, general, male, age 22, x 309, y 320 
 army
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+
+character	Wikerus, general, male, age 22, x 419, y 116 
+army
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+
+character	Ruprecht, general, male, age 22, x 309, y 321 
+army
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 
@@ -1648,7 +1709,7 @@ traits NaturalPriestSkill 2 , StrongFaith 2 , PriestLevel 1
 character_record		Dietrich, 	male, age 11, alive, never_a_leader
 character_record		Agnes, 	female, age 35, alive, never_a_leader
 
-relative 	Gunther von Schwarzenburg,	Agnes,	Maximillian,	Dietrich,	end
+relative 	Gunther von Schwarzenburg, 	Agnes, Maximillian, Dietrich,	end
 
 faction	lithuania, balanced smith
 ai_label		pagan
@@ -1795,88 +1856,6 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level large_town
-	region Riga_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Minsk_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 character	Mindaugas, named character, male, leader, age 41, x 331, y 292, portrait mindaugas, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 1 , BattleChivalry 4 , ReligionStarter 1 
 ancillaries crown_lithuania
@@ -1889,7 +1868,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Vaisvilkas, named character, male, heir, age 24, x 348, y 283, portrait vaisvilkas 
+character	Vaisvilkas, named character, male, heir, age 24, x 332, y 292, portrait vaisvilkas 
 traits Factionheir 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , LoyaltyStarter 1 
 army
 unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -1918,7 +1897,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Ramvaldas, general, male, age 24, x 317, y 311 
+character	Ramvaldas, general, male, age 24, x 323, y 278 
 army
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
@@ -2052,6 +2031,49 @@ settlement castle
 	building
 	{
 		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Isle_of_Rhodes
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
 	}
 	building
 	{
@@ -2198,6 +2220,24 @@ unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
 unit		Tripolitan Squires			exp 0 armour 0 weapon_lvl 0
 unit		Tripolitan Squires			exp 0 armour 0 weapon_lvl 0
 
+character	Nigel,general, male, age 17, x 369, y 116 
+traits GoodCommander 2 , NaturalMilitarySkill 1 , ReligionStarter 1, LoyaltyStarter 1 , CrusaderHistory 2 , GoodAdministrator 2 
+army
+unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Knights of Tripoli			exp 0 armour 0 weapon_lvl 0
+unit		Knights of Tripoli			exp 0 armour 0 weapon_lvl 0
+unit		Knights of Tripoli			exp 0 armour 0 weapon_lvl 0
+unit		Knights of Tripoli			exp 0 armour 0 weapon_lvl 0
+unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
+unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
+unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
+unit		Tripolitan Squires			exp 0 armour 0 weapon_lvl 0
+unit		Tripolitan Squires			exp 0 armour 0 weapon_lvl 0
+unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
+unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
+unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
+unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
+
 character	Fraunce, general, male, age 40, x 432, y 80 
 army
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
@@ -2221,7 +2261,7 @@ traits NaturalPriestSkill 3 , GoodDenouncer 2 , PriestLevel 1
 character_record		Almaric, 	male, age 56, dead 10, never_a_leader
 character_record		Agnes, 	female, age 40, dead 10, never_a_leader
 
-relative 	Almaric,	Agnes,	Guy of Lusignan,	Raymond of Tripoli,	Sibylla,	Baldwin,	end
+relative 	Almaric,	Agnes,	Guy of Lusignan, Raymond of Tripoli,	Sibylla,	Baldwin,	end
 
 faction	antioch, balanced smith
 ai_label		catholic
@@ -2334,6 +2374,45 @@ settlement castle
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Malta_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -2480,6 +2559,18 @@ unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
 unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
 unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
 
+character	Gieffroy, general, male, age 23, x 265, y 103 
+army
+unit		Armenians of Celicia			exp 0 armour 0 weapon_lvl 0
+unit		Armenians of Celicia			exp 0 armour 0 weapon_lvl 0
+unit		Knights of Edessa			exp 0 armour 0 weapon_lvl 0
+unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
+unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
+unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
+
 character	Andriet, diplomat, male, age 26, x 435, y 116 
 traits GoodDiplomat 2 
 
@@ -2583,6 +2674,49 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Castle_Town_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -2739,6 +2873,19 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
+character	Knud, general, male, age 36, x 166, y 294 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+
 character	Sigurd Jacobsen, diplomat, male, age 28, x 260, y 332 
 traits GoodDiplomat 2 
 
@@ -2810,57 +2957,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Inverness_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 settlement
 {
 	level large_town
@@ -2908,45 +3004,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Dumfries_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 character	William, named character, male, leader, age 42, x 175, y 310, portrait malcolm, battle_model wallace_general 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 , BattleChivalry 2 , StrategyChivalry 2 , ReligionStarter 1 , PoliticsSkill 1 , GoodDiplomacy 2 , Fertile 1 
 ancillaries crown_scotland
@@ -2959,7 +3016,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Edward, named character, male, heir, age 24, x 173, y 322, portrait edward 
+character	Edward, named character, male, heir, age 24, x 175, y 311, portrait edward 
 traits Factionheir 1 , LoyaltyStarter 1 , Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , Embezzler 1 , BattleDread 2 , StrategyDread 2 , ReligionStarter 1 , Fertile 1 
 ancillaries biographer
 army
@@ -2982,7 +3039,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Stuart Maknauchtan, general, male, age 32, x 170, y 299 
+character	Stuart Maknauchtan, general, male, age 32, x 180, y 306 
 army
 unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
 unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
@@ -3098,96 +3155,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Genoa_Province
-
-	year_founded 0
-	population 7000
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_catholic church
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Ajaccio_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 character	Giorgio Rossi, named character, male, leader, age 52, x 236, y 198, portrait giorgio, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1 , ReligionStarter 1 , Fertile 1 
 ancillaries crown_milan, apothecary
@@ -3201,7 +3168,7 @@ unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Bernardo Rossi, named character, male, heir, age 36, x 230, y 185, portrait bernardo 
+character	Bernardo Rossi, named character, male, heir, age 36, x 231, y 197, portrait bernardo 
 traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1 , ReligionStarter 1 , Fertile 1 
 ancillaries drillmaster
 army
@@ -3220,9 +3187,6 @@ unit		Genoese Crossbow Militia		exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
-
-character	Giulio Perego, general, male, age 30, x 227, y 164 
-army
 unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
@@ -3366,23 +3330,19 @@ settlement castle
 settlement
 {
 	level large_town
-	region Zara_Province
+	region Cherson_Province
 
 	year_founded 0
-	population 5000
+	population 4000
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator russia
 	building
 	{
 		type core_building wooden_wall
 	}
 	building
 	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_catholic small_church
+		type barracks town_watch
 	}
 	building
 	{
@@ -3394,11 +3354,7 @@ settlement
 	}
 	building
 	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
+		type hinterland_mines mines
 	}
 	building
 	{
@@ -3474,7 +3430,7 @@ unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Bartolomeo, named character, male, heir, age 30, x 276, y 182, portrait bartolomeo 
+character	Bartolomeo, named character, male, heir, age 30, x 393, y 204, portrait bartolomeo 
 traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , GoodInfantryGeneral 1 , PoliticsSkill 2 , GoodAdministrator 3 , Energetic 2 , ReligionStarter 1 , Fertile 1 
 army
 unit		SE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -3587,12 +3543,12 @@ settlement
 settlement
 {
 	level large_town
-	region Bari_Province
+	region Barqa_Province
 
 	year_founded 0
-	population 5000
+	population 4000
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator moors
 	building
 	{
 		type core_building wooden_wall
@@ -3611,7 +3567,7 @@ settlement
 	}
 	building
 	{
-		type temple_catholic small_church
+		type temple_muslim small_masjid
 	}
 	building
 	{
@@ -3619,50 +3575,7 @@ settlement
 	}
 	building
 	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Syracuse_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type smith leather_tanner
+		type hinterland_mines mines
 	}
 	building
 	{
@@ -3748,8 +3661,10 @@ unit		Sicilian Muslim Archers			exp 0 armour 0 weapon_lvl 0
 unit		Sicilian Muslim Archers			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Alberto, named character, male, age 22, x 288, y 152, portrait alberto 
+character	Alberto, named character, male, age 22, x 319, y 72, portrait alberto 
 traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 2 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -3757,11 +3672,6 @@ unit		Mounted Sergeants			exp 0 armour 0 weapon_lvl 0
 unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
-
-character	Vito Cesaresco, general, male, age 28, x 272, y 110 
-army
-unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -3831,45 +3741,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Santiago_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -4010,7 +3881,7 @@ unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Saluador Caruallo, general, male, age 30, x 110, y 189 
+character	Saluador Caruallo, general, male, age 30, x 137, y 177 
 army
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -4252,6 +4123,41 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Reval_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 settlement castle
 {
 	level large_town
@@ -4292,45 +4198,6 @@ settlement castle
 	building
 	{
 		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Stettin_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator poland
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
 	}
 	building
 	{
@@ -4420,12 +4287,24 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 
-character	Gustav, named character, male, age 19, x 268, y 277, portrait ragnvald 
+character	Gustav, named character, male, age 19, x 261, y 294, portrait ragnvald 
 traits LoyaltyStarter 1 , Bloodthirsty 2 , BattleDread 2 , NaturalMilitarySkill 1 , Drink 1 , GoodCommander 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
 unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
 unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+
+character	Sigurd, general, male, age 28, x 320, y 322 
+army
+unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
@@ -4589,100 +4468,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Halych_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator poland
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Peremyshl_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator poland
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 character	Wladyslaw, named character, male, leader, age 40, x 302, y 243, portrait wladyslaw, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 3 , Intelligent 1 , BattleChivalry 4 , StrategyChivalry 3 , Fertile 1 
 ancillaries crown_poland
@@ -4695,7 +4480,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Zbigniew, named character, male, heir, age 20, x 323, y 246, portrait zbigniew 
+character	Zbigniew, named character, male, heir, age 20, x 282, y 267, portrait zbigniew 
 traits Factionheir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , Intelligent 1 , Bloodthirsty 1 , Fertile 1 , FathersLegacy 2 , Drink 1 
 army
 unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -4716,7 +4501,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Przemysl, named character, male, age 27, x 338, y 243, portrait przemysl 
+character	Przemysl, named character, male, age 27, x 292, y 282, portrait przemysl 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , Intelligent 3 , PublicFaith 2 , Energetic 1 , GoodDefender 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -4807,49 +4592,6 @@ settlement
 settlement castle
 {
 	level large_town
-	region Iasi_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
 	region Bran_Province
 
 	year_founded 0
@@ -4894,53 +4636,6 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level large_town
-	region Bucharest_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 character	Bela, named character, male, leader, age 37, x 294, y 217, portrait bela, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 3 , Energetic 1 , PublicFaith 2 , BattleChivalry 4 , StrategyChivalry 3 , GoodDiplomacy 2 , GoodCavalryGeneral 1, ReligionStarter 1 , PoliticsSkill 1, Fertile 1 
 ancillaries crown_hungary, apothecary
@@ -4964,7 +4659,7 @@ unit		Bosnian Archers				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 
-character	Istvan, named character, male, age 20, x 348, y 194, portrait istvan 
+character	Istvan, named character, male, age 20, x 324, y 191, portrait istvan 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , Intelligent 2 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -4975,7 +4670,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Markus Sohnker, named character, male, age 24, x 354, y 224, portrait markus 
+character	Markus Sohnker, named character, male, age 24, x 341, y 213, portrait markus 
 traits LoyaltyStarter 1 , GoodCommander 1 , StrategyChivalry 1 , StrategicSkill 1 , GoodDefender 1 , ReligionStarter 1 , Intelligent 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -5078,49 +4773,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Moscow_Province
-
-	year_founded 0
-	population 8000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_orthodox church_o
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_town
@@ -5157,45 +4809,6 @@ settlement castle
 	building
 	{
 		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Ryazan_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_muslim_castle c_masjid
 	}
 	building
 	{
@@ -5353,7 +4966,7 @@ unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Mikhail, named character, male, age 24, x 406, y 302, portrait mikhail 
+character	Mikhail, named character, male, age 24, x 381, y 262, portrait mikhail 
 traits ReligionStarter 1 , GoodCommander 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , GoodDefender 1 , Fertile 1 
 army
 unit		EE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -5375,7 +4988,7 @@ unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		EE Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Yuri Nezhkov, general, male, age 33, x 422, y 283 
+character	Yuri Nezhkov, general, male, age 33, x 366, y 290 
 army
 unit		EE Peasants				exp 0 armour 0 weapon_lvl 0
 unit		EE Peasants				exp 0 armour 0 weapon_lvl 0
@@ -5506,108 +5119,6 @@ settlement
 
 settlement
 {
-	level city
-	region Volga-Bulgar_Province
-
-	year_founded 0
-	population 8000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Viatka_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_muslim_castle c_small_masjid
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
 	level large_town
 	region Azov_Province
 
@@ -5704,41 +5215,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Samandar_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_town
@@ -5800,7 +5276,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 
-character	Ogedei, named character, male, heir, age 22, x 465, y 314 
+character	Ogedei, named character, male, heir, age 22, x 439, y 290 
 traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
 army
 unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
@@ -5817,7 +5293,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Batu, named character, male, age 16, x 480, y 291 
+character	Batu, named character, male, age 16, x 396, y 228 
 traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
 army
 unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -5846,26 +5322,53 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Berkei, general, male, age 23, x 482, y 315 
+character	Jebe, named character, age 30, x 422, y 235
+traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
-unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0character	Berkei, general, male, age 23, x 402, y 225 
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0army
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0character	Abadai, general, male, age 25, x 485, y 254 
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0army
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0character	Temujin, general, male, age 28, x 486, y 255 
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0army
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Abadai, general, male, age 25, x 485, y 254 
+character	 Aradai, named character, male, age 32, x 421, y 235 
+traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-
-character	Temujin, general, male, age 28, x 490, y 229 
-army
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0
+unit		Mongol Infantry			exp 6 armour 0 weapon_lvl 0
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0
+unit		Mongol Foot Archers		exp 6 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Light Lancers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Light Lancers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
+unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 
 character	Chaghatai, general, male, age 30, x 446, y 291 
 army
@@ -6192,53 +5695,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Barqa_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level city
 	region Alexandria_Province
 
@@ -6351,84 +5807,6 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level large_town
-	region Thebes_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Dongola_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_muslim_castle c_small_masjid
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 character	Saladin, named character, male, leader, age 36, x 406, y 58, portrait saladin, battle_model sultan_saladin, hero_ability Righteousness_of_Faith 
 traits Factionleader 1 , StrategyChivalry 3 , BattleChivalry 4 , Intelligent 2 , ReligionStarter 1 , AssassinMaster 2 , SpyMaster 2 , JihadHistory 2 , IslamHero 2 , GoodDiplomacy 2 , GoodInfantryGeneral 1 , PoliticsSkill 3 , GoodCommander 4 , GoodAmbusher 2 , Fertile 1 
 ancillaries crown_egypt
@@ -6484,8 +5862,15 @@ unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 
-character	az Zafir, general, male, age 18, x 418, y 25 
+character	Zein Ahmad, general, male, age 23, x 412, y 69 
 army
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		Desert Cavalry				exp 1 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -6493,19 +5878,6 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
-
-character	Amir Yahiya, general, male, age 23, x 394, y 4 
-army
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-
-character	Zein Ahmad, general, male, age 23, x 319, y 72 
-army
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
 
 character	Fahim Ali, diplomat, male, age 20, x 401, y 71 
 traits GoodDiplomat 2 
@@ -6638,49 +6010,6 @@ settlement
 settlement
 {
 	level large_town
-	region Bruges_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
 	region Rheims_Province
 
 	year_founded 0
@@ -6761,45 +6090,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Dijon_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6953,27 +6243,21 @@ unit		Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
-
-character	Pierre, general, male, age 32, x 209, y 218 
-army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Guion de Molay, general, male, age 31, x 199, y 256 
-army
-unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-
 character	Regnault de Bordeaux, named character, male, age 28, x 191, y 202, portrait regnault 
 traits GoodCommander 2 , NaturalMilitarySkill 1 ,  LoyaltyStarter 1 , StrategyChivalry 3 , BattleChivalry 2 , Intelligent 1 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -7118,45 +6402,6 @@ settlement castle
 
 settlement
 {
-	level town
-	region Exeter_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level large_town
 	region Gloucester_Province
 
@@ -7284,57 +6529,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region York_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_catholic church
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_town
@@ -7437,45 +6631,6 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level large_town
-	region Rennes_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 character	Henry, named character, male, leader, age 51, x 180, y 241, portrait king, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , LoyaltyStarter 1 , NaturalMilitarySkill 1 , PoliticsSkill 2 , BattleChivalry 3 , StrategyChivalry 2 , GoodDiplomacy 2 , PublicFaith 1 , ReligionStarter 1 , Fertile 1 
 ancillaries crown_england
@@ -7520,7 +6675,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	William, named character, male, age 26, x 183, y 292, portrait geoffrey 
+character	William, named character, male, age 26, x 174, y 276, portrait geoffrey 
 traits GoodCommander 2 , BattleChivalry 2, LoyaltyStarter 1 , Energetic 1 , ReligionStarter 1, Intelligent 1 , GoodDefender 2 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -7539,14 +6694,8 @@ unit		Longbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
-
-character	Christopher, general, male, age 34, x 162, y 231 
-army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
-unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
 
 character	Alfred Allthredge, general, male, age 26, x 152, y 280 
 army
@@ -7556,8 +6705,9 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
 unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
+unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Robin, general, male, age 21, x 165, y 259 
+character	Robin, general, male, age 21, x 183, y 265
 army
 unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
 unit		Archer Militia				exp 0 armour 0 weapon_lvl 0
@@ -7654,92 +6804,6 @@ settlement
 	building
 	{
 		type city_hall town_hall
-	}
-}
-
-settlement
-{
-	level town
-	region Malatya_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Yerevan_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -8032,7 +7096,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Jalal al_Rashid, named character, male, age 23, x 481, y 180 
+character	Jalal al_Rashid, named character, male, age 23, x 503, y 125 
 traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodDefender 1 , BattleDread 3 , StrategyDread 2 , GoodAdministrator 1 , JihadHistory 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -8057,7 +7121,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Sundak Ciller, general, male, age 21, x 407, y 163 
+character	Sundak Ciller, general, male, age 21, x 420, y 150 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -8071,7 +7135,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Osman, general, male, age 22, x 452, y 157 
+character	Osman, general, male, age 22, x 402, y 142 
 army
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
@@ -8080,7 +7144,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Kuchuk Ilker, general, male, age 23, x 452, y 158 
+character	Kuchuk Ilker, general, male, age 23, x 481, y 146 
 army
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
 unit		Turkish Archers				exp 0 armour 0 weapon_lvl 0
@@ -8261,61 +7325,6 @@ settlement
 settlement castle
 {
 	level large_town
-	region Valencia_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_muslim_castle c_masjid
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_castle_mines c_mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
 	region Granada_Province
 
 	year_founded 0
@@ -8462,237 +7471,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Sijilmasa_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_muslim_castle c_masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level city
-	region Algiers_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Tunis_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_muslim_castle c_masjid
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Tripoli_Province
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_muslim_castle c_small_masjid
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level town
-	region Al-Mahdiya_Province
-
-	year_founded 0
-	population 2400
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 character	Tahar, named character, male, leader, age 48, x 123, y 143, battle_model eastern_sultan 
 traits Factionleader 1 , NaturalMilitarySkill 2 , GoodCommander 3 , GoodDefender 2 , StrategyChivalry 3 , BattleChivalry 2 , Energetic 1 , HaleAndHearty 3 , ReligionStarter 2 , PublicFaith 2 , PoliticsSkill 1 , GoodDiplomacy 1 , Fertile 1 
 ancillaries crown_moors
@@ -8721,7 +7499,7 @@ unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Qassim, named character, male, age 30, x 188, y 117 
+character	Qassim, named character, male, age 30, x 153, y 108 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , BattleDread 3 , Bloodthirsty 1 , PublicFaith 3 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -8733,7 +7511,7 @@ unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Yusuf, named character, male, age 30, x 160, y 149 
+character	Yusuf, named character, male, age 30, x 126, y 140
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , GoodCommander 2 , PublicFaith 3 , Intelligent 1 , ReligionStarter 1, Ugly 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -8757,7 +7535,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Omar Al Sahaf, named character, male, age 35, x 235, y 113 
+character	Omar Al Sahaf, named character, male, age 35, x 95, y 97 
 traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 1 , BattleDread 2 , Bloodthirsty 1 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -8776,18 +7554,6 @@ unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Abdelatif, general, male, age 20, x 134, y 76 
-army
-unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
-unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
-
-character	Haddad, general, male, age 20, x 235, y 90 
-army
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-
 character	Pablo Arriba, general, male, age 31, x 113, y 137 
 army
 unit		ME Crossbow Militia			exp 0 armour 0 weapon_lvl 0
@@ -8796,13 +7562,6 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
-
-character	Mahfouz Labib, general, male, age 24, x 261, y 72 
-army
-unit		Desert Cavalry				exp 0 armour 0 weapon_lvl 0
-unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
-unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
 character	Abu-Bakr, general, male, age 20, x 151, y 113 
 army
@@ -8890,57 +7649,6 @@ settlement
 settlement castle
 {
 	level large_town
-	region Hamburg_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
 	region Magdeburg_Province
 
 	year_founded 0
@@ -8982,92 +7690,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Metz_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Prague_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -9204,100 +7826,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Bern_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Innsbruck_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 settlement
 {
 	level city
@@ -9376,7 +7904,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Otto, named character, male, age 23, x 247, y 214, portrait otto 
+character	Otto, named character, male, age 23, x 228, y 226, portrait otto 
 traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 1 , Intelligent 1 , StrategyChivalry 2 , ReligionStarter 1, Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -9412,7 +7940,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Maximillian Mandorf, named character, male, age 30, x 243, y 275, portrait max 
+character	Maximillian Mandorf, named character, male, age 30, x 246, y 186, portrait max 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleDread 2 , Austere 1 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -9423,7 +7951,7 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Ehrhart von Madgeburg, named character, male, age 29, x 257, y 263, portrait ehrhart 
+character	Ehrhart von Madgeburg, named character, male, age 29, x 246, y 1, portrait ehrhart 
 traits LoyaltyStarter 1 , GoodCommander 2 , StrategyDread 2 , NaturalMilitarySkill 1 , Bloodthirsty 1 , Energetic 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -9443,7 +7971,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Town Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Sifridus, general, male, age 29, x 272, y 243 
+character	Sifridus, general, male, age 29, x 281, y 208 
 army
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
@@ -9452,20 +7980,11 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Friedrich Ruesdorf, general, male, age 26, x 224, y 213 
+character	Friedrich Ruesdorf, general, male, age 26, x 257, y 263 
 army
 unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
 unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
-
-character	Jehanin Maquereau, general, male, age 31, x 217, y 234 
-army
-unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
-unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
-unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
@@ -9499,7 +8018,7 @@ relative 	Conrad,	Bertha,	Bernhard,	end
 faction	byzantium, balanced smith
 ai_label		orthodox
 denari	8000
-denari_kings_purse	0
+denari_kings_purse	1000
 settlement
 {
 	level large_city
@@ -9620,45 +8139,6 @@ settlement castle
 
 settlement
 {
-	level town
-	region Sinope_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level city
 	region Thessalonica_Province
 
@@ -9697,6 +8177,49 @@ settlement
 	building
 	{
 		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Syracuse_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -9887,53 +8410,6 @@ settlement
 settlement castle
 {
 	level large_town
-	region Durazzo_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator venice
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_orthodox_castle small_chapel_o
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
 	region Smyrna_Province
 
 	year_founded 0
@@ -10033,100 +8509,6 @@ settlement castle
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Isle_of_Cyprus
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_orthodox_castle small_chapel_o
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_castle_mines c_mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Isle_of_Rhodes
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_orthodox_castle small_chapel_o
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_castle_mines c_mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 character	Manuel Komnenos, named character, male, leader, age 39, x 369, y 164, portrait manuel, battle_model andronicus, hero_ability Byzantine_Politics 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , StrategyChivalry 2 , GoodDefender 1 , Intelligent 2 , ReligionStarter 1 , GoodDiplomacy 4 , GoodAdministrator 3 , PoliticsSkill 1 , Fertile 1 
 ancillaries crown_greeks, taticius
@@ -10180,7 +8562,7 @@ unit		Byzantine Infantry			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Mavros, named character, male, age 26, x 303, y 155, portrait mavros 
+character	Mavros, named character, male, age 26, x 272, y 110, portrait mavros 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleChivalry 1 , StrategyChivalry 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		Greek Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -10227,10 +8609,6 @@ unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
-
-character	Stefanos Agrites, general, male, age 31, x 412, y 109 
-army
-unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 
@@ -10240,16 +8618,11 @@ unit		Skythikon				exp 0 armour 0 weapon_lvl 0
 unit		Skythikon				exp 0 armour 0 weapon_lvl 0
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
-unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
-
-character	Romanus Angelus, general, male, age 28, x 369, y 116 
-army
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Asemopoulos, general, male, age 25, x 409, y 182 
+character	Asemopoulos, general, male, age 25, x 430, y 172
 army
 unit		Skythikon				exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Cavalry			exp 0 armour 0 weapon_lvl 0
@@ -10550,13 +8923,41 @@ settlement
 		type hinterland_farms farms
 	}
 }
+
 settlement
 {
-	level city
-	region Utrecht_Province
+	level town
+	region Al-Mansurya_Province
 
 	year_founded 0
-	population 5000
+	population 4000
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_pagan pyramid
+	}
+	building
+	{
+		type meso_market marketplace
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level city
+	region Tripoli_Province
+
+	year_founded 0
+	population 8000
 	plan_set default_set
 	faction_creator aztecs
 	building
@@ -10565,35 +8966,42 @@ settlement
 	}
 	building
 	{
-		type temple_pagan great_pyramid
+		type temple_pagan pyramid
 	}
 	building
 	{
-		type meso_palace palace_complex
-	}
-	building
-	{
-		type meso_market plaza
-	}
-	building
-	{
-		type ball_court ball_court
-	}
-	building
-	{
-		type skull_rack skull_rack
+		type meso_market marketplace
 	}
 	building
 	{
 		type hinterland_farms farms
 	}
+}
+
+settlement
+{
+	level town
+	region Al-Mahdiya_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator aztecs
 	building
 	{
-		type aztec_aqueduct aztec_aqueduct
+		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_roads roads
+		type temple_pagan pyramid
+	}
+	building
+	{
+		type meso_market marketplace
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -10663,7 +9071,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Ahexotl, named character, male, age 22, x 219, y 268 
+character	Ahexotl, named character, male, age 22, x 261, y 72 
 traits LoyaltyStarter 4 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -10683,7 +9091,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Axoacatzin, named character, male, age 40, x 218, y 268 
+character	Axoacatzin, named character, male, age 40, x 235, y 90 
 traits LoyaltyStarter 3 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -10704,7 +9112,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Cuautemoc, named character, male, age 23, x 220, y 268 
+character	Cuautemoc, named character, male, age 23, x 198, y 95 
 traits LoyaltyStarter 7 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -10725,6 +9133,9 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
+character	Itzquemitl, diplomat, male, age 28, x 198, y 96 
+traits GoodMerchant 2 
+
 character_record		Teotalco, 	female, age 58, alive, never_a_leader
 character_record		Necahual, 	female, age 36, alive, never_a_leader
 character_record		Atototl, 	female, age 30, alive, never_a_leader
@@ -10738,45 +9149,6 @@ faction	slave, balanced smith
 ai_label		slave_faction
 denari	10000
 denari_kings_purse	3000
-settlement castle
-{
-	level large_town
-	region Malta_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
 settlement castle
 {
 	level town
@@ -10852,49 +9224,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Castle_Town_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -11016,41 +9345,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Reval_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -11296,45 +9590,6 @@ settlement
 	building
 	{
 		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Cherson_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_mines mines
 	}
 	building
 	{
@@ -11956,45 +10211,6 @@ settlement
 settlement
 {
 	level large_town
-	region Isle_of_Cyprus2
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
 	region Damascus_Province
 
 	year_founded 0
@@ -12016,37 +10232,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region Al-Mansurya_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
 	}
 	building
 	{
@@ -12091,6 +10276,45 @@ settlement
 
 settlement
 {
+	level large_town
+	region Santiago_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
 	level town
 	region Timbuktu_Province
 
@@ -12109,6 +10333,1786 @@ settlement
 	building
 	{
 		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Donegal_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Inverness_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Dumfries_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Exeter_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region York_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Rennes_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Durazzo_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Malatya_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Yerevan_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Sijilmasa_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Valencia_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Algiers_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Tunis_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Sinope_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Stettin_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Thebes_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Bern_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Metz_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Hamburg_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Prague_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Riga_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Minsk_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bruges_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Utrecht_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Dijon_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bari_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Innsbruck_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Dongola_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Genoa_Province
+
+	year_founded 0
+	population 7000
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Iasi_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bucharest_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Ajaccio_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Ryazan_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Moscow_Province
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Zara_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Halych_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Peremyshl_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Volga-Bulgar_Province
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Viatka_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Samandar_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
@@ -12200,6 +12204,34 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 418, y 25 
+army
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 394, y 4 
+army
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+unit		Sudanese Javelinmen			exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction moors, Rizah, general, male, age 29, x 118, y 21 
 army
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
@@ -12209,7 +12241,34 @@ unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction byzantium, Barenos, general, male, age 20, x 393, y 204 
+character	sub_faction moors, Rizah, general, male, age 29, x 134, y 76 
+army
+unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction moors, Rizah, general, male, age 29, x 188, y 117 
+army
+unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction moors, Rizah, general, male, age 29, x 235, y 113 
+army
+unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction byzantium, Barenos, general, male, age 20, x 358, y 184 
 army
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -12220,7 +12279,7 @@ unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction byzantium, Demetrios, general, male, age 25, x 358, y 184 
+character	sub_faction byzantium, Demetrios, general, male, age 25, x 348, y 194
 army
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		S Peasant Archers			exp 0 armour 0 weapon_lvl 0
@@ -12320,6 +12379,28 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction spain, Julian Aragones, general, male, age 31, x 160, y 149 
+army
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Julian Aragones, general, male, age 31, x 110, y 189 
+army
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction hungary, Markus Sohnker, general, male, age 26, x 277, y 193 
 army
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
@@ -12329,6 +12410,42 @@ unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hungary, Markus Sohnker, general, male, age 26, x 276, y 182 
+army
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hungary, Markus Sohnker, general, male, age 26, x 354, y 224 
+army
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hungary, Markus Sohnker, general, male, age 26, x 272, y 243 
+army
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction france, Junien Tanlay, general, male, age 24, x 207, y 257 
 army
@@ -12340,7 +12457,87 @@ unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction france, Junien Tanlay, general, male, age 24, x 162, y 231 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction france, Junien Tanlay, general, male, age 24, x 209, y 218 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction france, Junien Tanlay, general, male, age 24, x 217, y 234 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction france, Junien Tanlay, general, male, age 24, x 199, y 256 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction hre, Albrecht, general, male, age 29, x 168, y 204 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Albrecht, general, male, age 29, x 247, y 214
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Albrecht, general, male, age 29, x 224, y 213 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Albrecht, general, male, age 29, x 219, y 268 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Albrecht, general, male, age 29, x 268, y 277 
+army
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Albrecht, general, male, age 29, x 243, y 275 
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -12369,7 +12566,7 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction denmark, Ulrik Gunnarsson, general, male, age 26, x 320, y 322 
+character	sub_faction denmark, Ulrik Gunnarsson, general, male, age 26, x 169, y 204 
 army
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
@@ -12377,6 +12574,26 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Nigel, general, male, age 28, x 165, y 259 
+army
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Longbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction denmark, Ulrik, general, male, age 26, x 146, y 302 
+army
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
@@ -12412,14 +12629,28 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction moors, Salheddine, general, male, age 20, x 198, y 95 
+character	sub_faction turks, Khalil, general, male, age 21, x 409, y 182 
 army
-unit		Nubian Archers				exp 1 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Hamza, general, male, age 23, x 265, y 103 
+character	sub_faction turks, Khalil, general, male, age 21, x 452, y 157 
+army
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Khalil, general, male, age 21, x 481, y 180
+army
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Hamza, general, male, age 23, x 198, y 96 
 army
 unit		Tuareg Camel Spearmens			exp 1 armour 0 weapon_lvl 0
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
@@ -12428,6 +12659,27 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Stuart Maknauchtan, general, male, age 32, x 173, y 322 
+army
+unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Highlanders				exp 0 armour 0 weapon_lvl 0
+unit		Highlanders				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Stuart Maknauchtan, general, male, age 32, x 170, y 299
+army
+unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Highland Archers			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Highlanders				exp 0 armour 0 weapon_lvl 0
+unit		Highlanders				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction spain, Sebastian Mendez, named character, male, age 30, x 186, y 167 
 traits GoodCommander 4 , GoodAttacker 2 , PublicFaith 3 , BattleChivalry 3 , StrategyChivalry 3 , ReligionStarter 1 
@@ -12476,6 +12728,36 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction milan, Alberto, named character, male, age 35, x 230, y 185 
+traits GoodCommander 7 , GoodAttacker 2 , PublicFaith 3 , BattleChivalry 3 , StrategyChivalry 3 , ReligionStarter 1 
+army
+unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Alberto, named character, male, age 35, x 227, y 164
+traits GoodCommander 7 , GoodAttacker 2 , PublicFaith 3 , BattleChivalry 3 , StrategyChivalry 3 , ReligionStarter 1 
+army
+unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction denmark, Gustav, general, male, age 34, x 265, y 321 
 army
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
@@ -12486,7 +12768,7 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction byzantium, Komanos, general, male, age 26, x 419, y 116 
+character	sub_faction byzantium, Komanos, general, male, age 26, x 303, y 155 
 army
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
@@ -12509,7 +12791,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction england, William Burnell, general, male, age 28, x 166, y 294 
+character	sub_faction england, William Burnell, general, male, age 28, x 183, y 292 
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		Free Company Longbowmen			exp 0 armour 0 weapon_lvl 0
@@ -12530,7 +12812,17 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 413, y 324 
+character	sub_faction papal_states, Alexander, general, male, age 30, x 288, y 152 
+army
+unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
+unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
+unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 317, y 311 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -12539,7 +12831,68 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction russia, Kiselev, general, male, age 27, x 323, y 246 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction russia, Kiselev, general, male, age 27, x 348, y 283 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 338, y 243 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 422, y 283 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 406, y 302 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 488, y 291 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Kiselev, general, male, age 27, x 482, y 315 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
@@ -12645,12 +12998,13 @@ faction_standings	slave,			-0.60	wales, russia, ireland, lithuania, hungary, egy
 
 faction_relationships 	wales, at_war_with 	slave
 faction_relationships 	ireland, at_war_with 	slave, england
-faction_relationships 	novgorod, at_war_with 	slave
-faction_relationships 	teutonic_order, at_war_with 	slave, lithuania
+faction_relationships 	novgorod, at_war_with 	slave, mongols
+faction_relationships 	teutonic_order, allied_to 	antioch, jerusalem, papal_states
+faction_relationships 	teutonic_order, at_war_with 	slave, lithuania, turks
 faction_relationships 	lithuania, at_war_with 	slave, teutonic_order
-faction_relationships 	jerusalem, allied_to 	antioch
+faction_relationships 	jerusalem, allied_to 	antioch, papal_states, teutonic_order
 faction_relationships 	jerusalem, at_war_with 	slave, egypt
-faction_relationships 	antioch, allied_to 	jerusalem
+faction_relationships 	antioch, allied_to 		jerusalem, papal_states, teutonic_order
 faction_relationships 	antioch, at_war_with 	slave, turks
 faction_relationships 	norway, at_war_with 	slave, scotland
 faction_relationships 	scotland, at_war_with 	slave, norway
@@ -12664,17 +13018,18 @@ faction_relationships 	poland, at_war_with 	slave
 faction_relationships 	hungary, at_war_with 	slave, byzantium
 faction_relationships 	russia, allied_to 	byzantium
 faction_relationships 	russia, at_war_with 	slave, mongols
-faction_relationships 	mongols, at_war_with 	slave, russia
+faction_relationships 	mongols, at_war_with 	slave, russia, novgorod
 faction_relationships 	egypt, allied_to 	turks
 faction_relationships 	egypt, at_war_with 	slave, jerusalem
 faction_relationships 	france, at_war_with 	slave
 faction_relationships 	england, at_war_with 	slave, ireland
 faction_relationships 	turks, allied_to 	egypt
-faction_relationships 	turks, at_war_with 	antioch, slave, byzantium
+faction_relationships 	turks, at_war_with 	antioch, slave, byzantium, teutonic_order
 faction_relationships 	moors, at_war_with 	slave, portugal, spain
 faction_relationships 	hre, at_war_with 	slave
 faction_relationships 	byzantium, allied_to 	russia
 faction_relationships 	byzantium, at_war_with 	turks, slave, hungary
+faction_relationships 	papal_states, allied_to  	jerusalem, antioch, teutonic_order
 faction_relationships 	papal_states, at_war_with 	slave
 faction_relationships 	aztecs, at_war_with 	slave
 faction_relationships 	timurids, at_war_with 	slave
