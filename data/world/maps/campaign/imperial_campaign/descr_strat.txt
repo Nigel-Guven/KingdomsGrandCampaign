@@ -28,12 +28,12 @@ playable
 	hre
 	byzantium
 	timurids
-	aztecs
-	portugal
 end
 unlockable
 end
 nonplayable
+	aztecs
+	portugal
 	papal_states
 	slave
 end
@@ -1240,7 +1240,7 @@ relative 	Domnall O'Neill,	Ester,	Magnus,	end
 faction	novgorod, balanced smith
 ai_label		orthodox
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level city
@@ -1419,7 +1419,7 @@ relative 	Alexander Nevski,	Khristin,	Dmitrii,	end
 faction	teutonic_order, balanced smith
 ai_label		teutonic
 denari	8000
-denari_kings_purse	2000
+denari_kings_purse	3000
 settlement castle
 {
 	level large_town
@@ -1714,7 +1714,7 @@ relative 	Gunther von Schwarzenburg, 	Agnes, Maximillian, Dietrich,	end
 faction	lithuania, balanced smith
 ai_label		pagan
 denari	8000
-denari_kings_purse	2000
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -1927,7 +1927,7 @@ relative 	Vaisvilkas,	Ludmila,	Alexander,	end
 faction	jerusalem, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level large_city
@@ -2266,7 +2266,7 @@ relative 	Almaric,	Agnes,	Guy of Lusignan, Raymond of Tripoli,	Sibylla,	Baldwin,
 faction	antioch, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level large_city
@@ -2901,7 +2901,7 @@ relative 	Magnus Haakonsson,	Ingrid,	end
 faction	scotland, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -3068,7 +3068,7 @@ relative 	Edmund,	Elizabeth,	Donald,	end
 faction	milan, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level city
@@ -3216,7 +3216,7 @@ relative 	Cristoforo Rossi,	Bella,	Simona,	Agostino Rossi,	end
 faction	venice, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level city
@@ -3484,7 +3484,7 @@ relative 	Alessandro,	Alegreza,	Barbus,	end
 faction	sicily, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level city
@@ -3696,7 +3696,7 @@ relative 	Alberto,	Belloza,	Coluccio,	end
 faction	spain, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement castle
 {
 	level large_town
@@ -4067,7 +4067,7 @@ relative 	Sancho Henriques,	Felipa,	Fernanado Henriques,	end
 faction	denmark, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	1500
+denari_kings_purse	2000
 settlement
 {
 	level city
@@ -4330,7 +4330,7 @@ relative 	Erik,	Thorbjorg,	Thorkel,	end
 faction	poland, balanced smith
 ai_label		catholic
 denari	10000
-denari_kings_purse	2000
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -4537,7 +4537,7 @@ relative 	Zbigniew,	Dorotha,	Leszek,	end
 faction	hungary, balanced smith
 ai_label		catholic
 denari	10000
-denari_kings_purse	2000
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -4701,7 +4701,7 @@ relative 	Emeric,	Irisko,	Ladislaus,	end
 faction	russia, balanced smith
 ai_label		orthodox
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	3000
 settlement
 {
 	level large_city
@@ -5030,7 +5030,7 @@ relative 	Vladimir,	Gravriia,	Miroslav,	Ivan,	end
 faction	mongols, balanced smith
 ai_label		mongol
 denari	10000
-denari_kings_purse	5000
+denari_kings_purse	7000
 settlement castle
 {
 	level large_town
@@ -5322,7 +5322,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Jebe, named character, age 30, x 422, y 235
+character	Jebe, named character, age 30, x 435, y 262
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0character	Berkei, general, male, age 23, x 402, y 225 
@@ -5346,7 +5346,7 @@ unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		Mongol Foot Archers	
 unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 
-character	 Aradai, named character, male, age 32, x 421, y 235 
+character	 Aradai, named character, male, age 32, x 401, y 237
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -5400,8 +5400,8 @@ relative 	Genghis,	Mandughai,	Ogedei,	Batu,	end
 faction	timurids, balanced smith
 ai_label		mongol
 denari	20000
-denari_kings_purse	5000
-settlement
+denari_kings_purse	6000
+settlement castle
 {
 	level large_town
 	region Tbilisi_Province
@@ -5590,7 +5590,7 @@ relative 	Timur,	Hogelun,	Bodonchar,	Dagun,	end
 faction	egypt, balanced smith
 ai_label		islam
 denari	8000
-denari_kings_purse	2000
+denari_kings_purse	3000
 settlement
 {
 	level large_city
@@ -5904,7 +5904,7 @@ relative 	al_Adil,	Nagla,	al_Kamil,	end
 faction	france, balanced smith
 ai_label		catholic
 denari	6000
-denari_kings_purse	1000
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -6289,7 +6289,7 @@ relative 	Godfrey,	Leonete,	Isabelle,	end
 faction	england, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	0
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -6747,7 +6747,7 @@ relative 	John,	Isabel,	Arthur,	end
 faction	turks, balanced smith
 ai_label		islam
 denari	8000
-denari_kings_purse	2500
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -7172,7 +7172,7 @@ relative 	as_Salih ed-Din,	Kadem,	Haluk ed-Din,	end
 faction	moors, balanced smith
 ai_label		islam
 denari	10000
-denari_kings_purse	1000
+denari_kings_purse	2000
 settlement
 {
 	level large_city
@@ -7594,7 +7594,7 @@ relative 	Qassim,	Saheena,	Zizi,	end
 faction	hre, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	0
+denari_kings_purse	3000
 settlement
 {
 	level city
@@ -7951,7 +7951,7 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Ehrhart von Madgeburg, named character, male, age 29, x 246, y 1, portrait ehrhart 
+character	Ehrhart von Madgeburg, named character, male, age 29, x 245, y 255, portrait ehrhart 
 traits LoyaltyStarter 1 , GoodCommander 2 , StrategyDread 2 , NaturalMilitarySkill 1 , Bloodthirsty 1 , Energetic 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -8018,7 +8018,7 @@ relative 	Conrad,	Bertha,	Bernhard,	end
 faction	byzantium, balanced smith
 ai_label		orthodox
 denari	8000
-denari_kings_purse	1000
+denari_kings_purse	4000
 settlement
 {
 	level large_city
@@ -8661,7 +8661,7 @@ relative 	Andronicus Komnenos,	Rossana,	end
 faction	papal_states, balanced smith
 ai_label		papal_faction
 denari	8000
-denari_kings_purse	2000
+denari_kings_purse	5000
 settlement
 {
 	level large_city
@@ -8768,7 +8768,7 @@ relative 	Gregory,	Angela,	Guido de Avena,	end
 faction	aztecs, balanced smith
 ai_label		aztecs
 denari	10000
-denari_kings_purse	2000
+denari_kings_purse	7000
 settlement
 {
 	level city
@@ -8924,87 +8924,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Al-Mansurya_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type temple_pagan pyramid
-	}
-	building
-	{
-		type meso_market marketplace
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement castle
-{
-	level city
-	region Tripoli_Province
-
-	year_founded 0
-	population 8000
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type temple_pagan pyramid
-	}
-	building
-	{
-		type meso_market marketplace
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level town
-	region Al-Mahdiya_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type temple_pagan pyramid
-	}
-	building
-	{
-		type meso_market marketplace
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
 character	Montezuma, named character, male, leader, age 58, x 5, y 234 
 traits Factionleader 1 , GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , ReligionStarter 1 
 ancillaries crown_aztecs, spymaster
@@ -9071,48 +8990,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Ahexotl, named character, male, age 22, x 261, y 72 
-traits LoyaltyStarter 4 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
-army
-unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-
-character	Axoacatzin, named character, male, age 40, x 235, y 90 
-traits LoyaltyStarter 3 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
-army
-unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-
-character	Cuautemoc, named character, male, age 23, x 198, y 95 
+character	Cuautemoc, named character, male, age 23, x 20, y 149
 traits LoyaltyStarter 7 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -9133,8 +9011,8 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Itzquemitl, diplomat, male, age 28, x 198, y 96 
-traits GoodMerchant 2 
+character	Itzquemitl, diplomat, male, age 28, x 101, y 158 
+traits GoodDiplomat 2
 
 character_record		Teotalco, 	female, age 58, alive, never_a_leader
 character_record		Necahual, 	female, age 36, alive, never_a_leader
@@ -12120,6 +11998,123 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Al-Mansurya_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Tripoli_Province
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Al-Mahdiya_Province
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	sub_faction aztecs, Cocozca, named character, male, age 22, x 41, y 308 
 traits LoyaltyStarter 1 , ContentGeneral 2 , GoodCommander 3 , ReligionStarter 1 
 army
@@ -12497,7 +12492,7 @@ unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction hre, Albrecht, general, male, age 29, x 168, y 204 
+character	sub_faction hre, Albrecht, general, male, age 29, x 167, y 208 
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -12566,7 +12561,7 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction denmark, Ulrik Gunnarsson, general, male, age 26, x 169, y 204 
+character	sub_faction denmark, Ulrik Gunnarsson, general, male, age 26, x 184, y 290 
 army
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
@@ -12649,16 +12644,6 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction egypt, Hamza, general, male, age 23, x 198, y 96 
-army
-unit		Tuareg Camel Spearmens			exp 1 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction scotland, Stuart Maknauchtan, general, male, age 32, x 173, y 322 
 army
