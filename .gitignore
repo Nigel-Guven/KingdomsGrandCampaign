@@ -11,6 +11,10 @@ preferences/
 data/sounds/Music.dat
 data/sounds/Voice.dat
 
+#Textures and Meshes
+*.mesh
+*.texture
+
 # Sounds
 data/sounds/
 data/export_descr_sounds*
