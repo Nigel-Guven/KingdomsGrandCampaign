@@ -4093,7 +4093,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Norse_Archers, 48, 0, 1
-attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
+attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
 stat_pri         7, 2, arrow, 120, 25, missile, missile_mechanical, piercing, none, 25, 1
@@ -4111,10 +4111,10 @@ stat_food        60, 300
 stat_cost        1, 500, 150, 50, 115, 500, 4, 140
 armour_ug_levels 0, 2
 armour_ug_models Norse_Archers, Norse_Archers_ug1
-ownership        denmark, norway
-era 0            denmark, norway
-era 1            denmark, norway
-era 2            denmark, norway
+ownership        denmark, norway, ireland
+era 0            denmark, norway, ireland
+era 1            denmark, norway, ireland
+era 2            denmark, norway, ireland
 recruit_priority_offset   15
 
 

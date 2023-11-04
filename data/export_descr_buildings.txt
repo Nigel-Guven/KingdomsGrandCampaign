@@ -1448,7 +1448,7 @@ building missiles
                 recruit_pool "Peasant Crossbowmen"  1   0.4   3  0  requires factions { france, hre, spain, portugal, milan, venice, papal_states, } 
                 recruit_pool "Prussian Archers"  1   0.4   3  0  requires factions { teutonic_order, }
                 recruit_pool "Armenians of Celicia"  1   0.4   3  0  requires factions { antioch, } 
-                recruit_pool "Norse Archers"  1   0.4   3  0  requires factions { denmark, norway, } 
+                recruit_pool "Norse Archers"  1   0.4   3  0  requires factions { denmark, norway, ireland, } 
                 recruit_pool "Sicilian Muslim Archers"  1   0.4   3  0  requires factions { sicily, } 
                 recruit_pool "Lithuanian Archers"  1   0.4   3  0  requires factions { poland, }
                 recruit_pool "Baltic Archers"  1   0.4   3  0  requires factions { lithuania, } 
