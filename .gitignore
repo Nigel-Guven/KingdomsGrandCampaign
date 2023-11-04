@@ -127,14 +127,8 @@ verify/*
 #Dummy Files
 *file.txt
 
-#Map Elements
-data/world/maps/base/
-
 #Unit Elements
 data/unit_sprites/
-data/unit_models/
-data/ui/units/
-data/ui/unit_info
 
 Binary/BIK Files
 *.bin
