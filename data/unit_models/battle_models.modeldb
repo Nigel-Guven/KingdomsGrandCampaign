@@ -9823,7 +9823,7 @@
 60 unit_models/_Units/EN_Peasant_Padded/norse_archers_lod2.mesh 2500 
 60 unit_models/_Units/EN_Peasant_Padded/norse_archers_lod3.mesh 6400 
 2 
-7 denmark 
+4 merc
 79 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_denmark.texture 
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 52 unit_sprites/denmark_Dummy_EN_Archers_ug1_sprite.spr 
@@ -9832,7 +9832,7 @@
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 51 unit_sprites/norway_Dummy_EN_Archers_ug1_sprite.spr 
 2 
-7 denmark 
+4 merc 
 60 unit_models/AttachmentSets/Final Danish_denmark_diff.texture 
 60 unit_models/AttachmentSets/Final Danish_denmark_norm.texture 0 
 6 norway 
@@ -9853,7 +9853,7 @@
 61 unit_models/_Units/EN_Lmail_Hmail/norse_archers_ug1_lod2.mesh 2500 
 61 unit_models/_Units/EN_Lmail_Hmail/norse_archers_ug1_lod3.mesh 6400 
 2 
-7 denmark 
+4 merc 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_denmark.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 52 unit_sprites/denmark_Dummy_EN_Archers_ug2_sprite.spr 
@@ -9862,7 +9862,7 @@
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 51 unit_sprites/norway_Dummy_EN_Archers_ug2_sprite.spr 
 2 
-7 denmark 
+4 merc 
 60 unit_models/AttachmentSets/Final Danish_denmark_diff.texture 
 60 unit_models/AttachmentSets/Final Danish_denmark_norm.texture 0 
 6 norway 

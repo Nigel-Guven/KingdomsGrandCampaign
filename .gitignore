@@ -4,6 +4,9 @@
 #Saves
 saves/
 
+#Previous Battles
+*.cbx
+
 #Preferences
 preferences/
 
