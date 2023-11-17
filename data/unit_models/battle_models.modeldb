@@ -1835,7 +1835,7 @@
 58 unit_models/_Units/RN_Half_3Q_Plate/demi_lancers_lod2.mesh 2500 
 58 unit_models/_Units/RN_Half_3Q_Plate/demi_lancers_lod3.mesh 6400 
 2 
-7 england 
+4 merc  
 77 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_england.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 44 unit_sprites/england_Demi_Lancers_sprite.spr 
@@ -1844,7 +1844,7 @@
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 43 unit_sprites/france_Demi_Lancers_sprite.spr 
 2 
-7 england 
+4 merc 
 60 unit_models/AttachmentSets/Final Heater_england_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_england_norm.texture 0 
 6 france 
@@ -1865,7 +1865,7 @@
 62 unit_models/_Units/RN_Half_3Q_Plate/demi_lancers_ug1_lod2.mesh 2500 
 62 unit_models/_Units/RN_Half_3Q_Plate/demi_lancers_ug1_lod3.mesh 6400 
 2 
-7 england 
+4 merc  
 77 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_england.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 48 unit_sprites/england_Demi_Lancers_ug1_sprite.spr 
@@ -1874,7 +1874,7 @@
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 47 unit_sprites/france_Demi_Lancers_ug1_sprite.spr 
 2 
-7 england 
+4 merc  
 60 unit_models/AttachmentSets/Final Heater_england_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_england_norm.texture 0 
 6 france 
@@ -5605,7 +5605,7 @@
 51 unit_models/_Units/LB_Plain_Fancy/hussars_lod2.mesh 2500 
 51 unit_models/_Units/LB_Plain_Fancy/hussars_lod3.mesh 6400 
 2 
-6 poland 
+4 merc  
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_poland.texture 
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_normal.texture 
 38 unit_sprites/poland_Hussars_sprite.spr 
@@ -5614,7 +5614,7 @@
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_normal.texture 
 39 unit_sprites/hungary_Hussars_sprite.spr 
 2 
-6 poland 
+4 merc  
 57 unit_models/AttachmentSets/Final Wing_poland_diff.texture 
 57 unit_models/AttachmentSets/Final Wing_poland_norm.texture 0 
 7 hungary 
@@ -5635,7 +5635,7 @@
 55 unit_models/_Units/LB_Plain_Fancy/hussars_ug1_lod2.mesh 2500 
 55 unit_models/_Units/LB_Plain_Fancy/hussars_ug1_lod3.mesh 6400 
 2 
-6 poland 
+4 merc 
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_poland.texture 
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_normal.texture 
 42 unit_sprites/poland_Hussars_ug1_sprite.spr 
@@ -5644,7 +5644,7 @@
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_normal.texture 
 43 unit_sprites/hungary_Hussars_ug1_sprite.spr 
 2 
-6 poland 
+4 merc 
 57 unit_models/AttachmentSets/Final Wing_poland_diff.texture 
 57 unit_models/AttachmentSets/Final Wing_poland_norm.texture 0 
 7 hungary 
@@ -7310,7 +7310,7 @@
 57 unit_models/_Units/EN_Peasant_Padded/longbowmen_lod2.mesh 2500 
 57 unit_models/_Units/EN_Peasant_Padded/longbowmen_lod3.mesh 6400 
 2 
-7 england 
+4 merc 
 79 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_england.texture 
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 48 unit_sprites/england_Dummy_EN_Archers_sprite.spr 
@@ -7319,7 +7319,7 @@
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 46 unit_sprites/slave_Dummy_EN_Archers_sprite.spr 
 2 
-7 england 
+4 merc 
 69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
 69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0 
 5 slave 
@@ -7340,7 +7340,7 @@
 61 unit_models/_Units/EN_Peasant_Padded/longbowmen_ug1_lod2.mesh 2500 
 61 unit_models/_Units/EN_Peasant_Padded/longbowmen_ug1_lod3.mesh 6400 
 2 
-7 england 
+4 merc 
 79 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_england.texture 
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 52 unit_sprites/england_Dummy_EN_Archers_ug1_sprite.spr 
@@ -7349,7 +7349,7 @@
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 50 unit_sprites/slave_Dummy_EN_Archers_ug1_sprite.spr 
 2 
-7 england 
+4 merc  
 69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
 69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0 
 5 slave 
@@ -7370,7 +7370,7 @@
 58 unit_models/_Units/EN_Lmail_Hmail/longbowmen_ug2_lod2.mesh 2500 
 58 unit_models/_Units/EN_Lmail_Hmail/longbowmen_ug2_lod3.mesh 6400 
 2 
-7 england 
+4 merc  
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 52 unit_sprites/england_Dummy_EN_Archers_ug2_sprite.spr 
@@ -7379,7 +7379,7 @@
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 50 unit_sprites/slave_Dummy_EN_Archers_ug2_sprite.spr 
 2 
-7 england 
+4 merc 
 69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
 69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0 
 5 slave 
@@ -8812,7 +8812,7 @@
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_russia.texture 
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_normal.texture 
 49 unit_sprites/russia_Cossack_Musketeers_sprite.spr 
-8 novgorod 
+4 merc 
 79 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_novgorod.texture 
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_normal.texture 
 51 unit_sprites/novgorod_Cossack_Musketeers_sprite.spr 
@@ -8820,7 +8820,7 @@
 6 russia 
 68 unit_models/AttachmentSets/Final European CB Gun_russia_diff.texture 
 68 unit_models/AttachmentSets/Final European CB Gun_russia_norm.texture 0 
-8 novgorod 
+4 merc
 70 unit_models/AttachmentSets/Final European CB Gun_novgorod_diff.texture 
 70 unit_models/AttachmentSets/Final European CB Gun_novgorod_norm.texture 0 
 1 
@@ -8841,7 +8841,7 @@
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_russia.texture 
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_normal.texture 
 53 unit_sprites/russia_Cossack_Musketeers_ug1_sprite.spr 
-8 novgorod 
+4 merc 
 79 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_novgorod.texture 
 77 unit_models/_Units/EE_Peasant_Leather/textures/mtw2_EE_Peasant_normal.texture 
 55 unit_sprites/novgorod_Cossack_Musketeers_ug1_sprite.spr 
@@ -8849,7 +8849,7 @@
 6 russia 
 68 unit_models/AttachmentSets/Final European CB Gun_russia_diff.texture 
 68 unit_models/AttachmentSets/Final European CB Gun_russia_norm.texture 0 
-8 novgorod 
+4 merc
 70 unit_models/AttachmentSets/Final European CB Gun_novgorod_diff.texture 
 70 unit_models/AttachmentSets/Final European CB Gun_novgorod_norm.texture 0 
 1 
@@ -12218,7 +12218,7 @@
 61 unit_models/_Units/EN_Lmail_Hmail/armored_sergeants_lod2.mesh 2500 
 61 unit_models/_Units/EN_Lmail_Hmail/armored_sergeants_lod3.mesh 6400 
 9 
-7 england 
+4 merc  
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 53 unit_sprites/england_Dummy_EN_Spearmen_ug2_sprite.spr 
@@ -12255,7 +12255,7 @@
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 53 unit_sprites/normans_Dummy_EN_Spearmen_ug2_sprite.spr 
 9 
-7 england 
+4 merc  
 58 unit_models/AttachmentSets/Final Kite_england_diff.texture 
 58 unit_models/AttachmentSets/Final Kite_england_norm.texture 0 
 6 france 
@@ -12296,7 +12296,7 @@
 65 unit_models/_Units/EN_Lmail_Hmail/armored_sergeants_ug1_lod2.mesh 2500 
 65 unit_models/_Units/EN_Lmail_Hmail/armored_sergeants_ug1_lod3.mesh 6400 
 9 
-7 england 
+4 merc 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 53 unit_sprites/england_Dummy_EN_Spearmen_ug3_sprite.spr 
@@ -12333,7 +12333,7 @@
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 53 unit_sprites/normans_Dummy_EN_Spearmen_ug3_sprite.spr 
 9 
-7 england 
+4 merc  
 58 unit_models/AttachmentSets/Final Kite_england_diff.texture 
 58 unit_models/AttachmentSets/Final Kite_england_norm.texture 0 
 6 france 
@@ -13086,12 +13086,12 @@
 63 unit_models/_Units/EN_Pplate_Plate/heavy_pike_militia_lod1.mesh 1225 
 63 unit_models/_Units/EN_Pplate_Plate/heavy_pike_militia_lod2.mesh 6400 
 1 
-8 scotland 
+4 merc 
 75 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_scotland.texture 
 73 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_normal.texture 
 51 unit_sprites/scotland_Heavy_Pike_Militia_sprite.spr 
 1 
-8 scotland 
+4 merc  
 69 unit_models/AttachmentSets/Final European Light_scotland_diff.texture 
 69 unit_models/AttachmentSets/Final European Light_scotland_norm.texture 0 
 1 
@@ -13108,12 +13108,12 @@
 67 unit_models/_Units/EN_Pplate_Plate/heavy_pike_militia_ug1_lod1.mesh 1225 
 67 unit_models/_Units/EN_Pplate_Plate/heavy_pike_militia_ug1_lod2.mesh 6400 
 1 
-8 scotland 
+4 merc 
 75 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_scotland.texture 
 73 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_normal.texture 
 55 unit_sprites/scotland_Heavy_Pike_Militia_ug1_sprite.spr 
 1 
-8 scotland 
+4 merc 
 69 unit_models/AttachmentSets/Final European Light_scotland_diff.texture 
 69 unit_models/AttachmentSets/Final European Light_scotland_norm.texture 0 
 1 
@@ -13294,7 +13294,7 @@
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_france.texture 
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_normal.texture 
 43 unit_sprites/france_Pike_Militia_sprite.spr 
-3 hre 
+4 merc  
 68 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_hre.texture 
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_normal.texture 
 40 unit_sprites/hre_Pike_Militia_sprite.spr 
@@ -13330,7 +13330,7 @@
 6 france 
 67 unit_models/AttachmentSets/Final European Light_france_diff.texture 
 67 unit_models/AttachmentSets/Final European Light_france_norm.texture 0 
-3 hre 
+4 merc  
 64 unit_models/AttachmentSets/Final European Light_hre_diff.texture 
 64 unit_models/AttachmentSets/Final European Light_hre_norm.texture 0 
 5 spain 
@@ -13373,7 +13373,7 @@
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_france.texture 
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_normal.texture 
 47 unit_sprites/france_Pike_Militia_ug1_sprite.spr 
-3 hre 
+4 merc 
 68 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_hre.texture 
 71 unit_models/_Units/LN_Peasant_Padded/textures/LN_peasant_normal.texture 
 44 unit_sprites/hre_Pike_Militia_ug1_sprite.spr 
@@ -13409,7 +13409,7 @@
 6 france 
 67 unit_models/AttachmentSets/Final European Light_france_diff.texture 
 67 unit_models/AttachmentSets/Final European Light_france_norm.texture 0 
-3 hre 
+4 merc 
 64 unit_models/AttachmentSets/Final European Light_hre_diff.texture 
 64 unit_models/AttachmentSets/Final European Light_hre_norm.texture 0 
 5 spain 
@@ -13452,7 +13452,7 @@
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_france.texture 
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_normal.texture 
 47 unit_sprites/france_Pike_Militia_ug2_sprite.spr 
-3 hre 
+4 merc  
 69 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_hre.texture 
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_normal.texture 
 44 unit_sprites/hre_Pike_Militia_ug2_sprite.spr 
@@ -13488,7 +13488,7 @@
 6 france 
 67 unit_models/AttachmentSets/Final European Light_france_diff.texture 
 67 unit_models/AttachmentSets/Final European Light_france_norm.texture 0 
-3 hre 
+4 merc  
 64 unit_models/AttachmentSets/Final European Light_hre_diff.texture 
 64 unit_models/AttachmentSets/Final European Light_hre_norm.texture 0 
 5 spain 
@@ -13530,7 +13530,7 @@
 81 unit_models/_Units/LN_3QPlate_HalfPlate/textures/mtw2_LN_halfplate_france.texture 
 81 unit_models/_Units/LN_3QPlate_HalfPlate/textures/mtw2_LN_halfplate_normal.texture 
 47 unit_sprites/france_Pike_Militia_ug3_sprite.spr 
-3 hre 
+4 merc  
 78 unit_models/_Units/LN_3QPlate_HalfPlate/textures/mtw2_LN_halfplate_hre.texture 
 81 unit_models/_Units/LN_3QPlate_HalfPlate/textures/mtw2_LN_halfplate_normal.texture 
 44 unit_sprites/hre_Pike_Militia_ug3_sprite.spr 
@@ -13566,7 +13566,7 @@
 6 france 
 67 unit_models/AttachmentSets/Final European Light_france_diff.texture 
 67 unit_models/AttachmentSets/Final European Light_france_norm.texture 0 
-3 hre 
+4 merc  
 64 unit_models/AttachmentSets/Final European Light_hre_diff.texture 
 64 unit_models/AttachmentSets/Final European Light_hre_norm.texture 0 
 5 spain 
@@ -15077,12 +15077,12 @@
 60 unit_models/_Units/EN_Pplate_Plate/noble_swordsmen_lod1.mesh 1225 
 60 unit_models/_Units/EN_Pplate_Plate/noble_swordsmen_lod2.mesh 6400 
 1 
-8 scotland 
+4 merc  
 75 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_scotland.texture 
 73 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_normal.texture 
 48 unit_sprites/scotland_Noble_Swordsmen_sprite.spr 
 1 
-8 scotland 
+4 merc 
 68 unit_models/AttachmentSets/Final Special Heads_scotland_diff.texture 
 68 unit_models/AttachmentSets/Final Special Heads_scotland_norm.texture 0 
 1 
@@ -15098,12 +15098,12 @@
 64 unit_models/_Units/EN_Pplate_Plate/noble_swordsmen_ug1_lod1.mesh 1225 
 64 unit_models/_Units/EN_Pplate_Plate/noble_swordsmen_ug1_lod2.mesh 6400 
 1 
-8 scotland 
+4 merc  
 75 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_scotland.texture 
 73 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_normal.texture 
 52 unit_sprites/scotland_Noble_Swordsmen_ug1_sprite.spr 
 1 
-8 scotland 
+4 merc 
 68 unit_models/AttachmentSets/Final Special Heads_scotland_diff.texture 
 68 unit_models/AttachmentSets/Final Special Heads_scotland_norm.texture 0 
 1 
@@ -15821,12 +15821,12 @@
 65 unit_models/_Units/LB_Plain_Fancy/battlefield_assassins_lod2.mesh 2500 
 65 unit_models/_Units/LB_Plain_Fancy/battlefield_assassins_lod3.mesh 6400 
 1 
-7 hungary 
+4 merc  
 73 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_hungary.texture 
 72 unit_models/_Units/LB_Plain_Fancy/textures/LB_plain_fancy_normal.texture 
 53 unit_sprites/hungary_Battlefield_Assassins_sprite.spr 
 1 
-7 hungary 
+4 merc 
 60 unit_models/AttachmentSets/Final Slavic_hungary_diff.texture 
 60 unit_models/AttachmentSets/Final Slavic_hungary_norm.texture 0 
 1 
@@ -16546,7 +16546,7 @@
 78 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_portugal.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
-7 england 
+4 merc  
 77 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_england.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 57 unit_sprites/england_Dismounted_Conquistadores_sprite.spr 
@@ -16561,7 +16561,7 @@
 8 portugal 
 62 unit_models/AttachmentSets/Final Iberian_portugal_diff.texture 
 62 unit_models/AttachmentSets/Final Iberian_portugal_norm.texture 0 
-7 england 
+4 merc  
 61 unit_models/AttachmentSets/Final Iberian_england_diff.texture 
 61 unit_models/AttachmentSets/Final Iberian_england_norm.texture 0 
 6 france 
@@ -16589,7 +16589,7 @@
 78 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_portugal.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 62 unit_sprites/portugal_Dismounted_Conquistadores_ug1_sprite.spr 
-7 england 
+4 merc  
 77 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_england.texture 
 76 unit_models/_Units/RN_Half_3Q_Plate/textures/rn_half_3q_plate_normal.texture 
 61 unit_sprites/england_Dismounted_Conquistadores_ug1_sprite.spr 
@@ -16604,7 +16604,7 @@
 8 portugal 
 62 unit_models/AttachmentSets/Final Iberian_portugal_diff.texture 
 62 unit_models/AttachmentSets/Final Iberian_portugal_norm.texture 0 
-7 england 
+4 merc  
 61 unit_models/AttachmentSets/Final Iberian_england_diff.texture 
 61 unit_models/AttachmentSets/Final Iberian_england_norm.texture 0 
 6 france 
@@ -25225,12 +25225,12 @@
 60 unit_models/_Units/EN_Lmail_Hmail/templar_sergeant_lod2.mesh 2500 
 60 unit_models/_Units/EN_Lmail_Hmail/templar_sergeant_lod3.mesh 6400 
 1 
-9 jerusalem 
+4 merc 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_templar.texture 
 81 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_crusader_normal.texture 
 50 unit_sprites/jerusalem_Templar_Sergeant_sprite.spr 
 1 
-9 jerusalem 
+4 merc 
 64 unit_models/AttachmentSets/Final Crusader_jerusalem_diff.texture 
 64 unit_models/AttachmentSets/Final Crusader_jerusalem_norm.texture 0 
 1 
@@ -25247,12 +25247,12 @@
 64 unit_models/_Units/EN_Lmail_Hmail/templar_sergeant_ug1_lod2.mesh 2500 
 64 unit_models/_Units/EN_Lmail_Hmail/templar_sergeant_ug1_lod3.mesh 6400 
 1 
-9 jerusalem 
+4 merc 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_templar.texture 
 81 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_crusader_normal.texture 
 54 unit_sprites/jerusalem_Templar_Sergeant_ug1_sprite.spr 
 1 
-9 jerusalem 
+4 merc 
 64 unit_models/AttachmentSets/Final Crusader_jerusalem_diff.texture 
 64 unit_models/AttachmentSets/Final Crusader_jerusalem_norm.texture 0 
 1 
@@ -27428,12 +27428,12 @@
 64 unit_models/_Units/CM_Standard/dismounted_ritterbruder_lod2.mesh 2500 
 64 unit_models/_Units/CM_Standard/dismounted_ritterbruder_lod3.mesh 6400 
 1 
-14 teutonic_order 
+4 merc  
 74 unit_models/_Units/CM_Standard/textures/CM_Standard_teutonic_order.texture 
 66 unit_models/_Units/CM_Standard/textures/CM_Standard_normal.texture 
 62 unit_sprites/teutonic_order_Dismounted_Ritterbruder_sprite.spr 
 1 
-14 teutonic_order 
+4 merc 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_diff.texture 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_norm.texture 0 
 1 
@@ -27450,12 +27450,12 @@
 68 unit_models/_Units/CM_Standard/dismounted_ritterbruder_ug1_lod2.mesh 2500 
 68 unit_models/_Units/CM_Standard/dismounted_ritterbruder_ug1_lod3.mesh 6400 
 1 
-14 teutonic_order 
+4 merc  
 71 unit_models/_Units/CM_Standard/textures/CM_Plate_teutonic_order.texture 
 63 unit_models/_Units/CM_Standard/textures/CM_Plate_normal.texture 
 66 unit_sprites/teutonic_order_Dismounted_Ritterbruder_ug1_sprite.spr 
 1 
-14 teutonic_order 
+4 merc  
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_diff.texture 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_norm.texture 0 
 1 
@@ -27472,12 +27472,12 @@
 53 unit_models/_Units/CM_Standard/ritterbruder_lod2.mesh 2500 
 53 unit_models/_Units/CM_Standard/ritterbruder_lod3.mesh 6400 
 1 
-14 teutonic_order 
+4 merc 
 74 unit_models/_Units/CM_Standard/textures/CM_Standard_teutonic_order.texture 
 66 unit_models/_Units/CM_Standard/textures/CM_Standard_normal.texture 
 51 unit_sprites/teutonic_order_Ritterbruder_sprite.spr 
 1 
-14 teutonic_order 
+4 merc  
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_diff.texture 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_norm.texture 0 
 1 
@@ -27495,12 +27495,12 @@
 57 unit_models/_Units/CM_Standard/ritterbruder_ug1_lod2.mesh 2500 
 57 unit_models/_Units/CM_Standard/ritterbruder_ug1_lod3.mesh 6400 
 1 
-14 teutonic_order 
+4 merc 
 71 unit_models/_Units/CM_Standard/textures/CM_Plate_teutonic_order.texture 
 63 unit_models/_Units/CM_Standard/textures/CM_Plate_normal.texture 
 55 unit_sprites/teutonic_order_Ritterbruder_ug1_sprite.spr 
 1 
-14 teutonic_order 
+4 merc 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_diff.texture 
 75 unit_models/AttachmentSets/Final Teutonic Heads_teutonic_order_norm.texture 0 
 1 
@@ -27640,7 +27640,7 @@
 63 unit_models/_Units/calivermen/textures/calivermen_mercs.texture 
 64 unit_models/_Units/calivermen/textures/calivermen_normal.texture 
 39 unit_sprites/merc_Calivermen_sprite.spr 
-7 ireland 
+4 merc
 65 unit_models/_Units/calivermen/textures/calivermen_ireland.texture 
 64 unit_models/_Units/calivermen/textures/calivermen_normal.texture 
 42 unit_sprites/ireland_Calivermen_sprite.spr 
@@ -27648,7 +27648,7 @@
 8 scotland 
 66 unit_models/AttachmentSets/Final European CB Gun_merc_diff.texture 
 66 unit_models/AttachmentSets/Final European CB Gun_merc_norm.texture 0 
-7 ireland 
+4 merc 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_diff.texture 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_norm.texture 0 
 1 
@@ -27670,7 +27670,7 @@
 69 unit_models/_Units/calivermen/textures/calivermen_heavy_mercs.texture 
 70 unit_models/_Units/calivermen/textures/calivermen_heavy_normal.texture 
 43 unit_sprites/merc_Calivermen_ug1_sprite.spr 
-7 ireland 
+4 merc
 71 unit_models/_Units/calivermen/textures/calivermen_heavy_ireland.texture 
 70 unit_models/_Units/calivermen/textures/calivermen_heavy_normal.texture 
 46 unit_sprites/ireland_Calivermen_ug1_sprite.spr 
@@ -27678,7 +27678,7 @@
 8 scotland 
 66 unit_models/AttachmentSets/Final European CB Gun_merc_diff.texture 
 66 unit_models/AttachmentSets/Final European CB Gun_merc_norm.texture 0 
-7 ireland 
+4 merc 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_diff.texture 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_norm.texture 0 
 1 
@@ -27696,12 +27696,12 @@
 58 unit_models/_Units/calivermen/mounted_calivermen_lod2.mesh 2500 
 58 unit_models/_Units/calivermen/mounted_calivermen_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc 
 65 unit_models/_Units/calivermen/textures/calivermen_ireland.texture 
 64 unit_models/_Units/calivermen/textures/calivermen_normal.texture 
 50 unit_sprites/ireland_Mounted_Calivermen_sprite.spr 
 1 
-7 ireland 
+4 merc 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_diff.texture 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_norm.texture 0 
 1 
@@ -27719,12 +27719,12 @@
 62 unit_models/_Units/calivermen/mounted_calivermen_ug1_lod2.mesh 2500 
 62 unit_models/_Units/calivermen/mounted_calivermen_ug1_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc
 71 unit_models/_Units/calivermen/textures/calivermen_heavy_ireland.texture 
 70 unit_models/_Units/calivermen/textures/calivermen_heavy_normal.texture 
 54 unit_sprites/ireland_Mounted_Calivermen_ug1_sprite.spr 
 1 
-7 ireland 
+4 merc 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_diff.texture 
 69 unit_models/AttachmentSets/Final European CB Gun_ireland_norm.texture 0 
 1 
@@ -27750,7 +27750,7 @@
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 48 unit_sprites/lithuania_Tartar_Lancers_sprite.spr 
-9 lithuania 
+4 merc  
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 48 unit_sprites/lithuania_Tartar_Lancers_sprite.spr 
@@ -27761,7 +27761,7 @@
 6 russia 
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
-9 lithuania 
+4 merc  
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
 1 
@@ -27787,7 +27787,7 @@
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 52 unit_sprites/lithuania_Tartar_Lancers_ug1_sprite.spr 
-9 lithuania 
+4 merc  
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 52 unit_sprites/lithuania_Tartar_Lancers_ug1_sprite.spr 
@@ -27798,7 +27798,7 @@
 6 russia 
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
-9 lithuania 
+4 merc  
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
 1 
@@ -27824,7 +27824,7 @@
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 59 unit_sprites/lithuania_Dismounted_Tartar_Lancers_sprite.spr 
-9 lithuania 
+4 merc  
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 59 unit_sprites/lithuania_Dismounted_Tartar_Lancers_sprite.spr 
@@ -27835,7 +27835,7 @@
 6 russia 
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
-9 lithuania 
+4 merc  
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
 1 
@@ -27860,7 +27860,7 @@
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 63 unit_sprites/lithuania_Dismounted_Tartar_Lancers_ug1_sprite.spr 
-9 lithuania 
+4 merc  
 75 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_lithuania.texture 
 72 unit_models/_Units/AS_Lamellar_Heavy/textures/AS_Lamellar_normal.texture 
 63 unit_sprites/lithuania_Dismounted_Tartar_Lancers_ug1_sprite.spr 
@@ -27871,7 +27871,7 @@
 6 russia 
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
-9 lithuania 
+4 merc  
 61 unit_models/AttachmentSets/Final Asian_lithuania_diff.texture 
 61 unit_models/AttachmentSets/Final Asian_lithuania_norm.texture 0 
 1 
@@ -27892,7 +27892,7 @@
 80 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_horseboy_rebels.texture 
 80 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_horseboy_normal.texture 
 39 unit_sprites/slave_Ceitherne_sprite.spr 
-7 ireland 
+4 merc 
 81 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_horseboy_ireland.texture 
 80 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_horseboy_normal.texture 
 41 unit_sprites/ireland_Ceitherne_sprite.spr 
@@ -27900,7 +27900,7 @@
 5 slave 
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0 
-7 ireland 
+4 merc  
 68 unit_models/AttachmentSets/Final European Light_ireland_diff.texture 
 68 unit_models/AttachmentSets/Final European Light_ireland_norm.texture 0 
 1 
@@ -27921,7 +27921,7 @@
 77 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_heavy_rebels.texture 
 77 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_heavy_normal.texture 
 43 unit_sprites/slave_Ceitherne_ug1_sprite.spr 
-7 ireland 
+4 merc 
 78 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_heavy_ireland.texture 
 77 unit_models/_Units/ceitherne_horseboy/textures/ceitherne_heavy_normal.texture 
 45 unit_sprites/ireland_Ceitherne_ug1_sprite.spr 
@@ -27929,7 +27929,7 @@
 5 slave 
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0 
-7 ireland 
+4 merc  
 68 unit_models/AttachmentSets/Final European Light_ireland_diff.texture 
 68 unit_models/AttachmentSets/Final European Light_ireland_norm.texture 0 
 1 
@@ -27946,12 +27946,12 @@
 59 unit_models/_Units/EN_Highlander/deisi_javelinmen_lod2.mesh 2500 
 59 unit_models/_Units/EN_Highlander/deisi_javelinmen_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc 
 71 unit_models/_Units/EN_Highlander/textures/en_highlander_ireland.texture 
 70 unit_models/_Units/EN_Highlander/textures/en_highlander_normal.texture 
 48 unit_sprites/ireland_Deisi_Javelinmen_sprite.spr 
 1 
-7 ireland 
+4 merc 
 68 unit_models/AttachmentSets/Final European Light_ireland_diff.texture 
 68 unit_models/AttachmentSets/Final European Light_ireland_norm.texture 0 
 1 
@@ -27969,12 +27969,12 @@
 63 unit_models/_Units/EN_Highlander/deisi_javelinmen_ug1_lod2.mesh 2500 
 63 unit_models/_Units/EN_Highlander/deisi_javelinmen_ug1_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc  
 71 unit_models/_Units/EN_Highlander/textures/en_highlander_ireland.texture 
 70 unit_models/_Units/EN_Highlander/textures/en_highlander_normal.texture 
 52 unit_sprites/ireland_Deisi_Javelinmen_ug1_sprite.spr 
 1 
-7 ireland 
+4 merc 
 68 unit_models/AttachmentSets/Final European Light_ireland_diff.texture 
 68 unit_models/AttachmentSets/Final European Light_ireland_norm.texture 0 
 1 
@@ -27992,12 +27992,12 @@
 52 unit_models/_Units/BI_Ostomen_Gwent/ostmen_lod2.mesh 2500 
 52 unit_models/_Units/BI_Ostomen_Gwent/ostmen_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc 
 77 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_ireland.texture 
 76 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_normal.texture 
 38 unit_sprites/ireland_Ostmen_sprite.spr 
 1 
-7 ireland 
+4 merc 
 60 unit_models/AttachmentSets/Final Danish_ireland_diff.texture 
 60 unit_models/AttachmentSets/Final Danish_ireland_norm.texture 0 
 1 
@@ -28014,12 +28014,12 @@
 56 unit_models/_Units/BI_Ostomen_Gwent/ostmen_ug1_lod2.mesh 2500 
 56 unit_models/_Units/BI_Ostomen_Gwent/ostmen_ug1_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc 
 81 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_ireland.texture 
 80 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_normal.texture 
 42 unit_sprites/ireland_Ostmen_ug1_sprite.spr 
 1 
-7 ireland 
+4 merc 
 60 unit_models/AttachmentSets/Final Danish_ireland_diff.texture 
 60 unit_models/AttachmentSets/Final Danish_ireland_norm.texture 0 
 1 
@@ -28427,12 +28427,12 @@
 60 unit_models/_Units/EN_Lmail_Hmail/ulster_swordsmen_lod2.mesh 2500 
 60 unit_models/_Units/EN_Lmail_Hmail/ulster_swordsmen_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_ireland.texture 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal3.texture 
 48 unit_sprites/ireland_Ulster_Swordsmen_sprite.spr 
 1 
-7 ireland 
+4 merc
 60 unit_models/AttachmentSets/Final Heater_ireland_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_ireland_norm.texture 0 
 1 
@@ -28449,12 +28449,12 @@
 64 unit_models/_Units/EN_Lmail_Hmail/ulster_swordsmen_ug1_lod2.mesh 2500 
 64 unit_models/_Units/EN_Lmail_Hmail/ulster_swordsmen_ug1_lod3.mesh 6400 
 1 
-7 ireland 
+4 merc
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_ireland.texture 
 73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal3.texture 
 52 unit_sprites/ireland_Ulster_Swordsmen_ug1_sprite.spr 
 1 
-7 ireland 
+4 merc
 60 unit_models/AttachmentSets/Final Heater_ireland_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_ireland_norm.texture 0 
 1 
@@ -28470,12 +28470,12 @@
 65 unit_models/_Units/EN_Pplate_Plate/ulster_swordsmen_ug2_lod1.mesh 1225 
 65 unit_models/_Units/EN_Pplate_Plate/ulster_swordsmen_ug2_lod2.mesh 6400 
 1 
-7 ireland 
+4 merc
 74 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_ireland.texture 
 73 unit_models/_Units/EN_Pplate_Plate/textures/mtw2_EN_Pplate_normal.texture 
 52 unit_sprites/ireland_Ulster_Swordsmen_ug2_sprite.spr 
 1 
-7 ireland 
+4 merc
 60 unit_models/AttachmentSets/Final Heater_ireland_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_ireland_norm.texture 0 
 1 
@@ -30306,7 +30306,7 @@
 76 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_rebels.texture 
 76 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_normal.texture 
 43 unit_sprites/slave_Gwent_Raiders_sprite.spr 
-5 wales 
+4 merc  
 75 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_wales.texture 
 76 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_ostomen_gwent_normal.texture 
 43 unit_sprites/wales_Gwent_Raiders_sprite.spr 
@@ -30314,7 +30314,7 @@
 5 slave 
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0 
-5 wales 
+4 merc  
 66 unit_models/AttachmentSets/Final European Light_wales_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_wales_norm.texture 0 
 1 
@@ -30335,7 +30335,7 @@
 80 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_rebels.texture 
 80 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_normal.texture 
 47 unit_sprites/slave_Gwent_Raiders_ug1_sprite.spr 
-5 wales 
+4 merc  
 79 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_wales.texture 
 80 unit_models/_Units/BI_Ostomen_Gwent/textures/bi_upg_ostomen_gwent_normal.texture 
 47 unit_sprites/wales_Gwent_Raiders_ug1_sprite.spr 
@@ -30343,7 +30343,7 @@
 5 slave 
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0 
-5 wales 
+4 merc  
 66 unit_models/AttachmentSets/Final European Light_wales_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_wales_norm.texture 0 
 1 

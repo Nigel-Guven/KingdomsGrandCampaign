@@ -910,7 +910,7 @@ banner holy      crusade_cavalry
 soldier          Demi_Lancers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, mercenary_unit
 formation        2, 4.4, 3, 6, 2, square, wedge
 stat_health      1, 5
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -928,9 +928,9 @@ stat_food        60, 300
 stat_cost        1, 900, 250, 85, 205, 900, 4, 230
 armour_ug_levels 0, 4
 armour_ug_models Demi_Lancers, Demi_Lancers_ug1
-ownership        england, france
-era 1            england
-era 2            england, france
+ownership        england, france, norway
+era 1            england, norway
+era 2            england, france, norway
 recruit_priority_offset   20
 
 
@@ -2427,7 +2427,7 @@ banner holy      crusade_cavalry
 soldier          Hussars, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 5
 stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -2445,8 +2445,8 @@ stat_food        60, 300
 stat_cost        1, 1050, 300, 85, 205, 1050, 4, 260
 armour_ug_levels 0, 3
 armour_ug_models Hussars, Hussars_ug1
-ownership        poland, hungary
-era 2            poland, hungary
+ownership        poland, hungary, norway
+era 2            poland, hungary, norway
 recruit_priority_offset   20
 
 
@@ -3174,7 +3174,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Longbowmen, 48, 0, 0.8
-attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, start_not_skirmishing
+attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
 stat_pri         7, 1, bodkin_arrow, 160, 25, missile, missile_mechanical, piercing, none, 25, 1
@@ -3192,9 +3192,9 @@ stat_food        60, 300
 stat_cost        1, 500, 120, 45, 105, 500, 4, 170
 armour_ug_levels 0, 1, 2
 armour_ug_models Longbowmen, Longbowmen_ug1, Longbowmen_ug2
-ownership        england, slave
-era 1            england
-era 2            england
+ownership        england, slave, norway
+era 1            england, norway
+era 2            england, norway
 recruit_priority_offset   15
 
 
@@ -3744,7 +3744,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Cossack_Musketeers, 48, 0, 0.8
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, start_not_skirmishing
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
 stat_pri         16, 3, musket_bullet, 180, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -3762,8 +3762,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 65, 155, 600, 4, 210
 armour_ug_levels 0, 1
 armour_ug_models Cossack_Musketeers, Cossack_Musketeers_ug1
-ownership        russia, novgorod
-era 2            russia, novgorod
+ownership        russia, novgorod, norway
+era 2            russia, novgorod, norway
 recruit_priority_offset   15
 
 
@@ -5250,7 +5250,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 60, 0, 1.5
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
 stat_pri         9, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
@@ -5268,10 +5268,10 @@ stat_food        60, 300
 stat_cost        1, 650, 200, 65, 150, 650, 4, 150
 armour_ug_levels 0, 3
 armour_ug_models Armored_Sergeants, Armored_Sergeants_ug1
-ownership        england, france, hre, milan, venice, papal_states, sicily, slave
-era 0            england, france, hre, milan, venice, papal_states, sicily
-era 1            england, france, hre, milan, venice, papal_states, sicily
-era 2            england, france, hre, venice, papal_states, sicily
+ownership        england, france, hre, milan, venice, papal_states, sicily, slave, norway
+era 0            england, france, hre, milan, venice, papal_states, sicily, norway
+era 1            england, france, hre, milan, venice, papal_states, sicily, norway
+era 2            england, france, hre, venice, papal_states, sicily, norway
 recruit_priority_offset   20
 
 
@@ -5378,7 +5378,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Heavy_Pike_Militia, 48, 0, 3.5
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -5397,8 +5397,8 @@ stat_food        60, 300
 stat_cost        1, 650, 250, 65, 150, 550, 4, 150
 armour_ug_levels 0, 5
 armour_ug_models Heavy_Pike_Militia, Heavy_Pike_Militia_ug1
-ownership        scotland
-era 2            scotland
+ownership        scotland, norway
+era 2            scotland, norway
 recruit_priority_offset   20
 
 
@@ -5472,7 +5472,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Pike_Militia, 48, 0, 3.5
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -5491,7 +5491,7 @@ stat_food        60, 300
 stat_cost        1, 500, 125, 55, 135, 400, 4, 70
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Pike_Militia, Pike_Militia_ug1, Pike_Militia_ug2, Pike_Militia_ug3
-ownership        france, hre, spain, portugal, milan, venice, papal_states, sicily, ireland
+ownership        france, hre, spain, portugal, milan, venice, papal_states, sicily, ireland, norway
 recruit_priority_offset   10
 
 
@@ -6171,7 +6171,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Noble_Swordsmen, 48, 0, 1.2
-attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, edinburgh
+attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, edinburgh, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6189,8 +6189,8 @@ stat_food        60, 300
 stat_cost        1, 750, 300, 60, 140, 710, 4, 180
 armour_ug_levels 0, 5
 armour_ug_models Noble_Swordsmen, Noble_Swordsmen_ug1
-ownership        scotland
-era 2            scotland
+ownership        scotland, norway
+era 2            scotland, norway
 recruit_priority_offset   20
 
 
@@ -6514,7 +6514,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Battlefield_Assassins, 32, 0, 1
-attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere
+attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 2, square
 stat_health      2, 0
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6532,9 +6532,9 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 75, 175, 740, 4, 220
 armour_ug_levels 0
 armour_ug_models Battlefield_Assassins
-ownership        hungary
-era 1            hungary
-era 2            hungary
+ownership        hungary, norway
+era 1            hungary, norway
+era 2            hungary, norway
 recruit_priority_offset   5
 
 
@@ -12524,7 +12524,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Templar_Sergeant, 60, 0, 1.5
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square, schiltrom
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
@@ -12542,9 +12542,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 50, 115, 620, 4, 110
 armour_ug_levels 0, 3
 armour_ug_models Templar_Sergeant, Templar_Sergeant_ug1
-ownership        jerusalem
-era 0            jerusalem
-era 1            jerusalem
+ownership        jerusalem, norway
+era 0            jerusalem, norway
+era 1            jerusalem, norway
 recruit_priority_offset   15
 
 
@@ -14227,7 +14227,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Dismounted_Conquistadores, 48, 0, 1.2
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -14245,9 +14245,9 @@ stat_food        60, 300
 stat_cost        1, 750, 150, 65, 155, 750, 4, 200
 armour_ug_levels 0, 4
 armour_ug_models Dismounted_Conquistadores, Dismounted_Conquistadores_ug1
-ownership        england, france
-era 1            england, france
-era 2            england, france
+ownership        england, france, norway
+era 1            england, france, norway
+era 2            england, france, norway
 recruit_priority_offset   20
 
 
@@ -14294,7 +14294,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Calivermen, 48, 0, 0.8
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
 stat_pri         14, 2, arquebus_bullet, 130, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14312,8 +14312,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 50, 115, 550, 4, 170
 armour_ug_levels 0, 3
 armour_ug_models Calivermen, Calivermen_ug1
-ownership        ireland, scotland
-era 2            ireland, scotland
+ownership        ireland, scotland, norway
+era 2            ireland, scotland, norway
 recruit_priority_offset   15
 
 
@@ -14327,7 +14327,7 @@ banner holy      crusade_cavalry
 soldier          Mounted_Calivermen, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, gunpowder_unit, guncavalry
+attributes       sea_faring, hide_forest, hardy, can_withdraw, gunpowder_unit, guncavalry, mercenary_unit
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 4
 stat_pri         16, 3, arquebus_bullet, 100, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14345,8 +14345,8 @@ stat_food        60, 300
 stat_cost        1, 1200, 250, 80, 185, 1200, 4, 280
 armour_ug_levels 0, 4
 armour_ug_models Mounted_Calivermen, Mounted_Calivermen_ug1
-ownership        ireland
-era 2            ireland
+ownership        ireland, norway
+era 2            ireland, norway
 recruit_priority_offset   25
 
 
@@ -14358,7 +14358,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Ceitherne, 60, 0, 1
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         6, 2, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
@@ -14376,10 +14376,10 @@ stat_food        60, 300
 stat_cost        1, 270, 100, 45, 105, 270, 4, 60
 armour_ug_levels 0, 2
 armour_ug_models Ceitherne, Ceitherne_ug1
-ownership        ireland, slave
-era 0            ireland
-era 1            ireland
-era 2            ireland
+ownership        ireland, slave, norway
+era 0            ireland, norway
+era 1            ireland, norway
+era 2            ireland, norway
 recruit_priority_offset   -30
 
 
@@ -14392,7 +14392,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Deisi_Javelinmen, 60, 0, 1
 mount_effect     elephant +6
-attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing
+attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         9, 3, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -14410,8 +14410,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 80, 185, 600, 4, 150
 armour_ug_levels 0, 1
 armour_ug_models Deisi_Javelinmen, Deisi_Javelinmen_ug1
-ownership        ireland
-era 0            ireland
+ownership        ireland, norway
+era 0            ireland, norway
 recruit_priority_offset   10
 
 
@@ -14423,7 +14423,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Ostmen, 48, 0, 1
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -14441,9 +14441,9 @@ stat_food        60, 300
 stat_cost        1, 450, 125, 50, 115, 450, 4, 100
 armour_ug_levels 0, 2
 armour_ug_models Ostmen, Ostmen_ug1
-ownership        ireland
-era 0            ireland
-era 1            ireland
+ownership        ireland, norway
+era 0            ireland, norway
+era 1            ireland, norway
 recruit_priority_offset   5
 
 
@@ -14456,7 +14456,7 @@ accent           Scottish
 banner faction   main_infantry
 banner holy      crusade
 soldier          Galloglaich, 48, 0, 1.2
-attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         16, 9, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
@@ -14474,8 +14474,8 @@ stat_food        60, 300
 stat_cost        1, 570, 200, 60, 140, 570, 4, 120
 armour_ug_levels 0
 armour_ug_models Galloglaich
-ownership        ireland, slave
-era 0            ireland
+ownership        ireland, slave, norway
+era 0            ireland, norway
 recruit_priority_offset   15
 
 
@@ -14587,7 +14587,7 @@ banner holy      crusade_cavalry
 soldier          Horseboys, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 4
 stat_pri         9, 2, cav_javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -14605,9 +14605,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 65, 155, 600, 4, 140
 armour_ug_levels 0, 1
 armour_ug_models Horseboys, Horseboys_ug1
-ownership        ireland
-era 0            ireland
-era 1            ireland
+ownership        ireland, norway
+era 0            ireland, norway
+era 1            ireland, norway
 recruit_priority_offset   10
 
 
@@ -14722,7 +14722,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Ulster_Swordsmen, 48, 0, 1.2
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         13, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
@@ -14740,9 +14740,9 @@ stat_food        60, 300
 stat_cost        1, 480, 150, 50, 115, 480, 4, 100
 armour_ug_levels 0, 3, 4
 armour_ug_models Ulster_Swordsmen, Ulster_Swordsmen_ug1, Ulster_Swordsmen_ug2
-ownership        ireland
-era 1            ireland
-era 2            ireland
+ownership        ireland, norway
+era 1            ireland, norway
+era 2            ireland, norway
 recruit_priority_offset   10
 
 
@@ -15172,7 +15172,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 soldier          Dismounted_Ritterbruder, 48, 0, 1.2
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -15190,10 +15190,10 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 65, 155, 800, 2, 200
 armour_ug_levels 0, 6
 armour_ug_models Dismounted_Ritterbruder, Dismounted_Ritterbruder_ug1
-ownership        teutonic_order
-era 0            teutonic_order
-era 1            teutonic_order
-era 2            teutonic_order
+ownership        teutonic_order, norway
+era 0            teutonic_order, norway
+era 1            teutonic_order, norway
+era 2            teutonic_order, norway
 recruit_priority_offset   25
 
 
@@ -15206,7 +15206,7 @@ banner faction   main_cavalry
 soldier          Ritterbruder, 32, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, frighten_foot, marienburg
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, frighten_foot, marienburg, mercenary_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 5
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15224,10 +15224,10 @@ stat_food        60, 300
 stat_cost        1, 1300, 400, 85, 205, 1300, 2, 290
 armour_ug_levels 0, 6
 armour_ug_models Ritterbruder, Ritterbruder_ug1
-ownership        teutonic_order
-era 0            teutonic_order
-era 1            teutonic_order
-era 2            teutonic_order
+ownership        teutonic_order, norway
+era 0            teutonic_order, norway
+era 1            teutonic_order, norway
+era 2            teutonic_order, norway
 recruit_priority_offset   30
 
 
@@ -15719,7 +15719,7 @@ banner faction   main_cavalry
 soldier          Tartar_Lancers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
 formation        2, 4.4, 3, 6, 4, square, wedge
 stat_health      1, 4
 stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15737,10 +15737,10 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 65, 155, 700, 4, 120
 armour_ug_levels 0, 2
 armour_ug_models Tartar_Lancers, Tartar_Lancers_ug1
-ownership        russia, lithuania, slave
-era 0            russia, lithuania
-era 1            russia, lithuania
-era 2            russia, lithuania
+ownership        russia, lithuania, slave, norway
+era 0            russia, lithuania, norway
+era 1            russia, lithuania, norway
+era 2            russia, lithuania, norway
 recruit_priority_offset   10
 
 
@@ -16020,7 +16020,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Gwent_Raiders, 60, 0, 1
-attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
+attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         8, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -16038,10 +16038,10 @@ stat_food        60, 300
 stat_cost        1, 420, 150, 65, 150, 420, 4, 90
 armour_ug_levels 0, 2
 armour_ug_models Gwent_Raiders, Gwent_Raiders_ug1
-ownership        wales, slave
-era 0            wales
-era 1            wales
-era 2            wales
+ownership        wales, slave, norway
+era 0            wales, norway
+era 1            wales, norway
+era 2            wales, norway
 recruit_priority_offset   -15
 
 
