@@ -1137,7 +1137,7 @@ building castle_barracks
             capability
             {   
                 recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, norway, }
-                recruit_pool "Dismounted Tartar Lancers"  1   0.4   2  0  requires factions { lithuania, norway, }
+                recruit_pool "Dismounted Tartar Lancers"  1   0.4   2  0  requires factions { lithuania, }
                 recruit_pool "Levy Spearmen"  1   0.4   2  0  requires factions { england, } 
                 recruit_pool "Highlanders"  1   0.4   2  0  requires factions { scotland, } 
                 recruit_pool "Sergeant Spearmen"  1   0.4   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, }
