@@ -15,7 +15,7 @@ script
             event	counter	lithuania_conversion_accepted
             event	counter	lithuania_conversion_declined
             event	counter lithuania_conversion_timer
-            date	0
+            date	6
         end_add_events
 
         generate_random_counter	lithuania_conversion_timer 0 35
@@ -27,7 +27,7 @@ script
         add_events
             event	counter	hanseatic_formation_timer
             event	counter	hanseatic_constructed
-            date	0
+            date	8
         end_add_events
 
         generate_random_counter	hanseatic_formation_timer 0 10
@@ -39,7 +39,7 @@ script
             event	counter	pagan_lithuania  		;DONT RENAME - counter referenced by name in export_descr_buildings
             event	counter	not_pagan_lithuania		;DONT RENAME - counter referenced by name in export_descr_buildings
             event	counter not_teutonic			;DONT RENAME - counter referenced by name in export_descr_buildings
-            date	0
+            date	10
         end_add_events
 
         set_event_counter pagan_lithuania 0
@@ -2155,7 +2155,7 @@ script
     monitor_event FactionTurnStart FactionType lithuania
 
         if I_NumberOfSettlements lithuania < 5
-            and I_EventCounter lithuania_conversion_timer >= 35
+            and I_EventCounter lithuania_conversion_timer >= 10
             and I_EventCounter lithuania_conversion_accepted = 0
 
             ;offer conversion to christianity
@@ -2175,7 +2175,7 @@ script
 
         end_if
 
-        if I_EventCounter lithuania_conversion_timer >= 65
+        if I_EventCounter lithuania_conversion_timer >= 40
             and I_EventCounter lithuania_conversion_accepted = 0
 
             ;offer conversion to christianity

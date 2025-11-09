@@ -85,7 +85,7 @@ Guild horse_breeders_guild
 ;------------------------------------------
 Guild hanseatic_guild
     building guild_hanseatic_guild
-    levels  200
+    levels  25
 
 
 

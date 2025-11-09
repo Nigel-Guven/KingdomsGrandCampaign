@@ -1659,7 +1659,44 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
+settlement
+{
+	level large_town
+	region Riga_Province
 
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 
 character	Gunther von Schwarzenburg, named character, male, leader, age 36, x 293, y 270, portrait gunther, battle_model Teutonic_Hochmeister 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 1 , BattleChivalry 4 , ReligionStarter 1 
@@ -1693,7 +1730,7 @@ unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
 unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
 
-character	Ludwig, general, male, age 22, x 303, y 269 
+character	Ludwig, general, male, age 22, x 317, y 311 
 army
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
@@ -1827,6 +1864,48 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Hrodna_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_perkunas perkunas_altar
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2012,6 +2091,49 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Isle_of_Cyprus
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 settlement castle
@@ -2296,7 +2418,56 @@ settlement castle
 	}
 }
 
+settlement
+{
+	level city
+	region Edessa_Province
 
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market market
+	}
+}
 
 character	Bohemond, named character, male, leader, age 35, x 434, y 131, portrait bohemond, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Intelligent 2 , ReligionStarter 1 , CrusaderHistory 3 , Fertile 1 
@@ -2343,7 +2514,7 @@ unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
 unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
 unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
 
-character	Gieffroy, general, male, age 23, x 265, y 103 
+character	Gieffroy, general, male, age 23, x 369, y 116 
 army
 unit		Armenians of Celicia			exp 0 armour 0 weapon_lvl 0
 unit		Armenians of Celicia			exp 0 armour 0 weapon_lvl 0
@@ -2473,6 +2644,40 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Visby_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement
@@ -2824,6 +3029,41 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Turin_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Giorgio Rossi, named character, male, leader, age 52, x 236, y 198, portrait giorgio, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1 , ReligionStarter 1 , Fertile 1 
 ancillaries crown_milan, apothecary
@@ -3164,6 +3404,100 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
+
+settlement
+{
+	level city
+	region Naples_Province
+
+	year_founded 0
+	population 12000
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+settlement castle
+{
+	level large_town
+	region Malta_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
 settlement
 {
 	level large_town
@@ -3310,6 +3644,45 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Santiago_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3538,6 +3911,53 @@ settlement
 	building
 	{
 		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Oporto_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4123,6 +4543,53 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level large_town
+	region Bran_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
 character	Bela, named character, male, leader, age 37, x 294, y 217, portrait bela, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 3 , Energetic 1 , PublicFaith 2 , BattleChivalry 4 , StrategyChivalry 3 , GoodDiplomacy 2 , GoodCavalryGeneral 1, ReligionStarter 1 , PoliticsSkill 1, Fertile 1 
 ancillaries crown_hungary, apothecary
@@ -4257,6 +4724,44 @@ settlement
 	building
 	{
 		type hinterland_roads paved_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Cherson_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement castle
@@ -4516,6 +5021,53 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Atil_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -4820,6 +5372,61 @@ settlement castle
 	}
 }
 
+settlement
+{
+	level city
+	region Baghdad_Province
+
+	year_founded 0
+	population 12000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_muslim minareted_masjid
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+} 
+
 character	Timur, named character, male, leader, age 32, x 481, y 195, battle_model eastern_sultan 
 traits Factionleader 1 , EasternWarlord 2 , Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3 
 ancillaries crown_mongols
@@ -4897,7 +5504,7 @@ unit		Naffatun			exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Husayn of Turkistan, named character, male, age 16, x 454, y 191 
+character	Husayn of Turkistan, named character, male, age 16, x 503, y 126 
 traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
 army
 unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -4987,6 +5594,45 @@ settlement
 	building
 	{
 		type city_hall council_chambers
+	}
+}
+
+settlement
+{
+	level large_town
+	region Thebes_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -5916,6 +6562,41 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Malatya_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 settlement castle
 {
 	level large_town
@@ -6210,6 +6891,45 @@ settlement
 
 settlement
 {
+	level city
+	region Oran_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
 	level large_town
 	region Sevilla_Province
 
@@ -6496,6 +7216,52 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Hohenstauffen_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement
@@ -6841,7 +7607,44 @@ settlement
 		type siege ballista_range
 	}
 }
+settlement
+{
+	level large_town
+	region Isle_of_Cyprus2
 
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement castle
 {
 	level large_town
@@ -8591,45 +9394,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Santiago_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level town
 	region Timbuktu_Province
 
@@ -8923,41 +9687,6 @@ settlement castle
 
 settlement
 {
-	level town
-	region Malatya_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level large_town
 	region Yerevan_Province
 
@@ -9156,49 +9885,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Hrodna_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_perkunas perkunas_altar
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_town
@@ -9250,90 +9936,6 @@ settlement castle
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Malta_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-settlement
-{
-	level large_town
-	region Hohenstauffen_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 settlement castle
 {
 	level large_town
@@ -9518,52 +10120,7 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
-settlement
-{
-	level large_town
-	region Oporto_Province
 
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator portugal
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 settlement castle
 {
 	level large_town
@@ -9825,170 +10382,7 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
-settlement
-{
-	level large_town
-	region Turin_Province
 
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement
-{
-	level large_town
-	region Cherson_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement
-{
-	level large_town
-	region Thebes_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement
-{
-	level city
-	region Naples_Province
-
-	year_founded 0
-	population 12000
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks city_watch
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type temple_catholic abbey
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-}
 settlement
 {
 	level large_town
@@ -10017,86 +10411,6 @@ settlement
 	building
 	{
 		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement castle
-{
-	level large_town
-	region Bran_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-settlement
-{
-	level large_town
-	region Visby_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator denmark
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type port port
 	}
 	building
 	{
@@ -10431,45 +10745,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Riga_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_town
@@ -10776,57 +11051,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level city
-	region Edessa_Province
-
-	year_founded 0
-	population 8000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks city_watch
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market market
 	}
 }
 
@@ -11311,61 +11535,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Baghdad_Province
-
-	year_founded 0
-	population 12000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks city_watch
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
-	building
-	{
-		type market fairground
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-} 
-
 settlement castle
 {
 	level large_town
@@ -11511,88 +11680,6 @@ settlement castle
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Isle_of_Cyprus
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type hinterland_castle_mines c_mines
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Isle_of_Cyprus2
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_mines mines
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement
 {
 	level town
@@ -11679,44 +11766,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Oran_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_muslim masjid
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 settlement
 {
 	level large_town
@@ -12141,52 +12190,6 @@ settlement
 
 settlement
 {
-	level city
-	region Atil_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
-settlement
-{
 	level large_town
 	region Clermont_Province
 
@@ -12456,7 +12459,7 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 418, y 25 
+character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 348, y 67 
 army
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
@@ -12642,7 +12645,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction spain, Julian Aragones, general, male, age 31, x 110, y 189 
+character	sub_faction spain, Julian Aragones, general, male, age 31, x 158, y 147 
 army
 unit		Jinetes					exp 0 armour 0 weapon_lvl 0
 unit		Jinetes					exp 0 armour 0 weapon_lvl 0
@@ -12828,7 +12831,7 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 151, y 113 
+character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 101, y 100 
 army
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
@@ -12932,7 +12935,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 452, y 157 
+character	sub_faction turks, Khalil, general, male, age 21, x 465, y 161 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -12960,14 +12963,14 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 503, y 126
+character	sub_faction turks, Khalil, general, male, age 21, x 481, y 119
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 503, y 125
+character	sub_faction turks, Khalil, general, male, age 21, x 495, y 125
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -13032,14 +13035,14 @@ unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 412, y 109 
+character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 391, y 131 
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 419, y 116 
+character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 425, y 136 
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
@@ -13154,7 +13157,7 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 317, y 311 
+character	sub_faction russia, Kiselev, general, male, age 27, x 309, y 320 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
