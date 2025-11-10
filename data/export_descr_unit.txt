@@ -627,7 +627,7 @@ armour_ug_levels 0, 4
 armour_ug_models Feudal_Knights, Feudal_Knights_ug1
 ownership        england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway, slave
 era 0            england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway
-era 1            scotland
+era 1            england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway
 recruit_priority_offset   15
 
 
@@ -659,8 +659,8 @@ stat_food        60, 300
 stat_cost        1, 950, 250, 85, 205, 950, 4, 270
 armour_ug_levels 0, 4
 armour_ug_models Norman_Knights, Norman_Knights_ug1
-ownership        sicily, slave
-era 0            sicily
+ownership        sicily, slave, byzantium
+era 0            sicily, byzantium
 recruit_priority_offset   15
 
 
@@ -728,7 +728,7 @@ armour_ug_levels 0, 5
 armour_ug_models Chivalric_Knights, Chivalric_Knights_ug1
 ownership        france, denmark, spain, sicily, norway, slave
 era 1            france, denmark, spain, sicily, norway
-era 2            france, sicily
+era 2            france, sicily, denmark, spain, norway
 recruit_priority_offset   20
 
 
@@ -929,7 +929,7 @@ stat_cost        1, 900, 250, 85, 205, 900, 4, 230
 armour_ug_levels 0, 4
 armour_ug_models Demi_Lancers, Demi_Lancers_ug1
 ownership        england, france, norway
-era 1            england, norway
+era 1            england, france, norway
 era 2            england, france, norway
 recruit_priority_offset   20
 
@@ -1129,9 +1129,9 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 80, 185, 800, 4, 240
 armour_ug_levels 0, 3
 armour_ug_models Druzhina, Druzhina_ug1
-ownership        russia, novgorod
-era 0            russia, novgorod
-era 1            russia, novgorod
+ownership        russia, novgorod, lithuania
+era 0            russia, novgorod, lithuania
+era 1            russia, novgorod, lithuania
 recruit_priority_offset   15
 
 
@@ -1570,8 +1570,8 @@ stat_cost        1, 750, 250, 80, 185, 750, 4, 240
 armour_ug_levels 0, 3
 armour_ug_models Huscarls, Huscarls_ug1
 ownership        denmark, norway, slave
-era 0            denmark
-era 1            denmark
+era 0            denmark, norway
+era 1            denmark, norway
 recruit_priority_offset   15
 
 
@@ -1603,8 +1603,8 @@ stat_food        60, 300
 stat_cost        1, 950, 250, 80, 185, 950, 4, 250
 armour_ug_levels 0, 5
 armour_ug_models Armored_Clergy, Armored_Clergy_ug1
-ownership        denmark, norway
-era 2            denmark
+ownership        denmark, norway, ireland, papal_states
+era 2            denmark, norway, ireland, papal_states
 recruit_priority_offset   5
 
 
@@ -2273,9 +2273,9 @@ stat_food        60, 300
 stat_cost        1, 600, 250, 65, 155, 600, 4, 140
 armour_ug_levels 0, 2
 armour_ug_models Mounted_Sergeants, Mounted_Sergeants_ug1
-ownership        france, hre, milan, venice, papal_states, sicily, jerusalem, antioch
-era 0            france, hre, milan, venice, papal_states, sicily, jerusalem, antioch
-era 1            france, hre, milan, venice, papal_states, sicily, jerusalem, antioch
+ownership        france, hre, milan, venice, papal_states, sicily, jerusalem, antioch, denmark
+era 0            france, hre, milan, venice, papal_states, sicily, jerusalem, antioch, denmark
+era 1            france, hre, milan, venice, papal_states, sicily, jerusalem, antioch, denmark
 recruit_priority_offset   -20
 
 
@@ -2445,8 +2445,8 @@ stat_food        60, 300
 stat_cost        1, 1050, 300, 85, 205, 1050, 4, 260
 armour_ug_levels 0, 3
 armour_ug_models Hussars, Hussars_ug1
-ownership        poland, hungary, norway
-era 2            poland, hungary, norway
+ownership        poland, hungary, norway, teutonic_order, lithuania
+era 2            poland, hungary, norway, teutonic_order, lithuania
 recruit_priority_offset   20
 
 
@@ -2614,9 +2614,9 @@ stat_food        60, 300
 stat_cost        1, 650, 250, 65, 155, 650, 4, 200
 armour_ug_levels 0, 2
 armour_ug_models Jinetes, Jinetes_ug1
-ownership        spain, portugal, slave
-era 0            spain, portugal
-era 1            spain, portugal
+ownership        spain, portugal, slave, antioch, milan, sicily
+era 0            spain, portugal, antioch, milan, sicily
+era 1            spain, portugal, antioch, milan, sicily
 recruit_priority_offset   10
 
 
@@ -2648,9 +2648,9 @@ stat_food        60, 300
 stat_cost        1, 650, 250, 55, 135, 650, 4, 140
 armour_ug_levels 0, 3
 armour_ug_models Mounted_Crossbowmen, Mounted_Crossbowmen_ug1
-ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order
-era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order
-era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order
+ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order, hungary
+era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order, hungary
+era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, norway, teutonic_order, hungary
 recruit_priority_offset   15
 
 
@@ -2785,8 +2785,8 @@ stat_food        60, 300
 stat_cost        1, 750, 250, 80, 185, 750, 4, 230
 armour_ug_levels 0, 1
 armour_ug_models Cossack_Cavalry, Cossack_Cavalry_ug1
-ownership        russia, novgorod
-era 2            russia, novgorod
+ownership        russia, novgorod, teutonic_order, lithuania, poland, byzantium
+era 2            russia, novgorod, teutonic_order, lithuania, poland, byzantium
 recruit_priority_offset   5
 
 
@@ -2957,10 +2957,10 @@ stat_food        60, 300
 stat_cost        1, 850, 250, 85, 205, 850, 4, 290
 armour_ug_levels 0, 3
 armour_ug_models Vardariotai, Vardariotai_ug1
-ownership        byzantium
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+ownership        byzantium, venice, sicily, hungary, russia
+era 0            byzantium, venice, sicily, hungary, russia
+era 1            byzantium, venice, sicily, hungary, russia
+era 2            byzantium, venice, sicily, hungary, russia
 recruit_priority_offset   20
 
 
@@ -3064,9 +3064,9 @@ stat_cost        1, 550, 200, 55, 135, 550, 4, 120
 armour_ug_levels 0
 armour_ug_models Cuman_Horse_Archers
 ownership        slave, byzantium, lithuania
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+era 0            byzantium, lithuania
+era 1            byzantium, lithuania
+era 2            byzantium, lithuania
 recruit_priority_offset   0
 
 
@@ -3192,9 +3192,9 @@ stat_food        60, 300
 stat_cost        1, 500, 120, 45, 105, 500, 4, 170
 armour_ug_levels 0, 1, 2
 armour_ug_models Longbowmen, Longbowmen_ug1, Longbowmen_ug2
-ownership        england, slave, norway
-era 1            england, norway
-era 2            england, norway
+ownership        england, slave, jerusalem, scotland
+era 1            england, jerusalem, scotland
+era 2            england, jerusalem, scotland
 recruit_priority_offset   15
 
 
@@ -3224,8 +3224,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 50, 115, 600, 4, 200
 armour_ug_levels 0, 1, 2
 armour_ug_models Yeoman_Archers, Yeoman_Archers_ug1, Yeoman_Archers_ug2
-ownership        england
-era 1            england
+ownership        england, wales, ireland, sicily
+era 1            england, wales, ireland, sicily
 recruit_priority_offset   15
 
 
@@ -3385,8 +3385,8 @@ stat_cost        1, 450, 125, 45, 105, 450, 4, 100
 armour_ug_levels 0, 3
 armour_ug_models Crossbowmen, Crossbowmen_ug1
 ownership        france, denmark, hungary, norway, slave
-era 1            france, denmark, hungary, norway
-era 2            france, denmark, hungary, norway
+era 1            france, denmark, hungary, norway, ireland, wales
+era 2            france, denmark, hungary, norway, ireland, wales
 recruit_priority_offset   15
 
 
@@ -3416,8 +3416,8 @@ stat_food        60, 300
 stat_cost        1, 650, 175, 60, 140, 650, 4, 180
 armour_ug_levels 0, 4
 armour_ug_models Aventurier, Aventurier_ug1
-ownership        france
-era 2            france
+ownership        france, spain, portugal
+era 2            france, spain, portugal
 recruit_priority_offset   15
 
 
@@ -3479,9 +3479,9 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 45, 105, 600, 4, 140
 armour_ug_levels 0, 3
 armour_ug_models Pavise_Crossbow_Militia, Pavise_Crossbow_Militia_ug1
-ownership        venice, papal_states, sicily, hungary, slave
-era 0            venice, papal_states, sicily, hungary
-era 1            venice, papal_states, sicily, hungary
+ownership        venice, papal_states, sicily, hungary, slave, antioch, byzantium
+era 0            venice, papal_states, sicily, hungary, antioch, byzantium
+era 1            venice, papal_states, sicily, hungary, antioch, byzantium
 recruit_priority_offset   15
 
 
@@ -3573,8 +3573,8 @@ stat_food        60, 300
 stat_cost        1, 700, 300, 65, 155, 700, 4, 190
 armour_ug_levels 0
 armour_ug_models Scots_Guard
-ownership        france
-era 2            france
+ownership        france, antioch
+era 2            france, antioch
 recruit_priority_offset   15
 
 
@@ -3762,8 +3762,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 65, 155, 600, 4, 210
 armour_ug_levels 0, 1
 armour_ug_models Cossack_Musketeers, Cossack_Musketeers_ug1
-ownership        russia, novgorod, norway
-era 2            russia, novgorod, norway
+ownership        russia, novgorod
+era 2            russia, novgorod
 recruit_priority_offset   15
 
 
@@ -3885,8 +3885,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 45, 105, 600, 4, 160
 armour_ug_levels 0, 2
 armour_ug_models Musketeers, Musketeers_ug1
-ownership        england, france, spain, portugal, milan, venice
-era 2            england, france, spain, portugal, milan, venice
+ownership        england, france, spain, portugal, milan, venice, hungary
+era 2            england, france, spain, portugal, milan, venice, hungary
 recruit_priority_offset   20
 
 
@@ -4048,9 +4048,9 @@ stat_food        60, 300
 stat_cost        1, 550, 150, 50, 115, 550, 4, 180
 armour_ug_levels 0, 4
 armour_ug_models Hand_Gunners, Hand_Gunners_ug1
-ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, norway
-era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, norway
-era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, norway
+ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
+era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
+era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
 recruit_priority_offset   10
 
 
@@ -4111,10 +4111,10 @@ stat_food        60, 300
 stat_cost        1, 500, 150, 50, 115, 500, 4, 140
 armour_ug_levels 0, 2
 armour_ug_models Norse_Archers, Norse_Archers_ug1
-ownership        denmark, norway, ireland
-era 0            denmark, norway, ireland
-era 1            denmark, norway, ireland
-era 2            denmark, norway, ireland
+ownership        denmark, norway, ireland, england
+era 0            denmark, norway, ireland, england
+era 1            denmark, norway, ireland, england
+era 2            denmark, norway, ireland, england
 recruit_priority_offset   15
 
 
@@ -4458,9 +4458,9 @@ stat_cost        1, 110, 90, 50, 120, 110, 4, 30
 armour_ug_levels 0, 1
 armour_ug_models Southern_Peasants, Southern_Peasants_ug1
 ownership        sicily, byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+era 0            sicily, byzantium
+era 1            sicily, byzantium
+era 2            sicily, byzantium
 recruit_priority_offset   -50
 
 
@@ -4623,9 +4623,9 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 65, 155, 600, 4, 180
 armour_ug_levels 0, 1, 2
 armour_ug_models Almughavars, Almughavars_ug1, Almughavars_ug2
-ownership        spain, portugal
-era 1            spain, portugal
-era 2            spain, portugal
+ownership        spain, portugal, antioch
+era 1            spain, portugal, antioch
+era 2            spain, portugal, antioch
 recruit_priority_offset   0
 
 
@@ -4751,10 +4751,10 @@ stat_food        60, 300
 stat_cost        1, 450, 100, 45, 105, 450, 4, 40
 armour_ug_levels 0, 1
 armour_ug_models Woodsmen, Woodsmen_ug1
-ownership        poland, russia, novgorod, slave
-era 0            poland, russia, novgorod
-era 1            poland, russia, novgorod
-era 2            poland, russia, novgorod
+ownership        poland, russia, novgorod, slave, byzantium
+era 0            poland, russia, novgorod, byzantium
+era 1            poland, russia, novgorod, byzantium
+era 2            poland, russia, novgorod, byzantium
 recruit_priority_offset   0
 
 
@@ -4849,10 +4849,10 @@ stat_food        60, 300
 stat_cost        1, 450, 150, 50, 115, 450, 4, 80
 armour_ug_levels 0, 2
 armour_ug_models Croat_Axemen, Croat_Axemen_ug1
-ownership        hungary, slave
-era 0            hungary
-era 1            hungary
-era 2            hungary
+ownership        hungary, slave, antioch, venice, turks
+era 0            hungary, antioch, venice, turks
+era 1            hungary, antioch, venice, turks
+era 2            hungary, antioch, venice, turks
 recruit_priority_offset   0
 
 
@@ -4882,10 +4882,10 @@ stat_food        60, 300
 stat_cost        1, 280, 100, 45, 105, 280, 4, 80
 armour_ug_levels 0, 1
 armour_ug_models Transilvanian_Peasants, Transilvanian_Peasants_ug1
-ownership        hungary, slave
-era 0            hungary
-era 1            hungary
-era 2            hungary
+ownership        hungary, slave, russia, mongols, turks
+era 0            hungary, russia, mongols, turks
+era 1            hungary, russia, mongols, turks
+era 2            hungary, russia, mongols, turks
 recruit_priority_offset   -50
 
 
@@ -4916,8 +4916,8 @@ stat_cost        1, 250, 100, 45, 105, 250, 4, 50
 armour_ug_levels 0, 1
 armour_ug_models EE_Town_Militia, EE_Town_Militia_ug1
 ownership        poland, hungary, lithuania
-era 0            poland
-era 1            poland
+era 0            poland, hungary, lithuania
+era 1            poland, hungary, lithuania
 recruit_priority_offset   -50
 
 
@@ -4948,8 +4948,8 @@ stat_food        60, 300
 stat_cost        1, 550, 150, 65, 150, 550, 4, 140
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Viking_Raiders, Viking_Raiders_ug1, Viking_Raiders_ug2, Viking_Raiders_ug3
-ownership        denmark, norway, slave
-era 0            denmark
+ownership        denmark, norway, slave, novgorod, russia
+era 0            denmark, norway, novgorod, russia
 recruit_priority_offset   0
 
 
@@ -5109,9 +5109,9 @@ stat_cost        1, 300, 100, 80, 185, 300, 4, 90
 armour_ug_levels 0
 armour_ug_models Religious_Fanatics
 ownership        slave, papal_states, france, hre, milan
-era 0            papal_states, france, hre
-era 1            papal_states
-era 2            papal_states
+era 0            papal_states, france, hre, milan
+era 1            papal_states, france, hre, milan
+era 2            papal_states, france, hre, milan
 recruit_priority_offset   0
 
 
@@ -5204,9 +5204,9 @@ stat_food        60, 300
 stat_cost        1, 500, 125, 65, 150, 400, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Highland_Pikemen, Highland_Pikemen_ug1
-ownership        scotland
-era 1            scotland
-era 2            scotland
+ownership        scotland, ireland
+era 1            scotland, ireland
+era 2            scotland, ireland
 recruit_priority_offset   5
 
 
@@ -5268,10 +5268,10 @@ stat_food        60, 300
 stat_cost        1, 650, 200, 65, 150, 650, 4, 150
 armour_ug_levels 0, 3
 armour_ug_models Armored_Sergeants, Armored_Sergeants_ug1
-ownership        england, france, hre, milan, venice, papal_states, sicily, slave, norway
-era 0            england, france, hre, milan, venice, papal_states, sicily, norway
-era 1            england, france, hre, milan, venice, papal_states, sicily, norway
-era 2            england, france, hre, venice, papal_states, sicily, norway
+ownership        england, france, hre, milan, venice, papal_states, sicily, slave, norway, novgorod, denmark, hungary
+era 0            england, france, hre, milan, venice, papal_states, sicily, norway, novgorod, denmark, hungary
+era 1            england, france, hre, milan, venice, papal_states, sicily, norway, novgorod, denmark, hungary
+era 2            england, france, hre, milan, venice, papal_states, sicily, norway, novgorod, denmark, hungary
 recruit_priority_offset   20
 
 
@@ -5332,8 +5332,8 @@ stat_cost        1, 400, 150, 55, 135, 400, 4, 90
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Spear_Militia, Spear_Militia_ug1, Spear_Militia_ug2, Spear_Militia_ug3
 ownership        england, scotland, france, hre, denmark, spain, portugal, slave, norway, wales
-era 0            scotland, spain, portugal
-era 1            scotland, spain, portugal
+era 0            england, scotland, france, hre, denmark, spain, portugal, norway, wales
+era 1            england, scotland, france, hre, denmark, spain, portugal, norway, wales
 recruit_priority_offset   -15
 
 
@@ -5397,8 +5397,8 @@ stat_food        60, 300
 stat_cost        1, 650, 250, 65, 150, 550, 4, 150
 armour_ug_levels 0, 5
 armour_ug_models Heavy_Pike_Militia, Heavy_Pike_Militia_ug1
-ownership        scotland, norway
-era 2            scotland, norway
+ownership        scotland, norway, england
+era 2            scotland, norway, england
 recruit_priority_offset   20
 
 
@@ -5491,7 +5491,7 @@ stat_food        60, 300
 stat_cost        1, 500, 125, 55, 135, 400, 4, 70
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Pike_Militia, Pike_Militia_ug1, Pike_Militia_ug2, Pike_Militia_ug3
-ownership        france, hre, spain, portugal, milan, venice, papal_states, sicily, ireland, norway
+ownership        france, hre, spain, portugal, milan, venice, papal_states, sicily, ireland, norway, novgorod, lithuania, poland, byzantium
 recruit_priority_offset   10
 
 
@@ -5646,9 +5646,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 65, 150, 600, 4, 150
 armour_ug_levels 0, 3
 armour_ug_models Pavise_Spearmen, Pavise_Spearmen_ug1
-ownership        hungary
-era 1            hungary
-era 2            hungary
+ownership        hungary, byzantium
+era 1            hungary, byzantium
+era 2            hungary, byzantium
 recruit_priority_offset   10
 
 
@@ -5714,7 +5714,7 @@ armour_ug_models Italian_Militia, Italian_Militia_ug1, Italian_Militia_ug2, Ital
 ownership        milan, venice, papal_states, sicily, slave
 era 0            milan, venice, papal_states, sicily
 era 1            milan, venice, papal_states, sicily
-era 2            milan
+era 2            milan, venice, papal_states, sicily
 recruit_priority_offset   -25
 
 
@@ -5777,9 +5777,9 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 85, 200, 800, 4, 240
 armour_ug_levels 0, 3
 armour_ug_models Papal_Guard, Papal_Guard_ug1
-ownership        papal_states
-era 0            papal_states
-era 1            papal_states
+ownership        papal_states, teutonic_order, jerusalem
+era 0            papal_states, teutonic_order, jerusalem
+era 1            papal_states, teutonic_order, jerusalem
 recruit_priority_offset   20
 
 
@@ -5969,8 +5969,8 @@ stat_food        60, 300
 stat_cost        1, 750, 215, 80, 185, 700, 4, 200
 armour_ug_levels 0, 5
 armour_ug_models Noble_Pikemen, Noble_Pikemen_ug1
-ownership        scotland
-era 2            scotland
+ownership        scotland, wales, ireland
+era 2            scotland, wales, ireland
 recruit_priority_offset   30
 
 
@@ -6032,9 +6032,9 @@ stat_food        60, 300
 stat_cost        1, 340, 125, 50, 115, 340, 4, 70
 armour_ug_levels 0, 1, 2
 armour_ug_models Billmen, Billmen_ug1, Billmen_ug2
-ownership        england
-era 1            england
-era 2            england
+ownership        england, wales, france
+era 1            england, wales, france
+era 2            england, wales, france
 recruit_priority_offset   -5
 
 
@@ -6095,9 +6095,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 60, 140, 600, 4, 140
 armour_ug_levels 0, 3
 armour_ug_models Highland_Nobles, Highland_Nobles_ug1
-ownership        scotland
-era 1            scotland
-era 2            scotland
+ownership        scotland, france
+era 1            scotland, france
+era 2            scotland, france
 recruit_priority_offset   20
 
 
@@ -6158,8 +6158,8 @@ stat_food        60, 300
 stat_cost        1, 700, 200, 60, 140, 650, 4, 150
 armour_ug_levels 0, 4
 armour_ug_models Zweihander, Zweihander_ug1
-ownership        hre, milan
-era 2            hre
+ownership        hre, milan, spain, poland
+era 2            hre, milan, spain, poland
 recruit_priority_offset   5
 
 
@@ -6220,8 +6220,8 @@ stat_food        60, 300
 stat_cost        1, 750, 300, 50, 115, 750, 4, 140
 armour_ug_levels 0, 4
 armour_ug_models Forlorn_Hope, Forlorn_Hope_ug1
-ownership        hre
-era 2            hre
+ownership        hre, venice
+era 2            hre, venice
 recruit_priority_offset   5
 
 
@@ -6251,7 +6251,7 @@ stat_food        60, 300
 stat_cost        1, 300, 100, 45, 105, 300, 4, 40
 armour_ug_levels 0, 1, 2
 armour_ug_models Bill_Militia, Bill_Militia_ug1, Bill_Militia_ug2
-ownership        england
+ownership        england, spain
 recruit_priority_offset   0
 
 
@@ -6310,9 +6310,9 @@ stat_food        60, 300
 stat_cost        1, 500, 150, 50, 115, 500, 4, 180
 armour_ug_levels 0, 4
 armour_ug_models Swordstaff_Militia, Swordstaff_Militia_ug1
-ownership        denmark, norway
-era 1            denmark, norway
-era 2            denmark, norway
+ownership        denmark, norway, jerusalem, hre, byzantium
+era 1            denmark, norway, jerusalem, hre, byzantium
+era 2            denmark, norway, jerusalem, hre, byzantium
 recruit_priority_offset   15
 
 
@@ -6342,7 +6342,7 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 45, 105, 500, 4, 140
 armour_ug_levels 0, 3, 4
 armour_ug_models Voulge_Militia, Voulge_Militia_ug1, Voulge_Militia_ug2
-ownership        france
+ownership        france, scotland
 recruit_priority_offset   0
 
 
@@ -6372,7 +6372,7 @@ stat_food        60, 300
 stat_cost        1, 550, 150, 45, 105, 450, 4, 120
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Halberd_Militia, Halberd_Militia_ug1, Halberd_Militia_ug2, Halberd_Militia_ug3
-ownership        hre, papal_states, sicily, poland, hungary, slave
+ownership        hre, papal_states, sicily, poland, hungary, slave, novgorod, jerusalem
 recruit_priority_offset   20
 
 
@@ -6499,10 +6499,10 @@ stat_food        60, 300
 stat_cost        1, 950, 350, 65, 155, 950, 4, 200
 armour_ug_levels 0, 4
 armour_ug_models Varangian_Guard, Varangian_Guard_ug1
-ownership        byzantium
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+ownership        byzantium, russia
+era 0            byzantium, russia
+era 1            byzantium, russia
+era 2            byzantium, russia
 recruit_priority_offset   25
 
 
@@ -6532,9 +6532,9 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 75, 175, 740, 4, 220
 armour_ug_levels 0
 armour_ug_models Battlefield_Assassins
-ownership        hungary, norway
-era 1            hungary, norway
-era 2            hungary, norway
+ownership        hungary
+era 1            hungary
+era 2            hungary
 recruit_priority_offset   5
 
 
@@ -6596,9 +6596,9 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 60, 140, 700, 4, 130
 armour_ug_levels 0, 4
 armour_ug_models Norse_Axemen, Norse_Axemen_ug1
-ownership        denmark
-era 1            denmark
-era 2            denmark
+ownership        denmark, byzantium
+era 1            denmark, byzantium
+era 2            denmark, byzantium
 recruit_priority_offset   15
 
 
@@ -6661,7 +6661,7 @@ armour_ug_levels 0, 4
 armour_ug_models Dismounted_Feudal_Knights, Dismounted_Feudal_Knights_ug1
 ownership        england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway
 era 0            england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway
-era 1            scotland
+era 1            england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, norway
 recruit_priority_offset   15
 
 
@@ -6725,7 +6725,7 @@ armour_ug_levels 0, 5
 armour_ug_models Dismounted_Chivalric_Knights, Dismounted_Chivalric_Knights_ug1
 ownership        france, denmark, spain, norway
 era 1            france, denmark, spain, norway
-era 2            france
+era 2            france, denmark, spain, norway
 recruit_priority_offset   20
 
 
@@ -6755,7 +6755,7 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 65, 155, 800, 4, 170
 armour_ug_levels 0, 5
 armour_ug_models Dismounted_Noble_Knights, Dismounted_Noble_Knights_ug1
-ownership        france
+ownership        france, scotland
 recruit_priority_offset   15
 
 
@@ -6880,8 +6880,8 @@ stat_food        60, 300
 stat_cost        1, 800, 225, 65, 155, 800, 4, 200
 armour_ug_levels 0, 4
 armour_ug_models Dismounted_Conquistadores, Dismounted_Conquistadores_ug1
-ownership        spain, portugal
-era 2            spain, portugal
+ownership        spain, portugal, milan, venice, papal_states
+era 2            spain, portugal, milan, venice, papal_states
 recruit_priority_offset   20
 
 
@@ -6945,7 +6945,7 @@ armour_ug_levels 0, 5, 6
 armour_ug_models Dismounted_Italian_MAA, Dismounted_Italian_MAA_ug1, Dismounted_Italian_MAA_ug2
 ownership        milan, venice, papal_states, sicily
 era 1            milan, venice, papal_states, sicily
-era 2            sicily
+era 2            milan, venice, papal_states, sicily
 recruit_priority_offset   13.5
 
 
@@ -7007,8 +7007,8 @@ stat_food        60, 300
 stat_cost        1, 900, 300, 65, 155, 940, 4, 280
 armour_ug_levels 0
 armour_ug_models Swiss_Guard
-ownership        papal_states
-era 2            papal_states
+ownership        papal_states, antioch
+era 2            papal_states, antioch
 recruit_priority_offset   30
 
 
@@ -7133,9 +7133,9 @@ stat_food        60, 300
 stat_cost        1, 600, 170, 60, 140, 650, 4, 170
 armour_ug_levels 0, 3
 armour_ug_models Dismounted_Druchima, Dismounted_Druchima_ug1
-ownership        russia, novgorod
-era 0            russia, novgorod
-era 1            russia, novgorod
+ownership        russia, novgorod, lithuania
+era 0            russia, novgorod, lithuania
+era 1            russia, novgorod, lithuania
 recruit_priority_offset   15
 
 
@@ -7397,10 +7397,10 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 55, 135, 600, 4, 150
 armour_ug_levels 0, 1, 2
 armour_ug_models Turkomans, Turkomans_ug1, Turkomans_ug2
-ownership        turks, timurids, slave
-era 0            turks, timurids
-era 1            turks, timurids
-era 2            turks, timurids
+ownership        turks, timurids, slave, mongols, egypt, moors
+era 0            turks, timurids, mongols, egypt, moors
+era 1            turks, timurids, mongols, egypt, moors
+era 2            turks, timurids, mongols, egypt, moors
 recruit_priority_offset   5
 
 
@@ -7432,10 +7432,10 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 65, 155, 800, 4, 210
 armour_ug_levels 0, 3
 armour_ug_models Sipahis, Sipahis_ug1
-ownership        turks
-era 0            turks
-era 1            turks
-era 2            turks
+ownership        turks, mongols, egypt, moors, timurids
+era 0            turks, mongols, egypt, moors, timurids
+era 1            turks, mongols, egypt, moors, timurids
+era 2            turks, mongols, egypt, moors, timurids
 recruit_priority_offset   15
 
 
@@ -7467,10 +7467,10 @@ stat_food        60, 300
 stat_cost        1, 750, 250, 80, 185, 750, 4, 210
 armour_ug_levels 0, 3, 4
 armour_ug_models Sipahi_Lancers, Sipahi_Lancers_ug1, Sipahi_Lancers_ug2
-ownership        turks
-era 0            turks
-era 1            turks
-era 2            turks
+ownership        turks, timurids
+era 0            turks, timurids
+era 1            turks, timurids
+era 2            turks, timurids
 recruit_priority_offset   10
 
 
@@ -7778,10 +7778,10 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 65, 155, 700, 4, 190
 armour_ug_levels 0, 3
 armour_ug_models Granadine_Jinetes, Granadine_Jinetes_ug1
-ownership        moors, slave
-era 0            moors
-era 1            moors
-era 2            moors
+ownership        moors, slave, egypt, turks
+era 0            moors, egypt, turks
+era 1            moors, egypt, turks
+era 2            moors, egypt, turks
 recruit_priority_offset   20
 
 
@@ -7847,9 +7847,9 @@ stat_food        60, 300
 stat_cost        1, 1150, 300, 85, 205, 1150, 4, 270
 armour_ug_levels 0
 armour_ug_models Christian_Guard
-ownership        moors
-era 1            moors
-era 2            moors
+ownership        moors, milan, sicily, portugal, papal_states
+era 1            moors, milan, sicily, portugal, papal_states
+era 2            moors, milan, sicily, portugal, papal_states
 recruit_priority_offset   20
 
 
@@ -7914,8 +7914,8 @@ stat_food        60, 300
 stat_cost        1, 1100, 250, 80, 185, 1100, 4, 310
 armour_ug_levels 0, 1
 armour_ug_models Camel_Gunners, Camel_Gunners_ug1
-ownership        moors
-era 2            moors
+ownership        moors, egypt, portugal
+era 2            moors, egypt, portugal
 recruit_priority_offset   25
 
 
@@ -7947,9 +7947,9 @@ stat_food        60, 300
 stat_cost        1, 730, 250, 80, 185, 730, 4, 180
 armour_ug_levels 0, 1
 armour_ug_models Tuareg_Camel_Spearmens, Tuareg_Camel_Spearmens_ug1
-ownership        moors, slave
-era 0            moors
-era 1            moors
+ownership        moors, slave, egypt, turks
+era 0            moors, egypt, turks
+era 1            moors, egypt, turks
 recruit_priority_offset   0
 
 
@@ -8184,9 +8184,9 @@ stat_cost        1, 250, 100, 45, 105, 250, 4, 60
 armour_ug_levels 0, 1
 armour_ug_models ME_Peasant_Archers, ME_Peasant_Archers_ug1
 ownership        egypt, turks, mongols, timurids, slave
-era 0            egypt, turks
-era 1            egypt, turks
-era 2            egypt, turks
+era 0            egypt, turks, mongols, timurids
+era 1            egypt, turks, mongols, timurids
+era 2            egypt, turks, mongols, timurids
 recruit_priority_offset   -10
 
 
@@ -8343,9 +8343,9 @@ stat_food        60, 300
 stat_cost        1, 290, 100, 45, 105, 290, 4, 80
 armour_ug_levels 0, 1
 armour_ug_models Turkish_Javelinmen, Turkish_Javelinmen_ug1
-ownership        turks, slave
-era 0            turks
-era 1            turks
+ownership        turks, slave, moors
+era 0            turks, moors
+era 1            turks, moors
 recruit_priority_offset   -5
 
 
@@ -8376,10 +8376,10 @@ stat_food        60, 300
 stat_cost        1, 700, 100, 35, 85, 700, 4, 80
 armour_ug_levels 0, 3
 armour_ug_models Naffatun, Naffatun_ug1
-ownership        egypt, turks, mongols, timurids
-era 0            egypt, turks, mongols, timurids
-era 1            egypt, turks, mongols, timurids
-era 2            egypt, turks, mongols, timurids
+ownership        egypt, turks, mongols, timurids, moors
+era 0            egypt, turks, mongols, timurids, moors
+era 1            egypt, turks, mongols, timurids, moors
+era 2            egypt, turks, mongols, timurids, moors
 recruit_priority_offset   0
 
 
@@ -8725,9 +8725,9 @@ stat_food        60, 300
 stat_cost        1, 200, 100, 45, 105, 200, 4, 50
 armour_ug_levels 0, 1, 2
 armour_ug_models Azabs, Azabs_ug1, Azabs_ug2
-ownership        turks
-era 1            turks
-era 2            turks
+ownership        turks, moors
+era 1            turks, moors
+era 2            turks, moors
 recruit_priority_offset   -5
 
 
@@ -8791,10 +8791,10 @@ stat_food        60, 300
 stat_cost        1, 400, 155, 65, 150, 400, 4, 120
 armour_ug_levels 0, 1
 armour_ug_models Nubian_Spearmen, Nubian_Spearmen_ug1
-ownership        moors, egypt, slave
-era 0            moors, egypt
-era 1            moors, egypt
-era 2            moors, egypt
+ownership        moors, egypt, slave, turks
+era 0            moors, egypt, turks
+era 1            moors, egypt, turks
+era 2            moors, egypt, turks
 recruit_priority_offset   -10
 
 
@@ -8825,8 +8825,8 @@ stat_cost        1, 250, 100, 45, 105, 250, 4, 70
 armour_ug_levels 0, 1
 armour_ug_models ME_Town_Militia, ME_Town_Militia_ug1
 ownership        moors, turks, mongols, timurids, slave
-era 0            turks, mongols
-era 1            turks, mongols
+era 0            moors, turks, mongols, timurids
+era 1            moors, turks, mongols, timurids
 recruit_priority_offset   -50
 
 
@@ -8857,9 +8857,9 @@ stat_cost        1, 400, 125, 55, 135, 400, 4, 90
 armour_ug_levels 0, 1
 armour_ug_models ME_Spear_Militia, ME_Spear_Militia_ug1
 ownership        moors, egypt, turks, mongols, timurids, slave
-era 0            turks, timurids
-era 1            turks, timurids
-era 2            timurids
+era 0            moors, egypt, turks, mongols, timurids
+era 1            moors, egypt, turks, mongols, timurids
+era 2            moors, egypt, turks, mongols, timurids
 recruit_priority_offset   -20
 
 
@@ -9177,9 +9177,9 @@ stat_food        60, 300
 stat_cost        1, 550, 200, 65, 150, 520, 4, 150
 armour_ug_levels 0, 3
 armour_ug_models Saracen_Militia, Saracen_Militia_ug1
-ownership        egypt, turks, slave
-era 1            egypt, turks
-era 2            egypt, turks
+ownership        egypt, turks, slave, timurids
+era 1            egypt, turks, timurids
+era 2            egypt, turks, timurids
 recruit_priority_offset   20
 
 
@@ -9336,9 +9336,9 @@ stat_food        60, 300
 stat_cost        1, 790, 250, 65, 155, 790, 4, 200
 armour_ug_levels 0
 armour_ug_models Dismounted_Christian_Guard
-ownership        moors
-era 1            moors
-era 2            moors
+ownership        moors, milan, sicily, portugal, papal_states
+era 1            moors, milan, sicily, portugal, papal_states
+era 2            moors, milan, sicily, portugal, papal_states
 recruit_priority_offset   20
 
 
@@ -9402,10 +9402,10 @@ stat_food        60, 300
 stat_cost        1, 550, 200, 80, 185, 550, 4, 180
 armour_ug_levels 0, 1
 armour_ug_models Mongol_Horse_Archers, Mongol_Horse_Archers_ug1
-ownership        mongols
-era 0            mongols
-era 1            mongols
-era 2            mongols
+ownership        mongols, russia
+era 0            mongols, russia
+era 1            mongols, russia
+era 2            mongols, russia
 recruit_priority_offset   20
 
 
@@ -9473,8 +9473,8 @@ stat_cost        1, 850, 250, 80, 185, 850, 4, 270
 armour_ug_levels 0, 3
 armour_ug_models Mongol_Heavy_Archers, Mongol_Heavy_Archers_ug1
 ownership        mongols, timurids
-era 1            mongols
-era 2            mongols
+era 1            mongols, timurids
+era 2            mongols, timurids
 recruit_priority_offset   30
 
 
@@ -9542,7 +9542,7 @@ armour_ug_levels 0
 armour_ug_models Khan's_Guard
 ownership        mongols, timurids
 era 1            mongols, timurids
-era 2            mongols
+era 2            mongols, timurids
 recruit_priority_offset   40
 
 
@@ -12085,7 +12085,7 @@ stat_cost        1, 380, 155, 65, 150, 380, 1, 110
 armour_ug_levels 0
 armour_ug_models Sudanese_Tribesmen
 ownership        slave, moors, egypt
-era 0            moors
+era 0            moors, egypt
 era 1            moors, egypt
 era 2            moors, egypt
 recruit_priority_offset   0
@@ -12542,9 +12542,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 50, 115, 620, 4, 110
 armour_ug_levels 0, 3
 armour_ug_models Templar_Sergeant, Templar_Sergeant_ug1
-ownership        jerusalem, norway
-era 0            jerusalem, norway
-era 1            jerusalem, norway
+ownership        jerusalem
+era 0            jerusalem
+era 1            jerusalem
 recruit_priority_offset   15
 
 
@@ -12671,9 +12671,9 @@ stat_food        60, 300
 stat_cost        1, 250, 100, 45, 105, 250, 4, 60
 armour_ug_levels 0
 armour_ug_models Sodeer_Archers
-ownership        jerusalem, antioch
-era 0            jerusalem, antioch
-era 1            jerusalem, antioch
+ownership        jerusalem, antioch, france
+era 0            jerusalem, antioch, france
+era 1            jerusalem, antioch, france
 recruit_priority_offset   -10
 
 
@@ -14345,8 +14345,8 @@ stat_food        60, 300
 stat_cost        1, 1200, 250, 80, 185, 1200, 4, 280
 armour_ug_levels 0, 4
 armour_ug_models Mounted_Calivermen, Mounted_Calivermen_ug1
-ownership        ireland, norway
-era 2            ireland, norway
+ownership        ireland, byzantium
+era 2            ireland, byzantium
 recruit_priority_offset   25
 
 
@@ -14410,8 +14410,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 80, 185, 600, 4, 150
 armour_ug_levels 0, 1
 armour_ug_models Deisi_Javelinmen, Deisi_Javelinmen_ug1
-ownership        ireland, norway
-era 0            ireland, norway
+ownership        ireland, jerusalem
+era 0            ireland, jerusalem
 recruit_priority_offset   10
 
 
@@ -14441,9 +14441,9 @@ stat_food        60, 300
 stat_cost        1, 450, 125, 50, 115, 450, 4, 100
 armour_ug_levels 0, 2
 armour_ug_models Ostmen, Ostmen_ug1
-ownership        ireland, norway
-era 0            ireland, norway
-era 1            ireland, norway
+ownership        ireland, norway, wales, norway, scotland, spain, england
+era 0            ireland, norway, wales, norway, scotland, spain, england
+era 1            ireland, norway, wales, norway, scotland, spain, england
 recruit_priority_offset   5
 
 
@@ -14474,8 +14474,8 @@ stat_food        60, 300
 stat_cost        1, 570, 200, 60, 140, 570, 4, 120
 armour_ug_levels 0
 armour_ug_models Galloglaich
-ownership        ireland, slave, norway
-era 0            ireland, norway
+ownership        ireland, slave, spain, france, byzantium, portugal
+era 0            ireland, spain, france, byzantium, portugal
 recruit_priority_offset   15
 
 
@@ -14740,9 +14740,9 @@ stat_food        60, 300
 stat_cost        1, 480, 150, 50, 115, 480, 4, 100
 armour_ug_levels 0, 3, 4
 armour_ug_models Ulster_Swordsmen, Ulster_Swordsmen_ug1, Ulster_Swordsmen_ug2
-ownership        ireland, norway
-era 1            ireland, norway
-era 2            ireland, norway
+ownership        ireland
+era 1            ireland
+era 2            ireland
 recruit_priority_offset   10
 
 
@@ -14934,10 +14934,10 @@ stat_food        60, 300
 stat_cost        1, 550, 150, 60, 140, 550, 2, 150
 armour_ug_levels 0, 3, 4
 armour_ug_models Sword_Brethren, Sword_Brethren_ug1, Sword_Brethren_ug2
-ownership        teutonic_order
-era 0            teutonic_order
-era 1            teutonic_order
-era 2            teutonic_order
+ownership        teutonic_order, hre
+era 0            teutonic_order, hre
+era 1            teutonic_order, hre
+era 2            teutonic_order, hre
 recruit_priority_offset   10
 
 
@@ -15064,10 +15064,10 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 80, 185, 600, 2, 170
 armour_ug_levels 0, 3
 armour_ug_models Knechten, Knechten_ug1
-ownership        teutonic_order, slave
-era 0            teutonic_order
-era 1            teutonic_order
-era 2            teutonic_order
+ownership        teutonic_order, slave, hungary, hre
+era 0            teutonic_order, hungary, hre
+era 1            teutonic_order, hungary, hre
+era 2            teutonic_order, hungary, hre
 recruit_priority_offset   -30
 
 
@@ -15096,9 +15096,9 @@ stat_food        60, 300
 stat_cost        1, 450, 125, 50, 115, 450, 2, 90
 armour_ug_levels 0, 1
 armour_ug_models Prussian_Archers, Prussian_Archers_ug1
-ownership        teutonic_order
-era 0            teutonic_order
-era 1            teutonic_order
+ownership        teutonic_order, denmark, poland, hre
+era 0            teutonic_order, denmark, poland, hre
+era 1            teutonic_order, denmark, poland, hre
 recruit_priority_offset   7.5
 
 
@@ -15190,10 +15190,10 @@ stat_food        60, 300
 stat_cost        1, 800, 250, 65, 155, 800, 2, 200
 armour_ug_levels 0, 6
 armour_ug_models Dismounted_Ritterbruder, Dismounted_Ritterbruder_ug1
-ownership        teutonic_order, norway
-era 0            teutonic_order, norway
-era 1            teutonic_order, norway
-era 2            teutonic_order, norway
+ownership        teutonic_order
+era 0            teutonic_order
+era 1            teutonic_order
+era 2            teutonic_order
 recruit_priority_offset   25
 
 
@@ -15224,10 +15224,10 @@ stat_food        60, 300
 stat_cost        1, 1300, 400, 85, 205, 1300, 2, 290
 armour_ug_levels 0, 6
 armour_ug_models Ritterbruder, Ritterbruder_ug1
-ownership        teutonic_order, norway
-era 0            teutonic_order, norway
-era 1            teutonic_order, norway
-era 2            teutonic_order, norway
+ownership        teutonic_order
+era 0            teutonic_order
+era 1            teutonic_order
+era 2            teutonic_order
 recruit_priority_offset   30
 
 
@@ -15350,9 +15350,9 @@ stat_food        60, 300
 stat_cost        1, 690, 200, 60, 140, 690, 4, 130
 armour_ug_levels 0, 4
 armour_ug_models Samogitian_Axemen, Samogitian_Axemen_ug1
-ownership        lithuania
-era 0            lithuania
-era 1            lithuania
+ownership        lithuania, teutonic_order, poland
+era 0            lithuania, teutonic_order, poland
+era 1            lithuania, teutonic_order, poland
 recruit_priority_offset   15
 
 
@@ -15541,9 +15541,9 @@ stat_food        60, 300
 stat_cost        1, 900, 250, 80, 185, 900, 4, 240
 armour_ug_levels 0, 4, 5
 armour_ug_models Szlachta, Szlachta_ug1, Szlachta_ug2
-ownership        lithuania
-era 1            lithuania
-era 2            lithuania
+ownership        lithuania, denmark
+era 1            lithuania, denmark
+era 2            lithuania, denmark
 recruit_priority_offset   20
 
 
@@ -15737,10 +15737,10 @@ stat_food        60, 300
 stat_cost        1, 700, 250, 65, 155, 700, 4, 120
 armour_ug_levels 0, 2
 armour_ug_models Tartar_Lancers, Tartar_Lancers_ug1
-ownership        russia, lithuania, slave, norway
-era 0            russia, lithuania, norway
-era 1            russia, lithuania, norway
-era 2            russia, lithuania, norway
+ownership        russia, lithuania, slave, novgorod
+era 0            russia, lithuania, novgorod
+era 1            russia, lithuania, novgorod
+era 2            russia, lithuania, novgorod
 recruit_priority_offset   10
 
 
@@ -15840,9 +15840,9 @@ stat_food        60, 300
 stat_cost        1, 700, 200, 55, 135, 700, 1, 130
 armour_ug_levels 0, 2
 armour_ug_models Teulu_Skirmishers, Teulu_Skirmishers_ug1
-ownership        wales
-era 0            wales
-era 1            wales
+ownership        wales, scotland
+era 0            wales, scotland
+era 1            wales, scotland
 recruit_priority_offset   10
 
 
@@ -16005,10 +16005,10 @@ stat_food        60, 300
 stat_cost        1, 250, 125, 55, 135, 270, 4, 80
 armour_ug_levels 0, 1
 armour_ug_models Welsh_Militiamen, Welsh_Militiamen_ug1
-ownership        wales
-era 0            wales
-era 1            wales
-era 2            wales
+ownership        wales, england
+era 0            wales, england
+era 1            wales, england
+era 2            wales, england
 recruit_priority_offset   -50
 
 
@@ -16038,10 +16038,10 @@ stat_food        60, 300
 stat_cost        1, 420, 150, 65, 150, 420, 4, 90
 armour_ug_levels 0, 2
 armour_ug_models Gwent_Raiders, Gwent_Raiders_ug1
-ownership        wales, slave, norway
-era 0            wales, norway
-era 1            wales, norway
-era 2            wales, norway
+ownership        wales, slave, norway, france
+era 0            wales, norway, france
+era 1            wales, norway, france
+era 2            wales, norway, france
 recruit_priority_offset   -15
 
 
@@ -16169,8 +16169,8 @@ stat_food        60, 300
 stat_cost        1, 400, 125, 50, 115, 400, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Welsh_Skirmishers, Welsh_Skirmishers_ug1
-ownership        wales
-era 0            wales
+ownership        wales, england
+era 0            wales, england
 recruit_priority_offset   0
 
 

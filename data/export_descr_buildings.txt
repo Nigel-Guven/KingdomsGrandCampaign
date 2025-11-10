@@ -62,13 +62,13 @@ building core_building
             {
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch 
-                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, }  and hidden_resource paris 
-                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, }  and hidden_resource frankfurt 
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
+                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt 
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice 
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
                 recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh  
-                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, }  and hidden_resource constantinople 
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus 
                 recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon 
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow 
@@ -78,7 +78,7 @@ building core_building
                 recruit_pool "Giltines Chosen"  1   0.1   1  0  requires factions { lithuania, }  and hidden_resource vilnius 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
-                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, }  and hidden_resource rome 
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome 
                 wall_level 2
                 tower_level 1
                 gate_strength 6
@@ -104,13 +104,13 @@ building core_building
             { 
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch
-                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, }  and hidden_resource paris 
-                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, }  and hidden_resource frankfurt 
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
+                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt 
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice 
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
                 recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh 
-                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, }  and hidden_resource constantinople 
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus 
                 recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon 
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow
@@ -120,7 +120,7 @@ building core_building
                 recruit_pool "Giltines Chosen"  1   0.1   1  0  requires factions { lithuania, }  and hidden_resource vilnius 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
-                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, }  and hidden_resource rome 
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome 
                 wall_level 3
                 tower_level 1
                 gate_strength 8
@@ -146,13 +146,13 @@ building core_building
             {
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch
-                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, }  and hidden_resource paris 
-                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, }  and hidden_resource frankfurt
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
+                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice  
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
                 recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh
-                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, }  and hidden_resource constantinople 
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus  
                 recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon  
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow
@@ -161,7 +161,7 @@ building core_building
                 recruit_pool "Janissary Heavy Inf"  1   0.1   1  0  requires factions { turks, }  and hidden_resource baghdad 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
-                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, }  and hidden_resource rome
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome
                 wall_level 4
                 tower_level 1
                 gate_strength 10
@@ -243,9 +243,9 @@ building core_castle_building
                 recruit_pool "Morgannwg Spearmen"  1   0.1   1  0  requires factions { wales, }  and hidden_resource caernarvon 
                 recruit_pool "Chivalric Knights"  1   0.1   1  0  requires factions { sicily, }  and hidden_resource palermo 
                 recruit_pool "Khan's Guard"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource sarkel 
-                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, }  and hidden_resource granada 
+                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, milan, sicily, portugal, papal_states, }  and hidden_resource granada 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { norway, }  and hidden_resource oslo 
-                recruit_pool "Ritterbruder"  1   0.1   1  0  requires factions { teutonic_order, norway, }  and hidden_resource marienburg 
+                recruit_pool "Ritterbruder"  1   0.1   1  0  requires factions { teutonic_order, }  and hidden_resource marienburg 
                 wall_level 2
                 tower_level 1
                 gate_strength 6
@@ -275,9 +275,9 @@ building core_castle_building
                 recruit_pool "Morgannwg Spearmen"  1   0.1   1  0  requires factions { wales, }  and hidden_resource caernarvon 
                 recruit_pool "Chivalric Knights"  1   0.1   1  0  requires factions { sicily, }  and hidden_resource palermo 
                 recruit_pool "Khan's Guard"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource sarkel 
-                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, }  and hidden_resource granada 
+                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, milan, sicily, portugal, papal_states, }  and hidden_resource granada 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { norway, }  and hidden_resource oslo 
-                recruit_pool "Ritterbruder"  1   0.1   1  0  requires factions { teutonic_order, norway, }  and hidden_resource marienburg     
+                recruit_pool "Ritterbruder"  1   0.1   1  0  requires factions { teutonic_order, }  and hidden_resource marienburg     
                 wall_level 3
                 tower_level 1
                 gate_strength 8
@@ -415,26 +415,26 @@ building equestrian
         {
             capability
             {
-                recruit_pool "Mathrafal Horsemen"  1   0.5   2  0  requires factions { Wales, }  
+                recruit_pool "Mathrafal Horsemen"  1   0.5   2  0  requires factions { wales, }  
                 recruit_pool "Hobilars"  1   0.5   2  0  requires factions { england, }
-                recruit_pool "Knechten"  1   0.5   2  0  requires factions { teutonic_order, }
+                recruit_pool "Knechten"  1   0.5   2  0  requires factions { teutonic_order, hungary, hre, }
                 recruit_pool "Seljuk Auxiliary"  1   0.5   2  0  requires factions { antioch, }
                 recruit_pool "Turkopoles"  1   0.5   2  0  requires factions { jerusalem, }  
-                recruit_pool "Mounted Sergeants"  1   0.5   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, }
-                recruit_pool "Tartar Lancers"  1   0.5   2  0  requires factions { lithuania, norway, }
+                recruit_pool "Mounted Sergeants"  1   0.5   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, denmark, }
+                recruit_pool "Tartar Lancers"  1   0.5   2  0  requires factions { lithuania, novgorod, }
                 recruit_pool "Hobiguir"  1   0.5   2  0  requires factions { ireland, } 
                 recruit_pool "Border Horse"  1   0.5   2  0  requires factions { scotland, } 
                 recruit_pool "Svenner"  1   0.5   2  0  requires factions { denmark, norway, } 
-                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, } 
+                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, antioch, milan, sicily, } 
                 recruit_pool "Lithuanian Cavalry"  1   0.5   2  0  requires factions { poland, } 
-				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, } 
+				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, teutonic_order, lithuania, } 
                 recruit_pool "Kazaks"  1   0.5   2  0  requires factions { russia, novgorod, } 
                 recruit_pool "Magyar Cavalry"  1   0.5   2  0  requires factions { hungary, } 
                 recruit_pool "Byzantine Cavalry"  1   0.5   2  0  requires factions { byzantium, }
-                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, } 
+                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, egypt, turks,} 
                 recruit_pool "Desert Cavalry"  1   0.5   2  0  requires factions { egypt, } 
                 recruit_pool "Turkish Horse Archers"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Mongol Horse Archers"  1   0.5   2  0  requires factions { mongols, }  
+                recruit_pool "Mongol Horse Archers"  1   0.5   2  0  requires factions { mongols, russia, }  
             }
             material wooden
             construction  3 
@@ -464,26 +464,26 @@ building equestrian
                 recruit_pool "Huscarls"  1   0.5   2  0  requires factions { denmark, norway, }
                 recruit_pool "Boyar Sons"  1   0.5   2  0  requires factions { russia, novgorod, }
                 recruit_pool "Arab Cavalry"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Szlachta"  1   0.5   2  0  requires factions { lithuania, } 
+                recruit_pool "Szlachta"  1   0.5   2  0  requires factions { lithuania, denmark, } 
                 recruit_pool "Hobilars"  1   0.5   2  0  requires factions { england, }
-                recruit_pool "Knechten"  1   0.5   2  0  requires factions { teutonic_order, }
+                recruit_pool "Knechten"  1   0.5   2  0  requires factions { teutonic_order, hungary, hre, }
                 recruit_pool "Seljuk Auxiliary"  1   0.5   2  0  requires factions { antioch, }
                 recruit_pool "Turkopoles"  1   0.5   2  0  requires factions { jerusalem, }    
-                recruit_pool "Mounted Sergeants"  1   0.5   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, }
-                recruit_pool "Tartar Lancers"  1   0.5   2  0  requires factions { lithuania, norway, }
+                recruit_pool "Mounted Sergeants"  1   0.5   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, denmark, }
+                recruit_pool "Tartar Lancers"  1   0.5   2  0  requires factions { lithuania, }
                 recruit_pool "Hobiguir"  1   0.5   2  0  requires factions { ireland, } 
                 recruit_pool "Border Horse"  1   0.5   2  0  requires factions { scotland, } 
                 recruit_pool "Svenner"  1   0.5   2  0  requires factions { denmark, norway, } 
-                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, } 
+                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, antioch, milan, sicily, } 
                 recruit_pool "Lithuanian Cavalry"  1   0.5   2  0  requires factions { poland, } 
-				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, } 
+				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, teutonic_order, lithuania, } 
                 recruit_pool "Kazaks"  1   0.5   2  0  requires factions { russia, novgorod, } 
                 recruit_pool "Magyar Cavalry"  1   0.5   2  0  requires factions { hungary, } 
                 recruit_pool "Byzantine Cavalry"  1   0.5   2  0  requires factions { byzantium, } 
                 recruit_pool "Desert Cavalry"  1   0.5   2  0  requires factions { egypt, }
-                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, } 
+                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
                 recruit_pool "Turkish Horse Archers"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Mongol Horse Archers"  1   0.5   2  0  requires factions { mongols, } 
+                recruit_pool "Mongol Horse Archers"  1   0.5   2  0  requires factions { mongols, russia, } 
                 recruit_pool "Mongol Light Lancers"  1   0.5   2  0  requires factions { mongols, }
             }
             material wooden
@@ -500,18 +500,18 @@ building equestrian
             capability
             {
                 recruit_pool "Feudal Knights"  1   0.5   2  0  requires factions { england, scotland, france, hre, spain, portugal, milan, venice, papal_states, hungary, denmark, norway, }
-                recruit_pool "Norman Knights"  1   0.5   2  0  requires factions { sicily, }
+                recruit_pool "Norman Knights"  1   0.5   2  0  requires factions { sicily, byzantium, }
                 recruit_pool "Teulu"  1   0.5   2  0  requires factions { wales, }
                 recruit_pool "Ridire"  1   0.5   2  0  requires factions { ireland, }
                 recruit_pool "Polish Knights"  1   0.5   2  0  requires factions { poland, }
                 recruit_pool "Halbbruder"  1   0.5   2  0  requires factions { teutonic_order, }  and region_religion catholic 70
-                recruit_pool "Druzhina"  1   0.5   2  0  requires factions { russia, novgorod, }
+                recruit_pool "Druzhina"  1   0.5   2  0  requires factions { russia, novgorod, lithuania, }
                 recruit_pool "Dvor Cavalry"  1   0.5   2  0  requires factions { russia, novgorod, }
                 recruit_pool "Knights of Tripoli"  1   0.5   2  0  requires factions { jerusalem, } 
                 recruit_pool "Knights of Edessa"  1   0.5   2  0  requires factions { antioch, }
                 recruit_pool "Dzukijan Horsemen"  1   0.5   2  0  requires factions { lithuania, }
-                recruit_pool "Vardariotai"  1   0.5   2  0  requires factions { byzantium, }
-                recruit_pool "Sipahis"  1   0.5   2  0  requires factions { turks, }
+                recruit_pool "Vardariotai"  1   0.5   2  0  requires factions { byzantium, venice, sicily, russia, hungary, }
+                recruit_pool "Sipahis"  1   0.5   2  0  requires factions { turks, mongols, moors, egypt, timurids, }
                 recruit_pool "Mamluks"  1   0.5   2  0  requires factions { egypt, }
                 recruit_pool "Mamluk Archers"  1   0.5   2  0  requires factions { egypt, }
                 recruit_pool "Granadine Lancers"  1   0.5   2  0  requires factions { moors, }  
@@ -520,16 +520,16 @@ building equestrian
                 recruit_pool "Horseboys"  1   0.5   2  0  requires factions { ireland, norway, }           
                 recruit_pool "Christ Knights"  1   0.5   2  0  requires factions { teutonic_order, }  and region_religion catholic 70
                 recruit_pool "Polish Nobles"  1   0.5   2  0  requires factions { poland, }
-				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, } 
+				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, teutonic_order, lithuania, } 
                 recruit_pool "Hungarian Nobles"  1   0.5   2  0  requires factions { hungary, } 
                 recruit_pool "Knights of Antioch"  1   0.5   2  0  requires factions { antioch, }
                 recruit_pool "Knights of Jerusalem"  1   0.5   2  0  requires factions { jerusalem, } 
-                recruit_pool "Sipahi Lancers"  1   0.5   2  0  requires factions { turks, } 
+                recruit_pool "Sipahi Lancers"  1   0.5   2  0  requires factions { turks, timurids, } 
                 recruit_pool "Latinkon"  1   0.5   2  0  requires factions { byzantium, } 
                 recruit_pool "Huscarls"  1   0.5   2  0  requires factions { denmark, norway, }
-                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, }
-                recruit_pool "Szlachta"  1   0.5   2  0  requires factions { lithuania, }
-                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, }  
+                recruit_pool "Granadine Jinetes"  1   0.5   2  0  requires factions { moors, egypt, turks, }
+                recruit_pool "Szlachta"  1   0.5   2  0  requires factions { lithuania, denmark, }
+                recruit_pool "Jinetes"  1   0.5   2  0  requires factions { spain, portugal, antioch, milan, sicily, }  
                 recruit_pool "Mongol Heavy Archers"  1   0.5   2  0  requires factions { mongols, timurids, } 
                 recruit_pool "Mongol Heavy Lancers"  1   0.5   2  0  requires factions { mongols, timurids, }
                 recruit_pool "NE Bodyguard"  1   0.05   1  0  requires factions { england, scotland, france, hre, denmark, poland, hungary, jerusalem, antioch, ireland, norway, wales, }   
@@ -558,7 +558,7 @@ building equestrian
                 recruit_pool "Famiglia Ducale"  1   0.5   2  0  requires factions { milan, }
                 recruit_pool "Broken Lances"  1   0.5   2  0  requires factions { venice, sicily, papal_states, }
                 recruit_pool "Gothic Knights"  1   0.5   2  0  requires factions { hre, }
-                recruit_pool "Ritterbruder"  1   0.5   2  0  requires factions { teutonic_order, norway, }  and region_religion catholic 70
+                recruit_pool "Ritterbruder"  1   0.5   2  0  requires factions { teutonic_order, }  and region_religion catholic 70
                 recruit_pool "Teulu"  1   0.5   2  0  requires factions { wales, }
                 recruit_pool "Lords Retinue"  1   0.5   2  0  requires factions { ireland, } 
                 recruit_pool "Feudal Knights"  1   0.5   2  1  requires factions { scotland, } 
@@ -567,27 +567,27 @@ building equestrian
                 recruit_pool "E Chivalric Knights"  1   0.5   2  0  requires factions { hungary, }
                 recruit_pool "L Chivalric Knights"  1   0.5   2  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "Archontopoulai"  1   0.5   2  0  requires factions { byzantium, }
-                recruit_pool "Vardariotai"  1   0.5   2  0  requires factions { byzantium, }
+                recruit_pool "Vardariotai"  1   0.5   2  0  requires factions { byzantium, venice, sicily, russia, hungary, }
                 recruit_pool "Tsars Guard"  1   0.5   2  0  requires factions { russia, novgorod, }
                 recruit_pool "Quapukulu"  1   0.5   2  0  requires factions { turks, } 
                 recruit_pool "Royal Mamluks"  1   0.5   2  0  requires factions { egypt, } 
                 recruit_pool "Sibyan al Khass"  1   0.5   2  0  requires factions { egypt, }
-                recruit_pool "Christian Guard"  1   0.5   2  0  requires factions { moors, } 
+                recruit_pool "Christian Guard"  1   0.5   2  0  requires factions { moors, milan, sicily, portugal, papal_states, } 
                 recruit_pool "Khan's Guard"  1   0.5   2  0  requires factions { mongols, } 
                 recruit_pool "Constable of Jerusalem"  1   0.5   1  0  requires factions { jerusalem, }
                 recruit_pool "Marshall of the Hospitallers"  1   0.5   1  0  requires factions { antioch, }  and region_religion catholic 70
                 recruit_pool "Mailed Knights"  1   0.5   2  1  requires factions { england, france, hre, milan, venice, papal_states, sicily, }
-                recruit_pool "Jinetes"  1   0.5   2  1  requires factions { spain, portugal, }
-                recruit_pool "Teulu Skirmishers"  1   0.5   2  0  requires factions { wales, }
+                recruit_pool "Jinetes"  1   0.5   2  1  requires factions { spain, portugal, antioch, milan, sicily, }
+                recruit_pool "Teulu Skirmishers"  1   0.5   2  0  requires factions { wales, scotland, }
                 recruit_pool "Ridire"  1   0.5   2  0  requires factions { ireland, } 
                 recruit_pool "Mailed Knights"  1   0.5   2  1  requires factions { scotland, }
                 recruit_pool "Polish Nobles"  1   0.5   2  1  requires factions { poland, }
-				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, } 
+				recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, norway, teutonic_order, lithuania, } 
                 recruit_pool "Hungarian Nobles"  1   0.5   2  1  requires factions { hungary, }
                 recruit_pool "Dzukijan Horsemen"  1   0.5   2  1  requires factions { lithuania, }
                 recruit_pool "Huscarls"  1   0.5   2  1  requires factions { denmark, norway, }
                 recruit_pool "iqta'dar"  1   0.5   2  0  requires factions { turks, }
-                recruit_pool "Granadine Jinetes"  1   0.5   2  1  requires factions { moors, }
+                recruit_pool "Granadine Jinetes"  1   0.5   2  1  requires factions { moors, egypt, turks, }
                 recruit_pool "Knights of Tripoli"  1   0.5   2  1  requires factions { jerusalem, }
                 recruit_pool "Knights of Edessa"  1   0.5   2  1  requires factions { antioch, }
                 recruit_pool "Mongol Heavy Archers"  1   0.5   2  1  requires factions { mongols, timurids, } 
@@ -619,7 +619,7 @@ building equestrian
                 recruit_pool "Famiglia Ducale"  1   0.5   2  1  requires factions { milan, }
                 recruit_pool "Broken Lances"  1   0.5   2  1  requires factions { venice, sicily, papal_states, }
                 recruit_pool "Gothic Knights"  1   0.5   2  1  requires factions { hre, }
-                recruit_pool "Ritterbruder"  1   0.5   2  1  requires factions { teutonic_order, norway, }  and region_religion catholic 70
+                recruit_pool "Ritterbruder"  1   0.5   2  1  requires factions { teutonic_order, }  and region_religion catholic 70
                 recruit_pool "Teulu"  1   0.5   2  1  requires factions { wales, }
                 recruit_pool "Lords Retinue"  1   0.5   2  1  requires factions { ireland, } 
                 recruit_pool "Feudal Knights"  1   0.5   2  1  requires factions { scotland, } 
@@ -628,27 +628,27 @@ building equestrian
                 recruit_pool "E Chivalric Knights"  1   0.5   2  1  requires factions { hungary, }
                 recruit_pool "L Chivalric Knights"  1   0.5   2  1  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "Archontopoulai"  1   0.5   2  1  requires factions { byzantium, }
-                recruit_pool "Vardariotai"  1   0.5   2  1  requires factions { byzantium, }
+                recruit_pool "Vardariotai"  1   0.5   2  1  requires factions { byzantium, venice, sicily, russia, hungary, }
                 recruit_pool "Tsars Guard"  1   0.5   2  1  requires factions { russia, novgorod, }
                 recruit_pool "Quapukulu"  1   0.5   2  1  requires factions { turks, } 
                 recruit_pool "Khassaki"  1   0.5   2  0  requires factions { egypt, } 
                 recruit_pool "Sibyan al Khass"  1   0.5   2  1  requires factions { egypt, }
-                recruit_pool "Christian Guard"  1   0.5   2  1  requires factions { moors, } 
+                recruit_pool "Christian Guard"  1   0.5   2  1  requires factions { moors, milan, sicily, portugal, papal_states, } 
                 recruit_pool "Khan's Guard"  1   0.5   2  1  requires factions { mongols, } 
                 recruit_pool "Constable of Jerusalem"  1   0.5   2  1  requires factions { jerusalem, }
                 recruit_pool "Marshall of the Hospitallers"  1   0.5   1  1  requires factions { antioch, }  and region_religion catholic 70
                 recruit_pool "Mailed Knights"  1   0.5   2  1  requires factions { england, france, hre, milan, venice, papal_states, sicily, }
-                recruit_pool "Jinetes"  1   0.5   2  1  requires factions { spain, portugal, }
-                recruit_pool "Teulu Skirmishers"  1   0.5   2  1  requires factions { wales, }
+                recruit_pool "Jinetes"  1   0.5   2  1  requires factions { spain, portugal, antioch, milan, sicily, }
+                recruit_pool "Teulu Skirmishers"  1   0.5   2  1  requires factions { wales, scotland, }
                 recruit_pool "Ridire"  1   0.5   2  1  requires factions { ireland, } 
                 recruit_pool "Mailed Knights"  1   0.5   2  1  requires factions { scotland, }
                 recruit_pool "Polish Nobles"  1   0.5   2  1  requires factions { poland, }
-				recruit_pool "Hussars"  1   0.5   2  1  requires factions { poland, norway, } 
+				recruit_pool "Hussars"  1   0.5   2  1  requires factions { poland, norway, teutonic_order, lithuania, } 
                 recruit_pool "Hungarian Nobles"  1   0.5   2  1  requires factions { hungary, }
                 recruit_pool "Dzukijan Horsemen"  1   0.5   2  1  requires factions { lithuania, }
                 recruit_pool "Huscarls"  1   0.5   2  1  requires factions { denmark, norway, }
                 recruit_pool "iqta'dar"  1   0.5   2  1  requires factions { turks, }
-                recruit_pool "Granadine Jinetes"  1   0.5   2  1  requires factions { moors, }
+                recruit_pool "Granadine Jinetes"  1   0.5   2  1  requires factions { moors, egypt, turks, }
                 recruit_pool "Marshall of the Templars"  1   0.5   2  0  requires factions { jerusalem, }  and region_religion catholic 70
                 recruit_pool "Knights of Edessa"  1   0.5   2  1  requires factions { antioch, }
                 recruit_pool "Mongol Heavy Archers"  1   0.5   2  1  requires factions { mongols, timurids, } 
@@ -685,7 +685,7 @@ building barracks
             convert_to 1
             capability
             {
-                recruit_pool "Welsh Militiamen"  1   0.4   2  0  requires factions { wales, } 
+                recruit_pool "Welsh Militiamen"  1   0.4   2  0  requires factions { wales, england, } 
                 recruit_pool "Town Militia"  1   0.4   2  0  requires factions { england, scotland, france, hre, denmark, spain, portugal, norway, }
                 recruit_pool "Order Militia"  1   0.4   2  0  requires factions { teutonic_order, } 
                 recruit_pool "Syrian Militia"  1   0.4   2  0  requires factions { jerusalem, antioch, } 
@@ -712,10 +712,10 @@ building barracks
             convert_to 2
             capability
             {
-                recruit_pool "Ostmen"  1   0.4   2  0  requires factions { ireland, norway, } 
+                recruit_pool "Ostmen"  1   0.4   2  0  requires factions { ireland, norway, wales, scotland, spain, england, } 
                 recruit_pool "Spear Militia"  1   0.4   2  0  requires factions { england, scotland, france, hre, denmark, spain, portugal, norway, wales, }
-                recruit_pool "Welsh Militiamen"  1   0.3   2  0  requires factions { wales, }
-                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, }
+                recruit_pool "Welsh Militiamen"  1   0.3   2  0  requires factions { wales, england, }
+                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, hre, }
                 recruit_pool "Frankish Axemen"  1   0.4   2  0  requires factions { jerusalem, } 
                 recruit_pool "Frankish Swordsmen"  1   0.4   2  0  requires factions { antioch, } 
                 recruit_pool "Italian Spear Militia"  1   0.4   2  0  requires factions { milan, venice, papal_states, sicily, } 
@@ -749,7 +749,7 @@ building barracks
             capability
             {
                 recruit_pool "Magnelwyr"  1   0.4   2  0  requires factions { wales, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Hand Gunners"  1   0.4   2  0  requires factions { denmark, poland, teutonic_order, norway, }  and event_counter gunpowder_discovered 1
+                recruit_pool "Hand Gunners"  1   0.4   2  0  requires factions { denmark, poland, teutonic_order, norway, denmark, }  and event_counter gunpowder_discovered 1
                 recruit_pool "ME Hand Gunners"  1   0.4   2  0  requires factions { moors, turks, mongols, timurids, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Hand Gunners"  1   0.4   2  0  requires factions { hre, spain, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Mamluk Handgunners"  1   0.4   2  0  requires factions { egypt, } and event_counter gunpowder_discovered 1
@@ -757,25 +757,25 @@ building barracks
                 recruit_pool "Templar Gunners"  1   0.4   2  0  requires factions { jerusalem, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Byzantine Gunners"  1   0.4   2  0  requires factions { byzantium, } and event_counter gunpowder_discovered 1
                 recruit_pool "Highland Archers"  1   0.4   2  0  requires factions { scotland, }
-                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, norway, }
+                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, }
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  0  requires factions { antioch, }
                 recruit_pool "Helwyr"  1   0.4   2  0  requires factions { wales, } 
                 recruit_pool "Archer Militia"  1   0.4   2  0  requires factions { england, }  
                 recruit_pool "Frankish Axemen"  1   0.4   2  0  requires factions { jerusalem, }  
                 recruit_pool "Crossbow Militia"  1   0.4   2  0  requires factions { france, hre, teutonic_order, denmark, spain, portugal, norway, }
-                recruit_pool "Ostmen"  1   0.4   2  0  requires factions { ireland, norway, } 
+                recruit_pool "Ostmen"  1   0.4   2  0  requires factions { ireland, norway, wales, scotland, spain, england, } 
                 recruit_pool "Frankish Swordsmen"  1   0.4   2  0  requires factions { antioch, }
                 recruit_pool "Genoese Crossbow Militia"  1   0.4   2  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, }
+                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, antioch, byzantium, }
                 recruit_pool "Mongol Infantry"  1   0.4   2  0  requires factions { mongols, } 
                 recruit_pool "EE Crossbow Militia"  1   0.4   2  0  requires factions { poland, russia, novgorod, lithuania, } 
                 recruit_pool "ME Crossbow Militia"  1   0.4   2  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { egypt, turks, }
+                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { egypt, turks, timurids, }
                 recruit_pool "S Archer Militia"  1   0.4   2  0  requires factions { byzantium, }  
                 recruit_pool "SE Spear Militia"  1   0.4   2  0  requires factions { byzantium, }
-                recruit_pool "Deisi Javelinmen"  1   0.4   2  0  requires factions { ireland, norway, } 
+                recruit_pool "Deisi Javelinmen"  1   0.4   2  0  requires factions { ireland, jerusalem, } 
                 recruit_pool "Spear Militia"  1   0.4   2  0  requires factions { england, scotland, france, hre, denmark, spain, portugal, norway, wales, } 
-                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, }  
+                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, hre, }  
                 recruit_pool "Italian Spear Militia"  1   0.4   2  0  requires factions { milan, venice, papal_states, sicily, } 
                 recruit_pool "EE Spear Militia"  1   0.4   2  0  requires factions { poland, russia, novgorod, lithuania, hungary, }  
                 recruit_pool "ME Spear Militia"  1   0.4   2  0  requires factions { moors, egypt, turks, timurids, }
@@ -808,43 +808,43 @@ building barracks
                 recruit_pool "Hospitaller Gunner"  1   0.4   3  0  requires factions { antioch, }  and event_counter gunpowder_discovered 1 
                 recruit_pool "Byzantine Gunners"  1   0.4   3  0  requires factions { byzantium, }  and event_counter gunpowder_discovered 1 
                 recruit_pool "Sudanese Gunners"  1   0.4   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1
-                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { france, hre, spain, portugal, milan, venice, sicily, ireland,  norway, } 
-                recruit_pool "Heavy Pike Militia"  1   0.4   2  0  requires factions { scotland, norway, }
+                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { france, hre, spain, portugal, milan, venice, sicily, ireland, norway, novgorod, lithuania, poland, byzantium, } 
+                recruit_pool "Heavy Pike Militia"  1   0.4   2  0  requires factions { scotland, norway, england, }
                 recruit_pool "Templar Crossbowmen"  1   0.4   2  0  requires factions { jerusalem, }
                 recruit_pool "Hospitaller Crossbowmen"  1   0.4   2  0  requires factions { antioch, }
                 recruit_pool "Rhyfelwyr"  1   0.4   2  0  requires factions { wales, } 
                 recruit_pool "Helwyr"  1   0.4   2  0  requires factions { wales, }   
-                recruit_pool "Bill Militia"  1   0.4   2  0  requires factions { england, } 
-                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, norway, }
+                recruit_pool "Bill Militia"  1   0.4   2  0  requires factions { england, wales, france, scotland, spain, } 
+                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, }
                 recruit_pool "Hand Gunners"  1   0.4   3  0  requires factions { teutonic_order, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Berdiche Axemen"  1   0.4   2  0  requires factions { russia, novgorod, }
-                recruit_pool "Samogitian Axemen"  1   0.4   2  0  requires factions { lithuania, }
+                recruit_pool "Samogitian Axemen"  1   0.4   2  0  requires factions { lithuania, teutonic_order, poland, }
                 recruit_pool "ME Hand Gunners"  1   0.4   3  0  requires factions { turks, mongols, timurids, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Burgher Pikemen"  1   0.4   2  0  requires factions { teutonic_order, }
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  0  requires factions { antioch, }
-                recruit_pool "Halberd Militia"  1   0.4   2  0  requires factions { papal_states, poland, hungary, } 
+                recruit_pool "Halberd Militia"  1   0.4   2  0  requires factions { papal_states, poland, hungary, novgorod, jerusalem, } 
                 recruit_pool "ME Halberd Militia"  1   0.4   2  0  requires factions { mongols, }
-                recruit_pool "Swordstaff Militia"  1   0.4   2  0  requires factions { denmark, norway, } 
+                recruit_pool "Swordstaff Militia"  1   0.4   2  0  requires factions { denmark, norway, jerusalem, hre, byzantium, } 
                 recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, portugal, } 
                 recruit_pool "Byzantine Infantry"  1   0.4   2  0  requires factions { byzantium, } 
                 recruit_pool "Urban Militia"  1   0.4   2  0  requires factions { moors, }
                 recruit_pool "Turkish Crossbowmen"  1   0.4   2  0  requires factions { turks, }  
-                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { turks, egypt, }
+                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { turks, egypt, timurids, }
                 recruit_pool "Archer Militia"  1   0.4   2  0  requires factions { england, }  
                 recruit_pool "Frankish Axemen"  1   0.4   2  0  requires factions { jerusalem, } 
                 recruit_pool "Highland Archers"  1   0.4   2  0  requires factions { scotland, } 
                 recruit_pool "Crossbow Militia"  1   0.4   2  0  requires factions { france, hre, teutonic_order, denmark, spain, portugal, norway, } 
                 recruit_pool "Frankish Swordsmen"  1   0.4   2  0  requires factions { antioch, } 
                 recruit_pool "Genoese Crossbow Militia"  1   0.4   2  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, }
+                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, antioch, byzantium, }
                 recruit_pool "Mongol Infantry"  1   0.4   2  0  requires factions { mongols, } 
                 recruit_pool "EE Crossbow Militia"  1   0.4   2  0  requires factions { poland, lithuania, }
                 recruit_pool "Gulay Gorod"  1   0.4   2  0  requires factions { russia, novgorod, }  
                 recruit_pool "ME Crossbow Militia"  1   0.4   2  0  requires factions { moors, } 
-                recruit_pool "Ostmen"  1   0.4   2  1  requires factions { ireland, norway, } 
+                recruit_pool "Ostmen"  1   0.4   2  1  requires factions { ireland, norway, wales, scotland, spain, england, } 
                 recruit_pool "Spear Militia"  1   0.4   2  0  requires factions { england, scotland, france, hre, denmark, norway, wales, }
-                recruit_pool "Deisi Javelinmen"  1   0.4   2  0  requires factions { ireland, norway, }  
-                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, } 
+                recruit_pool "Deisi Javelinmen"  1   0.4   2  0  requires factions { ireland, jerusalem, }  
+                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, hre, } 
                 recruit_pool "Italian Spear Militia"  1   0.4   2  0  requires factions { milan, venice, papal_states, sicily, } 
                 recruit_pool "EE Spear Militia"  1   0.4   2  0  requires factions { poland, russia, novgorod, lithuania, hungary, }
                 recruit_pool "S Archer Militia"  1   0.4   2  0  requires factions { byzantium, }
@@ -873,7 +873,7 @@ building barracks
                 recruit_pool "Portuguese Arquebusiers"  1   0.4   3  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Calivermen"  1   0.4   3  0  requires factions { ireland, scotland, norway, }  and event_counter gunpowder_discovered 1 
                 recruit_pool "Pikemen"  1   0.4   2  0  requires factions { france, england, }
-                recruit_pool "Heavy Pike Militia"  1   0.4   2  1  requires factions { scotland, norway, }
+                recruit_pool "Heavy Pike Militia"  1   0.4   2  1  requires factions { scotland, norway, england, }
                 recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { ireland, }
                 recruit_pool "Hand Gunners"  1   0.4   3  0  requires factions { teutonic_order, }  and event_counter gunpowder_discovered 1
                 recruit_pool "Sudanese Gunners"  1   0.4   3  0  requires factions { moors, egypt, } and event_counter gunpowder_discovered 1
@@ -886,10 +886,10 @@ building barracks
                 recruit_pool "Templar Crossbowmen"  1   0.4   2  0  requires factions { jerusalem, }
                 recruit_pool "Hospitaller Crossbowmen"  1   0.4   2  0  requires factions { antioch, }    
                 recruit_pool "Berdiche Axemen"  1   0.4   2  0  requires factions { russia, novgorod, }
-                recruit_pool "Samogitian Axemen"  1   0.4   2  0  requires factions { lithuania, }
+                recruit_pool "Samogitian Axemen"  1   0.4   2  0  requires factions { lithuania, teutonic_order, poland, }
                 recruit_pool "Arquebusiers"  1   0.4   3  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
                 recruit_pool "ME Hand Gunners"  1   0.4   3  0  requires factions { turks, mongols, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, norway, }
+                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, }
                 recruit_pool "Obudshaer"  1   0.4   2  0  requires factions { denmark, norway, }
                 recruit_pool "Landschneckt Pikemen"  1   0.4   2  0  requires factions { hre, milan, }
                 recruit_pool "Swiss Pikemen"  1   0.4   2  0  requires factions { venice, sicily, } 
@@ -897,28 +897,28 @@ building barracks
                 recruit_pool "Tercio Pikemen"  1   0.4   2  0  requires factions { spain, }
                 recruit_pool "Aventuros"  1   0.4   2  0  requires factions { portugal, }
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  0  requires factions { antioch, }
-                recruit_pool "Swiss Guard"  1   0.4   2  0  requires factions { papal_states, } 
-                recruit_pool "Halberd Militia"  1   0.4   2  0  requires factions { poland, hungary, } 
+                recruit_pool "Swiss Guard"  1   0.4   2  0  requires factions { papal_states, teutonic_order, antioch, } 
+                recruit_pool "Halberd Militia"  1   0.4   2  0  requires factions { poland, hungary, novgorod, jerusalem, } 
                 recruit_pool "ME Halberd Militia"  1   0.4   2  0  requires factions { mongols, }  
                 recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, portugal, } 
                 recruit_pool "Byzantine Infantry"  1   0.4   2  0  requires factions { byzantium, } 
                 recruit_pool "Urban Militia"  1   0.4   2  1  requires factions { moors, }
                 recruit_pool "Turkish Crossbowmen"  1   0.4   2  0  requires factions { turks, }   
-                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { turks, egypt, }
+                recruit_pool "Saracen Militia"  1   0.4   2  0  requires factions { turks, egypt, timurids, }
                 recruit_pool "Archer Militia"  1   0.4   2  0  requires factions { england, }  
                 recruit_pool "Frankish Axemen"  1   0.4   2  0  requires factions { jerusalem, } 
                 recruit_pool "Highland Archers"  1   0.4   2  0  requires factions { scotland, } 
                 recruit_pool "Frankish Swordsmen"  1   0.4   2  0  requires factions { antioch, }  
                 recruit_pool "Mongol Infantry"  1   0.4   2  0  requires factions { mongols, }   
-                recruit_pool "Ostmen"  1   0.4   2  1  requires factions { ireland, norway, }  
+                recruit_pool "Ostmen"  1   0.4   2  1  requires factions { ireland, norway, wales, scotland, spain, england, }  
                 recruit_pool "Italian Spear Militia"  1   0.4   2  0  requires factions { milan, venice, papal_states, sicily, }
                 recruit_pool "S Archer Militia"  1   0.4   2  0  requires factions { byzantium, } 
                 recruit_pool "SE Spear Militia"  1   0.4   2  0  requires factions { byzantium, }  
-                recruit_pool "Deisi Javelinmen"  1   0.4   2  1  requires factions { ireland, norway, } 
+                recruit_pool "Deisi Javelinmen"  1   0.4   2  1  requires factions { ireland, jerusalem, } 
                 recruit_pool "Crossbow Militia"  1   0.4   2  0  requires factions { france, hre, teutonic_order, denmark, spain, portugal, norway, }
-                recruit_pool "Sword Brethren"  1   0.4   2  1  requires factions { teutonic_order, } 
+                recruit_pool "Sword Brethren"  1   0.4   2  1  requires factions { teutonic_order, hre, } 
                 recruit_pool "Genoese Crossbow Militia"  1   0.4   2  0  requires factions { milan, }
-                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, } 
+                recruit_pool "Pavise Crossbow Militia"  1   0.4   2  0  requires factions { venice, papal_states, sicily, hungary, antioch, byzantium, } 
                 recruit_pool "EE Crossbow Militia"  1   0.4   2  0  requires factions { poland, lithuania, }
                 recruit_pool "Gulay Gorod"  1   0.4   2  0  requires factions { russia, novgorod, }
                 recruit_pool "ME Crossbow Militia"  1   0.4   2  0  requires factions { moors, }
@@ -944,7 +944,7 @@ building barracks
             capability
             {
                 recruit_pool "Janissary Musketeers"  1   0.4   3  0  requires factions { turks, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Musketeers"  1   0.4   3  0  requires factions { spain, portugal, milan, venice, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Musketeers"  1   0.4   3  0  requires factions { spain, portugal, milan, venice, hungary, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Musketeers"  1   0.4   3  0  requires factions { england, france, }  and event_counter gunpowder_discovered 1   
                 recruit_pool "Arquebusiers"  1   0.4   3  0  requires factions { hre, denmark, papal_states, sicily, poland, norway, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Lithuanian Arquebusiers"  1   0.4   3  0  requires factions { lithuania, }  and event_counter gunpowder_discovered 1  
@@ -952,13 +952,13 @@ building barracks
                 recruit_pool "Byzantine Gunners"  1   0.4   3  0  requires factions { byzantium, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Hospitaller Gunner"  1   0.4   3  0  requires factions { antioch, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Sudanese Gunners"  1   0.4   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Mounted Calivermen"  1   0.4   3  0  requires factions { ireland, norway, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Mounted Calivermen"  1   0.4   3  0  requires factions { ireland, byzantium, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Calivermen"  1   0.4   3  0  requires factions { ireland, norway, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Cossack Musketeers"  1   0.4   3  0  requires factions { russia, novgorod, norway, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Camel Gunners"  1   0.4   3  0  requires factions { moors, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Cossack Musketeers"  1   0.4   3  0  requires factions { russia, novgorod, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Camel Gunners"  1   0.4   3  0  requires factions { moors, egypt, portugal, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Ottoman Infantry"  1   0.4   3  0  requires factions { turks, } 
                 recruit_pool "Pikemen"  1   0.4   3  1  requires factions { france, england, }  
-                recruit_pool "Heavy Pike Militia"  1   0.4   3  1  requires factions { scotland, norway, } 
+                recruit_pool "Heavy Pike Militia"  1   0.4   3  1  requires factions { scotland, norway, england, } 
                 recruit_pool "Burgher Pikemen"  1   0.4   3  1  requires factions { teutonic_order, }
                 recruit_pool "Obudshaer"  1   0.4   3  0  requires factions { denmark, norway, } 
                 recruit_pool "Landschneckt Pikemen"  1   0.4   3  0  requires factions { hre, milan, } 
@@ -973,33 +973,33 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.4   3  1  requires factions { ireland, }  
                 recruit_pool "Hand Gunners"  1   0.4   3  0  requires factions { teutonic_order, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Berdiche Axemen"  1   0.4   3  0  requires factions { russia, novgorod, }
-                recruit_pool "Samogitian Axemen"  1   0.4   3  0  requires factions { lithuania, }
+                recruit_pool "Samogitian Axemen"  1   0.4   3  0  requires factions { lithuania, teutonic_order, poland, }
                 recruit_pool "Arquebusiers"  1   0.4   3  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1   
                 recruit_pool "ME Hand Gunners"  1   0.4   3  0  requires factions { mongols, timurids, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Calivermen"  1   0.4   3  0  requires factions { scotland, norway, }  and event_counter gunpowder_discovered 1   
-                recruit_pool "Templar Sergeant"  1   0.4   3  0  requires factions { jerusalem, norway, } 
+                recruit_pool "Templar Sergeant"  1   0.4   3  0  requires factions { jerusalem, } 
                 recruit_pool "Hospitaller Sergeant"  1   0.4   3  0  requires factions { antioch, }
-                recruit_pool "Swiss Guard"  1   0.4   3  0  requires factions { papal_states, }  
-                recruit_pool "Halberd Militia"  1   0.4   3  0  requires factions { poland, hungary, } 
+                recruit_pool "Swiss Guard"  1   0.4   3  0  requires factions { papal_states, teutonic_order, antioch, }  
+                recruit_pool "Halberd Militia"  1   0.4   3  0  requires factions { poland, hungary, novgorod, jerusalem, } 
                 recruit_pool "ME Halberd Militia"  1   0.4   2  0  requires factions { mongols, }
                 recruit_pool "Swordsmen Militia"  1   0.4   3  0  requires factions { spain, portugal, }  
                 recruit_pool "Byzantine Infantry"  1   0.4   3  0  requires factions { byzantium, } 
                 recruit_pool "Urban Militia"  1   0.4   3  1  requires factions { moors, }  
-                recruit_pool "Saracen Militia"  1   0.4   3  0  requires factions { turks, egypt, }
+                recruit_pool "Saracen Militia"  1   0.4   3  0  requires factions { turks, egypt, timurids, }
                 recruit_pool "Archer Militia"  1   0.4   3  0  requires factions { england, }   
                 recruit_pool "Frankish Axemen"  1   0.4   3  0  requires factions { jerusalem, }  
                 recruit_pool "Frankish Swordsmen"  1   0.4   3  0  requires factions { antioch, }
                 recruit_pool "Highland Archers"  1   0.4   3  0  requires factions { scotland, }  
                 recruit_pool "Mongol Infantry"  1   0.4   3  0  requires factions { mongols, }     
-                recruit_pool "Ostmen"  1   0.4   3  1  requires factions { ireland, norway, } 
+                recruit_pool "Ostmen"  1   0.4   3  1  requires factions { ireland, norway, wales, scotland, spain, england, } 
                 recruit_pool "Italian Spear Militia"  1   0.4   3  0  requires factions { milan, venice, papal_states, sicily, }
                 recruit_pool "S Archer Militia"  1   0.4   3  1  requires factions { byzantium, }
                 recruit_pool "SE Spear Militia"  1   0.4   3  1  requires factions { byzantium, }
-                recruit_pool "Deisi Javelinmen"  1   0.4   3  1  requires factions { ireland, norway, }
+                recruit_pool "Deisi Javelinmen"  1   0.4   3  1  requires factions { ireland, jerusalem, }
                 recruit_pool "Crossbow Militia"  1   0.4   3  0  requires factions { france, hre, teutonic_order, denmark, spain, portugal, norway, }
-                recruit_pool "Sword Brethren"  1   0.4   3  1  requires factions { teutonic_order, } 
+                recruit_pool "Sword Brethren"  1   0.4   3  1  requires factions { teutonic_order, hre, } 
                 recruit_pool "Genoese Crossbow Militia"  1   0.4   3  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.4   3  0  requires factions { venice, papal_states, sicily, hungary, } 
+                recruit_pool "Pavise Crossbow Militia"  1   0.4   3  0  requires factions { venice, papal_states, sicily, hungary, antioch, byzantium, } 
                 recruit_pool "EE Crossbow Militia"  1   0.4   3  0  requires factions { poland, lithuania, }
                 recruit_pool "Gulay Gorod"  1   0.4   2  0  requires factions { russia, novgorod, }
                 recruit_pool "ME Crossbow Militia"  1   0.4   3  0  requires factions { moors, }
@@ -1024,7 +1024,7 @@ building barracks
             convert_to 4
             capability
             {
-                recruit_pool "Musketeers"  1   0.4   3  1  requires factions { spain, portugal, milan, venice, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Musketeers"  1   0.4   3  1  requires factions { spain, portugal, milan, venice, hungary, }  and event_counter gunpowder_discovered 1 
                 recruit_pool "Musketeers"  1   0.4   3  1  requires factions { england, france, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Spanish Dragoons"  1   0.4   3  1  requires factions { spain, portugal, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Janissary Musketeers"  1   0.4   3  1  requires factions { turks, }  and event_counter gunpowder_discovered 1  
@@ -1034,13 +1034,13 @@ building barracks
                 recruit_pool "Byzantine Gunners"  1   0.4   3  1  requires factions { byzantium, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Hospitaller Gunner"  1   0.4   3  1  requires factions { antioch, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Sudanese Gunners"  1   0.4   3  1  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Mounted Calivermen"  1   0.4   3  1  requires factions { ireland, norway, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Calivermen"  1   0.4   3  1  requires factions { ireland, norway, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Cossack Musketeers"  1   0.4   3  1  requires factions { russia, novgorod, norway, }  and event_counter gunpowder_discovered 1  
-                recruit_pool "Camel Gunners"  1   0.4   3  1  requires factions { moors, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Mounted Calivermen"  1   0.4   3  1  requires factions { ireland, byzantium, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Calivermen"  1   0.4   3  1  requires factions { ireland, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Cossack Musketeers"  1   0.4   3  1  requires factions { russia, novgorod, }  and event_counter gunpowder_discovered 1  
+                recruit_pool "Camel Gunners"  1   0.4   3  1  requires factions { moors, egypt, portugal, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Ottoman Infantry"  1   0.4   3  1  requires factions { turks, } 
                 recruit_pool "Pikemen"  1   0.4   3  1  requires factions { france, england, }  
-                recruit_pool "Heavy Pike Militia"  1   0.4   3  1  requires factions { scotland, norway, } 
+                recruit_pool "Heavy Pike Militia"  1   0.4   3  1  requires factions { scotland, norway, england, } 
                 recruit_pool "Burgher Pikemen"  1   0.4   3  1  requires factions { teutonic_order, }
                 recruit_pool "Obudshaer"  1   0.4   3  1  requires factions { denmark, norway, }
                 recruit_pool "Landschneckt Pikemen"  1   0.4   3  1  requires factions { hre, milan, } 
@@ -1055,33 +1055,33 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.4   3  1  requires factions { ireland, }  
                 recruit_pool "Hand Gunners"  1   0.4   3  1  requires factions { teutonic_order, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Berdiche Axemen"  1   0.4   3  1  requires factions { russia, novgorod, }
-                recruit_pool "Samogitian Axemen"  1   0.4   3  1  requires factions { lithuania, }
+                recruit_pool "Samogitian Axemen"  1   0.4   3  1  requires factions { lithuania, teutonic_order, poland, }
                 recruit_pool "Arquebusiers"  1   0.4   3  1  requires factions { hungary, }  and event_counter gunpowder_discovered 1   
                 recruit_pool "ME Hand Gunners"  1   0.4   3  1  requires factions { mongols, timurids, }  and event_counter gunpowder_discovered 1  
                 recruit_pool "Calivermen"  1   0.4   3  1  requires factions { scotland, }  and event_counter gunpowder_discovered 1   
-                recruit_pool "Templar Sergeant"  1   0.4   3  1  requires factions { jerusalem, norway, }  
+                recruit_pool "Templar Sergeant"  1   0.4   3  1  requires factions { jerusalem, }  
                 recruit_pool "Hospitaller Sergeant"  1   0.4   3  1  requires factions { antioch, }
-                recruit_pool "Swiss Guard"  1   0.4   3  1  requires factions { papal_states, }   
-                recruit_pool "Halberd Militia"  1   0.4   3  1  requires factions { poland, hungary, }
+                recruit_pool "Swiss Guard"  1   0.4   3  1  requires factions { papal_states, teutonic_order, antioch, }   
+                recruit_pool "Halberd Militia"  1   0.4   3  1  requires factions { poland, hungary, novgorod, jerusalem, }
                 recruit_pool "ME Halberd Militia"  1   0.4   2  1  requires factions { mongols, }
                 recruit_pool "Swordsmen Militia"  1   0.4   3  1  requires factions { spain, portugal, }  
                 recruit_pool "Byzantine Infantry"  1   0.4   3  1  requires factions { byzantium, } 
                 recruit_pool "Urban Militia"  1   0.4   3  1  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.4   3  1  requires factions { turks, egypt, }
+                recruit_pool "Saracen Militia"  1   0.4   3  1  requires factions { turks, egypt, timurids, }
                 recruit_pool "Archer Militia"  1   0.4   3  1  requires factions { england, }  
                 recruit_pool "Frankish Axemen"  1   0.4   3  1  requires factions { jerusalem, }  
                 recruit_pool "Frankish Swordsmen"  1   0.4   3  1  requires factions { antioch, }
                 recruit_pool "Highland Archers"  1   0.4   3  1  requires factions { scotland, } 
                 recruit_pool "Mongol Infantry"  1   0.4   3  1  requires factions { mongols, }    
-                recruit_pool "Ostmen"  1   0.4   3  1  requires factions { ireland, norway, } 
+                recruit_pool "Ostmen"  1   0.4   3  1  requires factions { ireland, norway, wales, scotland, spain, england, } 
                 recruit_pool "Italian Spear Militia"  1   0.4   3  1  requires factions { milan, venice, papal_states, sicily, }
                 recruit_pool "S Archer Militia"  1   0.4   3  1  requires factions { byzantium, } 
                 recruit_pool "SE Spear Militia"  1   0.4   3  1  requires factions { byzantium, }
-                recruit_pool "Deisi Javelinmen"  1   0.4   3  1  requires factions { ireland, norway, }
+                recruit_pool "Deisi Javelinmen"  1   0.4   3  1  requires factions { ireland, jerusalem, }
                 recruit_pool "Crossbow Militia"  1   0.4   3  1  requires factions { france, hre, teutonic_order, denmark, spain, portugal, norway, }
-                recruit_pool "Sword Brethren"  1   0.4   3  1  requires factions { teutonic_order, } 
+                recruit_pool "Sword Brethren"  1   0.4   3  1  requires factions { teutonic_order, hre, } 
                 recruit_pool "Genoese Crossbow Militia"  1   0.4   3  1  requires factions { milan, }
-                recruit_pool "Pavise Crossbow Militia"  1   0.4   3  1  requires factions { venice, papal_states, sicily, hungary, } 
+                recruit_pool "Pavise Crossbow Militia"  1   0.4   3  1  requires factions { venice, papal_states, sicily, hungary, antioch, byzantium, } 
                 recruit_pool "EE Crossbow Militia"  1   0.4   3  1  requires factions { poland, lithuania, }
                 recruit_pool "Gulay Gorod"  1   0.4   2  1  requires factions { russia, novgorod, }
                 recruit_pool "ME Crossbow Militia"  1   0.4   3  1  requires factions { moors, }
@@ -1136,20 +1136,20 @@ building castle_barracks
             convert_to 0
             capability
             {   
-                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, norway, }
+                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, france, }
                 recruit_pool "Dismounted Tartar Lancers"  1   0.4   2  0  requires factions { lithuania, }
                 recruit_pool "Levy Spearmen"  1   0.4   2  0  requires factions { england, } 
                 recruit_pool "Highlanders"  1   0.4   2  0  requires factions { scotland, } 
                 recruit_pool "Sergeant Spearmen"  1   0.4   2  0  requires factions { france, hre, milan, venice, papal_states, sicily, }
                 recruit_pool "Tripolitan Squires"  1   0.4   1  0  requires factions { jerusalem, }
                 recruit_pool "Edessan Squires"  1   0.4   1  0  requires factions { antioch, }
-                recruit_pool "Croat Axemen"  1   0.4   2  0  requires factions { hungary, }
-                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, }
+                recruit_pool "Croat Axemen"  1   0.4   2  0  requires factions { hungary, antioch, venice, turks, }
+                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, hre, }
                 recruit_pool "Cliathairi"  1   0.4   2  0  requires factions { ireland, } 
-                recruit_pool "Viking Raiders"  1   0.4   2  0  requires factions { denmark, norway, } 
+                recruit_pool "Viking Raiders"  1   0.4   2  0  requires factions { denmark, norway, russia, novgorod, } 
                 recruit_pool "Javelinmen"  1   0.4   2  0  requires factions { spain, } 
                 recruit_pool "Lusitanian Javelinmen"  1   0.4   2  0  requires factions { portugal, }
-                recruit_pool "Woodsmen"  1   0.4   2  0  requires factions { poland, russia, novgorod, } 
+                recruit_pool "Woodsmen"  1   0.4   2  0  requires factions { poland, russia, novgorod, byzantium, } 
                 recruit_pool "Byzantine Spearmen"  1   0.4   2  0  requires factions { byzantium, }
                 recruit_pool "Dismounted Ghulams"  1   0.4   2  0  requires factions { egypt, } 
                 recruit_pool "Ahdath"  1   0.4   2  0  requires factions { turks, } 
@@ -1179,36 +1179,36 @@ building castle_barracks
             capability
             { 
                 recruit_pool "Meirionnydd Spearmen"  1   0.4   2  0  requires factions { wales, }
-                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, norway, }
+                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, france, }
                 recruit_pool "Order Spearmen"  1   0.4   2  0  requires factions { teutonic_order, } 
-                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, } 
-                recruit_pool "Dismounted Christian Guard"  1   0.4   2  0  requires factions { moors, } 
+                recruit_pool "Sword Brethren"  1   0.4   2  0  requires factions { teutonic_order, hre, } 
+                recruit_pool "Dismounted Christian Guard"  1   0.4   2  0  requires factions { moors, milan, sicily, portugal, papal_states, } 
                 recruit_pool "Dismounted Knights Of Jerusalem"  1   0.4   2  0  requires factions { jerusalem, }  
                 recruit_pool "Dismounted Knights of Antioch"  1   0.4   2  0  requires factions { antioch, }
                 recruit_pool "Dismounted Feudal Knights"  1   0.4   2  0  requires factions { england, france, hre, spain, portugal, milan, venice, papal_states, hungary, }
                 recruit_pool "Dismounted Huscarls"  1   0.4   2  0  requires factions { denmark, norway, }
                 recruit_pool "Dismounted Szlachta"  1   0.4   2  0  requires factions { lithuania, }
-                recruit_pool "Galloglaich"  1   0.4   2  0  requires factions { ireland, norway, }
-                recruit_pool "Ulster Swordsmen"  1   0.4   2  0  requires factions { Ireland, norway, } 
+                recruit_pool "Galloglaich"  1   0.4   2  0  requires factions { ireland, spain, france, byzantium, portugal, }
+                recruit_pool "Ulster Swordsmen"  1   0.4   2  0  requires factions { ireland, } 
 		recruit_pool "Dismounted Feudal Knights"  1   0.4   2  0  requires factions { scotland, }
                 recruit_pool "Dismounted Norman Knights"  1   0.4   2  0  requires factions { sicily, }
                 recruit_pool "Dismounted Polish Nobles"  1   0.4   2  0  requires factions { poland, }
-                recruit_pool "Dismounted Druchima"  1   0.4   2  0  requires factions { russia, novgorod, }
+                recruit_pool "Dismounted Druchima"  1   0.4   2  0  requires factions { russia, novgorod, lithuania, }
                 recruit_pool "Dismounted Sipahi Lancers"  1   0.4   2  0  requires factions { turks, } 
                 recruit_pool "Al Haqa Infantry"  1   0.4   2  0  requires factions { egypt, }
                 recruit_pool "Dismounted Hasham"  1   0.4   2  0  requires factions { turks, }
                 recruit_pool "Dismounted Latinkon"  1   0.4   2  0  requires factions { byzantium, } 
                 recruit_pool "Estonian Rebels"  1   0.4   2  0  requires factions { lithuania, }
-                recruit_pool "Highland Pikemen"  1   0.4   2  0  requires factions { scotland, }
-                recruit_pool "Armored Sergeants"  1   0.4   2  0  requires factions { england, france, hre, milan, venice, papal_states, sicily, norway, } 
-                recruit_pool "Pavise Spearmen"  1   0.4   2  0  requires factions { hungary, }
-                recruit_pool "Almughavars"  1   0.4   2  0  requires factions { spain, portugal, } 
+                recruit_pool "Highland Pikemen"  1   0.4   2  0  requires factions { scotland, ireland, }
+                recruit_pool "Armored Sergeants"  1   0.4   2  0  requires factions { england, france, hre, milan, venice, papal_states, sicily, norway, hungary, novgorod, denmark, } 
+                recruit_pool "Pavise Spearmen"  1   0.4   2  0  requires factions { hungary, byzantium, }
+                recruit_pool "Almughavars"  1   0.4   2  0  requires factions { spain, portugal, antioch, } 
                 recruit_pool "EE Spearmen"  1   0.4   2  0  requires factions { poland, russia, novgorod, } 
                 recruit_pool "Dismounted Arab Cavalry"  1   0.4   2  0  requires factions { moors, egypt, }
                 recruit_pool "Dismounted Heavy Lancers"  1   0.4   2  0  requires factions { mongols, timurids, }
                 recruit_pool "Afghan Javelinmen"  1   0.4   2  0  requires factions { timurids, }  
-                recruit_pool "Norse Swordsmen"  1   0.4   2  0  requires factions { denmark, norway, } 
-                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, norway, } 
+                recruit_pool "Norse Swordsmen"  1   0.4   2  0  requires factions { denmark, norway, hre, } 
+                recruit_pool "Templar Sergeant"  1   0.4   2  0  requires factions { jerusalem, } 
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  0  requires factions { antioch, }   
                 recruit_pool "Dismounted Byzantine Lancers"  1   0.4   2  0  requires factions { byzantium, }  
                 recruit_pool "Dismounted Light Lancers"  1   0.4   2  0  requires factions { mongols, }  
@@ -1229,13 +1229,13 @@ building castle_barracks
             { 
                 recruit_pool "Morgannwg Spearmen"  1   0.4   2  0  requires factions { wales, }
                 recruit_pool "Meirionnydd Spearmen"  1   0.4   2  0  requires factions { wales, }
-                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, norway, } 
+                recruit_pool "Gwent Raiders"  1   0.4   2  0  requires factions { wales, france, } 
                 recruit_pool "Muire"  1   0.4   2  0  requires factions { ireland, } 
                 recruit_pool "Dismounted Chivalric Knights"  1   0.4   2  0  requires factions { france, spain, }  
-                recruit_pool "Dismounted Ritterbruder"  1   0.4   2  0  requires factions { teutonic_order, norway, }  and region_religion catholic 70 
+                recruit_pool "Dismounted Ritterbruder"  1   0.4   2  0  requires factions { teutonic_order, }  and region_religion catholic 70 
                 recruit_pool "Armored Swordsmen"  1   0.4   2  0  requires factions { england, }
                 recruit_pool "Dismounted English Knights"  1   0.4   2  0  requires factions { england, }
-                recruit_pool "Dismounted Noble Knights"  1   0.4   2  0  requires factions { france, }
+                recruit_pool "Dismounted Noble Knights"  1   0.4   2  0  requires factions { france, scotland, }
                 recruit_pool "Dismounted Portuguese Knights"  1   0.4   2  0  requires factions { portugal, }
                 recruit_pool "Venetian Heavy Infantry"  1   0.4   2  0  requires factions { venice, }
                 recruit_pool "Dismounted Broken Lances"  1   0.4   2  0  requires factions { sicily, milan, }
@@ -1243,22 +1243,22 @@ building castle_barracks
                 recruit_pool "Dismounted Boyar Sons"  1   0.4   2  0  requires factions { russia, novgorod, }
                 recruit_pool "Dismounted Gothic Knights"  1   0.4   2  0  requires factions { hre, } 
                 recruit_pool "L Dismounted Chivalric Knights"  1   0.4   2  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1
-                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, }
-                recruit_pool "Highland Nobles"  1   0.4   2  0  requires factions { scotland, }  
+                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, teutonic_order, jerusalem, }
+                recruit_pool "Highland Nobles"  1   0.4   2  0  requires factions { scotland, france, jerusalem, }  
                 recruit_pool "Dismounted Halbbruder"  1   0.4   2  0  requires factions { teutonic_order, }  and region_religion catholic 70 
-                recruit_pool "Galloglaich"  1   0.4   2  0  requires factions { ireland, norway, }  
-                recruit_pool "Norse Axemen"  1   0.4   2  0  requires factions { denmark, }  
-                recruit_pool "Dismounted Christian Guard"  1   0.4   2  0  requires factions { moors, } 
+                recruit_pool "Galloglaich"  1   0.4   2  0  requires factions { ireland, spain, france, byzantium, portugal, }  
+                recruit_pool "Norse Axemen"  1   0.4   2  0  requires factions { denmark, byzantium, }  
+                recruit_pool "Dismounted Christian Guard"  1   0.4   2  0  requires factions { moors, milan, sicily, portugal, papal_states, } 
                 recruit_pool "Sami Axemen"  1   0.4   2  0  requires factions { norway, } 
                 recruit_pool "Dismounted Szlachta"  1   0.4   2  0  requires factions { lithuania, }
-                recruit_pool "Ulster Swordsmen"  1   0.4   2  1  requires factions { Ireland, norway, } 
+                recruit_pool "Ulster Swordsmen"  1   0.4   2  1  requires factions { ireland, } 
 		recruit_pool "Noble Swordsmen"  1   0.4   2  0  requires factions { scotland, norway, }
                 recruit_pool "Dismounted Norman Knights"  1   0.4   2  0  requires factions { sicily, }
                 recruit_pool "Dismounted Polish Nobles"  1   0.4   2  0  requires factions { poland, }
                 recruit_pool "Dismounted Sipahi Lancers"  1   0.4   2  0  requires factions { turks, }  
-                recruit_pool "Noble Pikemen"  1   0.4   2  0  requires factions { scotland, }
+                recruit_pool "Noble Pikemen"  1   0.4   2  0  requires factions { scotland, ireland, wales, }
                 recruit_pool "Edessan Guard"  1   0.4   2  0  requires factions { antioch, }    
-                recruit_pool "Dismounted Druchima"  1   0.4   2  0  requires factions { russia, novgorod, } 
+                recruit_pool "Dismounted Druchima"  1   0.4   2  0  requires factions { russia, novgorod, lithuania, } 
                 recruit_pool "Dismounted E Chivalric Knights"  1   0.4   2  0  requires factions { hungary, }
                 recruit_pool "Alamanoi"  1   0.4   2  0  requires factions { byzantium, } 
                 recruit_pool "Dismounted Latinkon"  1   0.4   2  0  requires factions { byzantium, }
@@ -1269,19 +1269,19 @@ building castle_barracks
                 recruit_pool "Al Haqa Infantry"  1   0.4   2  0  requires factions { egypt, }
                 recruit_pool "Dismounted Hasham"  1   0.4   2  0  requires factions { turks, }
                 recruit_pool "Dismounted Arab Cavalry"  1   0.4   2  0  requires factions { moors, egypt, }
-                recruit_pool "Naffatun"  1   0.4   2  0  requires factions { turks, egypt, }
+                recruit_pool "Naffatun"  1   0.4   2  0  requires factions { turks, egypt, moors, }
                 recruit_pool "Dismounted Knights Of Jerusalem"  1   0.5   2  1  requires factions { jerusalem, }  
                 recruit_pool "Dismounted Knights of Antioch"  1   0.4   2  1  requires factions { antioch, }
                 recruit_pool "Dismounted Feudal Knights"  1   0.4   2  0  requires factions { hre, spain, portugal, milan, venice, papal_states, hungary, }
                 recruit_pool "Dismounted Huscarls"  1   0.4   2  0  requires factions { denmark, norway, } 
-                recruit_pool "Norse Swordsmen"  1   0.4   2  1  requires factions { denmark, norway, } 
-                recruit_pool "Armored Sergeants"  1   0.4   2  0  requires factions { england, france, hre, milan, venice, papal_states, sicily,  norway, } 
-                recruit_pool "Almughavars"  1   0.4   2  1  requires factions { spain, portugal, }
+                recruit_pool "Norse Swordsmen"  1   0.4   2  1  requires factions { denmark, norway, hre, } 
+                recruit_pool "Armored Sergeants"  1   0.4   2  0  requires factions { england, france, hre, milan, venice, papal_states, sicily, norway, hungary, novgorod, denmark, } 
+                recruit_pool "Almughavars"  1   0.4   2  1  requires factions { spain, portugal, antioch, }
                 recruit_pool "EE Spearmen"  1   0.4   2  0  requires factions { poland, russia, novgorod, }   
-                recruit_pool "Pavise Spearmen"  1   0.4   2  0  requires factions { hungary, } 
+                recruit_pool "Pavise Spearmen"  1   0.4   2  0  requires factions { hungary, byzantium, } 
                 recruit_pool "Afghan Javelinmen"  1   0.4   2  0  requires factions { timurids, } 
                 recruit_pool "Estonian Rebels"  1   0.4   2  0  requires factions { lithuania, }   
-                recruit_pool "Templar Sergeant"  1   0.5   2  1  requires factions { jerusalem, norway, } 
+                recruit_pool "Templar Sergeant"  1   0.5   2  1  requires factions { jerusalem, } 
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  1  requires factions { antioch, }
                 recruit_pool "Order Spearmen"  1   0.4   2  0  requires factions { teutonic_order, } 
                 recruit_pool "Dismounted Byzantine Lancers"  1   0.4   2  0  requires factions { byzantium, }  
@@ -1302,13 +1302,13 @@ building castle_barracks
             {
                 recruit_pool "Morgannwg Spearmen"  1   0.4   2  1  requires factions { wales, }
                 recruit_pool "Meirionnydd Spearmen"  1   0.4   2  1  requires factions { wales, }
-                recruit_pool "Gwent Raiders"  1   0.4   2  1  requires factions { wales, norway, }
+                recruit_pool "Gwent Raiders"  1   0.4   2  1  requires factions { wales, france, }
                 recruit_pool "Muire"  1   0.4   2  1  requires factions { ireland, } 
                 recruit_pool "Dismounted Chivalric Knights"  1   0.4   2  1  requires factions { france, spain, }  
-                recruit_pool "Dismounted Ritterbruder"  1   0.4   2  1  requires factions { teutonic_order, norway, }  and region_religion catholic 70 
+                recruit_pool "Dismounted Ritterbruder"  1   0.4   2  1  requires factions { teutonic_order, }  and region_religion catholic 70 
                 recruit_pool "Armored Swordsmen"  1   0.4   2  1  requires factions { england, }
                 recruit_pool "Dismounted English Knights"  1   0.4   2  1  requires factions { england, }
-                recruit_pool "Dismounted Noble Knights"  1   0.4   2  1  requires factions { france, }
+                recruit_pool "Dismounted Noble Knights"  1   0.4   2  1  requires factions { france, scotland, }
                 recruit_pool "Dismounted Portuguese Knights"  1   0.4   2  1  requires factions { portugal, }
                 recruit_pool "Venetian Heavy Infantry"  1   0.4   2  1  requires factions { venice, }
                 recruit_pool "Dismounted Broken Lances"  1   0.4   2  1  requires factions { sicily, milan, }
@@ -1316,22 +1316,22 @@ building castle_barracks
                 recruit_pool "Dismounted Boyar Sons"  1   0.4   2  1  requires factions { russia, novgorod, }
                 recruit_pool "Dismounted Gothic Knights"  1   0.4   2  1  requires factions { hre, } 
                 recruit_pool "L Dismounted Chivalric Knights"  1   0.4   2  1  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1
-                recruit_pool "Papal Guard"  1   0.4   2  1  requires factions { papal_states, }
-                recruit_pool "Highland Nobles"  1   0.4   2  1  requires factions { scotland, }  
+                recruit_pool "Papal Guard"  1   0.4   2  1  requires factions { papal_states, teutonic_order, jerusalem, }
+                recruit_pool "Highland Nobles"  1   0.4   2  1  requires factions { scotland, france, jerusalem, }  
                 recruit_pool "Dismounted Halbbruder"  1   0.4   2  1  requires factions { teutonic_order, }  and region_religion catholic 70 
-                recruit_pool "Galloglaich"  1   0.4   2  1  requires factions { ireland, norway, }  
-                recruit_pool "Norse Axemen"  1   0.4   2  1  requires factions { denmark, }  
-                recruit_pool "Dismounted Christian Guard"  1   0.4   2  1  requires factions { moors, } 
+                recruit_pool "Galloglaich"  1   0.4   2  1  requires factions { ireland, spain, france, byzantium, portugal, }  
+                recruit_pool "Norse Axemen"  1   0.4   2  1  requires factions { denmark, byzantium, }  
+                recruit_pool "Dismounted Christian Guard"  1   0.4   2  1  requires factions { moors, milan, sicily, portugal, papal_states, } 
                 recruit_pool "Sami Axemen"  1   0.4   2  1  requires factions { norway, } 
                 recruit_pool "Dismounted Szlachta"  1   0.4   2  1  requires factions { lithuania, }
-                recruit_pool "Ulster Swordsmen"  1   0.4   2  1  requires factions { Ireland, norway, } 
+                recruit_pool "Ulster Swordsmen"  1   0.4   2  1  requires factions { ireland, } 
 		recruit_pool "Noble Swordsmen"  1   0.4   2  1  requires factions { scotland, norway, }
                 recruit_pool "Dismounted Norman Knights"  1   0.4   2  1  requires factions { sicily, }
                 recruit_pool "Dismounted Polish Nobles"  1   0.4   2  1  requires factions { poland, }
                 recruit_pool "Dismounted Sipahi Lancers"  1   0.4   2  1  requires factions { turks, }  
-                recruit_pool "Noble Pikemen"  1   0.4   2  1  requires factions { scotland, }
+                recruit_pool "Noble Pikemen"  1   0.4   2  1  requires factions { scotland, ireland, wales, }
                 recruit_pool "Edessan Guard"  1   0.4   2  1  requires factions { antioch, }    
-                recruit_pool "Dismounted Druchima"  1   0.4   2  1  requires factions { russia, novgorod, } 
+                recruit_pool "Dismounted Druchima"  1   0.4   2  1  requires factions { russia, novgorod, lithuania, } 
                 recruit_pool "Dismounted E Chivalric Knights"  1   0.4   2  1  requires factions { hungary, }
                 recruit_pool "Alamanoi"  1   0.4   2  1  requires factions { byzantium, } 
                 recruit_pool "Dismounted Latinkon"  1   0.4   2  1  requires factions { byzantium, }
@@ -1342,19 +1342,19 @@ building castle_barracks
                 recruit_pool "Al Haqa Infantry"  1   0.4   2  1  requires factions { egypt, }
                 recruit_pool "Dismounted Hasham"  1   0.4   2  1  requires factions { turks, }
                 recruit_pool "Dismounted Arab Cavalry"  1   0.4   2  1  requires factions { moors, egypt, }
-                recruit_pool "Naffatun"  1   0.4   2  1  requires factions { turks, egypt, }
+                recruit_pool "Naffatun"  1   0.4   2  1  requires factions { turks, egypt, moors, }
                 recruit_pool "Dismounted Knights Of Jerusalem"  1   0.5   2  1  requires factions { jerusalem, }  
                 recruit_pool "Dismounted Knights of Antioch"  1   0.4   2  1  requires factions { antioch, }
                 recruit_pool "Dismounted Feudal Knights"  1   0.4   2  1  requires factions { hre, spain, portugal, milan, venice, papal_states, hungary, } 
                 recruit_pool "Dismounted Huscarls"  1   0.4   2  1  requires factions { denmark, norway, }
-                recruit_pool "Norse Swordsmen"  1   0.4   2  1  requires factions { denmark, norway, } 
-                recruit_pool "Armored Sergeants"  1   0.4   2  1  requires factions { england, france, hre, milan, venice, papal_states, sicily,  norway, } 
-                recruit_pool "Almughavars"  1   0.4   2  1  requires factions { spain, portugal, }
+                recruit_pool "Norse Swordsmen"  1   0.4   2  1  requires factions { denmark, norway, hre, } 
+                recruit_pool "Armored Sergeants"  1   0.4   2  1  requires factions { england, france, hre, milan, venice, papal_states, sicily, norway, hungary, novgorod, } 
+                recruit_pool "Almughavars"  1   0.4   2  1  requires factions { spain, portugal, antioch, }
                 recruit_pool "EE Spearmen"  1   0.4   2  1  requires factions { poland, russia, novgorod, }   
-                recruit_pool "Pavise Spearmen"  1   0.4   2  1  requires factions { hungary, } 
+                recruit_pool "Pavise Spearmen"  1   0.4   2  1  requires factions { hungary, byzantium, } 
                 recruit_pool "Afghan Javelinmen"  1   0.4   2  1  requires factions { timurids, } 
                 recruit_pool "Estonian Rebels"  1   0.4   2  1  requires factions { lithuania, }   
-                recruit_pool "Templar Sergeant"  1   0.5   2  1  requires factions { jerusalem, norway, } 
+                recruit_pool "Templar Sergeant"  1   0.5   2  1  requires factions { jerusalem, } 
                 recruit_pool "Hospitaller Sergeant"  1   0.4   2  1  requires factions { antioch, }   
                 recruit_pool "Order Spearmen"  1   0.4   2  1  requires factions { teutonic_order, }   
                 recruit_pool "Dismounted Byzantine Lancers"  1   0.4   2  1  requires factions { byzantium, }    
@@ -1399,7 +1399,7 @@ building professional_military
                 recruit_pool "Demi Lancers"  1   0.3   2  0  requires factions { england, france, norway, }
                 recruit_pool "New World Cuirassers"  1   0.3   2  0  requires factions { england, france, norway, } 
                 recruit_pool "Conquistadores"  1   0.3   2  0  requires factions { spain, portugal, }  
-                recruit_pool "Dismounted Conquistadores"  1   0.3   2  0  requires factions { spain, portugal, }  
+                recruit_pool "Dismounted Conquistadores"  1   0.3   2  0  requires factions { spain, portugal, milan, venice, papal_states, }  
             }
             material wooden
             construction  8 
@@ -1425,7 +1425,7 @@ building missiles
                 recruit_pool "Saethwyr"  1   0.4   2  0  requires factions { wales, }
                 recruit_pool "Saighdeoir"  1   0.4   2  0  requires factions { ireland, }
                 recruit_pool "Peasant Archers"  1   0.4   2  0  requires factions { england, scotland, france, hre, teutonic_order, denmark, spain, portugal, milan, venice, papal_states, norway, } 
-                recruit_pool "Sodeer Archers"  1   0.4   2  0  requires factions { jerusalem, antioch, } 
+                recruit_pool "Sodeer Archers"  1   0.4   2  0  requires factions { jerusalem, antioch, france, } 
                 recruit_pool "S Peasant Archers"  1   0.4   2  0  requires factions { sicily, hungary, byzantium, } 
                 recruit_pool "EE Peasant Archers"  1   0.4   2  0  requires factions { poland, lithuania, russia, novgorod, } 
                 recruit_pool "Sudanese Javelinmen"  1   0.4   2  0  requires factions { moors, } 
@@ -1445,15 +1445,15 @@ building missiles
             capability
             {
                 recruit_pool "Saethwyr"  1   0.4   3  0  requires factions { wales, }
-                recruit_pool "Welsh Skirmishers"  1   0.4   3  0  requires factions { wales, } 
-                recruit_pool "Longbowmen"  1   0.4   3  0  requires factions { england, norway, } 
+                recruit_pool "Welsh Skirmishers"  1   0.4   3  0  requires factions { wales, england, } 
+                recruit_pool "Longbowmen"  1   0.4   3  0  requires factions { england, jerusalem, scotland, } 
                 recruit_pool "Maronites of Lebanon"  1   0.4   3  0  requires factions { jerusalem, } 
-                recruit_pool "Cossack Cavalry"  1   0.4   2  0  requires factions { russia, novgorod, }
+                recruit_pool "Cossack Cavalry"  1   0.4   2  0  requires factions { russia, novgorod, teutonic_order, lithuania, poland, byzantium, }
                 recruit_pool "Highland Archers"  1   0.4   3  0  requires factions { scotland, } 
                 recruit_pool "Peasant Crossbowmen"  1   0.4   3  0  requires factions { france, hre, spain, portugal, milan, venice, papal_states, } 
-                recruit_pool "Prussian Archers"  1   0.4   3  0  requires factions { teutonic_order, }
+                recruit_pool "Prussian Archers"  1   0.4   3  0  requires factions { teutonic_order, denmark, hre, poland, }
                 recruit_pool "Armenians of Celicia"  1   0.4   3  0  requires factions { antioch, } 
-                recruit_pool "Norse Archers"  1   0.4   3  0  requires factions { denmark, norway, ireland, } 
+                recruit_pool "Norse Archers"  1   0.4   3  0  requires factions { denmark, norway, ireland, england, } 
                 recruit_pool "Sicilian Muslim Archers"  1   0.4   3  0  requires factions { sicily, } 
                 recruit_pool "Lithuanian Archers"  1   0.4   3  0  requires factions { poland, }
                 recruit_pool "Baltic Archers"  1   0.4   3  0  requires factions { lithuania, } 
@@ -1477,21 +1477,21 @@ building missiles
         {
             capability
             { 
-                recruit_pool "Mounted Crossbowmen"  1   0.4   2  0  requires factions { hre, denmark, spain, portugal, milan, venice, papal_states, sicily, teutonic_order, norway, }
+                recruit_pool "Mounted Crossbowmen"  1   0.4   2  0  requires factions { hre, denmark, spain, portugal, milan, venice, papal_states, sicily, teutonic_order, norway, hungary, }
                 recruit_pool "Granadine CB Cav"  1   0.4   3  0  requires factions { moors, }
                 recruit_pool "Polish Shooters"  1   0.4   2  0  requires factions { poland, } 
                 recruit_pool "Dismounted Heavy Archers"  1   0.4   3  0  requires factions { mongols, timurids, }
                 recruit_pool "Dismounted Dvor"  1   0.4   3  0  requires factions { russia, novgorod, }
-                recruit_pool "Cossack Cavalry"  1   0.4   2  0  requires factions { russia, novgorod, }
+                recruit_pool "Cossack Cavalry"  1   0.4   2  0  requires factions { russia, novgorod, teutonic_order, lithuania, poland, byzantium, }
                 recruit_pool "Saethwyr"  1   0.4   3  1  requires factions { wales, }
-                recruit_pool "Welsh Skirmishers"  1   0.4   3  0  requires factions { wales, }
-                recruit_pool "Scots Guard"  1   0.2   1  0  requires factions { france, } 
+                recruit_pool "Welsh Skirmishers"  1   0.4   3  0  requires factions { wales, england, }
+                recruit_pool "Scots Guard"  1   0.2   1  0  requires factions { france, antioch, } 
                 recruit_pool "Sherwood Archers"  1   0.2   1  0  requires factions { england, } 
-                recruit_pool "Yeoman Archers"  1   0.4   3  0  requires factions { england, } 
+                recruit_pool "Yeoman Archers"  1   0.4   3  0  requires factions { england, wales, ireland, sicily, } 
                 recruit_pool "Templar Crossbowmen"  1   0.4   3  0  requires factions { jerusalem, }
                 recruit_pool "Livonian Auxiliaries"  1   0.4   3  0  requires factions { teutonic_order, } 
                 recruit_pool "Noble Highland Archers"  1   0.4   3  0  requires factions { scotland, } 
-                recruit_pool "Crossbowmen"  1   0.4   3  0  requires factions { france, denmark, hungary, norway, } 
+                recruit_pool "Crossbowmen"  1   0.4   3  0  requires factions { france, denmark, hungary, norway, wales, ireland, } 
                 recruit_pool "Hospitaller Crossbowmen"  1   0.4   3  0  requires factions { antioch, }  
                 recruit_pool "Pavise Crossbowmen"  1   0.4   3  0  requires factions { hre, spain, portugal, papal_states, sicily, } 
                 recruit_pool "Genoese Crossbowmen"  1   0.4   3  0  requires factions { milan, } 
@@ -1528,22 +1528,22 @@ building missiles
             capability
             { 
                 recruit_pool "Sherwood Archers"  1   0.2   1  1  requires factions { england, }
-                recruit_pool "Mounted Crossbowmen"  1   0.4   2  1  requires factions { hre, denmark, spain, portugal, milan, venice, papal_states, sicily, teutonic_order, norway, }
+                recruit_pool "Mounted Crossbowmen"  1   0.4   2  1  requires factions { hre, denmark, spain, portugal, milan, venice, papal_states, sicily, teutonic_order, norway, hungary, }
                 recruit_pool "Granadine CB Cav"  1   0.4   3  1  requires factions { moors, }
                 recruit_pool "Polish Shooters"  1   0.4   2  1  requires factions { poland, }
                 recruit_pool "Dismounted Dvor"  1   0.4   3  1  requires factions { russia, novgorod, }
-                recruit_pool "Cossack Cavalry"  1   0.4   2  1  requires factions { russia, novgorod, }
-                recruit_pool "Saethwyr"  1   0.4   3  1  requires factions { wales, }
+                recruit_pool "Cossack Cavalry"  1   0.4   2  1  requires factions { russia, novgorod, teutonic_order, lithuania, poland, byzantium, }
+                recruit_pool "Saethwyr"  1   0.4   3  1  requires factions { wales, england, }
                 recruit_pool "Welsh Skirmishers"  1   0.4   3  1  requires factions { wales, }  
                 recruit_pool "Janissary Archers"  1   0.4   3  1  requires factions { turks, }
                 recruit_pool "Dismounted Longbowmen"  1   0.4   2  1  requires factions { england, }
-                recruit_pool "Scots Guard"  1   0.2   1  1  requires factions { france, }
+                recruit_pool "Scots Guard"  1   0.2   1  1  requires factions { france, antioch, }
                 recruit_pool "Dismounted Heavy Archers"  1   0.4   3  1  requires factions { mongols, timurids, } 
                 recruit_pool "Turkish Archers"  1   0.4   3  1  requires factions { turks, } 
                 recruit_pool "Templar Crossbowmen"  1   0.4   3  1  requires factions { jerusalem, } 
                 recruit_pool "Livonian Auxiliaries"  1   0.4   3  1  requires factions { teutonic_order, }
                 recruit_pool "Noble Highland Archers"  1   0.4   3  1  requires factions { scotland, }
-                recruit_pool "Crossbowmen"  1   0.4   3  1  requires factions { france, hungary, norway, denmark, } 
+                recruit_pool "Crossbowmen"  1   0.4   3  1  requires factions { france, hungary, norway, denmark, ireland, wales, } 
                 recruit_pool "Hospitaller Crossbowmen"  1   0.4   3  1  requires factions { antioch, }  
                 recruit_pool "Pavise Crossbowmen"  1   0.4   3  1  requires factions { hre, spain, portugal, papal_states, sicily, }        
                 recruit_pool "Genoese Crossbowmen"  1   0.4   3  1  requires factions { milan, } 
@@ -2022,7 +2022,7 @@ building urban_equestrian
             capability
             {
                 recruit_pool "Arab Cavalry"  1   0.4   2  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkomans"  1   0.4   2  0  requires factions { turks, timurids, } 
+                recruit_pool "Turkomans"  1   0.4   2  0  requires factions { turks, timurids, mongols, egypt, moors, } 
                 recruit_pool "Mongol Light Lancers"  1   0.4   2  0  requires factions { mongols, } 
                 happiness_bonus bonus 1
                 stage_races 1
@@ -2041,9 +2041,9 @@ building urban_equestrian
             capability
             {
                 recruit_pool "Arab Cavalry"  1   0.4   2  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkomans"  1   0.4   2  0  requires factions { turks, timurids, } 
+                recruit_pool "Turkomans"  1   0.4   2  0  requires factions { turks, timurids, mongols, egypt, moors, } 
                 recruit_pool "Mongol Light Lancers"  1   0.4   2  0  requires factions { mongols, } 
-                recruit_pool "Granadine Jinetes"  1   0.34   2  0  requires factions { moors, } 
+                recruit_pool "Granadine Jinetes"  1   0.34   2  0  requires factions { moors, egypt, turks, } 
                 recruit_pool "Mamluk Archers"  1   0.4   2  0  requires factions { egypt, } 
                 recruit_pool "Sipahis"  1   0.4   2  0  requires factions { turks, } 
                 recruit_pool "Mongol Heavy Archers"  1   0.4   2  0  requires factions { mongols, timurids, } 
@@ -3508,7 +3508,7 @@ building temple_catholic
                 agent priest  0  requires factions { denmark, scotland, hre, teutonic_order, antioch, france, jerusalem, england, ireland, norway, wales, } 
                 agent priest  0  requires factions {  lithuania, hungary, poland, }  and event_counter not_pagan_lithuania 1
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
-                recruit_pool "Armored Clergy"  1   0.4   2  0  requires factions { denmark, norway, } 
+                recruit_pool "Armored Clergy"  1   0.4   2  0  requires factions { denmark, norway, papal_states, ireland, } 
                 happiness_bonus bonus 2
                 religion_level bonus 3
                 agent_limit priest 2
@@ -3530,7 +3530,7 @@ building temple_catholic
                 agent priest  0  requires factions { denmark, scotland, hre, teutonic_order, antioch, france, jerusalem, england, ireland, norway, wales, } 
                 agent priest  0  requires factions {  lithuania, hungary, poland, }  and event_counter not_pagan_lithuania 1
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
-                recruit_pool "Armored Clergy"  1   0.4   2  0  requires factions { denmark, norway, }
+                recruit_pool "Armored Clergy"  1   0.4   2  0  requires factions { denmark, norway, papal_states, ireland, }
                 recruit_pool "Clergymen"  1   0.3   2  0  requires factions { teutonic_order, }  and region_religion catholic 70 
                 happiness_bonus bonus 3
                 religion_level bonus 4
@@ -3555,7 +3555,7 @@ building temple_catholic
                 agent priest  0  requires factions { denmark, scotland, hre, teutonic_order, antioch, france, jerusalem, england, ireland, norway, wales, } 
                 agent priest  0  requires factions {  lithuania, hungary, poland, }  and event_counter not_pagan_lithuania 1 
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
-                recruit_pool "Armored Clergy"  1   0.4   2  1  requires factions { denmark, norway, }
+                recruit_pool "Armored Clergy"  1   0.4   2  1  requires factions { denmark, norway, papal_states, ireland, }
                 recruit_pool "Clergymen"  1   0.3   2  0  requires factions { teutonic_order, }  and region_religion catholic 70 
                 happiness_bonus bonus 5
                 religion_level bonus 5
@@ -4003,7 +4003,7 @@ building taverns
                 agent assassin  0  requires factions { greek, } 
                 agent spy  0  requires factions { southern_european, } 
                 agent assassin  0  requires factions { southern_european, } 
-                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, } 
+                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, russia, mongols, turks, } 
                 happiness_bonus bonus 4
             }
             material wooden
@@ -4029,7 +4029,7 @@ building taverns
                 agent assassin  0  requires factions { greek, } 
                 agent spy  0  requires factions { southern_european, } 
                 agent assassin  0  requires factions { southern_european, } 
-                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, } 
+                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, russia, mongols, turks, } 
                 happiness_bonus bonus 6
             }
             material wooden
@@ -4055,7 +4055,7 @@ building taverns
                 agent assassin  1  requires factions { greek, } 
                 agent spy  1  requires factions { southern_european, } 
                 agent assassin  1  requires factions { southern_european, } 
-                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, } 
+                recruit_pool "Transilvanian Peasants"  1   0.4   2  0  requires factions { hungary, russia, mongols, turks, } 
                 happiness_bonus bonus 8
             }
             material wooden
@@ -4151,8 +4151,8 @@ building city_hall
                 agent diplomat  0  requires factions { eastern_european, } 
                 agent diplomat  0  requires factions { greek, } 
                 agent diplomat  0  requires factions { southern_european, }
-                recruit_pool "Varangian Guard"  1   0.4   2  0  requires factions { byzantium, } 
-                recruit_pool "Forlorn Hope"  1   0.4   2  0  requires factions { hre, } 
+                recruit_pool "Varangian Guard"  1   0.4   2  0  requires factions { byzantium, russia, } 
+                recruit_pool "Forlorn Hope"  1   0.4   2  0  requires factions { hre, venice, } 
                 recruit_pool "Carroccio Standard M"  1   0.3   1  0  requires factions { milan, } 
                 recruit_pool "Carroccio Standard V"  1   0.3   1  0  requires factions { venice, }
                 recruit_pool "Great Cross"  1   0.3   1  0  requires factions { papal_states, jerusalem, antioch, }  and region_religion catholic 70 
@@ -4488,7 +4488,7 @@ building caravan
         {
             capability
             {
-                recruit_pool "Tuareg Camel Spearmens"  1   0.4   2  0  requires factions { moors, } 
+                recruit_pool "Tuareg Camel Spearmens"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
                 trade_level_bonus bonus 2
             }
             material wooden
@@ -4504,7 +4504,7 @@ building caravan
         {
             capability
             {
-                recruit_pool "Tuareg Camel Spearmens"  1   0.4   2  0  requires factions { moors, } 
+                recruit_pool "Tuareg Camel Spearmens"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
                 recruit_pool "Camel Gunners"  1   0.4   2  0  requires factions { moors, }  and event_counter gunpowder_discovered 1 
                 trade_level_bonus bonus 4
             }
@@ -5174,7 +5174,7 @@ building guild_st_johns_chapter_house
                 st_johns_hq
             }
         }
-        st_johns_hq  requires factions { england , antioch, france, scotland, denmark, norway, hungary, poland, papal_states, milan, sicily, venice, ireland, wales, } 
+        st_johns_hq  requires factions { england, antioch, france, scotland, denmark, norway, hungary, poland, papal_states, milan, sicily, venice, ireland, wales, } 
         {
             convert_to 2
             capability
