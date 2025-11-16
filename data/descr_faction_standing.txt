@@ -1559,9 +1559,9 @@ Trigger 0103_occupy_settlement_increase_global
 ;Trigger 0102_city_razed_decrease_global
 ;    WhenToTest CitySacked
 
-    FactionStanding global -0.05
-    FactionStanding target_faction normalise -1.0 10
-    FactionStanding target_allies normalise -1.0 20
+;    FactionStanding global -0.05
+;    FactionStanding target_faction normalise -1.0 10
+;    FactionStanding target_allies normalise -1.0 20
 ;    FactionStanding target_enemies normalise 1.0 20
 
 ; make all other factions hate the rebels

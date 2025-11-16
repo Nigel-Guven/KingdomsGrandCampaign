@@ -5,7 +5,7 @@ religions
 	islam
 	pagan
 	heretic
-        sungod
+	sungod
 }
 
 religion catholic

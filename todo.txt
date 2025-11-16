@@ -1,0 +1,23 @@
+Make the Timurids a horde
+Update events
+Allow Orthodox factions to go on crusade
+Convert Norway to paganism
+Fix Character placement on the map
+Fix pikemen if it is necessary
+Update Campaign scripts to add interesting stuff
+Declutter CastleTown resources delete two of them
+
+Balance campaign
+	France 		Clermont, Marseille
+	England 	Lancaster, Wexford
+	HRE		Innsbruck, Hamburg
+	Denmark		Lund
+	Norway		Tingvalla
+	Rebels		Turov, Atil, Visby
+	Byzantium	Corinth, Adrianople
+	Turks		Ankara, Sinope, Attalia
+
+
+-- DONE
+Repaint the map to be more accurate for regions
+

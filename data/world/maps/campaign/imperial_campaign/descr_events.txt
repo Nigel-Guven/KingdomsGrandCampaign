@@ -7,28 +7,31 @@
 event	historic	first_windmill
 date	2
 
+event	historic	world_is_round
+date	4 10
+
+event	historic	gunpowder_discovered
+date	12 14
+movie	event/gunpowder_invented.bik
+
 event	historic	earthquake_in_aleppo
-date	10
+date	16
 position	444, 130
 
 event	historic	science_alchemy_book
-date	16
+date	18
 
 event	historic	first_european_paper
 date	20
 
 event	historic	first_rudder
-date	32
+date	22
 
 event	historic	first_magnetic_compass
-date	34
+date	24
 
 event	historic	first_wheelbarrow
-date	38
-
-event	historic	gunpowder_discovered
-date	64 70
-movie	event/gunpowder_invented.bik
+date	26
 
 event	earthquake	earthquake_in_silicia
 date	72
@@ -235,9 +238,6 @@ date	120
 
 event	historic	football_banned
 date	124
-
-event	historic	world_is_round
-date	40 44
 
 event	historic	first_sawmill
 date	130
