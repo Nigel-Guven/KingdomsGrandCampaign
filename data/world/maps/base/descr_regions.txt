@@ -75,7 +75,7 @@ Cairo_Province
 	egypt
 	Fatimid_Rebels
 	122 13 244
-	jihad, crusade, cairo, explorers_guild
+	jihad, cairo, explorers_guild
 	5
 	7
 	religions { catholic 0 orthodox 5 islam 90 pagan 5 heretic 0 sungod 0 }
@@ -183,7 +183,7 @@ Oslo_Province
 	denmark
 	Norse_Rebels
 	255 180 190
-	atlantic, oslo, explorers_guild
+	atlantic, oslo, crusade, explorers_guild
 	5
 	5
 	religions { catholic 80 orthodox 3 islam 0 pagan 15 heretic 2 sungod 0 }
@@ -219,7 +219,7 @@ Marienburg_Province
 	poland
 	Polish_Rebels
 	41 41 203
-	marienburg, horde_target, crusade, teutonic_knights_chapter_house, templars_chapter_house
+	marienburg, horde_target, teutonic_knights_chapter_house, templars_chapter_house
 	5
 	6
 	religions { catholic 80 orthodox 0 islam 0 pagan 25 heretic 5 sungod 0 }
@@ -291,7 +291,7 @@ Malta_Province
 	sicily
 	Italian_Rebels
 	41 239 239
-	crusade, jihad, st_johns_chapter_house
+	jihad, st_johns_chapter_house
 	5
 	6
 	religions { catholic 30 orthodox 5 islam 60 pagan 5 heretic 0 sungod 0 }
@@ -390,7 +390,7 @@ Pskov_Province
 	russia
 	Rus_Rebels
 	107 100 126
-	horde_target, crusade, explorers_guild
+	horde_target, explorers_guild
 	5
 	6
 	religions { catholic 2 orthodox 60 islam 2 pagan 34 heretic 2 sungod 0 }
@@ -426,7 +426,7 @@ Santiago_Province
 	spain
 	Iberian_Rebels
 	205 210 150
-	atlantic, knights_of_santiago_chapter_house, crusade
+	atlantic, knights_of_santiago_chapter_house
 	5
 	6
 	religions { catholic 80 orthodox 0 islam 10 pagan 10 heretic 0 sungod 0 }
@@ -552,7 +552,7 @@ Konigsberg_Province
 	poland
 	Polish_Rebels
 	137 109 230
-	teutonic_knights_chapter_house, horde_target, crusade
+	teutonic_knights_chapter_house, horde_target
 	5
 	6
 	religions { catholic 80 orthodox 5 islam 0 pagan 10 heretic 5 sungod 0 }
@@ -723,7 +723,7 @@ Ryazan_Province
 	russia
 	Rus_Rebels
 	177 58 83
-	crusade, horde_target, explorers_guild
+	horde_target, explorers_guild
 	5
 	6
 	religions { catholic 0 orthodox 40 islam 56 pagan 2 heretic 2 sungod 0 }
@@ -777,7 +777,7 @@ Azov_Province
 	russia
 	Steppe_Rebels
 	216 30 205
-	horde_target, crusade, explorers_guild
+	horde_target, explorers_guild
 	5
 	4
 	religions { catholic 0 orthodox 33 islam 60 pagan 5 heretic 2 sungod 0 }
@@ -1056,7 +1056,7 @@ Kutais_Province
 	turks
 	Steppe_Rebels
 	33 94 196
-	horde_target, crusade
+	horde_target
 	5
 	4
 	religions { catholic 0 orthodox 10 islam 50 pagan 30 heretic 10 sungod 0 }
@@ -1146,7 +1146,7 @@ Ragusa_Province
 	byzantium
 	Croatian_Rebels
 	177 83 58
-	crusade, explorers_guild, templars_chapter_house
+	explorers_guild, templars_chapter_house
 	5
 	5
 	religions { catholic 85 orthodox 5 islam 0 pagan 5 heretic 5 sungod 0 }
@@ -1281,7 +1281,7 @@ Nicaea_Province
 	byzantium
 	Greek_Rebels
 	33 59 131
-	crusade, horde_target, jihad, explorers_guild
+	horde_target, jihad, explorers_guild
 	5
 	6
 	religions { catholic 0 orthodox 80 islam 15 pagan 3 heretic 2 sungod 0 }
@@ -1335,7 +1335,7 @@ Caesarea_Province
 	turks
 	Anatolian_Rebels
 	177 58 148
-	crusade, jihad, horde_target
+	jihad, horde_target
 	5
 	6
 	religions { catholic 0 orthodox 15 islam 80 pagan 2 heretic 3 sungod 0 }
@@ -1362,7 +1362,7 @@ Sevilla_Province
 	moors
 	Iberian_Rebels
 	199 17 201
-	atlantic, crusade, explorers_guild
+	atlantic, explorers_guild
 	5
 	6
 	religions { catholic 20 orthodox 0 islam 70 pagan 5 heretic 5 sungod 0 }
@@ -1371,7 +1371,7 @@ Durazzo_Province
 	venice
 	Greek_Rebels
 	13 18 244
-	crusade
+	none
 	5
 	4
 	religions { catholic 30 orthodox 60 islam 0 pagan 10 heretic 0 sungod 0 }
@@ -1380,7 +1380,7 @@ Kerkyra_Province
 	venice
 	Greek_Rebels
 	213 33 33
-	crusade
+	none
 	5
 	4
 	religions { catholic 30 orthodox 60 islam 0 pagan 10 heretic 0 sungod 0 }
@@ -1389,7 +1389,7 @@ Valencia_Province
 	spain
 	Spanish_Rebels
 	187 198 13
-	crusade, explorers_guild
+	explorers_guild
 	5
 	5
 	religions { catholic 30 orthodox 0 islam 65 pagan 3 heretic 2 sungod 0 }
@@ -1398,7 +1398,7 @@ Mallorca_Province
 	spain
 	Spanish_Rebels
 	26 155 23
-	crusade
+	none
 	5
 	5
 	religions { catholic 35 orthodox 0 islam 60 pagan 3 heretic 2 sungod 0 }
@@ -1407,7 +1407,7 @@ Adana_Province
 	turks
 	Armenian_Rebels
 	17 202 52
-	crusade
+	none
 	5
 	6
 	religions { catholic 5 orthodox 10 islam 80 pagan 3 heretic 2 sungod 0 }
@@ -1416,7 +1416,7 @@ Attalia_Province
 	turks
 	Armenian_Rebels
 	131 84 16
-	crusade
+	none
 	5
 	6
 	religions { catholic 0 orthodox 10 islam 85 pagan 3 heretic 2 sungod 0 }
@@ -1452,7 +1452,7 @@ Smyrna_Province
 	byzantium
 	Anatolian_Rebels
 	61 177 58
-	crusade
+	none
 	5
 	4
 	religions { catholic 2 orthodox 50 islam 45 pagan 0 heretic 3 sungod 0 }
@@ -1479,7 +1479,7 @@ Aleppo_Province
 	turks
 	Seljuk_Rebels
 	175 171 244
-	crusade, explorers_guild
+	explorers_guild
 	5
 	6
 	religions { catholic 45 orthodox 7 islam 40 pagan 0 heretic 8 sungod 0 }
@@ -1506,7 +1506,7 @@ Mekka_Province
 	egypt
 	Arab_Rebels
 	209 22 207
-	crusade, explorers_guild
+	crusade, explorers_guild, jihad
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 99 pagan 0 heretic 1 sungod 0 }
@@ -1515,7 +1515,7 @@ Medina_Province
 	egypt
 	Arab_Rebels
 	24 106 13
-	crusade
+	jihad
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 99 pagan 0 heretic 1 sungod 0 }
@@ -1614,7 +1614,7 @@ Tunis_Province
 	moors
 	Fatimid_Rebels
 	202 191 17
-	crusade
+	explorers_guild
 	5
 	6
 	religions { catholic 0 orthodox 0 islam 90 pagan 10 heretic 0 sungod 0 }
@@ -1668,7 +1668,7 @@ Tripoli_Province
 	moors
 	Saharan_Rebels
 	202 17 48
-	crusade, explorers_guild
+	explorers_guild
 	5
 	5
 	religions { catholic 10 orthodox 5 islam 70 pagan 10 heretic 5 sungod 0 }
@@ -1695,7 +1695,7 @@ Barqa_Province
 	moors
 	Saharan_Rebels
 	13 85 17
-	crusade
+	none
 	5
 	5
 	religions { catholic 10 orthodox 5 islam 70 pagan 10 heretic 5 sungod 0 }
@@ -1731,7 +1731,7 @@ Timbuktu_Province
 	moors
 	Saharan_Rebels
 	244 13 138
-	none, explorers_guild
+	explorers_guild
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 3 pagan 97 heretic 0 sungod 0 }
@@ -1740,7 +1740,7 @@ Thebes_Province
 	egypt
 	Fatimid_Rebels
 	208 176 25
-	crusade, explorers_guild
+	explorers_guild
 	5
 	6
 	religions { catholic 0 orthodox 5 islam 80 pagan 5 heretic 10 sungod 0 }

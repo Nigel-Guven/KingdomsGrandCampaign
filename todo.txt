@@ -1,9 +1,14 @@
+Fix pikemen if it is necessary 	https://www.youtube.com/watch?v=ecosXlvcwl0&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=11
+Fix Firearm units 		https://www.youtube.com/watch?v=aQRK54kjdtc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=4
+Update unit sizes 		https://www.youtube.com/watch?v=5qRGKcULbAc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=5
+Convert Norway to paganism 	https://www.youtube.com/watch?v=Mg2uLQgoOfM&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=8
+
 Make the Timurids a horde
 Update events
 Allow Orthodox factions to go on crusade
-Convert Norway to paganism
+
 Fix Character placement on the map
-Fix pikemen if it is necessary
+
 Update Campaign scripts to add interesting stuff
 Declutter CastleTown resources delete two of them
 
@@ -18,6 +23,15 @@ Balance campaign
 	Turks		Ankara, Sinope, Attalia
 
 
+Units to add
+Ireland + 1
+Antioch + 3
+Mongols + 2
+Jerusalem + 5
+Wales + 3
+Timurids + 6
+------------------------------------------------------------------------------------------------------------------------------
 -- DONE
 Repaint the map to be more accurate for regions
+Fix diplomacy bug
 

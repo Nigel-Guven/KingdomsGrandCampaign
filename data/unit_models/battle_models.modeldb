@@ -22146,12 +22146,12 @@
 52 unit_models/_Units/EN_Lmail_Hmail/hussites_lod2.mesh 2500 
 52 unit_models/_Units/EN_Lmail_Hmail/hussites_lod3.mesh 6400 
 1 
-5 slave 
+4 merc
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_rebels.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 53 unit_sprites/slave_Peasant_Crossbowmen_ug2_sprite.spr 
 1 
-5 slave 
+4 merc 
 67 unit_models/AttachmentSets/Final European CB Gun_slave_diff.texture 
 67 unit_models/AttachmentSets/Final European CB Gun_slave_norm.texture 0 
 1 
