@@ -265,9 +265,7 @@ resource	coal,	174,	284
 resource	grain,	175,	281
 
 ;Castle_Town_Province
-resource	furs,	166,	293
 resource	fish,	166,	292
-resource	sulfur,	167,	293
 
 ;Wick_Province
 resource	fish,	175,	331
@@ -2596,6 +2594,40 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
+settlement
+{
+	level town
+	region Tingvalla_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement castle
 {
 	level large_town
@@ -2646,40 +2678,7 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
-settlement
-{
-	level large_town
-	region Visby_Province
 
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator denmark
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 settlement
 {
 	level large_town
@@ -2782,12 +2781,21 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Knud, general, male, age 36, x 171, y 328
+character	Haflidhi, general, male, age 36, x 171, y 328
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+
+character	Halstan, general, male, age 36, x 257, y 333
+army
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
@@ -4064,7 +4072,90 @@ settlement
 		type city_hall town_hall
 	}
 }
+settlement castle
+{
+	level large_town
+	region Lund_Province
 
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Wexford_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement
 {
 	level large_town
@@ -4216,7 +4307,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Harald Svendsen, named character, male, age 26, x 331, y 319, portrait harald 
+character	Harald Svendsen, named character, male, age 26, x 261, y 293, portrait harald 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , GoodCommander 2 , ReligionStarter 1 , GoodInfantryGeneral 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -4227,7 +4318,7 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 
-character	Gustav, named character, male, age 19, x 242, y 283, portrait ragnvald 
+character	Gustav, named character, male, age 19, x 152, y 280, portrait ragnvald 
 traits LoyaltyStarter 1 , Bloodthirsty 2 , BattleDread 2 , NaturalMilitarySkill 1 , Drink 1 , GoodCommander 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -4844,44 +4935,7 @@ settlement
 		type hinterland_roads roads
 	}
 }
-settlement
-{
-	level large_town
-	region Turov_Province
 
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 character	Ysevolod, named character, male, leader, age 44, x 376, y 249, portrait ysevolod, battle_model eastern_sultan 
 traits Factionleader 1 , GoodCommander 2 , Energetic 2 , GoodDiplomacy 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 , ReligionStarter 1 , Fertile 1 
@@ -4937,7 +4991,7 @@ unit		EE Peasants				exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Maksimov, general, male, age 27, x 356, y 264 
+character	Maksimov, general, male, age 27, x 384, y 242
 army
 unit		EE Archer Militia			exp 0 armour 1 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 1 weapon_lvl 0
@@ -5023,54 +5077,6 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
-
-settlement
-{
-	level city
-	region Atil_Province
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
-
 settlement
 {
 	level large_town
@@ -5937,7 +5943,102 @@ settlement
 		type hinterland_roads roads
 	}
 }
+settlement
+{
+	level large_town
+	region Clermont_Province
 
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Marseille_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement castle
 {
 	level large_town
@@ -6058,7 +6159,7 @@ unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Godfrey, named character, male, age 21, x 187, y 178, portrait godfrey 
+character	Godfrey, named character, male, age 21, x 191, y 202, portrait godfrey 
 traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 1 , StrategyChivalry 2 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6094,7 +6195,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Regnault de Bordeaux, named character, male, age 28, x 185, y 219, portrait regnault 
+character	Regnault de Bordeaux, named character, male, age 28, x 208, y 177, portrait regnault 
 traits GoodCommander 2 , NaturalMilitarySkill 1 ,  LoyaltyStarter 1 , StrategyChivalry 3 , BattleChivalry 2 , Intelligent 1 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6233,6 +6334,56 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Lancaster_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 settlement
@@ -6452,7 +6603,7 @@ unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Alfred Allthredge, general, male, age 26, x 149, y 293 
+character	Alfred Allthredge, general, male, age 26, x 173, y 288 
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -6561,7 +6712,112 @@ settlement
 		type city_hall town_hall
 	}
 }
+settlement
+{
+	level large_town
+	region Attalia_Province
 
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level town
+	region Sinope_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Ankara_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement
 {
 	level town
@@ -7843,7 +8099,98 @@ settlement
 		type hinterland_roads roads
 	}
 }
+settlement
+{
+	level large_town
+	region Adrianople_Province
 
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Corinth_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
 
 character	Manuel Komnenos, named character, male, leader, age 39, x 369, y 164, portrait manuel, battle_model andronicus, hero_ability Byzantine_Politics 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , StrategyChivalry 2 , GoodDefender 1 , Intelligent 2 , ReligionStarter 1 , GoodDiplomacy 4 , GoodAdministrator 3 , PoliticsSkill 1 , Fertile 1 
@@ -7925,7 +8272,7 @@ unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Byzantine Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Konstantinos, named character, male, age 26, x 355, y 166, portrait barenos 
+character	Konstantinos, named character, male, age 26, x 353, y 169, portrait barenos 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleChivalry 2 , GoodDefender 1 , ReligionStarter 1 , Intelligent 1 , Fertile 1 
 army
 unit		Greek Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -7936,7 +8283,7 @@ unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Rossos, named character, male, age 20, x 335, y 128, portrait rossos 
+character	Rossos, named character, male, age 20, x 332, y 127, portrait rossos 
 traits LoyaltyStarter 1 , GoodCommander 1 , GoodDefender 1 , ReligionStarter 1 , Intelligent 1 , Fertile 1 
 army
 unit		Greek Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -9123,37 +9470,6 @@ settlement
 settlement
 {
 	level large_town
-	region Attalia_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
 	region Cagliari_Province
 
 	year_founded 0
@@ -9939,140 +10255,6 @@ settlement castle
 settlement castle
 {
 	level large_town
-	region Lund_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator denmark
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-settlement
-{
-	level large_town
-	region Wexford_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement castle
-{
-	level large_town
-	region Lancaster_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type temple_catholic_castle small_chapel
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
-settlement castle
-{
-	level large_town
 	region Adana_Province
 
 	year_founded 0
@@ -10305,44 +10487,6 @@ settlement castle
 		type hinterland_castle_roads c_roads
 	}
 }
-settlement
-{
-	level town
-	region Sinope_Province
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement castle
 {
@@ -10547,40 +10691,6 @@ settlement castle
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-}
-settlement
-{
-	level town
-	region Tingvalla_Province
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator norway
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 settlement castle
@@ -11496,44 +11606,7 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Ankara_Province
 
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement castle
 {
@@ -11796,7 +11869,124 @@ settlement
 		type hinterland_roads roads
 	}
 }
+settlement
+{
+	level large_town
+	region Visby_Province
 
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level city
+	region Atil_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Turov_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement
 {
 	level town
@@ -11835,48 +12025,7 @@ settlement
 		type hinterland_roads roads
 	}
 }
-settlement
-{
-	level large_town
-	region Adrianople_Province
 
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_orthodox church_o
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -11913,56 +12062,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level large_town
-	region Corinth_Province
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type temple_orthodox_castle small_chapel_o
-	}
-	building
-	{
-		type castle_port c_port
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-}
 settlement castle
 {
 	level large_town
@@ -12187,57 +12286,6 @@ settlement
 		type hinterland_roads roads
 	}
 }
-
-settlement
-{
-	level large_town
-	region Clermont_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type temple_catholic church
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 settlement castle
 {
 	level large_town
@@ -12328,52 +12376,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Marseille_Province
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type siege ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 character	sub_faction aztecs, Cocozca, named character, male, age 22, x 41, y 308 
 traits LoyaltyStarter 1 , ContentGeneral 2 , GoodCommander 3 , ReligionStarter 1 
@@ -12610,7 +12612,7 @@ unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction denmark, Olaf, named character, male, age 26, x 257, y 333 
+character	sub_faction denmark, Olaf, named character, male, age 26, x 287, y 309
 traits GoodCommander 3 , GoodAttacker 2 , PublicFaith 3 , BattleChivalry 3 , StrategyChivalry 3 , ReligiousActivity 2 , ReligionStarter 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -12810,7 +12812,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction france, Guillaume Loys, general, male, age 28, x 208, y 177 
+character	sub_faction france, Guillaume Loys, general, male, age 28, x 211, y 190
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		Armored Sergeants			exp 0 armour 0 weapon_lvl 0
@@ -12921,63 +12923,63 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 392, y 125 
+character	sub_faction turks, Khalil, general, male, age 21, x 373, y 130 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 409, y 182 
+character	sub_faction turks, Caatay, general, male, age 21, x 417, y 236 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 465, y 161 
+character	sub_faction turks, Osman, general, male, age 21, x 465, y 161 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 481, y 180
+character	sub_faction turks, Fadlullah, general, male, age 21, x 481, y 180
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 319, y 72
+character	sub_faction turks, Suleymish, general, male, age 21, x 319, y 72
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 407, y 162
+character	sub_faction turks, Mustafa, general, male, age 21, x 484, y 262
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 481, y 119
+character	sub_faction turks, Uthman, general, male, age 21, x 481, y 119
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 495, y 125
+character	sub_faction turks, Salih, general, male, age 21, x 495, y 125
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 458, y 143
+character	sub_faction turks, Yalbay, general, male, age 21, x 458, y 143
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -13229,145 +13231,266 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-; ## Diplomacy
+; ## DIPLOMACY - Relations Points
 
 faction_standings	wales,			-0.60	slave
+faction_standings	wales,			-0.40	england
+
 faction_standings	ireland,		-0.20	norway, scotland
-faction_standings	ireland,		-0.60	slave
-faction_standings	novgorod,		-0.40	denmark
-faction_standings	novgorod,		-0.60	mongols
-faction_standings	novgorod,		-0.80	teutonic_order
-faction_standings	teutonic_order,		0.40	hre
-faction_standings	teutonic_order,		-0.20	poland
-faction_standings	teutonic_order,		-0.40	russia
-faction_standings	teutonic_order,		-0.60	mongols
-faction_standings	teutonic_order,		-0.80	novgorod, lithuania
-faction_standings	lithuania,		-0.20	russia
-faction_standings	lithuania,		-0.60	slave
-faction_standings	lithuania,		-0.80	teutonic_order
-faction_standings	jerusalem,		0.80	antioch
-faction_standings	jerusalem,		0.40	papal_states
-faction_standings	jerusalem,		0.20	byzantium
-faction_standings	jerusalem,		-0.40	turks
-faction_standings	antioch,		0.80	jerusalem
-faction_standings	antioch,		0.40	papal_states
-faction_standings	antioch,		0.20	byzantium
-faction_standings	antioch,		-0.80	turks
-faction_standings	norway,			-0.20	ireland
-faction_standings	norway,			-0.60	denmark, scotland
-faction_standings	scotland,		0.60	france
-faction_standings	scotland,		0.40	denmark
+faction_standings	ireland,		-0.60	slave, england
+
+faction_standings	england,		-0.40	denmark
+faction_standings	england,		-0.60	slave
+faction_standings	england,		-0.80	france
+faction_standings	england,		-0.60	ireland
+faction_standings	england,		-0.10	scotland, wales, sicily
+faction_standings	england,		0.40	hre
+faction_standings	england,		0.80	portugal
+
+faction_standings	scotland,		0.80	france
+faction_standings	scotland,		-0.10	denmark
 faction_standings	scotland,		-0.20	ireland
-faction_standings	scotland,		-0.60	norway
-faction_standings	milan,			0.20	spain, papal_states
-faction_standings	milan,			-0.40	venice
-faction_standings	milan,			-0.60	hre
-faction_standings	venice,			0.40	hungary
-faction_standings	venice,			-0.40	milan, hre
-faction_standings	venice,			-0.60	byzantium
-faction_standings	sicily,			0.20	portugal
-faction_standings	sicily,			-0.40	byzantium
-faction_standings	sicily,			-0.60	moors
+faction_standings	scotland,		-0.80	norway
+
+faction_standings	france,			0.60	scotland
+faction_standings	france,			0.40	ireland, wales
+faction_standings	france,			-0.20	spain
+faction_standings	france,			-0.80	england
+faction_standings	france,			-0.40	hre
+faction_standings	france,			0.20	venice
+faction_standings	france,			-0.60	milan
+
+faction_standings	hre,			0.40	teutonic_order
+faction_standings	hre,			-0.40	venice, poland, france, hungary
+faction_standings	hre,			-0.60	papal_states, milan
+faction_standings	hre,			-0.70	denmark
+faction_standings	hre,			0.70	byzantium
+
 faction_standings	spain,			0.20	portugal, milan
-faction_standings	spain,			-0.60	france
+faction_standings	spain,			0.60	ireland, wales
+faction_standings	spain,			-0.40	france, england
+faction_standings	spain,			-0.80	moors
+
+faction_standings	portugal,		0.60	sicily
+faction_standings	portugal,		0.40	england
 faction_standings	portugal,		0.20	spain, sicily
 faction_standings	portugal,		-0.60	moors
-faction_standings	denmark,		0.40	scotland
+
+faction_standings	moors,			0.80	egypt
+faction_standings	moors,			0.40	turks
+faction_standings	moors,			-0.60	slave, portugal, sicily, spain
+
+faction_standings	denmark,		0.20	scotland
 faction_standings	denmark,		-0.20	england
 faction_standings	denmark,		-0.40	novgorod
 faction_standings	denmark,		-0.60	norway
 faction_standings	denmark,		-0.70	hre
-faction_standings	poland,			0.60	hungary
-faction_standings	poland,			-0.20	teutonic_order
-faction_standings	poland,			-0.60	slave
-faction_standings	hungary,		0.60	poland
-faction_standings	hungary,		0.40	venice
-faction_standings	hungary,		-0.40	turks
-faction_standings	hungary,		-0.60	slave
-faction_standings	hungary,		-0.70	byzantium
-faction_standings	russia,			0.40	byzantium
-faction_standings	russia,			-0.20	lithuania
-faction_standings	russia,			-0.40	papal_states, teutonic_order
-faction_standings	russia,			-0.60	slave
-faction_standings	russia,			-0.80	mongols
-faction_standings	mongols,		0.40	turks
-faction_standings	mongols,		-0.60	novgorod, teutonic_order, timurids
-faction_standings	mongols,		-0.80	russia
-faction_standings	mongols,		-0.80	russia
-faction_standings	egypt,			0.40	turks
-faction_standings	egypt,			-0.60	slave, byzantium
-faction_standings	egypt,			-0.80	papal_states
-faction_standings	france,			0.60	scotland
-faction_standings	france,			-0.60	spain
-faction_standings	france,			-0.80	england
-faction_standings	england,		-0.20	denmark
-faction_standings	england,		-0.60	slave
-faction_standings	england,		-0.80	france
-faction_standings	turks,			0.40	mongols, moors, egypt
-faction_standings	turks,			-0.40	hungary, jerusalem
-faction_standings	turks,			-0.60	slave
-faction_standings	turks,			-0.80	byzantium, antioch
-faction_standings	moors,			0.40	turks
-faction_standings	moors,			-0.60	slave, portugal, sicily
-faction_standings	hre,			0.40	teutonic_order
-faction_standings	hre,			-0.40	venice
-faction_standings	hre,			-0.60	papal_states, milan
-faction_standings	hre,			-0.70	denmark
+faction_standings	denmark,		0.60	wales, sicily
+
+faction_standings	norway,			-0.20	ireland
+faction_standings	norway,			-0.60	denmark, scotland
+faction_standings	norway,			0.40	lithuania, novgorod
+
+faction_standings	papal_states,		0.40	antioch, jerusalem
+faction_standings	papal_states,		0.20	milan
+faction_standings	papal_states,		-0.40	russia
+faction_standings	papal_states,		-0.60	hre
+faction_standings	papal_states,		-0.80	egypt
+
+faction_standings	milan,			0.20	spain, papal_states
+faction_standings	milan,			-0.40	venice
+faction_standings	milan,			-0.60	hre
+
+faction_standings	venice,			0.40	hungary
+faction_standings	venice,			-0.40	milan, hre
+faction_standings	venice,			-0.60	byzantium
+
+faction_standings	sicily,			0.20	portugal
+faction_standings	sicily,			-0.40	byzantium
+faction_standings	sicily,			-0.60	moors
+
 faction_standings	byzantium,		0.40	russia
 faction_standings	byzantium,		0.20	antioch, jerusalem
 faction_standings	byzantium,		-0.40	sicily
 faction_standings	byzantium,		-0.60	egypt, venice
 faction_standings	byzantium,		-0.70	hungary
 faction_standings	byzantium,		-0.80	turks
-faction_standings	papal_states,		0.40	antioch, jerusalem
-faction_standings	papal_states,		0.20	milan
-faction_standings	papal_states,		-0.40	russia
-faction_standings	papal_states,		-0.60	hre
-faction_standings	papal_states,		-0.80	egypt
+
+faction_standings	jerusalem,		0.80	antioch
+faction_standings	jerusalem,		0.40	papal_states
+faction_standings	jerusalem,		0.20	byzantium
+faction_standings	jerusalem,		-0.40	turks
+
+faction_standings	antioch,		0.80	jerusalem
+faction_standings	antioch,		0.40	papal_states
+faction_standings	antioch,		0.20	byzantium
+faction_standings	antioch,		-0.80	turks
+
+faction_standings	turks,			0.40	mongols, moors, egypt
+faction_standings	turks,			-0.40	hungary, jerusalem
+faction_standings	turks,			-0.60	slave
+faction_standings	turks,			-0.80	byzantium, antioch
+
 faction_standings	timurids,		-0.80	turks, byzantium
 faction_standings	timurids,		-0.60	antioch, jerusalem
 faction_standings	timurids,		-0.20	egypt
 faction_standings	timurids,		-0.40	mongols
+
+faction_standings	egypt,			0.40	turks
+faction_standings	egypt,			-0.60	slave, byzantium
+faction_standings	egypt,			-0.80	papal_states
+
+faction_standings	novgorod,		-0.40	denmark
+faction_standings	novgorod,		-0.60	mongols
+faction_standings	novgorod,		-0.80	teutonic_order
+
+faction_standings	teutonic_order,		0.40	hre
+faction_standings	teutonic_order,		-0.20	poland
+faction_standings	teutonic_order,		-0.40	russia
+faction_standings	teutonic_order,		-0.60	mongols
+faction_standings	teutonic_order,		-0.80	novgorod, lithuania
+
+faction_standings	lithuania,		-0.20	russia
+faction_standings	lithuania,		-0.60	slave
+faction_standings	lithuania,		-0.80	teutonic_order
+
+faction_standings	poland,			0.60	hungary
+faction_standings	poland,			-0.20	teutonic_order
+faction_standings	poland,			-0.60	slave
+
+faction_standings	hungary,		0.60	poland
+faction_standings	hungary,		0.40	venice
+faction_standings	hungary,		-0.40	turks
+faction_standings	hungary,		-0.60	slave
+faction_standings	hungary,		-0.70	byzantium
+
+faction_standings	russia,			0.40	byzantium
+faction_standings	russia,			-0.20	lithuania
+faction_standings	russia,			-0.40	papal_states, teutonic_order
+faction_standings	russia,			-0.60	slave
+faction_standings	russia,			-0.80	mongols
+
+faction_standings	mongols,		0.40	turks
+faction_standings	mongols,		-0.60	novgorod, teutonic_order, timurids
+faction_standings	mongols,		-0.80	russia
+faction_standings	mongols,		-0.50	wales, ireland, england, scotland
+faction_standings	mongols,		-0.50	france, hre
+faction_standings	mongols,		-0.50	spain, portugal, moors
+faction_standings	mongols,		-0.50	norway, denmark
+faction_standings	mongols,		-0.60	papal_states, milan, venice, sicily
+faction_standings	mongols,		-0.50	byzantium, jerusalem, antioch, egypt
+faction_standings	mongols,		-0.50	lithuania, poland, hungary
+
 faction_standings	slave,			-0.60	wales, russia, ireland, lithuania, hungary, egypt, moors, england, turks, poland
 
-faction_relationships 	wales, at_war_with 	slave
+; ## DIPLOMACY - Wars and Alliances
+
+; ## British Isles
+
+faction_relationships 	wales, at_war_with 	slave, england
 faction_relationships 	ireland, at_war_with 	slave, england
-faction_relationships 	novgorod, at_war_with 	slave, mongols, russia
-faction_relationships 	teutonic_order, allied_to 	antioch, jerusalem, papal_states
-faction_relationships 	teutonic_order, at_war_with 	slave, lithuania
-faction_relationships 	lithuania, at_war_with 	slave, teutonic_order
-faction_relationships 	jerusalem, allied_to 	antioch, papal_states, teutonic_order
-faction_relationships 	jerusalem, at_war_with 	slave, egypt, turks
-faction_relationships 	antioch, allied_to 		jerusalem, papal_states, teutonic_order
-faction_relationships 	antioch, at_war_with 	slave, turks , egypt
-faction_relationships 	norway, at_war_with 	slave, scotland
+faction_relationships 	england, at_war_with 	slave, ireland, denmark, france, wales
 faction_relationships 	scotland, at_war_with 	slave, norway
-faction_relationships 	milan, at_war_with 	slave
-faction_relationships 	venice, at_war_with 	slave
-faction_relationships 	sicily, at_war_with 	slave
+
+; ## Western Europe
+
+faction_relationships 	france, at_war_with 	slave, england
+faction_relationships 	hre, at_war_with 	slave, milan
+
+; ## Iberia
+
 faction_relationships 	spain, at_war_with 	slave, moors
 faction_relationships 	portugal, at_war_with 	slave, moors
-faction_relationships 	denmark, at_war_with 	slave
-faction_relationships 	poland, at_war_with 	slave
-faction_relationships 	hungary, at_war_with 	slave, byzantium
+faction_relationships 	moors, at_war_with 	slave, spain, portugal, papal_states
+
+; ## Scandinavia
+
+faction_relationships 	norway, at_war_with 	slave, scotland
+faction_relationships 	denmark, at_war_with 	slave, england
+
+; ## Italy
+
+faction_relationships 	papal_states, at_war_with 	slave, egypt, moors, aztecs
+faction_relationships 	milan, at_war_with 	slave, hre
+faction_relationships 	venice, at_war_with 	slave, byzantium, sicily
+faction_relationships 	sicily, at_war_with 	slave, venice, byzantium
+
+; ## Middle East
+
+faction_relationships 	byzantium, at_war_with 	slave, turks, venice, sicily
+faction_relationships 	jerusalem, at_war_with 	slave, egypt
+faction_relationships 	antioch, at_war_with 	slave, turks, egypt
+faction_relationships 	egypt, at_war_with 	slave, jerusalem, antioch, papal_states
+faction_relationships 	turks, at_war_with 	slave, antioch, timurids, byzantium
+faction_relationships 	timurids, at_war_with 	slave, turks
+
+; ## Eastern Europe
+
+faction_relationships 	novgorod, at_war_with 	slave, russia, mongols
+faction_relationships 	teutonic_order, at_war_with 	slave, lithuania
+faction_relationships 	lithuania, at_war_with 	slave, teutonic_order, poland
+faction_relationships 	russia, at_war_with 	slave, novgorod, hungary, mongols
+faction_relationships 	poland, at_war_with 	slave, lithuania 
+faction_relationships 	hungary, at_war_with 	slave, mongols, russia
+faction_relationships 	mongols, at_war_with 	slave, novgorod, russia, hungary
+
+; ## Other
+
+faction_relationships 	aztecs, at_war_with 	slave, papal_states
+faction_relationships 	slave, at_war_with 	wales, ireland, england, scotland
+faction_relationships 	slave, at_war_with 	france, hre
+faction_relationships 	slave, at_war_with 	spain, portugal, moors
+faction_relationships 	slave, at_war_with 	norway, denmark
+faction_relationships 	slave, at_war_with 	papal_states, milan, venice, sicily
+faction_relationships 	slave, at_war_with 	byzantium, jerusalem, antioch, egypt, turks, timurids
+faction_relationships 	slave, at_war_with 	novgorod, teutonic_order, lithuania, russia, poland, hungary, mongols
+
+; ## ALLIANCE
+
+;Holy Orders Alliance
+faction_relationships 	jerusalem, allied_to 	antioch, papal_states, teutonic_order
+faction_relationships 	antioch, allied_to 		jerusalem, papal_states, teutonic_order
+faction_relationships 	teutonic_order, allied_to 	jerusalem, antioch, papal_states
+faction_relationships 	papal_states, allied_to 	jerusalem, antioch, teutonic_order
+
+;Teutonic German Alliance
+faction_relationships 	teutonic_order, allied_to 	hre
+faction_relationships 	hre, allied_to 	teutonic_order
+
+;Auld Alliance
+faction_relationships 	france, allied_to 	scotland
+faction_relationships 	scotland, allied_to 	france
+
+;Anglo-Portuguese-German Treaty
+faction_relationships 	england, allied_to 	portugal
+faction_relationships 	england, allied_to 	hre
+faction_relationships 	hre, allied_to 	england
+faction_relationships 	portugal, allied_to england
+
+;Anglo-Norman Overlordship
+faction_relationships 	sicily, protectorate_of 	england
+
+;Caliphates 
+faction_relationships 	egypt, allied_to 	moors
+faction_relationships 	moors, allied_to 	egypt
+
+;Visegrad
+faction_relationships 	poland, allied_to 	hungary
+faction_relationships 	poland, allied_to 	denmark
+faction_relationships 	hungary, allied_to 	poland
+faction_relationships 	denmark, allied_to 	poland
+
+;Old Gods League
+faction_relationships 	norway, allied_to 	lithuania
+faction_relationships 	lithuania, allied_to 	norway
+
+;Imperial Rus–Rhomaion Accord
 faction_relationships 	russia, allied_to 	byzantium
-faction_relationships 	russia, at_war_with 	slave, mongols, novgorod
-faction_relationships 	mongols, at_war_with 	slave, russia, novgorod
-faction_relationships 	egypt, allied_to 	turks
-faction_relationships 	egypt, at_war_with 	slave, jerusalem, antioch
-faction_relationships 	france, at_war_with 	slave
-faction_relationships 	england, at_war_with 	slave, ireland
-faction_relationships 	turks, allied_to 	egypt
-faction_relationships 	turks, at_war_with 	antioch, slave, byzantium, jerusalem, timurids
-faction_relationships 	moors, at_war_with 	slave, portugal, spain
-faction_relationships 	hre, at_war_with 	slave
 faction_relationships 	byzantium, allied_to 	russia
-faction_relationships 	byzantium, at_war_with 	turks, slave, hungary, timurids
-faction_relationships 	papal_states, allied_to  	jerusalem, antioch, teutonic_order
-faction_relationships 	papal_states, at_war_with 	slave
-faction_relationships 	aztecs, at_war_with 	slave
-faction_relationships 	timurids, at_war_with 	slave, turks, byzantium
-faction_relationships 	slave, at_war_with 	france, egypt, england, hungary, turks, mongols, russia, aztecs, papal_states, poland, timurids, hre, moors, byzantium, jerusalem, lithuania, norway, antioch, ireland, denmark, teutonic_order, novgorod, spain, sicily, wales, portugal, milan, scotland, venice
+
+;Baltic Compat
+faction_relationships 	norway, allied_to 	novgorod
+faction_relationships 	novgorod, allied_to 	norway
 
 ; ## Script Plugins
 

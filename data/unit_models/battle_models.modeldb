@@ -14562,7 +14562,7 @@
 59 unit_models/_Units/LN_Lmail_Hmail/flemish_pikemen_lod2.mesh 2500 
 59 unit_models/_Units/LN_Lmail_Hmail/flemish_pikemen_lod3.mesh 6400 
 2 
-5 slave 
+4 merc  
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_rebels.texture 
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_normal.texture 
 45 unit_sprites/slave_Flemish_Pikemen_sprite.spr 
@@ -14571,7 +14571,7 @@
 72 unit_models/_Units/LN_Lmail_Hmail/textures/LN_Lmail_Hmail_normal.texture 
 44 unit_sprites/merc_Flemish_Pikemen_sprite.spr 
 2 
-5 slave 
+4 merc  
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0 
 4 merc 
@@ -30408,7 +30408,7 @@
 77 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_mercs.texture 
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 35 unit_sprites/merc_Helwyr_sprite.spr 
-5 wales 
+4 merc
 77 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_wales.texture 
 78 unit_models/_Units/EN_Peasant_Padded/textures/EN_Peasant_Padded_normal.texture 
 36 unit_sprites/wales_Helwyr_sprite.spr 
@@ -30416,7 +30416,7 @@
 4 merc 
 66 unit_models/AttachmentSets/Final European Archer_merc_diff.texture 
 66 unit_models/AttachmentSets/Final European Archer_merc_norm.texture 0 
-5 wales 
+4 merc
 67 unit_models/AttachmentSets/Final European Archer_wales_diff.texture 
 67 unit_models/AttachmentSets/Final European Archer_wales_norm.texture 0 
 1 

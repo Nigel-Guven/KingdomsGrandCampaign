@@ -4,23 +4,14 @@ Update unit sizes 		https://www.youtube.com/watch?v=5qRGKcULbAc&list=PLpIpxrUEH2
 Convert Norway to paganism 	https://www.youtube.com/watch?v=Mg2uLQgoOfM&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=8
 
 Make the Timurids a horde
-Update events
+
 Allow Orthodox factions to go on crusade
 
 Fix Character placement on the map
 
 Update Campaign scripts to add interesting stuff
-Declutter CastleTown resources delete two of them
 
-Balance campaign
-	France 		Clermont, Marseille
-	England 	Lancaster, Wexford
-	HRE		Innsbruck, Hamburg
-	Denmark		Lund
-	Norway		Tingvalla
-	Rebels		Turov, Atil, Visby
-	Byzantium	Corinth, Adrianople
-	Turks		Ankara, Sinope, Attalia
+
 
 
 Units to add
@@ -34,4 +25,17 @@ Timurids + 6
 -- DONE
 Repaint the map to be more accurate for regions
 Fix diplomacy bug
+Update faction relations
+Update events
+Declutter CastleTown resources delete two of them
 
+
+Balance campaign
+	France 		Clermont, Marseille
+	England 	Lancaster, Wexford
+	HRE		Innsbruck, Hamburg
+	Denmark		Lund
+	Norway		Tingvalla
+	Rebels		Turov, Atil, Visby
+	Byzantium	Corinth, Adrianople
+	Turks		Ankara, Sinope, Attalia
