@@ -5,22 +5,12 @@ Convert Norway to paganism 	https://www.youtube.com/watch?v=Mg2uLQgoOfM&list=PLp
 
 Make the Timurids a horde
 
-Allow Orthodox factions to go on crusade
+
 
 Fix Character placement on the map
 
 Update Campaign scripts to add interesting stuff
 
-
-
-
-Units to add
-Ireland + 1
-Antioch + 3
-Mongols + 2
-Jerusalem + 5
-Wales + 3
-Timurids + 6
 ------------------------------------------------------------------------------------------------------------------------------
 -- DONE
 Repaint the map to be more accurate for regions
@@ -39,3 +29,13 @@ Balance campaign
 	Rebels		Turov, Atil, Visby
 	Byzantium	Corinth, Adrianople
 	Turks		Ankara, Sinope, Attalia
+
+Units to add
+Ireland + 1
+Antioch + 3
+Mongols + 2
+Jerusalem + 5
+Wales + 3
+Timurids + 6
+
+Allow Orthodox factions to go on crusade

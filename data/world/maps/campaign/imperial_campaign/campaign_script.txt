@@ -15,14 +15,18 @@ script
             event	counter	lithuania_conversion_accepted
             event	counter	lithuania_conversion_declined
             event	counter lithuania_conversion_timer
-            date	6
+            date	5
         end_add_events
 
-        generate_random_counter	lithuania_conversion_timer 0 35
+        generate_random_counter	lithuania_conversion_timer 0 5
         set_event_counter lithuania_conversion_accepted 0
         set_event_counter lithuania_conversion_declined 0
 
-        ;setup HANSEATIC LEAGUE counters
+        ;setup CRUSADING NOBLE counters
+			
+        generate_random_counter	crusader1_timer 0 3
+		
+		;setup HANSEATIC LEAGUE counters
 
         add_events
             event	counter	hanseatic_formation_timer
@@ -2154,7 +2158,7 @@ script
 
     monitor_event FactionTurnStart FactionType lithuania
 
-        if I_NumberOfSettlements lithuania < 5
+        if I_NumberOfSettlements lithuania >= 4
             and I_EventCounter lithuania_conversion_timer >= 10
             and I_EventCounter lithuania_conversion_accepted = 0
 
@@ -2164,8 +2168,8 @@ script
             ;if AI random chance to accept
             if I_IsFactionAIControlled lithuania
 
-                generate_random_counter	random_accept 0 2
-                if I_EventCounter random_accept < 2
+                generate_random_counter	random_accept 0 8
+                if I_EventCounter random_accept < 3
                     set_event_counter lithuania_conversion_accepted 1
                 end_if
 
@@ -2229,6 +2233,141 @@ script
         terminate_monitor
 
     end_monitor
+
+	;------------------- CRUSADING NOBLES TEUTONIC BALTIC CRUSADE -------------------;
+
+	monitor_event FactionTurnStart FactionType teutonic_order	
+		inc_event_counter crusader1_timer 1		
+	end_monitor
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 8
+		and I_NumberOfSettlements lithuania > 0
+		and I_EventCounter lithuania_conversion_accepted = 0
+		
+		historic_event teutonic_order_volunteers factions { lithuania, teutonic_order, }
+		
+		increment_kings_purse teutonic_order 15000
+		
+		spawn_army
+			faction		teutonic_order
+			character	Ulrich Salier, admiral, age 31, x 301, y 312
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+                faction teutonic_order
+                character	Tancred von Luxemburg, named character, x 301, y 312
+                traits LoyaltyStarter 1 , GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , HaleAndHearty 1 , CrusaderHistory 2 , ReligionStarter 1
+                unit		TO Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mounted Crossbowmen				exp 0 armour 0 weapon_lvl 0
+                unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+                unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+                unit		Papal Guard	exp 0 armour 0 weapon_lvl 0
+                unit		Papal Guard	exp 0 armour 0 weapon_lvl 0
+                unit		Crusader Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- CRUSADING NOBLES TEUTONIC SWEDISH CRUSADE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 16
+		
+		historic_event teutonic_order_scandinavia factions { teutonic_order, }
+		
+		increment_kings_purse teutonic_order 15000
+		
+		spawn_army
+			faction		teutonic_order
+			character	Lukas Becker, admiral, age 31, x 285, y 316
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+			unit		cog				exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+                faction teutonic_order
+                character	Hugo von Nassau, named character, x 283, y 316
+                traits LoyaltyStarter 1 , GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , HaleAndHearty 1 , ChristianHero 1 , ReligionStarter 1 , LoyaltyStarter 1 , CrusaderHistory 2 , ReligionStarter 1
+                unit		TO Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mounted Crossbowmen				exp 0 armour 0 weapon_lvl 0
+                unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+                unit		Papal Guard	exp 0 armour 0 weapon_lvl 0
+                unit		Papal Guard	exp 0 armour 0 weapon_lvl 0
+                unit		Crusader Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Turkopoles	exp 0 armour 0 weapon_lvl 0
+				unit		Turkopoles	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+				unit		Clergymen	exp 0 armour 0 weapon_lvl 0
+				unit		Clergymen	exp 0 armour 0 weapon_lvl 0
+				unit		Sword Brethren	exp 0 armour 0 weapon_lvl 0
+				unit		Burgher Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Frankish Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Irish Kerns Mercs	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- CRUSADING NOBLES LITHUANIAN PAGAN UPRISING -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 10
+		
+		historic_event lithuanians_arise factions { lithuania, teutonic_order, }
+		
+		increment_kings_purse lithuania 15000
+			
+		spawn_army 
+                faction lithuania
+                character	Preigilas of Siauliai, named character, x 322, y 292
+                traits Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3
+                unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Sudovian Tribesmen				exp 0 armour 0 weapon_lvl 0
+                unit		Sudovian Tribesmen				exp 0 armour 0 weapon_lvl 0
+                unit		Followers of Perkunas				exp 0 armour 0 weapon_lvl 0
+                unit		Followers of Perkunas	exp 0 armour 0 weapon_lvl 0
+                unit		Followers of Perkunas	exp 0 armour 0 weapon_lvl 0
+				unit		Estonian Rebels	exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries	exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries	exp 0 armour 0 weapon_lvl 0
+                unit		Baltic Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Baltic Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Baltic Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Baltic Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Tartar Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cossack Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Cossack Cavalry	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
 
     ;----------------- KIEV SACKED ----------------;
 
