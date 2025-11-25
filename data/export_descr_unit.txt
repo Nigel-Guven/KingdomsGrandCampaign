@@ -4048,9 +4048,9 @@ stat_food        60, 300
 stat_cost        1, 550, 150, 50, 115, 550, 4, 180
 armour_ug_levels 0, 4
 armour_ug_models Hand_Gunners, Hand_Gunners_ug1
-ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
-era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
-era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, teutonic_order, denmark
+ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, norway, teutonic_order, denmark
+era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, norway, teutonic_order, denmark
+era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland, norway, teutonic_order, denmark
 recruit_priority_offset   10
 
 
@@ -4175,8 +4175,8 @@ stat_food        60, 300
 stat_cost        1, 600, 150, 60, 140, 600, 4, 170
 armour_ug_levels 0, 4
 armour_ug_models Dismounted_French_Archers, Dismounted_French_Archers_ug1
-ownership        france
-era 1            france
+ownership        france, antioch
+era 1            france, antioch
 recruit_priority_offset   15
 
 
@@ -6032,9 +6032,9 @@ stat_food        60, 300
 stat_cost        1, 340, 125, 50, 115, 340, 4, 70
 armour_ug_levels 0, 1, 2
 armour_ug_models Billmen, Billmen_ug1, Billmen_ug2
-ownership        england, wales, france, jerusalem
-era 1            england, wales, france, jerusalem
-era 2            england, wales, france, jerusalem
+ownership        england, wales, france, jerusalem, scotland, spain
+era 1            england, wales, france, jerusalem, scotland, spain
+era 2            england, wales, france, jerusalem, scotland, spain
 recruit_priority_offset   -5
 
 
@@ -6095,9 +6095,9 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 60, 140, 600, 4, 140
 armour_ug_levels 0, 3
 armour_ug_models Highland_Nobles, Highland_Nobles_ug1
-ownership        scotland, france
-era 1            scotland, france
-era 2            scotland, france
+ownership        scotland, france, jerusalem
+era 1            scotland, france, jerusalem
+era 2            scotland, france, jerusalem
 recruit_priority_offset   20
 
 
@@ -6251,7 +6251,7 @@ stat_food        60, 300
 stat_cost        1, 300, 100, 45, 105, 300, 4, 40
 armour_ug_levels 0, 1, 2
 armour_ug_models Bill_Militia, Bill_Militia_ug1, Bill_Militia_ug2
-ownership        england, spain
+ownership        england, spain, wales, scotland, france
 recruit_priority_offset   0
 
 
@@ -6564,9 +6564,9 @@ stat_food        60, 300
 stat_cost        1, 500, 150, 50, 115, 500, 4, 120
 armour_ug_levels 0, 3, 4
 armour_ug_models Norse_Swordsmen, Norse_Swordsmen_ug1, Norse_Swordsmen_ug2
-ownership        denmark, norway, slave
-era 1            denmark, norway
-era 2            denmark, norway
+ownership        denmark, norway, slave, hre
+era 1            denmark, norway, hre
+era 2            denmark, norway, hre
 recruit_priority_offset   10
 
 
@@ -7007,8 +7007,8 @@ stat_food        60, 300
 stat_cost        1, 900, 300, 65, 155, 940, 4, 280
 armour_ug_levels 0
 armour_ug_models Swiss_Guard
-ownership        papal_states, antioch
-era 2            papal_states, antioch
+ownership        papal_states, antioch, teutonic_order
+era 2            papal_states, antioch, teutonic_order
 recruit_priority_offset   30
 
 
@@ -15889,7 +15889,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Rhyfelwyr, 72, 0, 1.2
-attributes       sea_faring, hide_forest, can_withdraw
+attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         14, 8, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
@@ -15907,10 +15907,10 @@ stat_food        60, 300
 stat_cost        1, 600, 200, 50, 115, 600, 4, 90
 armour_ug_levels 0, 4
 armour_ug_models Rhyfelwyr, Rhyfelwyr_ug1
-ownership        wales, slave
-era 0            wales
-era 1            wales
-era 2            wales
+ownership        wales, slave, antioch
+era 0            wales, antioch
+era 1            wales, antioch
+era 2            wales, antioch
 recruit_priority_offset   20
 
 

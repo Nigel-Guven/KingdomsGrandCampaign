@@ -1243,7 +1243,7 @@ settlement castle
 	level village
 	region Galway_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator ireland
 	building
@@ -1688,7 +1688,7 @@ settlement castle
 	level village
 	region Hrodna_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator lithuania
 	building
@@ -1956,7 +1956,7 @@ unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 
-character	Fraunce, general, male, age 40, x 437, y 78
+character	Fraunce, general, male, age 40, x 412, y 109
 army
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
@@ -1970,7 +1970,7 @@ army
 unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
 
-character	Sibylla, princess, female, age 19, x 434, y 0 
+character	Sibylla, princess, female, age 19, x 435, y 84 
 traits IAmPrincess 1 , NaturalPrincess 2 , GoodPrincess 1 
 
 character	William, priest, male, age 43, x 439, y 86 
@@ -2231,7 +2231,7 @@ settlement
 	level village
 	region Tingvalla_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator norway
 }
@@ -2871,7 +2871,7 @@ settlement castle
 	level village
 	region Malta_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -2932,7 +2932,7 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Alberto, named character, male, age 22, x 280, y 129, portrait alberto 
+character	Alberto, named character, male, age 22, x 271, y 146, portrait alberto 
 traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 2 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -3038,7 +3038,7 @@ settlement castle
 	level village
 	region Valladolid_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator spain
 	building
@@ -3109,7 +3109,7 @@ unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Saluador Caruallo, general, male, age 30, x 137, y 177 
+character	Saluador Caruallo, general, male, age 30, x 110, y 189 
 army
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -3858,7 +3858,7 @@ settlement castle
 	level village
 	region Kozelsk_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator russia
 	building
@@ -3925,13 +3925,6 @@ unit		EE Peasants				exp 0 armour 0 weapon_lvl 0
 unit		EE Peasants				exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
-
-character	Maksimov, general, male, age 27, x 384, y 242
-army
-unit		EE Archer Militia			exp 0 armour 1 weapon_lvl 0
-unit		EE Archer Militia			exp 0 armour 1 weapon_lvl 0
-unit		EE Spear Militia			exp 0 armour 1 weapon_lvl 0
-unit		EE Spear Militia			exp 0 armour 1 weapon_lvl 0
 
 character	Kuritsev, general, male, age 27, x 398, y 282 
 army
@@ -4005,7 +3998,7 @@ settlement castle
 	}
 }
 
-character	Genghis, named character, male, leader, age 40, x 447, y 239, portrait genghis, battle_model eastern_sultan 
+character	Genghis, named character, male, leader, age 40, x 448, y 236, portrait genghis, battle_model eastern_sultan 
 traits Factionleader 1 , EasternWarlord 2 , Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3 
 ancillaries crown_mongols
 army
@@ -4228,44 +4221,6 @@ denari	20000
 denari_kings_purse	6000
 settlement
 {
-	level large_town
-	region Tbilisi_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_orthodox church_o
-	}
-}
-
-settlement
-{
 	level city
 	region Baghdad_Province
 	year_founded 0
@@ -4274,7 +4229,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -4310,7 +4265,7 @@ settlement
 	}
 } 
 
-character	Timur, named character, male, leader, age 32, x 481, y 195, battle_model eastern_sultan 
+character	Timur, named character, male, leader, age 32, x 503, y 126, battle_model eastern_sultan 
 traits Factionleader 1 , EasternWarlord 2 , Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3 
 ancillaries crown_mongols
 army
@@ -4328,10 +4283,8 @@ unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Bodonchar, named character, male, heir, age 17, x 497, y 192 
+character	Bodonchar, named character, male, heir, age 17, x 499, y 120 
 traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
 army
 unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
@@ -4351,71 +4304,19 @@ unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Dagun, named character, male, age 16, x 497, y 191 
-traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
-army
-unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
-unit		Dismounted Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkish Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkomans			exp 0 armour 0 weapon_lvl 0
-unit		Naffatun			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-
-character	Daritai of Shiraz, named character, male, age 16, x 475, y 186 
-traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
-army
-unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
-unit		Dismounted Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkish Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkomans			exp 0 armour 0 weapon_lvl 0
-unit		Naffatun			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-
-character	Husayn of Turkistan, named character, male, age 16, x 503, y 126 
-traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
-army
-unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
-unit		Dismounted Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Peasant Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkish Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Turkomans			exp 0 armour 0 weapon_lvl 0
-unit		Naffatun			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
-
-character	Inalchi, priest, male, age 20, x 478, y 195
+character	Inalchi, priest, male, age 20, x 497, y 126
 traits NaturalPriestSkill 1 
 
-character	Khubilai, diplomat, male, age 28, x 457, y 195 
+character	Khubilai, diplomat, male, age 28, x 496, y 127 
 traits GoodDiplomat 4 
 
-character	Achigh, merchant, male, age 26, x 467, y 199 
+character	Achigh, merchant, male, age 26, x 503, y 122 
 traits GoodMerchant 2
 
 character_record		Hogelun, 	female, age 24, alive, never_a_leader
 
-relative 	Timur,	Hogelun,	Bodonchar,	Dagun,	end
+relative 	Timur,	Hogelun,	Bodonchar,	end
 
 faction	egypt, balanced smith
 ai_label		islam
@@ -4431,7 +4332,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -4541,7 +4442,7 @@ settlement castle
 	level village
 	region Dumyat_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -4662,7 +4563,7 @@ settlement
 	faction_creator france
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -4847,7 +4748,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Louis, named character, male, heir, age 23, x 182, y 185, portrait louis 
+character	Louis, named character, male, heir, age 23, x 183, y 188, portrait louis 
 traits Factionheir 1 , GoodCommander 2 , NaturalMilitarySkill 3 , Intelligent 2 , Energetic 1 , BattleDread 1 , LoyaltyStarter 1 , StrategyDread 3 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -4943,7 +4844,7 @@ settlement
 	faction_creator england
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -5345,7 +5246,7 @@ settlement castle
 	level village
 	region Malatya_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator turks
 	building
@@ -5440,7 +5341,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Kaikubad, named character, male, age 20, x 424, y 152, portrait kaikubad 
+character	Kaikubad, named character, male, age 20, x 409, y 182, portrait kaikubad 
 traits LoyaltyStarter 1 , GoodCommander 2 , PublicFaith 2 , GoodCavalryGeneral 1 , ReligionStarter 1 , JihadHistory 1 , Energetic 1 , Fertile 1 
 ancillaries foodtaster
 army
@@ -5452,7 +5353,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Jalal al_Rashid, named character, male, age 23, x 402, y 137 
+character	Jalal al_Rashid, named character, male, age 23, x 407, y 162 
 traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodDefender 1 , BattleDread 3 , StrategyDread 2 , GoodAdministrator 1 , JihadHistory 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -5477,7 +5378,7 @@ unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Hasham			exp 0 armour 0 weapon_lvl 0
 
-character	Sundak Ciller, general, male, age 21, x 420, y 150 
+character	Sundak Ciller, general, male, age 21, x 421, y 150 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -5539,7 +5440,7 @@ settlement
 	faction_creator moors
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -5689,7 +5590,7 @@ unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Qassim, named character, male, age 30, x 120, y 134 
+character	Qassim, named character, male, age 30, x 151, y 113 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , BattleDread 3 , Bloodthirsty 1 , PublicFaith 3 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6129,7 +6030,7 @@ settlement
 	faction_creator byzantium
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
 	}
 	building
 	{
@@ -6202,7 +6103,7 @@ settlement castle
 	level village
 	region Abydus_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6347,7 +6248,7 @@ settlement castle
 	level village
 	region Adrianople_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6364,7 +6265,7 @@ settlement castle
 	level village
 	region Corinth_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6430,7 +6331,7 @@ unit		Byzantine Infantry			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Mavros, named character, male, age 26, x 328, y 153, portrait mavros 
+character	Mavros, named character, male, age 26, x 364, y 144, portrait mavros 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleChivalry 1 , StrategyChivalry 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		Greek Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6682,7 +6583,7 @@ settlement
 	region Huaxtepec_Province
 
 	year_founded 0
-	population 8000
+	population 2000
 	plan_set default_set
 	faction_creator aztecs
 	building
@@ -6905,7 +6806,7 @@ settlement
 	region North_America
 
 	year_founded 0
-	population 8000
+	population 2000
 	plan_set default_set
 	faction_creator aztecs
 	building
@@ -7006,7 +6907,7 @@ settlement castle
 	level village
 	region Kalmar_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator denmark
 	building
@@ -7046,7 +6947,7 @@ settlement
 	level village
 	region Belo-Ozero_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator mongols
 }
@@ -7057,7 +6958,7 @@ settlement
 	region Cuba
 
 	year_founded 0
-	population 8000
+	population 2000
 	plan_set default_set
 	faction_creator aztecs
 	building
@@ -7375,7 +7276,7 @@ settlement
 	level village
 	region Kerkyra_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator byzantium
 }
@@ -7385,7 +7286,7 @@ settlement
 	level village
 	region Mallorca_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator moors
 }
@@ -7417,7 +7318,7 @@ settlement
 	level village
 	region Ayla_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -7481,7 +7382,7 @@ settlement
 	level village
 	region Buraidah_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -7533,7 +7434,7 @@ settlement
 	level village
 	region Arguin_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -7767,7 +7668,7 @@ settlement castle
 	level village
 	region Sijilmasa_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -8041,7 +7942,7 @@ settlement
 	level village
 	region Arensburg_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator lithuania
 }
@@ -8099,7 +8000,7 @@ settlement castle
 	level village
 	region Ancona_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator milan
 	building
@@ -8138,7 +8039,7 @@ settlement
 	region Brazil
 
 	year_founded 0
-	population 8000
+	population 2000
 	plan_set default_set
 	faction_creator aztecs
 	building
@@ -8383,7 +8284,7 @@ settlement castle
 	level village
 	region Bari_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator sicily
 	building
@@ -8423,7 +8324,7 @@ settlement castle
 	level village
 	region Dongola_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator moors
 	building
@@ -8483,7 +8384,7 @@ settlement castle
 	level village
 	region Iasi_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator russia
 	building
@@ -8671,7 +8572,7 @@ settlement
 	level village
 	region Barqa_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -8683,7 +8584,7 @@ settlement castle
 	level village
 	region Peremyshl_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator poland
 	building
@@ -8735,7 +8636,7 @@ settlement
 	level village
 	region Viatka_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator russia
 }
@@ -8745,7 +8646,7 @@ settlement
 	level village
 	region Al-Mansurya_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -8797,7 +8698,7 @@ settlement castle
 	level village
 	region Kutais_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator russia
 	building
@@ -8846,12 +8747,49 @@ settlement
 		type temple_perkunas perkunas_altar
 	}
 }
+settlement
+{
+	level large_town
+	region Tbilisi_Province
+	year_founded 0
+	population 13000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+}
 settlement castle
 {
 	level village
 	region Atil_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator mongols
 	building
@@ -8868,7 +8806,7 @@ settlement castle
 	level village
 	region Turov_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator russia
 	building
@@ -8885,7 +8823,7 @@ settlement castle
 	level village
 	region Tabriz_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -8928,7 +8866,7 @@ settlement
 	level village
 	region Al-Mahdiya_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -8937,7 +8875,7 @@ settlement
 	level village
 	region Murom_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator russia
 }
@@ -8947,7 +8885,7 @@ settlement castle
 	level village
 	region Volga-Bulgar_Province
 	year_founded 0
-	population 250
+	population 480
 	plan_set default_set
 	faction_creator mongols
 	building
@@ -8997,7 +8935,7 @@ settlement
 	level village
 	region Tmutarakan_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator russia
 }
@@ -9007,7 +8945,7 @@ settlement
 	level village
 	region Al_Suways_Province
 	year_founded 0
-	population 200
+	population 400
 	plan_set default_set
 	faction_creator egypt
 }
@@ -9108,7 +9046,7 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 394, y 4 
+character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 391, y 3
 army
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
@@ -9261,17 +9199,6 @@ unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
 unit		Norse Swordsmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction spain, Julian Aragones, general, male, age 31, x 156, y 180 
-army
-unit		Jinetes					exp 0 armour 0 weapon_lvl 0
-unit		Jinetes					exp 0 armour 0 weapon_lvl 0
-unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
-unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
-unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
-
 character	sub_faction spain, Goncalo Guteres, general, male, age 31, x 160, y 149 
 army
 unit		Jinetes					exp 0 armour 0 weapon_lvl 0
@@ -9283,7 +9210,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction spain, Saluador Barbas, general, male, age 31, x 158, y 147 
+character	sub_faction spain, Saluador Barbas, general, male, age 31, x 150, y 153 
 army
 unit		Jinetes					exp 0 armour 0 weapon_lvl 0
 unit		Jinetes					exp 0 armour 0 weapon_lvl 0
@@ -9390,7 +9317,7 @@ unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction hre, Godwine, general, male, age 29, x 167, y 208 
+character	sub_faction hre, Godwine, general, male, age 29, x 166, y 294 
 army
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
@@ -9438,7 +9365,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction france, Guillaume Loys, general, male, age 28, x 168, y 203 
+character	sub_faction france, Guillaume Loys, general, male, age 28, x 167, y 204 
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		Armored Sergeants			exp 0 armour 0 weapon_lvl 0
@@ -9448,7 +9375,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction france, Guillaume Loys, general, male, age 28, x 211, y 190
+character	sub_faction france, Guillaume Loys, general, male, age 28, x 214, y 189
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		Armored Sergeants			exp 0 armour 0 weapon_lvl 0
@@ -9458,49 +9385,36 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 482, y 84 
+character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 261, y 72 
 army
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 101, y 100 
+character	sub_faction moors, Abdelatif Boulami, general, male, age 23, x 198, y 95 
 army
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 153, y 108
-army
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 95, y 96 
+character	sub_faction moors, Driss Farrakhan, general, male, age 23, x 235, y 90 
 army
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
-unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 432, y 80 
-army
-unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
-unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction denmark, Ulrik Gunnarsson, general, male, age 26, x 181, y 276 
@@ -9559,12 +9473,23 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Khalil, general, male, age 21, x 373, y 130 
+character	sub_faction turks, Khalil, general, male, age 21, x 261, y 72
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Armenian Cavalry				exp 0 armour 0 weapon_lvl 0
+unit		Armenian Cavalry				exp 0 armour 0 weapon_lvl 0
+unit		Turkomans			exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
+unit		Azabs				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction turks, Caatay, general, male, age 21, x 417, y 236 
 army
@@ -9573,7 +9498,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Osman, general, male, age 21, x 465, y 161 
+character	sub_faction turks, Osman, general, male, age 21, x 465, y 162
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9601,21 +9526,21 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Uthman, general, male, age 21, x 481, y 119
+character	sub_faction turks, Uthman, general, male, age 21, x 456, y 198
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Salih, general, male, age 21, x 495, y 125
+character	sub_faction turks, Salih, general, male, age 21, x 481, y 195
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Yalbay, general, male, age 21, x 458, y 143
+character	sub_faction turks, Yalbay, general, male, age 21, x 498, y 168
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9667,13 +9592,6 @@ unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 361, y 130 
-army
-unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
-unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
-unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
-unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction byzantium, Uberto Biacchi, general, male, age 28, x 391, y 131 
 army
 unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
@@ -9771,7 +9689,7 @@ unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction spain, El_Cid, named character, male, age 32, x 161, y 170 
+character	sub_faction spain, El_Cid, named character, male, age 32, x 160, y 169 
 traits GoodCommander 4 , GoodAttacker 3 , PublicFaith 3 , BattleChivalry 4 , StrategyChivalry 3 , ReligiousActivity 2 , ReligionStarter 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -10100,8 +10018,8 @@ faction_relationships 	scotland, allied_to 	france
 ;Anglo-Portuguese-German Treaty
 faction_relationships 	england, allied_to 	portugal
 faction_relationships 	england, allied_to 	hre
-faction_relationships 	hre, allied_to 	england
-faction_relationships 	portugal, allied_to england
+faction_relationships 	hre, allied_to	england
+faction_relationships 	portugal, allied_to		england
 
 ;Anglo-Norman Overlordship
 faction_relationships 	sicily, protectorate_of 	england
