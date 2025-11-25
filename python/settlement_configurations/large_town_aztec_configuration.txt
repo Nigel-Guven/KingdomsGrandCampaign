@@ -1,0 +1,26 @@
+settlement
+{
+	level large_town
+	region INSERT_PROVINCE
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_pagan pyramid
+	}
+	building
+	{
+		type meso_market marketplace
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}

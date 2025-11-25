@@ -1123,10 +1123,11 @@ settlement castle
 {
 	level large_town
 	region Caernarvon_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator wales
+	faction_creator england
 	building
 	{
 		type core_castle_building castle
@@ -1137,33 +1138,74 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
-	}
-	building
-	{
 		type equestrian stables
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_siege c_ballista_range
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level large_town
+	level city
 	region Cardiff_Province
+
 	year_founded 0
-	population 9000
+	population 10000
 	plan_set default_set
-	faction_creator wales
+	faction_creator england
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -1171,14 +1213,9 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_roads roads
 	}
 }
-
 
 character	Llywelyn of Gwynedd, named character, male, leader, age 35, x 162, y 280, portrait Llywelyn, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 4 , Energetic 1 , StrategyChivalry 4, Intelligent 1 
@@ -1213,15 +1250,48 @@ denari	8000
 denari_kings_purse	2000
 settlement
 {
-	level town
+	level city
 	region Cork_Province
+
 	year_founded 0
-	population 1800
+	population 8000
 	plan_set default_set
-	faction_creator ireland
+	faction_creator scotland
 	building
 	{
-		type core_building wooden_pallisade
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -1229,30 +1299,54 @@ settlement
 	}
 	building
 	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
+		type hinterland_roads roads
 	}
 }
 
-
 settlement castle
 {
-	level village
+	level large_town
 	region Galway_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
-	faction_creator ireland
+	faction_creator scotland
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
 	}
 }
 
@@ -1316,33 +1410,30 @@ settlement
 {
 	level city
 	region Novgorod_Province
+
 	year_founded 0
-	population 16000
+	population 12000
 	plan_set default_set
-	faction_creator novgorod
+	faction_creator russia
 	building
 	{
 		type core_building stone_wall
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
+		type barracks city_watch
 	}
 	building
 	{
 		type market market
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -1350,20 +1441,15 @@ settlement
 	}
 	building
 	{
-		type temple_orthodox church_o
+		type city_hall town_hall
 	}
-}
-settlement
-{
-	level large_town
-	region Pskov_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator novgorod
 	building
 	{
-		type core_building wooden_wall
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -1371,23 +1457,49 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Pskov_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
 	}
 	building
 	{
-		type barracks town_watch
+		type castle_barracks garrison_quarters
 	}
 	building
 	{
-		type city_hall town_hall
+		type equestrian stables
 	}
 	building
 	{
-		type market market
+		type missiles bowyer
 	}
 	building
 	{
-		type temple_orthodox small_church_o
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -1439,15 +1551,48 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Konigsberg_Province
+
 	year_founded 0
-	population 13000
+	population 10000
 	plan_set default_set
-	faction_creator teutonic_order
+	faction_creator poland
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -1457,31 +1602,16 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
 }
 settlement castle
 {
 	level large_town
 	region Marienburg_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator teutonic_order
+	faction_creator poland
 	building
 	{
 		type core_castle_building castle
@@ -1489,6 +1619,10 @@ settlement castle
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle chapel
 	}
 	building
 	{
@@ -1500,24 +1634,49 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_siege c_ballista_range
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 settlement
 {
-	level city
+	level large_town
 	region Riga_Province
+
 	year_founded 0
-	population 16000
+	population 5000
 	plan_set default_set
-	faction_creator poland
+	faction_creator russia
 	building
 	{
-		type core_building stone_wall
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
 	}
 	building
 	{
@@ -1526,26 +1685,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
 	}
 }
 
@@ -1623,31 +1762,20 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Vilnius_Province
+
 	year_founded 0
-	population 13000
+	population 12000
 	plan_set default_set
-	faction_creator lithuania
+	faction_creator russia
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
+		type barracks city_watch
 	}
 	building
 	{
@@ -1657,22 +1785,51 @@ settlement
 	{
 		type temple_dievas dievas_sanctuary
 	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 settlement castle
 {
-	level town
+	level large_town
 	region Palanga_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
-	faction_creator lithuania
+	faction_creator russia
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
@@ -1680,28 +1837,57 @@ settlement castle
 	}
 	building
 	{
-		type temple_perkunas perkunas_altar
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
-settlement castle
+settlement
 {
-	level village
+	level large_town
 	region Hrodna_Province
+
 	year_founded 0
-	population 250
+	population 5000
 	plan_set default_set
-	faction_creator lithuania
+	faction_creator russia
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
 	}
 	building
 	{
-		type temple_giltine giltine_altar
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_perkunas perkunas_altar
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -1779,15 +1965,48 @@ denari	8000
 denari_kings_purse	2000
 settlement
 {
-	level city
+	level large_city
 	region Jerusalem_Province
+
 	year_founded 0
-	population 16000
+	population 20000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building stone_wall
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
+	}
+	building
+	{
+		type temple_catholic cathedral
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -1799,11 +2018,29 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type siege ballista_range
 	}
 	building
 	{
-		type city_hall town_hall
+		type taverns brothel
+	}
+}
+settlement
+{
+	level city
+	region Tyre_Province
+
+	year_founded 0
+	population 10000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
 	}
 	building
 	{
@@ -1811,51 +2048,23 @@ settlement
 	}
 	building
 	{
-		type taverns brothel
+		type port port
 	}
 	building
 	{
-		type temple_catholic church
-	}
-}
-settlement
-{
-	level large_town
-	region Tyre_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building wooden_wall
+		type smith leather_tanner
 	}
 	building
 	{
-		type hinterland_farms farms
+		type siege ballista_range
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_catholic abbey
 	}
 	building
 	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Isle_of_Cyprus
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
+		type city_hall town_hall
 	}
 	building
 	{
@@ -1863,22 +2072,19 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_roads roads
 	}
 }
 
 settlement castle
 {
 	level large_town
-	region Acre_Province
+	region Isle_of_Cyprus
+
 	year_founded 0
 	population 2000
 	plan_set default_set
-	faction_creator jerusalem
+	faction_creator byzantium
 	building
 	{
 		type core_castle_building castle
@@ -1889,7 +2095,45 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Acre_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
 	}
 	building
 	{
@@ -1897,11 +2141,31 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle chapel
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -1987,19 +2251,24 @@ denari	8000
 denari_kings_purse	2000
 settlement
 {
-	level city
+	level large_city
 	region Antioch_Province
+
 	year_founded 0
-	population 16000
+	population 20000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator turks
 	building
 	{
-		type core_building stone_wall
+		type core_building large_stone_wall
 	}
 	building
 	{
-		type hinterland_farms farms
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks city_watch
 	}
 	building
 	{
@@ -2007,15 +2276,15 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
 		type market market
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -2023,7 +2292,19 @@ settlement
 	}
 	building
 	{
-		type temple_catholic church 
+		type temple_catholic cathedral
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 }
 settlement castle
@@ -2031,9 +2312,9 @@ settlement castle
 	level large_town
 	region Krak_de_Chevaliers_Province
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator antioch
+	faction_creator turks
 	building
 	{
 		type core_castle_building castle
@@ -2052,19 +2333,36 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle chapel
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 settlement castle
 {
 	level large_town
 	region Isle_of_Rhodes
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -2077,54 +2375,39 @@ settlement castle
 	}
 	building
 	{
+		type castle_port c_port
+	}
+	building
+	{
 		type missiles bowyer
 	}
 	building
 	{
-		type equestrian stables
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
 		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
 	}
 }
 
-settlement castle
+settlement
 {
-	level large_town
+	level village
 	region Edessa_Province
+
 	year_founded 0
-	population 2000
+	population 60
 	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
+	faction_creator turks
 }
 
 character	Bohemond, named character, male, leader, age 35, x 434, y 131, portrait bohemond, battle_model norman_king 
@@ -2200,21 +2483,72 @@ faction	norway, balanced smith
 ai_label		catholic
 denari	8000
 denari_kings_purse	3000
-settlement
+settlement castle
 {
 	level large_town
 	region Oslo_Province
+
 	year_founded 0
-	population 9000
+	population 2500
 	plan_set default_set
-	faction_creator norway
+	faction_creator denmark
 	building
 	{
-		type core_building wooden_wall
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
 	}
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level town
+	region Tingvalla_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type core_building wooden_pallisade
 	}
 	building
 	{
@@ -2224,25 +2558,28 @@ settlement
 	{
 		type market corn_exchange
 	}
-}
-
-settlement
-{
-	level village
-	region Tingvalla_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator norway
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 settlement castle
 {
 	level large_town
 	region Wick_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator norway
+	faction_creator denmark
 	building
 	{
 		type core_castle_building castle
@@ -2261,33 +2598,82 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_siege c_ballista_range
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
-}
-
-settlement
-{
-	level village
-	region Agder_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator norway
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Agder_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_building wooden_wall
 	}
 	building
 	{
-		type market corn_exchange
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2378,10 +2764,66 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Edinburgh_Province
+
 	year_founded 0
-	population 9000
+	population 12000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aberdeen_Province
+
+	year_founded 0
+	population 5000
 	plan_set default_set
 	faction_creator scotland
 	building
@@ -2390,34 +2832,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level town
-	region Aberdeen_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
+		type barracks town_guard
 	}
 	building
 	{
@@ -2425,10 +2840,29 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_catholic small_church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 
 character	William, named character, male, leader, age 42, x 175, y 310, portrait malcolm, battle_model wallace_general 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 , BattleChivalry 2 , StrategyChivalry 2 , ReligionStarter 1 , PoliticsSkill 1 , GoodDiplomacy 2 , Fertile 1 
@@ -2499,13 +2933,77 @@ settlement
 {
 	level city
 	region Milan_Province
+
 	year_founded 0
-	population 16000
+	population 12000
 	plan_set default_set
 	faction_creator milan
 	building
 	{
 		type core_building stone_wall
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Turin_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
 	}
 	building
 	{
@@ -2515,54 +3013,7 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
-	}
 }
-
-settlement
-{
-	level town
-	region Turin_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
 
 character	Giorgio Rossi, named character, male, leader, age 52, x 236, y 198, portrait giorgio, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1 , ReligionStarter 1 , Fertile 1 
@@ -2630,8 +3081,9 @@ settlement
 {
 	level city
 	region Venice_Province
+
 	year_founded 0
-	population 16000
+	population 12000
 	plan_set default_set
 	faction_creator venice
 	building
@@ -2640,19 +3092,19 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type temple_catholic abbey
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
 	}
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
 	}
 	building
 	{
@@ -2664,7 +3116,23 @@ settlement
 	}
 	building
 	{
-		type temple_catholic church 
+		type city_hall town_hall
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks city_watch
 	}
 }
 
@@ -2672,13 +3140,22 @@ settlement castle
 {
 	level large_town
 	region Ragusa_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator venice
+	faction_creator byzantium
 	building
 	{
 		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
@@ -2690,36 +3167,73 @@ settlement castle
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
-}
-settlement
-{
-	level village
-	region Isle_of_Crete
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator byzantium
+	building
+	{
+		type castle_siege c_ballista_range
+	}
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Isle_of_Crete
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
 	}
 	building
 	{
-		type market corn_exchange
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2795,8 +3309,114 @@ settlement castle
 {
 	level large_town
 	region Palermo_Province
+
 	year_founded 0
-	population 2000
+	population 2500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Naples_Province
+
+	year_founded 0
+	population 12000
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+settlement castle
+{
+	level large_town
+	region Malta_Province
+
+	year_founded 0
+	population 2500
 	plan_set default_set
 	faction_creator sicily
 	building
@@ -2817,25 +3437,50 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
 	}
 	building
 	{
-		type castle_smith c_leather_tanner
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
 settlement
 {
-	level city
-	region Naples_Province
+	level large_town
+	region Syracuse_Province
+
 	year_founded 0
-	population 16000
+	population 5000
 	plan_set default_set
 	faction_creator sicily
 	building
 	{
-		type core_building stone_wall
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -2844,65 +3489,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
-	}
-}
-settlement castle
-{
-	level village
-	region Malta_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-
-settlement castle
-{
-	level town
-	region Syracuse_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
 	}
 }
 
@@ -2969,8 +3555,9 @@ settlement castle
 {
 	level large_town
 	region Toledo_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator spain
 	building
@@ -2983,37 +3570,7 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-}
-
-settlement castle
-{
-	level large_town
-	region Santiago_Province
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
@@ -3025,38 +3582,29 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
 		type castle_smith c_leather_tanner
 	}
-}
-
-settlement castle
-{
-	level village
-	region Valladolid_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator spain
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type castle_siege c_ballista_range
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
 settlement
 {
 	level large_town
-	region Leon_Province
+	region Santiago_Province
+
 	year_founded 0
-	population 9000
+	population 4000
 	plan_set default_set
 	faction_creator spain
 	building
@@ -3065,18 +3613,135 @@ settlement
 	}
 	building
 	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Valladolid_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
+settlement
+{
+	level city
+	region Leon_Province
+
+	year_founded 0
+	population 12000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type bullring plaza_del_toro
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 
 character	Alfonso, named character, male, leader, age 38, x 136, y 162, portrait rodrigo, battle_model norman_king 
 traits Factionleader 1 , LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 1 , StrategyChivalry 2 , BattleChivalry 2 , Energetic 1 , Intelligent 1 , ReligionStarter 1 , GoodInfantryGeneral 1 , GoodDiplomacy 2 , PoliticsSkill 1 , Fertile 1 
@@ -3143,10 +3808,70 @@ denari	8000
 denari_kings_purse	2000
 settlement
 {
-	level large_town
+	level city
 	region Lisbon_Province
+
 	year_founded 0
-	population 9000
+	population 12000
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type bullring plaza_del_toro
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Oporto_Province
+
+	year_founded 0
+	population 5000
 	plan_set default_set
 	faction_creator portugal
 	building
@@ -3155,34 +3880,11 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
 		type barracks town_watch
 	}
 	building
 	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level town
-	region Oporto_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator portugal
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
+		type temple_catholic small_church
 	}
 	building
 	{
@@ -3190,10 +3892,25 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 
 character	Afonso Henriques, named character, male, leader, age 40, x 96, y 158, portrait henrique, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 2 , BattleDread 3 , ReligionStarter 1 , Fertile 1 
@@ -3244,17 +3961,72 @@ faction	denmark, balanced smith
 ai_label		catholic
 denari	8000
 denari_kings_purse	2000
-settlement castle
+settlement
 {
-	level town
+	level city
 	region Arhus_Province
+
 	year_founded 0
-	population 900
+	population 12000
 	plan_set default_set
 	faction_creator denmark
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+settlement castle
+{
+	level large_town
+	region Lund_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_castle_building castle
 	}
 	building
 	{
@@ -3262,20 +4034,27 @@ settlement castle
 	}
 	building
 	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
 		type missiles bowyer
 	}
-}
-settlement
-{
-	level town
-	region Lund_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator denmark
 	building
 	{
-		type core_building wooden_pallisade
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
 	}
 	building
 	{
@@ -3283,29 +4062,25 @@ settlement
 	}
 	building
 	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
+		type hinterland_castle_roads c_roads
 	}
 }
-
 settlement
 {
-	level town
+	level large_town
 	region Wexford_Province
+
 	year_founded 0
-	population 1800
+	population 4000
 	plan_set default_set
-	faction_creator denmark
+	faction_creator scotland
 	building
 	{
-		type core_building wooden_pallisade
+		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_watch
 	}
 	building
 	{
@@ -3313,29 +4088,33 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 settlement
 {
 	level large_town
 	region Reval_Province
+
 	year_founded 0
-	population 9000
+	population 5000
 	plan_set default_set
-	faction_creator lithuania
+	faction_creator russia
 	building
 	{
 		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
@@ -3343,21 +4122,57 @@ settlement
 	}
 	building
 	{
-		type temple_giltine giltine_altar
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 settlement
 {
 	level large_town
 	region York_Province
+
 	year_founded 0
-	population 9000
+	population 6000
 	plan_set default_set
-	faction_creator denmark
+	faction_creator england
 	building
 	{
 		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -3365,33 +4180,49 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Roskilde_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
-}
-
-settlement castle
-{
-	level town
-	region Roskilde_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator denmark
 	building
 	{
-		type core_castle_building wooden_castle
+		type temple_catholic small_church
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type port port
 	}
 	building
 	{
-		type missiles bowyer
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3490,15 +4321,40 @@ denari	10000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Krakow_Province
+
 	year_founded 0
-	population 9000
+	population 12000
 	plan_set default_set
 	faction_creator poland
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -3506,21 +4362,21 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_roads roads
 	}
 	building
 	{
-		type market corn_exchange
+		type city_hall town_hall
 	}
 }
-
 
 settlement
 {
 	level large_town
 	region Poznan_Province
+
 	year_founded 0
-	population 9000
+	population 6000
 	plan_set default_set
 	faction_creator poland
 	building
@@ -3529,34 +4385,50 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
-
 
 settlement
 {
-	level town
+	level large_town
 	region Danzig_Province
+
 	year_founded 0
-	population 1800
+	population 5000
 	plan_set default_set
 	faction_creator poland
 	building
 	{
-		type core_building wooden_pallisade
+		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_guard
 	}
 	building
 	{
@@ -3564,10 +4436,25 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_catholic small_church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 
 character	Wladyslaw, named character, male, leader, age 40, x 302, y 243, portrait wladyslaw, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 3 , Intelligent 1 , BattleChivalry 4 , StrategyChivalry 3 , Fertile 1 
@@ -3641,15 +4528,44 @@ denari	10000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Budapest_Province
+
 	year_founded 0
-	population 9000
+	population 12000
 	plan_set default_set
 	faction_creator hungary
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 	building
 	{
@@ -3657,26 +4573,22 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type city_hall town_hall
 	}
 }
 
-
 settlement castle
 {
-	level town
+	level large_town
 	region Bran_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator hungary
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -3684,7 +4596,31 @@ settlement castle
 	}
 	building
 	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -3756,35 +4692,40 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level city
+	level large_city
 	region Kiev_Province
+
 	year_founded 0
-	population 16000
+	population 20000
 	plan_set default_set
 	faction_creator russia
 	building
 	{
-		type core_building stone_wall
+		type core_building large_stone_wall
 	}
 	building
 	{
-		type hinterland_farms farms
+		type tower ballista_towers
 	}
 	building
 	{
-		type hinterland_roads roads
+		type barracks city_watch
 	}
 	building
 	{
-		type barracks town_watch
+		type market fairground
 	}
 	building
 	{
-		type city_hall town_hall
+		type temple_orthodox abbey_o
 	}
 	building
 	{
-		type market market
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
 	}
 	building
 	{
@@ -3792,57 +4733,45 @@ settlement
 	}
 	building
 	{
-		type temple_orthodox church_o
+		type city_hall council_chambers
+	}
+	building
+	{
+		type icon_art ikoner_studio
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
 settlement
 {
 	level large_town
 	region Cherson_Province
+
 	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-}
-settlement
-{
-	level village
-	region Tzernigov_Province
-	year_founded 0
-	population 900
+	population 4000
 	plan_set default_set
 	faction_creator russia
 	building
 	{
-		type hinterland_farms farms
+		type core_building wooden_wall
 	}
 	building
 	{
@@ -3852,22 +4781,101 @@ settlement
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 settlement castle
 {
-	level village
-	region Kozelsk_Province
+	level large_town
+	region Tzernigov_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
 	faction_creator russia
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level town
+	region Kozelsk_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3964,15 +4972,16 @@ denari	10000
 denari_kings_purse	7000
 settlement castle
 {
-	level town
+	level large_town
 	region Sarkel_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
-	faction_creator mongols
+	faction_creator russia
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -3980,28 +4989,69 @@ settlement castle
 	}
 	building
 	{
+		type equestrian stables
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
-settlement castle
+settlement
 {
-	level town
+	level large_town
 	region Samandar_Province
+
 	year_founded 0
-	population 900
+	population 4000
 	plan_set default_set
-	faction_creator mongols
+	faction_creator russia
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
 	}
 	building
 	{
-		type missiles bowyer
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4226,17 +5276,38 @@ faction	timurids, balanced smith
 ai_label		mongol
 denari	20000
 denari_kings_purse	6000
-settlement
+settlement castle
 {
 	level large_town
 	region Tbilisi_Province
+
 	year_founded 0
-	population 13000
+	population 2500
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator turks
 	building
 	{
-		type core_building wooden_wall
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_siege c_ballista_range
 	}
 	building
 	{
@@ -4244,23 +5315,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_orthodox church_o
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -4268,13 +5323,46 @@ settlement
 {
 	level city
 	region Baghdad_Province
+
 	year_founded 0
-	population 32000
+	population 12000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_muslim minareted_masjid
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 	building
 	{
@@ -4283,30 +5371,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks militia_drill_square
-	}
-	building
-	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
 	}
 } 
 
@@ -4423,10 +5487,11 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level city
+	level large_city
 	region Cairo_Province
+
 	year_founded 0
-	population 32000
+	population 20000
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -4435,27 +5500,31 @@ settlement
 	}
 	building
 	{
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_muslim minareted_masjid
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 	building
 	{
-		type barracks militia_drill_square
-	}
-	building
-	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
+		type market fairground
 	}
 	building
 	{
@@ -4463,7 +5532,15 @@ settlement
 	}
 	building
 	{
-		type temple_muslim minareted_masjid
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type city_hall council_chambers
 	}
 }
 
@@ -4471,17 +5548,14 @@ settlement
 {
 	level large_town
 	region Thebes_Province
+
 	year_founded 0
-	population 9000
+	population 3000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
 		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 	building
 	{
@@ -4491,20 +5565,13 @@ settlement
 	{
 		type market corn_exchange
 	}
-}
-
-
-settlement
-{
-	level city
-	region Alexandria_Province
-	year_founded 0
-	population 16000
-	plan_set default_set
-	faction_creator byzantium
 	building
 	{
-		type core_building stone_wall
+		type port port
+	}
+	building
+	{
+		type temple_muslim masjid
 	}
 	building
 	{
@@ -4514,13 +5581,24 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+}
+
+settlement
+{
+	level city
+	region Alexandria_Province
+
+	year_founded 0
+	population 10000
+	plan_set default_set
+	faction_creator egypt
 	building
 	{
-		type barracks town_watch
+		type core_building stone_wall
 	}
 	building
 	{
-		type city_hall town_hall
+		type barracks city_watch
 	}
 	building
 	{
@@ -4528,29 +5606,94 @@ settlement
 	}
 	building
 	{
+		type temple_muslim minareted_masjid
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
 		type taverns brothel
 	}
 	building
 	{
-		type temple_muslim minareted_masjid
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
 settlement castle
 {
-	level village
+	level large_town
 	region Dumyat_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -4656,13 +5799,42 @@ settlement
 {
 	level city
 	region Paris_Province
+
 	year_founded 0
-	population 32000
+	population 12000
 	plan_set default_set
 	faction_creator france
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -4672,92 +5844,15 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks militia_drill_square
-	}
-	building
-	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
-	}
 }
 
-settlement castle
+settlement
 {
 	level large_town
 	region Rheims_Province
+
 	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-}
-settlement
-{
-	level village
-	region Clermont_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-settlement
-{
-	level large_town
-	region Marseille_Province
-	year_founded 0
-	population 9000
+	population 5000
 	plan_set default_set
 	faction_creator france
 	building
@@ -4766,46 +5861,132 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
-
-settlement castle
+settlement
 {
-	level town
-	region Angers_Province
+	level large_town
+	region Clermont_Province
+
 	year_founded 0
-	population 900
+	population 5000
 	plan_set default_set
 	faction_creator france
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
 	}
 	building
 	{
-		type missiles bowyer
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
+settlement
+{
+	level large_town
+	region Marseille_Province
 
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 settlement castle
 {
 	level large_town
-	region Toulouse_Province
+	region Angers_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator france
 	building
@@ -4818,6 +5999,10 @@ settlement castle
 	}
 	building
 	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
 		type missiles bowyer
 	}
 	building
@@ -4826,11 +6011,70 @@ settlement castle
 	}
 	building
 	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
 		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Toulouse_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -4937,13 +6181,50 @@ settlement
 {
 	level city
 	region London_Province
+
 	year_founded 0
-	population 32000
+	population 12000
 	plan_set default_set
 	faction_creator england
 	building
 	{
-		type core_building large_stone_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_catholic abbey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 	building
 	{
@@ -4953,17 +6234,31 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+}
+settlement
+{
+	level large_town
+	region Gloucester_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator england
 	building
 	{
-		type barracks militia_drill_square
+		type core_building wooden_wall
 	}
 	building
 	{
-		type city_hall council_chambers
+		type barracks town_guard
 	}
 	building
 	{
-		type market market
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
 	}
 	building
 	{
@@ -4971,66 +6266,7 @@ settlement
 	}
 	building
 	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
-	}
-}
-settlement castle
-{
-	level town
-	region Gloucester_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-settlement castle
-{
-	level town
-	region Lancaster_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-settlement
-{
-	level large_town
-	region Dublin_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator norway
-	building
-	{
-		type core_building wooden_wall
+		type siege ballista_range
 	}
 	building
 	{
@@ -5038,20 +6274,16 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_roads roads
 	}
 }
-
 settlement castle
 {
 	level large_town
-	region Nottingham_Province
+	region Lancaster_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator england
 	building
@@ -5072,19 +6304,136 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement
+{
+	level city
+	region Dublin_Province
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Nottingham_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 settlement castle
 {
 	level large_town
 	region Caen_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator france
 	building
@@ -5105,11 +6454,27 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -5232,15 +6597,52 @@ denari	8000
 denari_kings_purse	3000
 settlement
 {
-	level large_town
+	level city
 	region Iconium_Province
+
 	year_founded 0
-	population 9000
+	population 10000
 	plan_set default_set
 	faction_creator turks
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type urban_equestrian racing_track
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 	building
 	{
@@ -5248,72 +6650,29 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type city_hall town_hall
 	}
 }
-
-settlement
-{
-	level village
-	region Attalia_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-settlement
-{
-	level town
-	region Sinope_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
 settlement
 {
 	level large_town
-	region Ankara_Province
+	region Attalia_Province
+
 	year_founded 0
-	population 13000
+	population 4000
 	plan_set default_set
 	faction_creator turks
 	building
 	{
 		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
 	}
 	building
 	{
@@ -5323,52 +6682,130 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+}
+settlement
+{
+	level town
+	region Sinope_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_pallisade
+	}
 	building
 	{
 		type barracks town_watch
 	}
 	building
 	{
-		type city_hall town_hall
+		type market corn_exchange
 	}
 	building
 	{
-		type market market
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Ankara_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
 	}
 	building
 	{
 		type temple_muslim small_masjid
 	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
-settlement castle
+settlement
 {
-	level village
+	level town
 	region Malatya_Province
+
 	year_founded 0
-	population 250
+	population 3000
 	plan_set default_set
 	faction_creator turks
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building wooden_pallisade
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
 settlement castle
 {
-	level town
+	level large_town
 	region Caesarea_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator turks
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -5376,21 +6813,46 @@ settlement castle
 	}
 	building
 	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
 settlement castle
 {
-	level town
+	level large_town
 	region Mosul_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
-	faction_creator egypt
+	faction_creator turks
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -5398,7 +6860,31 @@ settlement castle
 	}
 	building
 	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -5531,15 +7017,103 @@ denari	10000
 denari_kings_purse	2000
 settlement
 {
-	level city
+	level large_city
 	region Cordoba_Province
+
 	year_founded 0
-	population 32000
+	population 15000
 	plan_set default_set
 	faction_creator moors
 	building
 	{
 		type core_building large_stone_wall
+	}
+	building
+	{
+		type temple_muslim minareted_masjid
+	}
+	building
+	{
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type urban_equestrian racing_track
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+}
+
+settlement
+{
+	level city
+	region Oran_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -5549,47 +7123,20 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks militia_drill_square
-	}
-	building
-	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 
 settlement
 {
 	level large_town
-	region Oran_Province
+	region Sevilla_Province
+
 	year_founded 0
-	population 9000
+	population 5000
 	plan_set default_set
 	faction_creator moors
 	building
 	{
 		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 	building
 	{
@@ -5599,20 +7146,13 @@ settlement
 	{
 		type market corn_exchange
 	}
-}
-
-
-settlement
-{
-	level large_town
-	region Sevilla_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator moors
 	building
 	{
-		type core_building wooden_wall
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type smith leather_tanner
 	}
 	building
 	{
@@ -5622,42 +7162,47 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
 }
-settlement castle
+settlement
 {
-	level town
+	level large_town
 	region Fez_Province
+
 	year_founded 0
-	population 900
+	population 4000
 	plan_set default_set
 	faction_creator moors
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type temple_muslim masjid
 	}
 	building
 	{
-		type missiles bowyer
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -5778,8 +7323,9 @@ settlement
 {
 	level city
 	region Frankfurt_Province
+
 	year_founded 0
-	population 16000
+	population 12000
 	plan_set default_set
 	faction_creator hre
 	building
@@ -5788,15 +7334,11 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks city_watch
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
+		type temple_catholic abbey
 	}
 	building
 	{
@@ -5812,15 +7354,28 @@ settlement
 	}
 	building
 	{
-		type temple_catholic church
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement castle
 {
 	level large_town
 	region Magdeburg_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator hre
 	building
@@ -5841,40 +7396,78 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
-settlement castle
+settlement
 {
-	level town
+	level large_town
 	region Hohenstauffen_Province
+
 	year_founded 0
-	population 900
+	population 5000
 	plan_set default_set
 	faction_creator hre
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
 	}
 	building
 	{
-		type missiles bowyer
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement
 {
 	level large_town
 	region Nuremburg_Province
+
 	year_founded 0
-	population 13000
+	population 5000
 	plan_set default_set
 	faction_creator hre
 	building
@@ -5883,35 +7476,36 @@ settlement
 	}
 	building
 	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
 	}
 }
 settlement
 {
 	level large_town
 	region Vienna_Province
+
 	year_founded 0
-	population 13000
+	population 7000
 	plan_set default_set
 	faction_creator hre
 	building
@@ -5920,19 +7514,11 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_guard
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
+		type temple_catholic church
 	}
 	building
 	{
@@ -5940,20 +7526,69 @@ settlement
 	}
 	building
 	{
-		type temple_catholic small_church
+		type city_hall town_hall
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement
 {
-	level large_town
+	level city
 	region Bologna_Province
+
 	year_founded 0
-	population 13000
+	population 8000
 	plan_set default_set
-	faction_creator milan
+	faction_creator papal_states
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type city_hall town_hall
 	}
 	building
 	{
@@ -5962,22 +7597,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
 	}
 }
 
@@ -6121,10 +7740,11 @@ denari	8000
 denari_kings_purse	4000
 settlement
 {
-	level city
+	level large_city
 	region Constantinople_Province
+
 	year_founded 0
-	population 32000
+	population 22000
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6133,27 +7753,35 @@ settlement
 	}
 	building
 	{
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type temple_orthodox cathedral_o
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type hinterland_roads roads
+		type sea_trade merchants_wharf
 	}
 	building
 	{
-		type barracks militia_drill_square
+		type market fairground
 	}
 	building
 	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type smith leather_tanner
+		type health public_baths
 	}
 	building
 	{
@@ -6161,48 +7789,100 @@ settlement
 	}
 	building
 	{
-		type temple_orthodox church_o
+		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type siege ballista_range
 	}
 }
-settlement castle
+settlement
 {
 	level large_town
 	region Isle_of_Cyprus2
+
 	year_founded 0
-	population 2000
+	population 4000
 	plan_set default_set
 	faction_creator byzantium
 	building
 	{
-		type core_castle_building castle
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_watch
 	}
 	building
 	{
-		type missiles bowyer
+		type market market
 	}
 	building
 	{
-		type equestrian stables
+		type hinterland_mines mines
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type port port
 	}
 	building
 	{
-		type castle_smith c_leather_tanner
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level town
+	region Abydus_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement castle
 {
 	level village
-	region Abydus_Province
+	region Trebizond_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6213,73 +7893,19 @@ settlement castle
 	{
 		type castle_barracks garrison_quarters
 	}
-}
-settlement castle
-{
-	level large_town
-	region Trebizond_Province
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
 	building
 	{
 		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-}
-
-settlement
-{
-	level large_town
-	region Thessalonica_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
 	}
 }
 
 settlement
 {
 	level city
-	region Nicaea_Province
+	region Thessalonica_Province
+
 	year_founded 0
-	population 16000
+	population 8000
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6288,19 +7914,11 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_guard
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
+		type temple_orthodox church_o
 	}
 	building
 	{
@@ -6308,20 +7926,36 @@ settlement
 	}
 	building
 	{
+		type port port
+	}
+	building
+	{
 		type taverns brothel
 	}
 	building
 	{
-		type temple_orthodox church_o
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
 settlement
 {
 	level large_town
-	region Athens_Province
+	region Nicaea_Province
+
 	year_founded 0
-	population 9000
+	population 7000
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -6330,50 +7964,178 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
-settlement castle
+settlement
 {
-	level village
-	region Adrianople_Province
+	level large_town
+	region Athens_Province
+
 	year_founded 0
-	population 250
+	population 7000
 	plan_set default_set
 	faction_creator byzantium
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Adrianople_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement castle
 {
-	level village
+	level large_town
 	region Corinth_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
 	faction_creator byzantium
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -6532,15 +8294,56 @@ denari	8000
 denari_kings_purse	5000
 settlement
 {
-	level city
+	level large_city
 	region Roman_Province
+
 	year_founded 0
-	population 16000
+	population 20000
 	plan_set default_set
 	faction_creator papal_states
 	building
 	{
-		type core_building stone_wall
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type tower ballista_towers
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type temple_catholic cathedral
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade merchants_wharf
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -6549,26 +8352,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
 	}
 }
 
@@ -6678,67 +8461,55 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Huaxtepec_Province
 
 	year_founded 0
-	population 8000
+	population 4000
 	plan_set default_set
 	faction_creator aztecs
 	building
 	{
-		type hinterland_farms farms
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_pagan pyramid
 	}
 	building
 	{
 		type meso_market marketplace
 	}
-}
-
-settlement
-{
-	level city
-	region Tollan_Province
-
-	year_founded 0
-	population 10000
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type temple_pagan great_pyramid
-	}
-	building
-	{
-		type meso_palace palace_complex
-	}
-	building
-	{
-		type meso_market plaza
-	}
-	building
-	{
-		type ball_court ball_court
-	}
-	building
-	{
-		type skull_rack skull_rack
-	}
 	building
 	{
 		type hinterland_farms farms
 	}
+}
+
+settlement
+{
+	level large_town
+	region Tollan_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator aztecs
 	building
 	{
-		type aztec_aqueduct aztec_aqueduct
+		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_roads roads
+		type temple_pagan pyramid
+	}
+	building
+	{
+		type meso_market marketplace
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -6872,17 +8643,34 @@ faction	slave, balanced smith
 ai_label		slave_faction
 denari	10000
 denari_kings_purse	3000
-settlement
+settlement castle
 {
 	level town
 	region Badajoz_Province
+
 	year_founded 0
-	population 1800
+	population 2500
 	plan_set default_set
-	faction_creator moors
+	faction_creator spain
 	building
 	{
-		type core_building wooden_pallisade
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
@@ -6890,14 +8678,9 @@ settlement
 	}
 	building
 	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
+		type hinterland_castle_roads c_roads
 	}
 }
-
 
 settlement
 {
@@ -6905,38 +8688,55 @@ settlement
 	region North_America
 
 	year_founded 0
-	population 8000
+	population 5000
 	plan_set default_set
 	faction_creator aztecs
 	building
 	{
-		type hinterland_farms farms
+		type temple_pagan pyramid
 	}
 	building
 	{
-		type meso_market marketplace
+		type hinterland_farms farms
 	}
 }
 
-settlement
+settlement castle
 {
-	level village
+	level town
 	region Skara_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator denmark
 	building
 	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -6944,8 +8744,9 @@ settlement castle
 {
 	level large_town
 	region Kerak_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -6962,33 +8763,34 @@ settlement castle
 	}
 	building
 	{
-		type equestrian stables
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
 		type hinterland_castle_roads c_roads
 	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Stockholm_Province
+
 	year_founded 0
-	population 1800
+	population 5000
 	plan_set default_set
 	faction_creator denmark
 	building
 	{
-		type core_building wooden_pallisade
+		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_watch
 	}
 	building
 	{
@@ -6996,59 +8798,125 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
-
-settlement castle
+settlement
 {
-	level village
+	level large_town
 	region Kalmar_Province
+
 	year_founded 0
-	population 250
+	population 5000
 	plan_set default_set
 	faction_creator denmark
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Helsinki_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
 	}
-}
-
-settlement
-{
-	level village
-	region Helsinki_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator norway
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_castle_roads c_roads
 	}
 }
 
-settlement
+settlement castle
 {
-	level village
+	level large_town
 	region Belo-Ozero_Province
+
 	year_founded 0
-	population 200
+	population 2500
 	plan_set default_set
-	faction_creator mongols
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement
@@ -7057,16 +8925,16 @@ settlement
 	region Cuba
 
 	year_founded 0
-	population 8000
+	population 1000
 	plan_set default_set
 	faction_creator aztecs
 	building
 	{
-		type hinterland_farms farms
+		type temple_pagan pyramid
 	}
 	building
 	{
-		type meso_market marketplace
+		type hinterland_farms farms
 	}
 }
 
@@ -7074,13 +8942,30 @@ settlement
 {
 	level large_town
 	region Antwerp_Province
+
 	year_founded 0
-	population 13000
+	population 5000
 	plan_set default_set
 	faction_creator france
 	building
 	{
 		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -7090,162 +8975,17 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
 }
-
-settlement
-{
-	level town
-	region Bordeaux_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Barcelona_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Zagreb_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level village
-	region Belgrade_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-settlement
-{
-	level large_town
-	region Sofia_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
 
 settlement castle
 {
 	level large_town
-	region Preslav_Province
+	region Bordeaux_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator hungary
+	faction_creator france
 	building
 	{
 		type core_castle_building castle
@@ -7264,11 +9004,186 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
-		type castle_smith c_leather_tanner
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Barcelona_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Zagreb_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Belgrade_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Sofia_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Preslav_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -7276,8 +9191,9 @@ settlement castle
 {
 	level large_town
 	region Pamplona_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator spain
 	building
@@ -7286,7 +9202,7 @@ settlement castle
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type equestrian stables
 	}
 	building
 	{
@@ -7294,71 +9210,38 @@ settlement castle
 	}
 	building
 	{
-		type equestrian stables
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
 		type hinterland_castle_roads c_roads
 	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
 }
 
 settlement
 {
-	level city
+	level large_town
 	region Florence_Province
-	year_founded 0
-	population 16000
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
-	}
-}
 
-settlement
-{
-	level village
-	region Zaragoza_Province
 	year_founded 0
-	population 900
+	population 5000
 	plan_set default_set
-	faction_creator spain
+	faction_creator papal_states
 	building
 	{
-		type hinterland_farms farms
+		type core_building wooden_wall
 	}
 	building
 	{
@@ -7368,36 +9251,243 @@ settlement
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
+	region Zaragoza_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
 	region Kerkyra_Province
+
 	year_founded 0
-	population 200
+	population 4000
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Mallorca_Province
+
 	year_founded 0
-	population 200
+	population 4000
 	plan_set default_set
-	faction_creator moors
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cagliari_Province
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Ayla_Province
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mekka_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement castle
 {
 	level town
-	region Cagliari_Province
+	region Medina_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
-	faction_creator sicily
+	faction_creator egypt
 	building
 	{
 		type core_castle_building wooden_castle
@@ -7408,31 +9498,15 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
+		type equestrian stables
 	}
-}
-
-settlement
-{
-	level village
-	region Ayla_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator egypt
-}
-
-settlement
-{
-	level large_town
-	region Mekka_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator egypt
 	building
 	{
-		type core_building wooden_wall
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
 	}
 	building
 	{
@@ -7440,21 +9514,17 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_castle_roads c_roads
 	}
 }
-
 
 settlement
 {
 	level town
-	region Medina_Province
+	region Buraidah_Province
+
 	year_founded 0
-	population 1800
+	population 3000
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -7463,7 +9533,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_watch
 	}
 	building
 	{
@@ -7471,32 +9541,42 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
-
 settlement
 {
-	level village
-	region Buraidah_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator egypt
-}
-
-settlement
-{
-	level city
+	level large_town
 	region Damascus_Province
+
 	year_founded 0
-	population 16000
+	population 8000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator turks
 	building
 	{
-		type core_building stone_wall
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type market market
 	}
 	building
 	{
@@ -7506,57 +9586,20 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Arguin_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator egypt
-}
 
-settlement
-{
-	level city
-	region Timbuktu_Province
 	year_founded 0
-	population 16000
+	population 3500
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
 	building
 	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
+		type core_building wooden_pallisade
 	}
 	building
 	{
@@ -7564,19 +9607,42 @@ settlement
 	}
 	building
 	{
-		type city_hall town_hall
+		type market corn_exchange
 	}
 	building
 	{
-		type market market
+		type temple_muslim small_masjid
 	}
 	building
 	{
-		type taverns brothel
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Timbuktu_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
 	}
 	building
 	{
-		type temple_muslim minareted_masjid
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -7584,10 +9650,11 @@ settlement castle
 {
 	level large_town
 	region Donegal_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator ireland
+	faction_creator scotland
 	building
 	{
 		type core_castle_building castle
@@ -7606,25 +9673,210 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_siege c_ballista_range
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement castle
 {
-	level town
+	level large_town
 	region Inverness_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator scotland
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Dumfries_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Exeter_Province
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Rennes_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Durazzo_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_castle_building castle
 	}
 	building
 	{
@@ -7634,93 +9886,29 @@ settlement castle
 	{
 		type missiles bowyer
 	}
-}
-
-settlement
-{
-	level village
-	region Dumfries_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator scotland
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-settlement
-{
-	level village
-	region Exeter_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-settlement
-{
-	level village
-	region Rennes_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-settlement
-{
-	level village
-	region Durazzo_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -7728,13 +9916,42 @@ settlement
 {
 	level large_town
 	region Yerevan_Province
+
 	year_founded 0
-	population 13000
+	population 6000
 	plan_set default_set
 	faction_creator turks
 	building
 	{
 		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 	building
 	{
@@ -7744,53 +9961,146 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
 }
 
 settlement castle
 {
-	level village
+	level large_town
 	region Sijilmasa_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
 	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
-settlement
+settlement castle
 {
 	level large_town
 	region Valencia_Province
+
 	year_founded 0
-	population 13000
+	population 2500
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Algiers_Province
+
+	year_founded 0
+	population 6000
 	plan_set default_set
 	faction_creator moors
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
 	}
 	building
 	{
@@ -7800,79 +10110,71 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
 }
 
-settlement
+settlement castle
 {
-	level village
-	region Algiers_Province
+	level large_town
+	region Tunis_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator moors
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
+		type hinterland_castle_roads c_roads
 	}
 }
 
 settlement castle
 {
-	level town
-	region Tunis_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-
-settlement castle
-{
-	level town
+	level large_town
 	region Adana_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator turks
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -7880,7 +10182,35 @@ settlement castle
 	}
 	building
 	{
+		type equestrian stables
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -7888,8 +10218,9 @@ settlement castle
 {
 	level large_town
 	region Granada_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator moors
 	building
@@ -7898,6 +10229,10 @@ settlement castle
 	}
 	building
 	{
+		type equestrian stables
+	}
+	building
+	{
 		type castle_barracks garrison_quarters
 	}
 	building
@@ -7906,7 +10241,107 @@ settlement castle
 	}
 	building
 	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Castle_Town_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
 		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Aleppo_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
@@ -7914,17 +10349,18 @@ settlement castle
 	}
 	building
 	{
-		type castle_smith c_leather_tanner
+		type temple_catholic_castle small_chapel
 	}
 }
 settlement castle
 {
 	level large_town
-	region Castle_Town_Province
+	region Smolensk_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
-	faction_creator norway
+	faction_creator russia
 	building
 	{
 		type core_castle_building castle
@@ -7943,24 +10379,93 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type temple_orthodox_castle small_chapel_o
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
+
+settlement castle
+{
+	level large_town
+	region Stettin_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
 settlement
 {
 	level large_town
-	region Aleppo_Province
+	region Arensburg_Province
+
 	year_founded 0
-	population 13000
+	population 4000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator russia
 	building
 	{
 		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
 	}
 	building
 	{
@@ -7970,158 +10475,55 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
-}
-settlement castle
-{
-	level town
-	region Smolensk_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-
-settlement
-{
-	level town
-	region Stettin_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator poland
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
-
-settlement
-{
-	level village
-	region Arensburg_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator lithuania
-}
-
-settlement castle
-{
-	level town
-	region Tver_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
 }
 
 settlement
 {
 	level large_town
-	region Bern_Province
+	region Tver_Province
+
 	year_founded 0
-	population 9000
+	population 5000
 	plan_set default_set
-	faction_creator hre
+	faction_creator russia
 	building
 	{
 		type core_building wooden_wall
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement castle
 {
-	level village
-	region Ancona_Province
+	level large_town
+	region Bern_Province
+
 	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-settlement castle
-{
-	level town
-	region Metz_Province
-	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator hre
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -8130,6 +10532,122 @@ settlement castle
 	building
 	{
 		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Ancona_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator papal_states
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type temple_catholic_castle chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+settlement castle
+{
+	level large_town
+	region Metz_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 settlement
@@ -8143,24 +10661,25 @@ settlement
 	faction_creator aztecs
 	building
 	{
-		type hinterland_farms farms
+		type temple_pagan pyramid
 	}
 	building
 	{
-		type meso_market marketplace
+		type hinterland_farms farms
 	}
 }
 settlement castle
 {
-	level town
+	level large_town
 	region Hamburg_Province
+
 	year_founded 0
-	population 900
+	population 2500
 	plan_set default_set
 	faction_creator hre
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building castle
 	}
 	building
 	{
@@ -8170,132 +10689,43 @@ settlement castle
 	{
 		type missiles bowyer
 	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement
 {
-	level city
+	level large_town
 	region Prague_Province
-	year_founded 0
-	population 16000
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
-	}
-}
 
-settlement
-{
-	level large_town
-	region Minsk_Province
 	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator lithuania
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_giltine giltine_altar
-	}
-}
-
-settlement
-{
-	level large_town
-	region Bruges_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator france
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-}
-
-settlement
-{
-	level large_town
-	region Utrecht_Province
-	year_founded 0
-	population 9000
+	population 5000
 	plan_set default_set
 	faction_creator hre
 	building
@@ -8304,25 +10734,162 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks town_watch
 	}
 	building
 	{
-		type barracks town_watch
+		type temple_catholic small_church
 	}
 	building
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
+settlement castle
+{
+	level large_town
+	region Minsk_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bruges_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Utrecht_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
 
 settlement castle
 {
 	level large_town
 	region Smyrna_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator byzantium
 	building
@@ -8343,11 +10910,27 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_orthodox_castle small_chapel_o
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -8355,8 +10938,9 @@ settlement
 {
 	level large_town
 	region Dijon_Province
+
 	year_founded 0
-	population 9000
+	population 4000
 	plan_set default_set
 	faction_creator france
 	building
@@ -8365,88 +10949,19 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
 	}
-}
-
-
-settlement castle
-{
-	level village
-	region Bari_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator sicily
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type temple_catholic small_church
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
-	}
-}
-
-settlement castle
-{
-	level town
-	region Innsbruck_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator hre
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-
-settlement castle
-{
-	level village
-	region Dongola_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-
-settlement
-{
-	level city
-	region Genoa_Province
-	year_founded 0
-	population 16000
-	plan_set default_set
-	faction_creator venice
-	building
-	{
-		type core_building stone_wall
+		type smith leather_tanner
 	}
 	building
 	{
@@ -8456,149 +10971,165 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
-	}
 }
-
-settlement castle
-{
-	level village
-	region Iasi_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-
-settlement
-{
-	level town
-	region Bucharest_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator hungary
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
-
-settlement castle
-{
-	level town
-	region Ajaccio_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-
-settlement
-{
-	level town
-	region Ryazan_Province
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type market corn_exchange
-	}
-	building
-	{
-		type barracks town_watch
-	}
-}
-
 
 settlement
 {
 	level large_town
-	region Moscow_Province
+	region Bari_Province
+
 	year_founded 0
-	population 13000
+	population 5000
 	plan_set default_set
-	faction_creator russia
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
 	}
 	building
 	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
 	{
 		type hinterland_roads roads
 	}
+}
+
+settlement castle
+{
+	level large_town
+	region Innsbruck_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hre
 	building
 	{
-		type barracks town_watch
+		type core_castle_building castle
 	}
 	building
 	{
-		type city_hall town_hall
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Dongola_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Genoa_Province
+
+	year_founded 0
+	population 7000
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -8606,29 +11137,281 @@ settlement
 	}
 	building
 	{
-		type temple_orthodox small_church_o
+		type smith leather_tanner
 	}
-}
-
-settlement
-{
-	level village
-	region Zara_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator venice
+	building
+	{
+		type siege ballista_range
+	}
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type barracks town_watch
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Iasi_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bucharest_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
 	}
 	building
 	{
 		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Ajaccio_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Ryazan_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Moscow_Province
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Zara_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -8636,8 +11419,9 @@ settlement castle
 {
 	level large_town
 	region Halych_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator poland
 	building
@@ -8650,7 +11434,7 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
+		type temple_catholic_castle small_chapel
 	}
 	building
 	{
@@ -8658,41 +11442,119 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type missiles bowyer
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Barqa_Province
+
 	year_founded 0
-	population 200
+	population 4000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 
 
 settlement castle
 {
-	level village
+	level large_town
 	region Peremyshl_Province
+
 	year_founded 0
-	population 250
+	population 2500
 	plan_set default_set
 	faction_creator poland
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
 	}
 }
 
@@ -8700,8 +11562,9 @@ settlement castle
 {
 	level large_town
 	region Ascalon_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -8714,7 +11577,54 @@ settlement castle
 	}
 	building
 	{
+		type equestrian stables
+	}
+	building
+	{
 		type missiles bowyer
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_port c_port
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle
+{
+	level large_town
+	region Viatka_Province
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
 	}
 	building
 	{
@@ -8722,45 +11632,50 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement
 {
-	level village
-	region Viatka_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator russia
-}
-
-settlement
-{
-	level village
+	level town
 	region Al-Mansurya_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator egypt
-}
 
-settlement
-{
-	level city
-	region Marrakesh_Province
 	year_founded 0
-	population 16000
+	population 2500
 	plan_set default_set
 	faction_creator moors
 	building
 	{
-		type core_building stone_wall
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
 	}
 	building
 	{
@@ -8770,17 +11685,36 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+}
+
+settlement
+{
+	level large_town
+	region Marrakesh_Province
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator moors
 	building
 	{
-		type barracks town_watch
+		type core_building wooden_wall
 	}
 	building
 	{
-		type city_hall town_hall
+		type temple_muslim masjid
+	}
+	building
+	{
+		type barracks town_guard
 	}
 	building
 	{
 		type market market
+	}
+	building
+	{
+		type port port
 	}
 	building
 	{
@@ -8788,38 +11722,15 @@ settlement
 	}
 	building
 	{
-		type temple_muslim minareted_masjid
-	}
-}
-
-settlement castle
-{
-	level village
-	region Kutais_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building motte_and_bailey
+		type smith leather_tanner
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type siege ballista_range
 	}
-}
-settlement
-{
-	level large_town
-	region Visby_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator lithuania
 	building
 	{
-		type core_building wooden_wall
+		type city_hall town_hall
 	}
 	building
 	{
@@ -8829,13 +11740,54 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+}
+
+settlement
+{
+	level large_town
+	region Kutais_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
 	building
 	{
 		type barracks town_watch
 	}
 	building
 	{
-		type city_hall town_hall
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Visby_Province
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
 	}
 	building
 	{
@@ -8843,128 +11795,374 @@ settlement
 	}
 	building
 	{
-		type temple_perkunas perkunas_altar
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-settlement castle
+settlement
 {
-	level village
+	level city
 	region Atil_Province
+
 	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator mongols
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-settlement castle
-{
-	level village
-	region Turov_Province
-	year_founded 0
-	population 250
+	population 6000
 	plan_set default_set
 	faction_creator russia
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building stone_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
-settlement castle
+settlement
 {
-	level village
-	region Tabriz_Province
+	level large_town
+	region Turov_Province
+
 	year_founded 0
-	population 250
+	population 4000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator russia
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type core_building wooden_wall
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
-
-
-
-
-settlement castle
+settlement
 {
 	level town
-	region Tripoli_Province
+	region Tabriz_Province
+
 	year_founded 0
-	population 900
+	population 3000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator turks
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
+
+
+settlement castle
+{
+	level large_town
+	region Tripoli_Province
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_castle_building castle
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
 		type missiles bowyer
 	}
-}
-
-settlement
-{
-	level village
-	region Al-Mahdiya_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator egypt
-}
-settlement
-{
-	level village
-	region Murom_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator russia
-}
-
-settlement castle
-{
-	level village
-	region Volga-Bulgar_Province
-	year_founded 0
-	population 250
-	plan_set default_set
-	faction_creator mongols
 	building
 	{
-		type core_castle_building motte_and_bailey
+		type equestrian stables
 	}
 	building
 	{
-		type castle_barracks garrison_quarters
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level town
+	region Al-Mahdiya_Province
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+settlement
+{
+	level large_town
+	region Murom_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Volga-Bulgar_Province
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+settlement
+{
+	level large_town
+	region Azov_Province
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type siege ballista_range
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 settlement castle
 {
 	level large_town
-	region Azov_Province
+	region Tmutarakan_Province
+
 	year_founded 0
-	population 2000
+	population 2500
 	plan_set default_set
 	faction_creator russia
 	building
@@ -8977,39 +12175,75 @@ settlement castle
 	}
 	building
 	{
-		type missiles bowyer
-	}
-	building
-	{
 		type equestrian stables
 	}
 	building
 	{
-		type hinterland_castle_roads c_roads
+		type missiles bowyer
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_port c_port
 	}
 	building
 	{
 		type castle_smith c_leather_tanner
 	}
-}
-settlement
-{
-	level village
-	region Tmutarakan_Province
-	year_founded 0
-	population 200
-	plan_set default_set
-	faction_creator russia
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Al_Suways_Province
+
 	year_founded 0
-	population 200
+	population 4000
 	plan_set default_set
 	faction_creator egypt
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 

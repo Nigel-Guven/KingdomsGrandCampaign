@@ -1,15 +1,19 @@
 Fix pikemen if it is necessary 	https://www.youtube.com/watch?v=ecosXlvcwl0&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=11
 Fix Firearm units 		https://www.youtube.com/watch?v=aQRK54kjdtc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=4
 Update unit sizes 		https://www.youtube.com/watch?v=5qRGKcULbAc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=5
-Convert Norway to paganism 	https://www.youtube.com/watch?v=Mg2uLQgoOfM&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=8
 
-Make the Timurids a horde
-
-
+Timurid Event
+Wales Event
+Mongols Event
+Cuman Rebel Event
+Jerusalem
+Antioch
+Egypt
+William Wallace Event
+Norway Event
+Kiev Event
 
 Fix Character placement on the map
-
-Update Campaign scripts to add interesting stuff
 
 ------------------------------------------------------------------------------------------------------------------------------
 -- DONE
@@ -18,7 +22,7 @@ Fix diplomacy bug
 Update faction relations
 Update events
 Declutter CastleTown resources delete two of them
-
+Settlements adjusted
 
 Balance campaign
 	France 		Clermont, Marseille
@@ -38,4 +42,5 @@ Jerusalem + 5
 Wales + 3
 Timurids + 6
 
-Allow Orthodox factions to go on crusade
+Teutonic Events
+Lithuania Event

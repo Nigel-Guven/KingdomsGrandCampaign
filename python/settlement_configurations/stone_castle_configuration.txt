@@ -1,0 +1,33 @@
+settlement castle
+{
+	level large_town
+	region INSERT_PROVINCE
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator INSERT_FACTION
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+}

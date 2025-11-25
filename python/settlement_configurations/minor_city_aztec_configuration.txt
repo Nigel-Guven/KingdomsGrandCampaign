@@ -1,0 +1,46 @@
+settlement
+{
+	level city
+	region INSERT_PROVINCE
+
+	year_founded 0
+	population 10000
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type temple_pagan great_pyramid
+	}
+	building
+	{
+		type meso_palace palace_complex
+	}
+	building
+	{
+		type meso_market plaza
+	}
+	building
+	{
+		type ball_court ball_court
+	}
+	building
+	{
+		type skull_rack skull_rack
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type aztec_aqueduct aztec_aqueduct
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
