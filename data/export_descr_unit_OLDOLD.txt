@@ -1380,7 +1380,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Polish_Nobles, 36, 0, 1
+soldier          Polish_Nobles, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, knight
@@ -1615,7 +1615,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 16, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -1649,7 +1649,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Late_Bodyguard, 32, 0, 1
+soldier          NE_Late_Bodyguard, 16, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit_upgrade
@@ -1682,7 +1682,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          SE_Bodyguard, 32, 0, 1
+soldier          SE_Bodyguard, 16, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -1716,7 +1716,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          SE_Late_Bodyguard, 32, 0, 1
+soldier          SE_Late_Bodyguard, 16, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit_upgrade
@@ -1749,7 +1749,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          EE_Bodyguard, 32, 0, 1
+soldier          EE_Bodyguard, 16, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -1783,7 +1783,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          EE_Late_Bodyguard, 32, 0, 1
+soldier          EE_Late_Bodyguard, 16, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit_upgrade
@@ -1816,7 +1816,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Greek_Bodyguard, 32, 0, 1
+soldier          Greek_Bodyguard, 16, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -2019,7 +2019,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Greek_Militia_Cavalry, 40, 0, 1
+soldier          Greek_Militia_Cavalry, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
@@ -2252,7 +2252,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 40, 0, 1
+soldier          Mounted_Sergeants, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
@@ -2286,7 +2286,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Border_Horse, 40, 0, 1
+soldier          Border_Horse, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw
@@ -2321,7 +2321,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Hobilars, 40, 0, 1
+soldier          Hobilars, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw
@@ -2388,7 +2388,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Stradiots, 40, 0, 1
+soldier          Stradiots, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -2424,7 +2424,7 @@ class            light
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Hussars, 40, 0, 1
+soldier          Hussars, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -2457,7 +2457,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Scouts, 40, 0, 1
+soldier          Scouts, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw
@@ -2492,7 +2492,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Albanian_Cavalry, 40, 0, 1
+soldier          Albanian_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
@@ -2525,7 +2525,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Serbian_Hussars, 40, 0, 1
+soldier          Serbian_Hussars, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -2558,7 +2558,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Alan_Light_Cavalry, 40, 0, 1
+soldier          Alan_Light_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -2593,7 +2593,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Jinetes, 36, 0, 1
+soldier          Jinetes, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -2627,7 +2627,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Crossbowmen, 36, 0, 1
+soldier          Mounted_Crossbowmen, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow, mercenary_unit
@@ -2661,7 +2661,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Kazaks, 36, 0, 1
+soldier          Kazaks, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle
@@ -2695,7 +2695,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Boyar_Sons, 36, 0, 1
+soldier          Boyar_Sons, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, hardy, can_formed_charge, cantabrian_circle
@@ -2730,7 +2730,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Dvor_Cavalry, 36, 0, 1
+soldier          Dvor_Cavalry, 32, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle
@@ -2764,7 +2764,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Cossack_Cavalry, 36, 0, 1
+soldier          Cossack_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -2797,7 +2797,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Byzantine_Cavalry, 36, 0, 1
+soldier          Byzantine_Cavalry, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -2832,7 +2832,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Skythikon, 36, 0, 1
+soldier          Skythikon, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -2867,7 +2867,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Magyar_Cavalry, 36, 0, 1
+soldier          Magyar_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -2902,7 +2902,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Hungarian_Nobles, 36, 0, 1
+soldier          Hungarian_Nobles, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle
@@ -2936,7 +2936,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Vardariotai, 36, 0, 1
+soldier          Vardariotai, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -2971,7 +2971,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Lithuanian_Cavalry, 36, 0, 1
+soldier          Lithuanian_Cavalry, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle
@@ -3006,7 +3006,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Polish_Shooters, 36, 0, 1
+soldier          Polish_Shooters, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow
@@ -3042,7 +3042,7 @@ voice_type       Light
 accent           Mongolian
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Cuman_Horse_Archers, 36, 0, 1
+soldier          Cuman_Horse_Archers, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, mercenary_unit
@@ -3077,7 +3077,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Peasant_Archers, 64, 0, 0.8
+soldier          Peasant_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -3110,7 +3110,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          S_Peasant_Archers, 64, 0, 0.8
+soldier          S_Peasant_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -3143,7 +3143,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          S_Archer_Militia, 64, 0, 0.8
+soldier          S_Archer_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3173,7 +3173,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Longbowmen, 64, 0, 0.8
+soldier          Longbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3205,7 +3205,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 64, 0, 1
+soldier          Yeoman_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -3236,7 +3236,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Sherwood_Archers, 64, 0, 0.8
+soldier          Sherwood_Archers, 32, 0, 0.8
 attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, start_not_skirmishing, nottingham
 formation        1.2, 1.2, 2.4, 2.4, 2, square
 stat_health      2, 0
@@ -3267,7 +3267,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Highland_Archers, 64, 0, 0.8
+soldier          Highland_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3300,7 +3300,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Noble_Highland_Archers, 64, 0, 1
+soldier          Noble_Highland_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3332,7 +3332,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Peasant_Crossbowmen, 64, 0, 0.8
+soldier          Peasant_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3365,7 +3365,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 64, 0, 0.8
+soldier          Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3397,7 +3397,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Aventurier, 64, 0, 1
+soldier          Aventurier, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -3428,7 +3428,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 64, 0, 0.8
+soldier          Pavise_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3460,7 +3460,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbow_Militia, 64, 0, 0.8
+soldier          Pavise_Crossbow_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, crossbow, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3492,7 +3492,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Genoese_Crossbowmen, 64, 0, 0.8
+soldier          Genoese_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3524,7 +3524,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Genoese_Crossbow_Militia, 64, 0, 0.8
+soldier          Genoese_Crossbow_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3554,7 +3554,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Scots_Guard, 64, 0, 1.2
+soldier          Scots_Guard, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, paris, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -3585,7 +3585,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Archer_Militia, 64, 0, 0.8
+soldier          Archer_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3615,7 +3615,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbow_Militia, 64, 0, 0.8
+soldier          Crossbow_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3646,7 +3646,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Sicilian_Muslim_Archers, 64, 0, 0.8
+soldier          Sicilian_Muslim_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3678,7 +3678,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Venetian_Archers, 64, 0, 1
+soldier          Venetian_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3710,7 +3710,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Peasant_Archers, 64, 0, 0.8
+soldier          EE_Peasant_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -3743,7 +3743,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Cossack_Musketeers, 40, 0, 0.8
+soldier          Cossack_Musketeers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -3774,7 +3774,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Archer_Militia, 64, 0, 0.8
+soldier          EE_Archer_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3804,7 +3804,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Crossbow_Militia, 64, 0, 0.8
+soldier          EE_Crossbow_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -3835,7 +3835,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Arquebusiers, 40, 0, 0.8
+soldier          Arquebusiers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -3866,7 +3866,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          musketeers, 40, 0, 0.8
+soldier          musketeers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -3897,7 +3897,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Trebizond_Archers, 64, 0, 0.8
+soldier          Trebizond_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3930,7 +3930,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Byzantine_Guard_Archers, 64, 0, 1
+soldier          Byzantine_Guard_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3963,7 +3963,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Bosnian_Archers, 64, 0, 0.8
+soldier          Bosnian_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -3996,7 +3996,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Lithuanian_Archers, 64, 0, 0.8
+soldier          Lithuanian_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -4029,7 +4029,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Hand_Gunners, 40, 0, 0.8
+soldier          Hand_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -4061,7 +4061,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Portuguese_Arquebusiers, 40, 0, 1
+soldier          Portuguese_Arquebusiers, 48, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -4092,7 +4092,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Norse_Archers, 64, 0, 1
+soldier          Norse_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -4125,7 +4125,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_Longbowmen, 64, 0, 1
+soldier          Dismounted_Longbowmen, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, stakes, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -4156,7 +4156,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_French_Archers, 64, 0, 1
+soldier          Dismounted_French_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -4187,7 +4187,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_Lithuanian_Cavalry, 64, 0, 1
+soldier          Dismounted_Lithuanian_Cavalry, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -4221,7 +4221,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_missile
 banner holy      crusade
-soldier          Mercenary_Pavise_Crossbowmen, 64, 0, 0.8
+soldier          Mercenary_Pavise_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -4252,7 +4252,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_missile
 banner holy      crusade
-soldier          Mercenary_Arquebusiers, 40, 0, 0.8
+soldier          Mercenary_Arquebusiers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -4283,7 +4283,7 @@ voice_type       Light
 accent           English
 banner faction   main_missile
 banner holy      crusade
-soldier          Free_Company_Longbowmen, 64, 0, 0.8
+soldier          Free_Company_Longbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, stakes, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -4314,7 +4314,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_missile
 banner holy      crusade
-soldier          Bulgarian_Brigands, 64, 0, 1
+soldier          Bulgarian_Brigands, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -4345,7 +4345,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_missile
 banner holy      crusade
-soldier          Mercenary_Crossbowmen, 64, 0, 0.8
+soldier          Mercenary_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -4376,7 +4376,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_missile
 banner holy      crusade
-soldier          Balkan_Archers, 64, 0, 0.8
+soldier          Balkan_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -4406,7 +4406,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Peasants, 88, 0, 0.8
+soldier          Peasants, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -4438,7 +4438,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Southern_Peasants, 88, 0, 0.8
+soldier          Southern_Peasants, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -4471,7 +4471,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Highland_Rabble, 88, 0, 0.8
+soldier          Highland_Rabble, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 formation        1.2, 0, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -4504,7 +4504,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Highlanders, 88, 0, 1
+soldier          Highlanders, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4537,7 +4537,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Javelinmen, 64, 0, 0.8
+soldier          Javelinmen, 48, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -4570,7 +4570,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Lusitanian_Javelinmen, 64, 0, 0.8
+soldier          Lusitanian_Javelinmen, 48, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -4603,7 +4603,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Almughavars, 64, 0, 1
+soldier          Almughavars, 60, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -4636,7 +4636,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Sword_and_Buckler_Men, 88, 0, 1
+soldier          Sword_and_Buckler_Men, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -4667,7 +4667,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Swordsmen_Militia, 88, 0, 1
+soldier          Swordsmen_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4699,7 +4699,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          EE_Peasants, 88, 0, 0.8
+soldier          EE_Peasants, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -4732,7 +4732,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Woodsmen, 88, 0, 1
+soldier          Woodsmen, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4765,7 +4765,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          SE_Town_Militia, 88, 0, 0.8
+soldier          SE_Town_Militia, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4797,7 +4797,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Slav_Levies, 88, 0, 0.8
+soldier          Slav_Levies, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4830,7 +4830,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Croat_Axemen, 88, 0, 1
+soldier          Croat_Axemen, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4863,7 +4863,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Transilvanian_Peasants, 88, 0, 0.8
+soldier          Transilvanian_Peasants, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 8, square
 stat_health      1, 0
@@ -4896,7 +4896,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          EE_Town_Militia, 88, 0, 0.8
+soldier          EE_Town_Militia, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -4928,7 +4928,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Viking_Raiders, 88, 0, 1
+soldier          Viking_Raiders, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_foot, free_upkeep_unit, mercenary_unit
 move_speed_mod   1.2
 formation        1.2, 0, 2.4, 2.4, 4, square
@@ -4961,7 +4961,7 @@ voice_type       Light
 accent           Scottish
 banner faction   main_missile
 banner holy      crusade
-soldier          Irish_Kerns, 64, 0, 0.8
+soldier          Irish_Kerns, 48, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -4993,7 +4993,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_missile
 banner holy      crusade
-soldier          Catalans, 64, 0, 1
+soldier          Catalans, 48, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -5025,7 +5025,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_infantry
 banner holy      crusade
-soldier          Slav_Mercenaries, 88, 0, 0.8
+soldier          Slav_Mercenaries, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -5058,7 +5058,7 @@ voice_type       Light
 accent           English
 banner faction   main_infantry
 banner holy      crusade
-soldier          Pilgrims, 88, 0, 0.8
+soldier          Pilgrims, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant
 formation        1.2, 0, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -5089,7 +5089,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_infantry
 banner holy      crusade
-soldier          Religious_Fanatics, 88, 0, 0.8
+soldier          Religious_Fanatics, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant
 formation        1.2, 0, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -5123,7 +5123,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_infantry
 banner holy      crusade
-soldier          Flagellants, 88, 0, 0.8
+soldier          Flagellants, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant
 formation        1.2, 0, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -5153,7 +5153,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Levy_Spearmen, 96, 0, 1.5
+soldier          Levy_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -5185,7 +5185,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Highland_Pikemen, 96, 0, 3.5
+soldier          Highland_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, pike, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -5217,7 +5217,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Sergeant_Spearmen, 96, 0, 1.5
+soldier          Sergeant_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5249,7 +5249,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 96, 0, 1.5
+soldier          Armored_Sergeants, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5282,7 +5282,7 @@ class            light
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Town_Militia, 88, 0, 1.5
+soldier          Town_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -5312,7 +5312,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Spear_Militia, 96, 0, 1.5
+soldier          Spear_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -5344,7 +5344,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Scots_Pike_Militia, 96, 0, 3.5
+soldier          Scots_Pike_Militia, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5377,7 +5377,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Heavy_Pike_Militia, 96, 0, 3.5
+soldier          Heavy_Pike_Militia, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5409,7 +5409,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Tercio_Pikemen, 96, 0, 3.5
+soldier          Tercio_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, pike, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -5440,7 +5440,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Pikemen, 96, 0, 3.5
+soldier          Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, pike, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -5471,7 +5471,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Pike_Militia, 96, 0, 3.5
+soldier          Pike_Militia, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5502,7 +5502,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Aventuros, 96, 0, 3.5
+soldier          Aventuros, 48, 0, 3.5
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, pike, free_upkeep_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5534,7 +5534,7 @@ class            light
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          EE_Spear_Militia, 88, 0, 1.5
+soldier          EE_Spear_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -5564,7 +5564,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Byzantine_Spearmen, 96, 0, 1.5
+soldier          Byzantine_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -5597,7 +5597,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          SE_Spear_Militia, 96, 0, 1.5
+soldier          SE_Spear_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -5627,7 +5627,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Pavise_Spearmen, 96, 0, 1.5
+soldier          Pavise_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5659,7 +5659,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          EE_Spearmen, 96, 0, 1.5
+soldier          EE_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5692,7 +5692,7 @@ class            light
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Italian_Militia, 88, 0, 1.5
+soldier          Italian_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -5725,7 +5725,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Italian_Spear_Militia, 96, 0, 1.5
+soldier          Italian_Spear_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5758,7 +5758,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Papal_Guard, 96, 0, 1.5
+soldier          Papal_Guard, 60, 0, 1.5
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, rome, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5791,7 +5791,7 @@ voice_type       Light
 accent           German
 banner faction   main_spear
 banner holy      crusade
-soldier          Flemish_Pikemen, 96, 0, 3.5
+soldier          Flemish_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, can_withdraw, pike, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5823,7 +5823,7 @@ voice_type       Heavy
 accent           German
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Pikemen, 96, 0, 3.5
+soldier          Swiss_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, pike, free_upkeep_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5855,7 +5855,7 @@ voice_type       Heavy
 accent           German
 banner faction   main_spear
 banner holy      crusade
-soldier          Landschneckt_Pikemen, 96, 0, 3.5
+soldier          Landschneckt_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, pike, free_upkeep_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5888,7 +5888,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_spear
 banner holy      crusade
-soldier          Mercenary_Spearmen, 96, 0, 1.5
+soldier          Mercenary_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5919,7 +5919,7 @@ voice_type       Light
 accent           French
 banner faction   main_spear
 banner holy      crusade
-soldier          Crusader_Sergeants, 96, 0, 1.5
+soldier          Crusader_Sergeants, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -5949,7 +5949,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Noble_Pikemen, 96, 0, 3.5
+soldier          Noble_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, pike, free_upkeep_unit, mercenary_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -5981,7 +5981,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Armored_Swordsmen, 72, 0, 1.2
+soldier          Armored_Swordsmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6013,7 +6013,7 @@ class            heavy
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Billmen, 72, 0, 1
+soldier          Billmen, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6045,7 +6045,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Heavy_Billmen, 72, 0, 1.2
+soldier          Heavy_Billmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6076,7 +6076,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Highland_Nobles, 72, 0, 1.2
+soldier          Highland_Nobles, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6108,7 +6108,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Voulgier, 72, 0, 1.2
+soldier          Voulgier, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 1.2, 2.4, 2.4, 4, phalanx, square
 stat_health      1, 0
@@ -6139,7 +6139,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Zweihander, 72, 0, 1.2
+soldier          Zweihander, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6170,7 +6170,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Noble_Swordsmen, 72, 0, 1.2
+soldier          Noble_Swordsmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, edinburgh, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6201,7 +6201,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Forlorn_Hope, 72, 0, 1.2
+soldier          Forlorn_Hope, 32, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frankfurt, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 2, square
 stat_health      1, 0
@@ -6232,7 +6232,7 @@ class            heavy
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Bill_Militia, 72, 0, 1
+soldier          Bill_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -6262,7 +6262,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Heavy_Bill_Militia, 72, 0, 1.2
+soldier          Heavy_Bill_Militia, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6291,7 +6291,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Swordstaff_Militia, 72, 0, 1
+soldier          Swordstaff_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, phalanx, square
 stat_health      1, 0
@@ -6323,7 +6323,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Voulge_Militia, 72, 0, 1
+soldier          Voulge_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, phalanx, square
 stat_health      1, 0
@@ -6353,7 +6353,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Halberd_Militia, 72, 0, 1
+soldier          Halberd_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, phalanx, square
 stat_health      1, 0
@@ -6383,7 +6383,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Venetian_Heavy_Infantry, 72, 0, 1.2
+soldier          Venetian_Heavy_Infantry, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, venice
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6414,7 +6414,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Berdiche_Axemen, 72, 0, 1.2
+soldier          Berdiche_Axemen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6446,7 +6446,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Byzantine_Infantry, 72, 0, 1
+soldier          Byzantine_Infantry, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6480,7 +6480,7 @@ voice_type       Heavy
 accent           East_European
 banner faction   main_infantry
 banner holy      crusade
-soldier          Varangian_Guard, 72, 0, 1.2
+soldier          Varangian_Guard, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, constantinople, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6513,7 +6513,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Battlefield_Assassins, 88, 0, 1
+soldier          Battlefield_Assassins, 32, 0, 1
 attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 2, square
 stat_health      2, 0
@@ -6545,7 +6545,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Norse_Swordsmen, 72, 0, 1.2
+soldier          Norse_Swordsmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6577,7 +6577,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Norse_Axemen, 72, 0, 1.2
+soldier          Norse_Axemen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6609,7 +6609,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Obudshaer, 72, 0, 1.2
+soldier          Obudshaer, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, phalanx, square
 stat_health      1, 0
@@ -6640,7 +6640,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 72, 0, 1.2
+soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6672,7 +6672,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_English_Knights, 72, 0, 1.2
+soldier          Dismounted_English_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6704,7 +6704,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Chivalric_Knights, 72, 0, 1.2
+soldier          Dismounted_Chivalric_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6736,7 +6736,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Noble_Knights, 72, 0, 1.2
+soldier          Dismounted_Noble_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6766,7 +6766,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Imperial_Knights, 72, 0, 1.2
+soldier          Dismounted_Imperial_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6798,7 +6798,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Gothic_Knights, 72, 0, 1.2
+soldier          Dismounted_Gothic_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6829,7 +6829,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Huscarls, 72, 0, 1.2
+soldier          Dismounted_Huscarls, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_foot
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6861,7 +6861,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 72, 0, 1.2
+soldier          Dismounted_Conquistadores, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -6892,7 +6892,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Portuguese_Knights, 72, 0, 1.2
+soldier          Dismounted_Portuguese_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6924,7 +6924,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Italian_MAA, 72, 0, 1.2
+soldier          Dismounted_Italian_MAA, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6956,7 +6956,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Broken_Lances, 72, 0, 1.2
+soldier          Dismounted_Broken_Lances, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -6988,7 +6988,7 @@ voice_type       Heavy
 accent           German
 banner faction   main_infantry
 banner holy      crusade
-soldier          Swiss_Guard, 72, 0, 1.2
+soldier          Swiss_Guard, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, phalanx, square
 stat_health      1, 0
@@ -7019,7 +7019,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Norman_Knights, 72, 0, 1.2
+soldier          Dismounted_Norman_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -7050,7 +7050,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Polish_Knights, 72, 0, 1.2
+soldier          Dismounted_Polish_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -7082,7 +7082,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Polish_Nobles, 96, 0, 1
+soldier          Dismounted_Polish_Nobles, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7114,7 +7114,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Druchima, 72, 0, 1
+soldier          Dismounted_Druchima, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7146,7 +7146,7 @@ class            heavy
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Boyar_Sons, 72, 0, 1
+soldier          Dismounted_Boyar_Sons, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7179,7 +7179,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_Dvor, 64, 0, 1.2
+soldier          Dismounted_Dvor, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7211,7 +7211,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_E_Chivalric_Knights, 72, 0, 1.2
+soldier          Dismounted_E_Chivalric_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -7243,7 +7243,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Byzantine_Lancers, 72, 0, 1.2
+soldier          Dismounted_Byzantine_Lancers, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7276,7 +7276,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Latinkon, 72, 0, 1.2
+soldier          Dismounted_Latinkon, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -7310,7 +7310,7 @@ voice_type       Heavy
 accent           English
 banner faction   main_infantry
 banner holy      crusade
-soldier          Free_Company_Men_at_Arms, 72, 0, 1.2
+soldier          Free_Company_Men_at_Arms, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -7341,7 +7341,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Turkish_Horse_Archers, 36, 0, 1
+soldier          Turkish_Horse_Archers, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -7376,7 +7376,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Turkomans, 36, 0, 1
+soldier          Turkomans, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, mercenary_unit
@@ -7411,7 +7411,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Sipahis, 36, 0, 1
+soldier          Sipahis, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -7514,7 +7514,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Desert_Cavalry, 36, 0, 1
+soldier          Desert_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle
@@ -7550,7 +7550,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Bedouin_Cavalry, 40, 0, 1
+soldier          Bedouin_Cavalry, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -7583,7 +7583,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Bedouin_Camel_Riders, 36, 0, 1
+soldier          Bedouin_Camel_Riders, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_mounted, mercenary_unit
@@ -7618,7 +7618,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Arab_Cavalry, 40, 0, 1
+soldier          Arab_Cavalry, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
@@ -7653,7 +7653,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mamluk_Archers, 36, 0, 1
+soldier          Mamluk_Archers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle
@@ -7757,7 +7757,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Granadine_Jinetes, 36, 0, 1
+soldier          Granadine_Jinetes, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -7860,7 +7860,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Granadine_CB_Cav, 36, 0, 1
+soldier          Granadine_CB_Cav, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow
@@ -7994,7 +7994,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          ME_Bodyguard, 32, 0, 1
+soldier          ME_Bodyguard, 16, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -8028,7 +8028,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          ME_Late_Bodyguard, 32, 0, 1
+soldier          ME_Late_Bodyguard, 16, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit_upgrade
@@ -8097,7 +8097,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Turkopoles, 36, 0, 1
+soldier          Turkopoles, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, cantabrian_circle
@@ -8132,7 +8132,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Akinjis, 36, 0, 1
+soldier          Akinjis, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, cantabrian_circle
@@ -8164,7 +8164,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Peasant_Archers, 64, 0, 0.8
+soldier          ME_Peasant_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -8198,7 +8198,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Turkish_Archers, 64, 0, 0.8
+soldier          Turkish_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8230,7 +8230,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Ottoman_Infantry, 64, 0, 1
+soldier          Ottoman_Infantry, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8262,7 +8262,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Janissary_Archers, 64, 0, 1
+soldier          Janissary_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -8293,7 +8293,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Janissary_Musketeers, 40, 0, 1
+soldier          Janissary_Musketeers, 48, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -8324,7 +8324,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Turkish_Javelinmen, 64, 0, 0.8
+soldier          Turkish_Javelinmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -8357,7 +8357,7 @@ voice_type       Heavy
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Naffatun, 64, 0, 1
+soldier          Naffatun, 16, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish, incendiary, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -8390,7 +8390,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Desert_Archers, 64, 0, 0.8
+soldier          Desert_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8423,7 +8423,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Nubian_Archers, 64, 0, 0.8
+soldier          Nubian_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -8453,7 +8453,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Hand_Gunners, 40, 0, 0.8
+soldier          ME_Hand_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -8485,7 +8485,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Archer_Militia, 64, 0, 0.8
+soldier          ME_Archer_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8515,7 +8515,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Sudanese_Gunners, 40, 0, 0.8
+soldier          Sudanese_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -8546,7 +8546,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Sudanese_Javelinmen, 64, 0, 0.8
+soldier          Sudanese_Javelinmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -8579,7 +8579,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Peasant_Crossbowmen, 64, 0, 0.8
+soldier          ME_Peasant_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8611,7 +8611,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Crossbow_Militia, 64, 0, 0.8
+soldier          ME_Crossbow_Militia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8642,7 +8642,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_missile
 banner holy      crusade
-soldier          Armenian_Archers, 64, 0, 0.8
+soldier          Armenian_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -8673,7 +8673,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          ME_Peasants, 88, 0, 1
+soldier          ME_Peasants, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -8706,7 +8706,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Azabs, 88, 0, 1
+soldier          Azabs, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -8738,7 +8738,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Kurdish_Javelinmen, 64, 0, 1
+soldier          Kurdish_Javelinmen, 48, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -8772,7 +8772,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Nubian_Spearmen, 96, 0, 1
+soldier          Nubian_Spearmen, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -8805,7 +8805,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          ME_Town_Militia, 96, 0, 1
+soldier          ME_Town_Militia, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -8837,7 +8837,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          ME_Spear_Militia, 96, 0, 1.5
+soldier          ME_Spear_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -8870,7 +8870,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Berber_Spearmen, 96, 0, 1.5
+soldier          Berber_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -8902,7 +8902,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Lamtuna_Spearmen, 96, 0, 1.5
+soldier          Lamtuna_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -8934,7 +8934,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          ME_Levy_Spearmen, 96, 0, 1.5
+soldier          ME_Levy_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -8967,7 +8967,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Afghan_Javelinmen, 64, 0, 1
+soldier          Afghan_Javelinmen, 48, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -9000,7 +9000,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Arab_Cavalry, 96, 0, 1
+soldier          Dismounted_Arab_Cavalry, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9033,7 +9033,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Tuareg, 96, 0, 1
+soldier          Dismounted_Tuareg, 48, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9066,7 +9066,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_infantry
 banner holy      crusade
-soldier          Ghazis, 88, 0, 1
+soldier          Ghazis, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9097,7 +9097,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_infantry
 banner holy      crusade
-soldier          Mutatawwi'a, 88, 0, 1
+soldier          Mutatawwi'a, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9127,7 +9127,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 72, 0, 1.2
+soldier          Janissary_Heavy_Inf, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, baghdad
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9158,7 +9158,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Saracen_Militia, 96, 0, 1.5
+soldier          Saracen_Militia, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -9190,7 +9190,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          ME_Halberd_Militia, 72, 0, 1.2
+soldier          ME_Halberd_Militia, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9221,7 +9221,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Hashishim, 72, 0, 1.2
+soldier          Hashishim, 32, 0, 1.2
 attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere
 formation        1.2, 0, 2.4, 2.4, 2, square
 stat_health      2, 0
@@ -9253,7 +9253,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Tabardariyya, 72, 0, 1.2
+soldier          Tabardariyya, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, cairo
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9285,7 +9285,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Urban_Militia, 72, 0, 1.5
+soldier          Urban_Militia, 48, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9317,7 +9317,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Christian_Guard, 72, 0, 1.5
+soldier          Dismounted_Christian_Guard, 48, 0, 1.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9349,7 +9349,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Sipahi_Lancers, 96, 0, 1.2
+soldier          Dismounted_Sipahi_Lancers, 60, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -9381,7 +9381,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mongol_Horse_Archers, 36, 0, 1
+soldier          Mongol_Horse_Archers, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -9416,7 +9416,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mongol_Light_Lancers, 40, 0, 1
+soldier          Mongol_Light_Lancers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
@@ -9451,7 +9451,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mongol_Heavy_Archers, 36, 0, 1
+soldier          Mongol_Heavy_Archers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle
@@ -9553,7 +9553,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Foot_Archers, 64, 0, 0.8
+soldier          Mongol_Foot_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -9586,7 +9586,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Infantry, 64, 0, 1
+soldier          Mongol_Infantry, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -9619,7 +9619,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mongol_Bodyguard, 32, 0, 1
+soldier          Mongol_Bodyguard, 16, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -9654,7 +9654,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_Archers, 64, 0, 0.8
+soldier          Dismounted_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -9686,7 +9686,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Light_Lancers, 96, 0, 1
+soldier          Dismounted_Light_Lancers, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9719,7 +9719,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Dismounted_Heavy_Archers, 64, 0, 1
+soldier          Dismounted_Heavy_Archers, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -9752,7 +9752,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Heavy_Lancers, 96, 0, 1.2
+soldier          Dismounted_Heavy_Lancers, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -9783,7 +9783,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Aztec_Peasants, 88, 0, 0.8
+soldier          Aztec_Peasants, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, peasant
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -9815,7 +9815,7 @@ category         infantry
 class            spearmen
 voice_type       Light
 banner faction   main_spear
-soldier          Aztec_Spearmen, 96, 0, 1.5
+soldier          Aztec_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 5, square, schiltrom
@@ -9847,7 +9847,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Aztec_Archers, 64, 0, 0.8
+soldier          Aztec_Archers, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 move_speed_mod   1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -9879,7 +9879,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Aztec_Spear_Throwers, 64, 0, 0.8
+soldier          Aztec_Spear_Throwers, 60, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 move_speed_mod   1.3
@@ -9912,7 +9912,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Aztec_Warriors, 88, 0, 1
+soldier          Aztec_Warriors, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 5, square
@@ -9944,7 +9944,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Jaguar_Warriors, 88, 0, 1
+soldier          Jaguar_Warriors, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 4, square
@@ -9976,7 +9976,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Eagle_Warriors, 88, 0, 1
+soldier          Eagle_Warriors, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 4, square
@@ -10008,7 +10008,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Cuahchiqueh, 72, 0, 1
+soldier          Cuahchiqueh, 48, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 4, square
@@ -10040,7 +10040,7 @@ category         infantry
 class            light
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Coyote_Priests, 88, 0, 1
+soldier          Coyote_Priests, 24, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, druid
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 3, square
@@ -10072,7 +10072,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Arrow_Warriors, 64, 0, 1
+soldier          Arrow_Warriors, 48, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 move_speed_mod   1.3
@@ -10107,7 +10107,7 @@ voice_type       Light
 accent           Mongolian
 banner faction   main_infantry
 banner holy      crusade
-soldier          Native_Mercenaries, 88, 0, 1
+soldier          Native_Mercenaries, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 5, square
@@ -10139,7 +10139,7 @@ voice_type       Light
 accent           Mongolian
 banner faction   main_missile
 banner holy      crusade
-soldier          Native_Archers, 64, 0, 0.8
+soldier          Native_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 move_speed_mod   1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10171,7 +10171,7 @@ voice_type       Light
 accent           Mongolian
 banner faction   main_infantry
 banner holy      crusade
-soldier          Native_Warriors, 88, 0, 1
+soldier          Native_Warriors, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 0, 2.4, 2.4, 5, square
@@ -10201,7 +10201,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Aztec_Bodyguard, 72, 0, 1
+soldier          Aztec_Bodyguard, 16, 0, 1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -10234,7 +10234,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Ballista_Crew, 20, 2, 1
+soldier          NE_Ballista_Crew, 16, 2, 1
 engine           ballista
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10267,7 +10267,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Ballista_Crew, 20, 2, 1
+soldier          EE_Ballista_Crew, 16, 2, 1
 engine           ballista
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10300,7 +10300,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Ballista_Crew, 20, 2, 1
+soldier          Greek_Ballista_Crew, 16, 2, 1
 engine           ballista
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10334,7 +10334,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Ballista_Crew, 20, 2, 1
+soldier          ME_Ballista_Crew, 16, 2, 1
 engine           ballista
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10367,7 +10367,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Ballista_Crew, 20, 2, 1
+soldier          Mongol_Ballista_Crew, 16, 2, 1
 engine           ballista
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10401,7 +10401,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Catapult_Crew, 20, 2, 1
+soldier          NE_Catapult_Crew, 16, 2, 1
 engine           catapult
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10434,7 +10434,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Catapult_Crew, 20, 2, 1
+soldier          EE_Catapult_Crew, 16, 2, 1
 engine           catapult
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10467,7 +10467,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Catapult_Crew, 20, 2, 1
+soldier          Greek_Catapult_Crew, 16, 2, 1
 engine           catapult
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10500,7 +10500,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Catapult_Crew, 20, 2, 1
+soldier          ME_Catapult_Crew, 16, 2, 1
 engine           catapult
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10533,7 +10533,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Catapult_Crew, 20, 2, 1
+soldier          Mongol_Catapult_Crew, 16, 2, 1
 engine           catapult
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10566,7 +10566,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Trebuchet_Crew, 20, 2, 1
+soldier          NE_Trebuchet_Crew, 16, 2, 1
 engine           trebuchet
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10598,7 +10598,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Trebuchet_Crew, 20, 2, 1
+soldier          EE_Trebuchet_Crew, 16, 2, 1
 engine           trebuchet
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10630,7 +10630,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Trebuchet_Crew, 20, 2, 1
+soldier          Greek_Trebuchet_Crew, 16, 2, 1
 engine           trebuchet
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10663,7 +10663,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Trebuchet_Crew, 20, 2, 1
+soldier          ME_Trebuchet_Crew, 16, 2, 1
 engine           trebuchet
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10695,7 +10695,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Mongol_Trebuchet_Crew, 20, 2, 1
+soldier          Mongol_Trebuchet_Crew, 16, 2, 1
 engine           trebuchet
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10728,7 +10728,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Bombard_Crew, 40, 2, 1
+soldier          NE_Bombard_Crew, 16, 2, 1
 engine           bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10762,7 +10762,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Bombard_Crew, 40, 2, 1
+soldier          EE_Bombard_Crew, 16, 2, 1
 engine           bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10796,7 +10796,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Bombard_Crew, 40, 2, 1
+soldier          Greek_Bombard_Crew, 16, 2, 1
 engine           bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10831,7 +10831,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Bombard_Crew, 40, 2, 1
+soldier          ME_Bombard_Crew, 16, 2, 1
 engine           bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10865,7 +10865,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Bombard_Crew, 40, 2, 1
+soldier          Mongol_Bombard_Crew, 16, 2, 1
 engine           bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10900,7 +10900,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Rocket_Launcher_Crew, 40, 2, 1
+soldier          Mongol_Rocket_Launcher_Crew, 16, 2, 1
 engine           rocket_launcher
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, rocket
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10933,7 +10933,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Cannon_Crew, 40, 2, 1
+soldier          NE_Cannon_Crew, 16, 2, 1
 engine           great_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10965,7 +10965,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Cannon_Crew, 40, 2, 1
+soldier          EE_Cannon_Crew, 16, 2, 1
 engine           great_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -10997,7 +10997,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Cannon_Crew, 40, 2, 1
+soldier          ME_Cannon_Crew, 16, 2, 1
 engine           great_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11029,7 +11029,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Cannon_Crew, 40, 2, 1
+soldier          Mongol_Cannon_Crew, 16, 2, 1
 engine           great_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11061,7 +11061,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Mortar_Crew, 40, 2, 1
+soldier          NE_Mortar_Crew, 16, 2, 1
 engine           mortar
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, mortar, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11094,7 +11094,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Ribault_Crew, 40, 2, 1
+soldier          NE_Ribault_Crew, 16, 2, 1
 engine           ribault
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11126,7 +11126,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Ribault_Crew, 40, 2, 1
+soldier          EE_Ribault_Crew, 16, 2, 1
 engine           ribault
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11158,7 +11158,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Culverin_Crew, 40, 2, 1
+soldier          NE_Culverin_Crew, 16, 2, 1
 engine           culverin
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11190,7 +11190,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Cannon_Crew, 40, 2, 1
+soldier          NE_Cannon_Crew, 16, 2, 1
 engine           cannon
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11222,7 +11222,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Cannon_Crew, 40, 2, 1
+soldier          EE_Cannon_Crew, 16, 2, 1
 engine           cannon
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11254,7 +11254,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Cannon_Crew, 40, 2, 1
+soldier          ME_Cannon_Crew, 16, 2, 1
 engine           cannon
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11286,7 +11286,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Cannon_Crew, 40, 2, 1
+soldier          Mongol_Cannon_Crew, 16, 2, 1
 engine           cannon
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11318,7 +11318,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Serpentine_Crew, 40, 2, 1
+soldier          NE_Serpentine_Crew, 16, 2, 1
 engine           serpentine
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11350,7 +11350,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Serpentine_Crew, 40, 2, 1
+soldier          EE_Serpentine_Crew, 16, 2, 1
 engine           serpentine
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11382,7 +11382,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Basilisk_Crew, 40, 2, 1
+soldier          NE_Basilisk_Crew, 16, 2, 1
 engine           basilisk
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11414,7 +11414,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          EE_Basilisk_Crew, 40, 2, 1
+soldier          EE_Basilisk_Crew, 16, 2, 1
 engine           basilisk
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11446,7 +11446,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Monster_Ribault_Crew, 40, 2, 1
+soldier          NE_Monster_Ribault_Crew, 16, 2, 1
 engine           monster_ribault
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11478,7 +11478,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Monster_Bombard_Crew, 40, 1, 1
+soldier          ME_Monster_Bombard_Crew, 16, 1, 1
 engine           huge_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11510,7 +11510,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Mongol_Monster_Bombard_Crew, 40, 1, 1
+soldier          Mongol_Monster_Bombard_Crew, 16, 1, 1
 engine           huge_bombard
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -11541,7 +11541,7 @@ class            light
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Carroccio_Standard, 40, 1, 1
+soldier          Carroccio_Standard, 24, 1, 1
 engine           great_standart_milan
 attributes       sea_faring, hide_forest, hardy, can_withdraw, standard
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -11575,7 +11575,7 @@ class            light
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Carroccio_Standard, 40, 1, 1
+soldier          Carroccio_Standard, 24, 1, 1
 engine           great_standart_venice
 attributes       sea_faring, hide_forest, hardy, can_withdraw, standard
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -11609,7 +11609,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Gulay_Gorod, 64, 0, 1
+soldier          Gulay_Gorod, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -11640,7 +11640,7 @@ voice_type       Heavy
 accent           East_European
 banner faction   main_missile
 banner holy      crusade
-soldier          Hussites, 64, 0, 1
+soldier          Hussites, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, crossbow, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -11671,7 +11671,7 @@ voice_type       Heavy
 accent           Mediterranean
 banner faction   main_spear
 banner holy      crusade
-soldier          Great_Cross, 40, 1, 1
+soldier          Great_Cross, 24, 1, 1
 engine           great_cross
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, standard
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -11707,7 +11707,7 @@ voice_type       Light
 accent           Scottish
 banner faction   main_missile
 banner holy      crusade
-soldier          Welsh_Longbowmen, 64, 0, 0.8
+soldier          Welsh_Longbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, stakes, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -11738,7 +11738,7 @@ voice_type       Light
 accent           East_European
 banner faction   main_missile
 banner holy      crusade
-soldier          Bulgarian_Brigands, 64, 0, 1
+soldier          Bulgarian_Brigands, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -11769,7 +11769,7 @@ voice_type       Light
 accent           Scottish
 banner faction   main_missile
 banner holy      crusade
-soldier          Irish_Kerns, 64, 0, 0.8
+soldier          Irish_Kerns, 48, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -11802,7 +11802,7 @@ voice_type       Light
 accent           Scottish
 banner faction   main_spear
 banner holy      crusade
-soldier          Welsh_Spearmen, 96, 0, 1.5
+soldier          Welsh_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -11835,7 +11835,7 @@ voice_type       Light
 accent           German
 banner faction   main_spear
 banner holy      crusade
-soldier          Flemish_Pikemen, 96, 0, 4
+soldier          Flemish_Pikemen, 48, 0, 4
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, pike
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -11867,7 +11867,7 @@ voice_type       Heavy
 accent           German
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Pikemen, 96, 0, 3.5
+soldier          Swiss_Pikemen, 48, 0, 3.5
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, mercenary_unit, pike
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -11899,7 +11899,7 @@ voice_type       Heavy
 accent           Scottish
 banner faction   main_infantry
 banner holy      crusade
-soldier          Galloglaich, 72, 0, 1.2
+soldier          Galloglaich, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -11932,7 +11932,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Turkomans, 36, 0, 1
+soldier          Turkomans, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, mercenary_unit
@@ -11965,7 +11965,7 @@ voice_type       Heavy
 accent           Mongolian
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Elephant_Crew, 12, 6, 1
+soldier          Elephant_Crew, 18, 6, 1
 mount            elephant
 mount_effect     horse +4, camel +2
 attributes       sea_faring, hardy, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, gunpowder_unit, mercenary_unit
@@ -12031,7 +12031,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Afghan_Javelinmen, 64, 0, 1
+soldier          Afghan_Javelinmen, 48, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -12065,7 +12065,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_infantry
 banner holy      crusade
-soldier          Sudanese_Tribesmen, 88, 0, 1
+soldier          Sudanese_Tribesmen, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -12099,7 +12099,7 @@ voice_type       Heavy
 accent           French
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Crusader_Knights, 72, 0, 1.2
+soldier          Dismounted_Crusader_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12129,7 +12129,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 24, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -12161,7 +12161,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 24, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -12193,7 +12193,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 24, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -12225,7 +12225,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          ME_Bodyguard_ug1, 32, 0, 1
+soldier          ME_Bodyguard_ug1, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -12257,7 +12257,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 24, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -12391,7 +12391,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Constable_of_Jerusalem, 32, 0, 1
+soldier          Constable_of_Jerusalem, 48, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, jerusalem
@@ -12459,7 +12459,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Tripolitan_Squires, 72, 0, 1.2
+soldier          Tripolitan_Squires, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -12491,7 +12491,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Knights_of_Jerusalem, 72, 0, 1.2
+soldier          Dismounted_Knights_of_Jerusalem, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -12523,7 +12523,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Templar_Sergeant, 96, 0, 1.5
+soldier          Templar_Sergeant, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square, schiltrom
 stat_health      1, 0
@@ -12556,7 +12556,7 @@ voice_type       Light
 accent           Mediterranean
 banner faction   main_infantry
 banner holy      crusade
-soldier          Pisan_and_Geonese_sailors, 88, 0, 0.8
+soldier          Pisan_and_Geonese_sailors, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12588,7 +12588,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Syrian_Militia, 96, 0, 1
+soldier          Syrian_Militia, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12620,7 +12620,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Frankish_Axemen, 72, 0, 1.2
+soldier          Frankish_Axemen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12652,7 +12652,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Sodeer_Archers, 64, 0, 0.8
+soldier          Sodeer_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12685,7 +12685,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Maronites_of_lebanon, 64, 0, 0.8
+soldier          Maronites_of_lebanon, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -12717,7 +12717,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Templar_Crossbowmen, 64, 0, 0.8
+soldier          Templar_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -12749,7 +12749,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Templar_Gunners, 40, 0, 0.8
+soldier          Templar_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -12884,7 +12884,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Seljuk_Auxilliary, 36, 0, 1
+soldier          Seljuk_Auxilliary, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -12918,7 +12918,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Edessan_Squires, 72, 0, 1.2
+soldier          Edessan_Squires, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12950,7 +12950,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Edessan_Guard, 72, 0, 1.2
+soldier          Edessan_Guard, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -12982,7 +12982,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Knights_of_Antioch, 72, 0, 1.2
+soldier          Dismounted_Knights_of_Antioch, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13014,7 +13014,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Canons_Of_The_Holy_Sepulcher, 72, 0, 1.2
+soldier          Canons_Of_The_Holy_Sepulcher, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, antioch
 move_speed_mod   1.2
 formation        1.2, 0, 2.4, 2.4, 3, square
@@ -13047,7 +13047,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Hospitaller_Sergeant, 96, 0, 1.5
+soldier          Hospitaller_Sergeant, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -13079,7 +13079,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Antioch_Militia, 88, 0, 1
+soldier          Antioch_Militia, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13111,7 +13111,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Frankish_Swordsmen, 88, 0, 1
+soldier          Frankish_Swordsmen, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13144,7 +13144,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Armenians_Of_Cilicia, 64, 0, 0.8
+soldier          Armenians_Of_Cilicia, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -13176,7 +13176,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Hospitaller_Crossbowmen, 64, 0, 0.8
+soldier          Hospitaller_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -13208,7 +13208,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Hospitaller_Gunners, 40, 0, 0.8
+soldier          Hospitaller_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -13342,7 +13342,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_ghulam, 72, 0, 1.2
+soldier          Dismounted_ghulam, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13374,7 +13374,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Al_Haqa_Infantry, 72, 0, 1.2
+soldier          Al_Haqa_Infantry, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13406,7 +13406,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          al_Ashair, 88, 0, 1.5
+soldier          al_Ashair, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13438,7 +13438,7 @@ class            heavy
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Khasseki, 72, 0, 1
+soldier          Khasseki, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13471,7 +13471,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Abid_Al_Shira, 64, 0, 0.8
+soldier          Abid_Al_Shira, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13504,7 +13504,7 @@ voice_type       Light
 accent           Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Mamluk_Hand_Gunners, 40, 0, 0.8
+soldier          Mamluk_Hand_Gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -13605,7 +13605,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          dismounted_hasham, 72, 0, 1.2
+soldier          dismounted_hasham, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13637,7 +13637,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Kurdish_Auxilliaries, 88, 0, 1
+soldier          Kurdish_Auxilliaries, 48, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13669,7 +13669,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Turkish_Crossbowmen, 64, 0, 0.8
+soldier          Turkish_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -13735,7 +13735,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Firethrower, 64, 0, 1
+soldier          Greek_Firethrower, 16, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 2, square
 stat_health      1, 2
@@ -13768,7 +13768,7 @@ voice_type       Heavy
 accent           German
 banner faction   main_infantry
 banner holy      crusade
-soldier          Alamanoi, 72, 0, 1.2
+soldier          Alamanoi, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -13800,7 +13800,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Pronoia_Infantry, 72, 0, 1
+soldier          Pronoia_Infantry, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13832,7 +13832,7 @@ class            heavy
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Byzantine_gunners, 40, 0, 0.8
+soldier          Byzantine_gunners, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -13864,7 +13864,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Ahdath, 88, 0, 1.5
+soldier          Ahdath, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -13896,7 +13896,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Greek_Bodyguard, 32, 0, 1
+soldier          Greek_Bodyguard, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -13930,7 +13930,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          ME_Bodyguard, 32, 0, 1
+soldier          ME_Bodyguard, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -13964,7 +13964,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 32, 0, 1
+soldier          NE_Bodyguard, 24, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
@@ -13996,7 +13996,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          NE_Mangonel_Crew, 20, 2, 1
+soldier          NE_Mangonel_Crew, 16, 2, 1
 engine           mangonel
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -14029,7 +14029,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          ME_Mangonel_Crew, 20, 2, 1
+soldier          ME_Mangonel_Crew, 16, 2, 1
 engine           mangonel
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -14062,7 +14062,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Greek_Mangonel_Crew, 20, 2, 1
+soldier          Greek_Mangonel_Crew, 16, 2, 1
 engine           mangonel
 attributes       sea_faring, hardy, can_withdraw, artillery
 formation        1.5, 1.5, 3, 3, 3, square
@@ -14095,7 +14095,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Sami_Axemen, 72, 0, 1.2
+soldier          Sami_Axemen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14128,7 +14128,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Gotland_Footmen, 72, 0, 1.2
+soldier          Gotland_Footmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, oslo, arhus
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14160,7 +14160,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Svenner, 40, 0, 1
+soldier          Svenner, 48, 0, 1
 mount            pony
 attributes       sea_faring, hide_forest, can_withdraw
 move_speed_mod   1.3
@@ -14194,7 +14194,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Late_Crossbowmen, 64, 0, 0.8
+soldier          Late_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -14226,7 +14226,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 72, 0, 1.2
+soldier          Dismounted_Conquistadores, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -14293,7 +14293,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Calivermen, 40, 0, 0.8
+soldier          Calivermen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -14357,7 +14357,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Ceitherne, 88, 0, 1
+soldier          Ceitherne, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14390,7 +14390,7 @@ class            light
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Deisi_Javelinmen, 88, 0, 1
+soldier          Deisi_Javelinmen, 60, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
@@ -14422,7 +14422,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Ostmen, 88, 0, 1
+soldier          Ostmen, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14455,7 +14455,7 @@ voice_type       Heavy
 accent           Scottish
 banner faction   main_infantry
 banner holy      crusade
-soldier          Galloglaich, 72, 0, 1.2
+soldier          Galloglaich, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14486,7 +14486,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Muire, 72, 0, 1.2
+soldier          Muire, 32, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, cork
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      2, 0
@@ -14518,7 +14518,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Cliathairi, 96, 0, 1.5
+soldier          Cliathairi, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -14551,7 +14551,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Saighdeoir, 64, 0, 0.8
+soldier          Saighdeoir, 60, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -14584,7 +14584,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horseboys, 36, 0, 1
+soldier          Horseboys, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -14618,7 +14618,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Hobiguir, 40, 0, 1
+soldier          Hobiguir, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
@@ -14721,7 +14721,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Ulster_Swordsmen, 72, 0, 1.2
+soldier          Ulster_Swordsmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14753,7 +14753,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          TO_Bodyguard, 32, 0, 1
+soldier          TO_Bodyguard, 16, 0, 1
 mount            barded horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit
@@ -14787,7 +14787,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          TO_Late_Bodyguard, 32, 0, 1
+soldier          TO_Late_Bodyguard, 16, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit_upgrade
@@ -14819,7 +14819,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Order_Militia, 88, 0, 0.8
+soldier          Order_Militia, 60, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14852,7 +14852,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Clergymen, 88, 0, 0.8
+soldier          Clergymen, 24, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, area_effect_ae_holy_inspiration
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14884,7 +14884,7 @@ category         infantry
 class            spearmen
 voice_type       Light
 banner faction   main_infantry
-soldier          Burgher_Pikemen, 96, 0, 4
+soldier          Burgher_Pikemen, 48, 0, 4
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, pike
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
 stat_health      1, 0
@@ -14915,7 +14915,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Sword_Brethren, 72, 0, 1.2
+soldier          Sword_Brethren, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -14947,7 +14947,7 @@ category         infantry
 class            spearmen
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Order_Spearmen, 96, 0, 1.5
+soldier          Order_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -14978,7 +14978,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Dismounted_Halbbruder, 72, 0, 1.5
+soldier          Dismounted_Halbbruder, 48, 0, 1.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15043,7 +15043,7 @@ category         cavalry
 class            light
 voice_type       Light
 banner faction   main_cavalry
-soldier          Knechten, 40, 0, 1
+soldier          Knechten, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, mercenary_unit
@@ -15077,7 +15077,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Prussian_Archers, 64, 0, 0.8
+soldier          Prussian_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -15108,7 +15108,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Livonian_Auxillaries, 64, 0, 0.8
+soldier          Livonian_Auxillaries, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -15171,7 +15171,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Dismounted_Ritterbruder, 72, 0, 1.2
+soldier          Dismounted_Ritterbruder, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -15237,7 +15237,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Followers_of_Perkunas, 88, 0, 1
+soldier          Followers_of_Perkunas, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_foot, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15268,7 +15268,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Sudovian_Tribesmen, 88, 0, 1
+soldier          Sudovian_Tribesmen, 60, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15299,7 +15299,7 @@ category         infantry
 class            spearmen
 voice_type       Light
 banner faction   main_infantry
-soldier          Estonian_Rebels, 96, 0, 1.5
+soldier          Estonian_Rebels, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -15331,7 +15331,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Samogitian_Axemen, 72, 0, 1.2
+soldier          Samogitian_Axemen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15362,7 +15362,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Giltines_Chosen, 72, 0, 1.2
+soldier          Giltines_Chosen, 32, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_foot, vilnius
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -15392,7 +15392,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Baltic_Archers, 64, 0, 0.8
+soldier          Baltic_Archers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -15423,7 +15423,7 @@ category         infantry
 class            heavy
 voice_type       Heavy
 banner faction   main_infantry
-soldier          Dismounted_Szlachta, 72, 0, 1.2
+soldier          Dismounted_Szlachta, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15489,7 +15489,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          L_Dismounted_Chivalric_Knights, 72, 0, 1.2
+soldier          L_Dismounted_Chivalric_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -15553,7 +15553,7 @@ category         cavalry
 class            missile
 voice_type       Heavy
 banner faction   main_cavalry
-soldier          L_Cavalry_Militia, 36, 0, 1
+soldier          L_Cavalry_Militia, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle, free_upkeep_unit
@@ -15586,7 +15586,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Lettish_Crossbowmen, 64, 0, 0.8
+soldier          Lettish_Crossbowmen, 48, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 1
@@ -15617,7 +15617,7 @@ category         infantry
 class            missile
 voice_type       Light
 banner faction   main_missile
-soldier          Lithuanian_Arquebusiers, 40, 0, 0.8
+soldier          Lithuanian_Arquebusiers, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 2
@@ -15648,7 +15648,7 @@ category         cavalry
 class            missile
 voice_type       Light
 banner faction   main_cavalry
-soldier          Dzukijan_Horsemen, 36, 0, 1
+soldier          Dzukijan_Horsemen, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
@@ -15716,7 +15716,7 @@ class            light
 voice_type       Light
 accent           East_European
 banner faction   main_cavalry
-soldier          Tartar_Lancers, 40, 0, 1
+soldier          Tartar_Lancers, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, mercenary_unit
@@ -15751,7 +15751,7 @@ class            spearmen
 voice_type       Light
 accent           East_European
 banner faction   main_infantry
-soldier          Dismounted_Tartar_Lancers, 96, 0, 1.5
+soldier          Dismounted_Tartar_Lancers, 48, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15819,7 +15819,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Teulu_Skirmishers, 36, 0, 1
+soldier          Teulu_Skirmishers, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, mercenary_unit
@@ -15853,7 +15853,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mathrafal_Horsemen, 40, 0, 1
+soldier          Mathrafal_Horsemen, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
@@ -15888,7 +15888,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Rhyfelwyr, 72, 0, 1.2
+soldier          Rhyfelwyr, 80, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15921,7 +15921,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Meirionnydd_Spearmen, 96, 0, 1.5
+soldier          Meirionnydd_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -15954,7 +15954,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Morgannwg_Spearmen, 96, 0, 1.5
+soldier          Morgannwg_Spearmen, 60, 0, 1.5
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, caernarvon
 formation        1.2, 0, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -15986,7 +15986,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Welsh_Militiamen, 88, 0, 1
+soldier          Welsh_Militiamen, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -16019,7 +16019,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Gwent_Raiders, 88, 0, 1
+soldier          Gwent_Raiders, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 0, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -16052,7 +16052,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Magnelwyr, 40, 0, 0.8
+soldier          Magnelwyr, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -16083,7 +16083,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Helwyr, 64, 0, 0.8
+soldier          Helwyr, 48, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -16116,7 +16116,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Saethwyr, 64, 0, 0.8
+soldier          Saethwyr, 60, 0, 0.8
 attributes       sea_faring, hide_forest, hardy, can_withdraw, stakes, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
@@ -16149,7 +16149,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Welsh_Skirmishers, 64, 0, 0.8
+soldier          Welsh_Skirmishers, 48, 0, 0.8
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
