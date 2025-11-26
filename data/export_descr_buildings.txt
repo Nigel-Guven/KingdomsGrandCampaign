@@ -66,14 +66,15 @@ building core_building
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch 
                 recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
-                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt 
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource antioch
+                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice 
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
-                recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh  
-                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
+                recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, } 
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus 
-                recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon 
+                recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow 
                 recruit_pool "Royal Banderium"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource budapest 
                 recruit_pool "Tabardariyya"  1   0.1   1  0  requires factions { egypt, }  and hidden_resource cairo 
@@ -82,6 +83,8 @@ building core_building
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
                 recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome 
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource jerusalem
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource marienburg
                 wall_level 2
                 tower_level 1
                 gate_strength 6
@@ -109,12 +112,13 @@ building core_building
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch
                 recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
-                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt 
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource antioch
+                recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, } 
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice 
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
-                recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh 
-                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
+                recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, } 
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus 
                 recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon 
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow
@@ -125,6 +129,8 @@ building core_building
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
                 recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome 
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource jerusalem
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource marienburg 
                 wall_level 3
                 tower_level 1
                 gate_strength 8
@@ -151,13 +157,15 @@ building core_building
                 recruit_pool "Scots Pike Militia"  0   0.000001   0.999  0  requires factions { scotland, }
                 recruit_pool "Constable of Jerusalem"  1   0.1   1  0  requires factions { jerusalem, }  and hidden_resource jerusalem 
                 recruit_pool "Canons of the Holy Sepulcher"  1   0.1   1  0  requires factions { antioch, }  and hidden_resource antioch
-                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris 
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource paris
+                recruit_pool "Scots Guard"  1   0.1   1  0  requires factions { france, antioch, }  and hidden_resource antioch
                 recruit_pool "Forlorn Hope"  1   0.1   1  0  requires factions { hre, venice, }  and hidden_resource frankfurt
                 recruit_pool "Venetian Heavy Infantry"  1   0.1   1  0  requires factions { venice, }  and hidden_resource venice  
                 recruit_pool "Famiglia Ducale"  1   0.1   1  0  requires factions { milan, }  and hidden_resource milan 
                 recruit_pool "Muire"  1   0.1   1  0  requires factions { ireland, }  and hidden_resource cork 
                 recruit_pool "Noble Swordsmen"  1   0.1   1  0  requires factions { scotland, norway, }  and hidden_resource edinburgh
                 recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource constantinople 
+                recruit_pool "Varangian Guard"  1   0.1   1  0  requires factions { byzantium, russia, }  and hidden_resource kiev
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource arhus  
                 recruit_pool "Knights of Santiago"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource lisbon  
                 recruit_pool "Polish Guard"  1   0.1   1  0  requires factions { poland, }  and hidden_resource krakow
@@ -168,6 +176,8 @@ building core_building
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { russia, }  and hidden_resource kiev 
                 recruit_pool "Tsars Guard"  1   0.1   1  0  requires factions { novgorod, }  and hidden_resource novgorod  
                 recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource rome
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource jerusalem
+                recruit_pool "Papal Guard"  1   0.1   1  0  requires factions { papal_states, teutonic_order, jerusalem, }  and hidden_resource marienburg
                 wall_level 4
                 tower_level 1
                 gate_strength 10
@@ -308,7 +318,7 @@ building core_castle_building
                 recruit_pool "Morgannwg Spearmen"  1   0.1   1  0  requires factions { wales, }  and hidden_resource caernarvon 
                 recruit_pool "Chivalric Knights"  1   0.1   1  0  requires factions { sicily, }  and hidden_resource palermo 
                 recruit_pool "Khan's Guard"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource sarkel 
-                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, milan, sicily, portugal, papal_states, }  and hidden_resource granada 
+                recruit_pool "Christian Guard"  1   0.1   1  0  requires factions { moors, milan, sicily, portugal, papal_states, }
                 recruit_pool "Gotland Footmen"  1   0.1   1  0  requires factions { norway, }  and hidden_resource oslo 
                 recruit_pool "Ritterbruder"  1   0.1   1  0  requires factions { teutonic_order, antioch, jerusalem, }
                 wall_level 3
