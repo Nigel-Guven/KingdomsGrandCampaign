@@ -2,17 +2,17 @@ Fix pikemen if it is necessary 	https://www.youtube.com/watch?v=ecosXlvcwl0&list
 Fix Firearm units 		https://www.youtube.com/watch?v=aQRK54kjdtc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=4
 Update unit sizes 		https://www.youtube.com/watch?v=5qRGKcULbAc&list=PLpIpxrUEH2njyXs44DA90VYRd1uPgBetO&index=5
 
-Timurid Event
-Wales Event
-Mongols Event
-Cuman Rebel Event
-Kiev Event
 
-Jerusalem
-Antioch
-Egypt
-William Wallace Event
-Norway Event
+
+Jerusalem Crusader Army
+Antioch Crusader Army
+Egypt Mameluke Army
+Scotland William Wallace Event
+Norway Event in either Bruges or Isle Of Man
+Spain Crusader Army
+Portugal Crusader Army
+Hussite Rebellion
+Waldensian Rebellion
 
 Fix Character placement on the map
 
@@ -34,6 +34,12 @@ Balance campaign
 	Rebels		Turov, Atil, Visby
 	Byzantium	Corinth, Adrianople
 	Turks		Ankara, Sinope, Attalia
+	
+Timurid Event
+Wales Event
+Mongols Event
+Cuman Rebel Event
+Kiev Event
 
 Units to add
 Ireland + 1

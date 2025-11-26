@@ -1433,7 +1433,7 @@ script
 		inc_event_counter crusader1_timer 1		
 	end_monitor
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 8
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 12
 		and I_NumberOfSettlements lithuania > 0
 		and I_EventCounter lithuania_conversion_accepted = 0
 		
@@ -1527,7 +1527,7 @@ script
 	
 	;------------------- CRUSADING NOBLES LITHUANIAN PAGAN UPRISING -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 10
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 14
 		
 		historic_event lithuanians_arise
 		
@@ -1564,7 +1564,7 @@ script
 	
 	;------------------- TIMURID REINFORCEMENTS -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 12
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 18
 		
 		historic_event timurid_reinforcements
 		
@@ -1666,7 +1666,7 @@ script
 	
 	;------------------- MONGOL FRESH HORDES -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 18
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 24
 		
 		historic_event mongol_reinforcements
 		
@@ -1723,7 +1723,7 @@ script
 	
 	;------------------- WELSH UPRISING -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 24
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 20
 		
 		historic_event owain_glindir
 		
@@ -1760,7 +1760,7 @@ script
 	
 	;------------------- CUMANS FLEE INTO THE BALKANS -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 5
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 16
 		
 		historic_event cumans_arrival
 			

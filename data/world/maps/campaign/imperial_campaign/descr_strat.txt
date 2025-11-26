@@ -763,7 +763,7 @@ resource	textiles,	163,	188
 ;Genoa_Province
 resource	marble,	232,	189
 resource	textiles,	228,	188
-resource	spices,	232,	187
+resource	spices,	234,	184
 
 ;Florence_Province
 resource	marble,	243,	175
@@ -1353,6 +1353,27 @@ settlement
 		type temple_orthodox church_o
 	}
 }
+settlement castle
+{
+	level town
+	region Tver_Province
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+}
 settlement
 {
 	level large_town
@@ -1411,14 +1432,19 @@ unit		Woodsmen				exp 0 armour 0 weapon_lvl 0
 unit		Woodsmen				exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
 unit		EE Peasant Archers			exp 0 armour 0 weapon_lvl 0
+unit		EE Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Kiselev, general, male, age 27, x 386, y 312
+character	Kiselev, named character, male, age 18, x 386, y 313
+traits GoodCommander 2 , BattleDread 3 , ReligionStarter 1 , LoyaltyStarter 1 
 army
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
 character	Viktor, diplomat, male, age 30, x 336, y 304 
 traits GoodDiplomat 1 
@@ -2588,7 +2614,7 @@ unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Cristoforo Rossi, named character, male, age 35, x 236, y 192, portrait cristoforo 
+character	Cristoforo Rossi, named character, male, age 35, x 223, y 194, portrait cristoforo 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Fertile 1 , ReligionStarter 1 
 army
 unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -7947,28 +7973,6 @@ settlement
 	faction_creator lithuania
 }
 
-settlement castle
-{
-	level town
-	region Tver_Province
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-}
-
 settlement
 {
 	level large_town
@@ -9385,7 +9389,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 261, y 72 
+character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 302, y 47 
 army
 unit		Azabs				exp 0 armour 0 weapon_lvl 0
 unit		Azabs				exp 0 armour 0 weapon_lvl 0
