@@ -2244,9 +2244,9 @@ script
 		and I_NumberOfSettlements lithuania > 0
 		and I_EventCounter lithuania_conversion_accepted = 0
 		
-		historic_event teutonic_order_volunteers factions { lithuania, teutonic_order, }
+		historic_event teutonic_order_volunteers
 		
-		increment_kings_purse teutonic_order 15000
+		add_money teutonic_order 15000
 		
 		spawn_army
 			faction		teutonic_order
@@ -2289,9 +2289,9 @@ script
 	
 	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 16
 		
-		historic_event teutonic_order_scandinavia factions { teutonic_order, }
+		historic_event teutonic_order_scandinavia
 		
-		increment_kings_purse teutonic_order 15000
+		add_money teutonic_order 15000
 		
 		spawn_army
 			faction		teutonic_order
@@ -2336,9 +2336,9 @@ script
 	
 	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 10
 		
-		historic_event lithuanians_arise factions { lithuania, teutonic_order, }
+		historic_event lithuanians_arise
 		
-		increment_kings_purse lithuania 15000
+		add_money lithuania 15000
 			
 		spawn_army 
                 faction lithuania
@@ -2368,6 +2368,257 @@ script
 		terminate_monitor
 	
 	end_monitor
+	
+	;------------------- TIMURID REINFORCEMENTS -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 12
+		
+		historic_event timurid_reinforcements
+		
+		add_money timurids 38000
+			
+		spawn_army 
+                faction timurids
+                character	Husayn of Turkistan, named character, x 505, y 163
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Kwarizmian Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Kwarizmian Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+                unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Kwarizmian Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction timurids
+                character	Daritai of Lahore, named character, x 504, y 163
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		AS Ballista				exp 0 armour 0 weapon_lvl 0
+                unit		AS Trebuchet				exp 0 armour 0 weapon_lvl 0
+                unit		AS Trebuchet				exp 0 armour 0 weapon_lvl 0
+                unit		AS Trebuchet	exp 0 armour 0 weapon_lvl 0
+                unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+                unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction timurids
+                character	Mongke of Khojend, named character, x 505, y 164
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+                unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction timurids
+                character	Yurukhan of Tashkent, named character, x 504, y 164
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Saracen Militia	exp 0 armour 0 weapon_lvl 0
+                unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Afghan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- MONGOL FRESH HORDES -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 18
+		
+		historic_event mongol_reinforcements
+		
+		add_money mongols 38000
+		add_money mongols 38000
+			
+		spawn_army 
+                faction mongols
+                character	Ogadai, named character, x 501, y 195
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Mongol Foot Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Foot Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Infantry	exp 0 armour 0 weapon_lvl 0
+				unit		Mongol Infantry	exp 0 armour 0 weapon_lvl 0
+				unit		Mongol Infantry	exp 0 armour 0 weapon_lvl 0
+				unit		Mongol Infantry	exp 0 armour 0 weapon_lvl 0
+                unit		AS Trebuchet	exp 0 armour 0 weapon_lvl 0
+				unit		AS Trebuchet	exp 0 armour 0 weapon_lvl 0
+				unit		AS Trebuchet	exp 0 armour 0 weapon_lvl 0
+				unit		AS Catapult	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction mongols
+                character	Mengadai, named character, x 504, y 194
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Bedouin Cavalry				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Mongol Heavy Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Bedouin Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Bedouin Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Bedouin Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		ME Spear Militia	exp 0 armour 0 weapon_lvl 0
+                unit		ME Spear Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Spear Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Naffatun	exp 0 armour 0 weapon_lvl 0
+				unit		Kwarizmian Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+				unit		ME Halberd Militia	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- WELSH UPRISING -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 24
+		
+		historic_event owain_glindir
+		
+		add_money wales 5000
+			
+		spawn_army 
+                faction wales 
+                character	Owain of Gwynedd, named character, x 164, y 285
+                traits Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3
+                unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Teulu				exp 0 armour 0 weapon_lvl 0
+                unit		Teulu				exp 0 armour 0 weapon_lvl 0
+                unit		Teulu Skirmishers				exp 0 armour 0 weapon_lvl 0
+                unit		Teulu Skirmishers	exp 0 armour 0 weapon_lvl 0
+                unit		Gwent Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Gwent Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Rhyfelwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Rhyfelwyr	exp 0 armour 0 weapon_lvl 0
+                unit		Morgannwg Spearmen	exp 0 armour 0 weapon_lvl 0
+				unit		Morgannwg Spearmen	exp 0 armour 0 weapon_lvl 0
+				unit		Morgannwg Spearmen	exp 0 armour 0 weapon_lvl 0
+				unit		Helwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Helwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Helwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Helwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Saethwyr	exp 0 armour 0 weapon_lvl 0
+				unit		Saethwyr	exp 0 armour 0 weapon_lvl 0
+				unit		NE Trebuchet	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- CUMANS FLEE INTO THE BALKANS -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 5
+		
+		historic_event cumans_arrival
+			
+		spawn_army 
+                faction slave
+                character	Abascantus, named character, age 24, x 351, y 194 
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction slave
+                character	Oxynta, named character, age 30, x 350, y 189 
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Albanian Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Albanian Cavalry				exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
 
     ;----------------- KIEV SACKED ----------------;
 
@@ -2378,13 +2629,80 @@ script
 
         terminate_monitor
     end_monitor
+	
+	;------------------- EUROPEAN SUPPORT TO THE KIEVAN RUS -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 9
+		
+		historic_event european_aid
+		
+		add_money russia 15000
+		add_money russia 15000
+		add_money russia 15000
+		
+		;Southern Army
+		spawn_army 
+                faction russia
+                character	Grigorii of Liubech, named character, x 374, y 219
+                traits Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3
+                unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Varangian Guard				exp 0 armour 0 weapon_lvl 0
+                unit		Varangian Guard				exp 0 armour 0 weapon_lvl 0
+                unit		Berdiche Axemen				exp 0 armour 0 weapon_lvl 0
+                unit		Balkan Archers	exp 0 armour 0 weapon_lvl 0
+                unit		Balkan Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Crusader Sergeants	exp 0 armour 0 weapon_lvl 0
+                unit		Crusader Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Catalans	exp 0 armour 0 weapon_lvl 0
+				unit		Catalans	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Pavise Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Pavise Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Serbian Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Swiss Pikemen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Swiss Pikemen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Swiss Pikemen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Turkopoles	exp 0 armour 0 weapon_lvl 0
+        end
+		
+		;Northern Army
+		spawn_army 
+                faction russia
+                character	Ivan Kozlov, named character, x 349, y 243
+                traits Bloodthirsty 1 , NaturalMilitarySkill 2 , BattleDread 3 , StrategyDread 3 , Loyal 2, ContentGeneral 3
+                unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Mercenary Frankish Knights				exp 0 armour 0 weapon_lvl 0
+                unit		Mercenary German Knights				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen Mercs				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen Mercs	exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Spearmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Spearmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Spearmen	exp 0 armour 0 weapon_lvl 0
+                unit		Landschneckt Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Landschneckt Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Landschneckt Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Landschneckt Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Mercenary Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cuman Horse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Cossack Cavalry	exp 0 armour 0 weapon_lvl 0
+				unit		Cossack Cavalry	exp 0 armour 0 weapon_lvl 0
+        end
 
-    ;-- player built first huge cathedral --
+		terminate_monitor
+	
+	end_monitor
+
+    ;------------------- PLAYER BUILDS HUGE CATHEDRAL -------------------;
     monitor_event EventCounter EventCounterType building_completed_player_huge_cathedral
         and EventCounter = 1
         historic_event player_first_huge_cathedral event/huge_cathedral_built.bik
         terminate_monitor
     end_monitor
+
 
     ; ---------------------
     ; start up

@@ -4058,7 +4058,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Jebe, named character, age 30, x 476, y 224
+character	Kubadai, named character, age 30, x 476, y 224
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4174,14 +4174,14 @@ unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 
-character	Chaghatai, general, male, age 30, x 507, y 216 
+character	Kitbuqa, general, male, age 30, x 507, y 216 
 army
 unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Chaghatai, general, male, age 30, x 490, y 229 
+character	Kubeke, general, male, age 30, x 490, y 229 
 army
 unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0

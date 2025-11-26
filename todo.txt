@@ -6,12 +6,13 @@ Timurid Event
 Wales Event
 Mongols Event
 Cuman Rebel Event
+Kiev Event
+
 Jerusalem
 Antioch
 Egypt
 William Wallace Event
 Norway Event
-Kiev Event
 
 Fix Character placement on the map
 
