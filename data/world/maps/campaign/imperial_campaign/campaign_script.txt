@@ -84,6 +84,7 @@ script
     declare_counter norway_start
     declare_counter mongols_start
     declare_counter wales_start
+    declare_counter timurids_start
 
     set_counter aztecs_start 0
     set_counter antioch_start 0
@@ -113,6 +114,7 @@ script
     set_counter norway_start 0
     set_counter mongols_start 0
     set_counter wales_start 0
+    set_counter timurids_start 0
 
     declare_counter London_siege
     declare_counter Nottingham_siege
@@ -288,89 +290,6 @@ script
         set_counter London_siege 10
     end_monitor
 
-    ;england / Nottingham / Nottingham_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Nottingham
-        and I_CompareCounter Nottingham_siege < 1
-        if I_SettlementOwner Nottingham = england
-            and I_IsFactionAIControlled england
-            and I_CompareCounter england_start = 0
-            create_unit Nottingham, Armored Swordsmen, num 2, exp 1, arm 1, wep 0
-            create_unit Nottingham, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Nottingham, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Nottingham, Longbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Nottingham_siege 10
-    end_monitor
-
-    ;england  / York / York_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege York
-        and I_CompareCounter York_siege < 1
-        if I_SettlementOwner York = england
-            and I_IsFactionAIControlled england
-            and I_CompareCounter england_start = 0
-            create_unit York, Armored Sergeants, num 2, exp 1, arm 1, wep 0
-            create_unit York, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit York, Mailed Knights, num 1, exp 0, arm 1, wep 0
-            create_unit York, Longbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter York_siege 10
-    end_monitor
-
-    ;england  / Gloucester / Gloucester_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Gloucester
-        and I_CompareCounter Gloucester_siege < 1
-        if I_SettlementOwner Gloucester = england
-            and I_IsFactionAIControlled england
-            and I_CompareCounter england_start = 0
-            create_unit Gloucester, Armored Sergeants, num 2, exp 1, arm 1, wep 0
-            create_unit Gloucester, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Gloucester, Mailed Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Gloucester, Longbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Gloucester_siege 10
-    end_monitor
-
-    ;england / Caen / Caen_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Caen
-        and I_CompareCounter Caen_siege < 1
-        if I_SettlementOwner Caen = england
-            and I_IsFactionAIControlled england
-            and I_CompareCounter england_start = 0
-            create_unit Caen, Armored Swordsmen, num 2, exp 1, arm 1, wep 0
-            create_unit Caen, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Caen, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Caen, Longbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Caen = france
-            and I_IsFactionAIControlled france
-            and I_CompareCounter france_start = 0
-            create_unit Caen, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Caen, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Caen, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Caen, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Caen_siege 10
-    end_monitor
-
-    ;england  / Dublin / Dublin_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Dublin
-        and I_CompareCounter Dublin_siege < 1
-        if I_SettlementOwner Dublin = england
-            and I_IsFactionAIControlled england
-            and I_CompareCounter england_start = 0
-            create_unit Dublin, Armored Sergeants, num 2, exp 1, arm 1, wep 0
-            create_unit Dublin, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Dublin, Mailed Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Dublin, Archer Militia, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Dublin_siege 10
-    end_monitor
-
     ;scotland  / Edinburgh / Edinburgh_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Edinburgh
@@ -405,34 +324,6 @@ script
 
     ;ireland  / Galway / Galway_Province / Power_Centre
 
-    monitor_conditions I_SettlementUnderSiege Galway
-        and I_CompareCounter Galway_siege < 1
-        if I_SettlementOwner Galway = ireland
-            and I_IsFactionAIControlled ireland
-            and I_CompareCounter ireland_start = 0
-            create_unit Galway, Galloglaich, num 2, exp 1, arm 1, wep 0
-            create_unit Galway, Cliathairi, num 5, exp 1, arm 1, wep 0
-            create_unit Galway, Ridire, num 1, exp 0, arm 1, wep 0
-            create_unit Galway, Saighdeoir, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Galway_siege 10
-    end_monitor
-
-    ;ireland  / Donegal / Donegal_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Donegal
-        and I_CompareCounter Donegal_siege < 1
-        if I_SettlementOwner Donegal = ireland
-            and I_IsFactionAIControlled ireland
-            and I_CompareCounter ireland_start = 0
-            create_unit Donegal, Galloglaich, num 2, exp 1, arm 1, wep 0
-            create_unit Donegal, Cliathairi, num 5, exp 1, arm 1, wep 0
-            create_unit Donegal, Ridire, num 1, exp 0, arm 1, wep 0
-            create_unit Donegal, Saighdeoir, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Donegal_siege 10
-    end_monitor
-
     ;wales  / Caernarvon / Caernarvon_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Caernarvon
@@ -447,21 +338,6 @@ script
             create_unit Caernarvon, Welsh Militiamen, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Caernarvon_siege 10
-    end_monitor
-
-    ;wales  / Cardiff / Cardiff_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Cardiff
-        and I_CompareCounter Cardiff_siege < 1
-        if I_SettlementOwner Cardiff = wales
-            and I_IsFactionAIControlled wales
-            and I_CompareCounter wales_start = 0
-            create_unit Cardiff, Gwent Raiders, num 2, exp 1, arm 1, wep 0
-            create_unit Cardiff, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Cardiff, Welsh Skirmishers, num 2, exp 0, arm 1, wep 0
-            create_unit Cardiff, Saethwyr, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Cardiff_siege 10
     end_monitor
 
     ;france / Paris / Paris_Province / Power_Centre
@@ -480,51 +356,6 @@ script
         set_counter Paris_siege 10
     end_monitor
 
-    ;france / Toulouse / Toulouse_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Toulouse
-        and I_CompareCounter Toulouse_siege < 1
-        if I_SettlementOwner Toulouse = france
-            and I_IsFactionAIControlled france
-            and I_CompareCounter france_start = 0
-            create_unit Toulouse, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Toulouse, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Toulouse, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Toulouse, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Toulouse_siege 10
-    end_monitor
-
-    ;france / Angers / Angers_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Angers
-        and I_CompareCounter Angers_siege < 1
-        if I_SettlementOwner Angers = france
-            and I_IsFactionAIControlled france
-            and I_CompareCounter france_start = 0
-            create_unit Angers, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Angers, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Angers, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Angers, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Angers_siege 10
-    end_monitor
-
-    ;france / Marseille / Marseille_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Marseille
-        and I_CompareCounter Marseille_siege < 1
-        if I_SettlementOwner Marseille = france
-            and I_IsFactionAIControlled france
-            and I_CompareCounter france_start = 0
-            create_unit Marseille, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Marseille, Spear Militia, num 4, exp 0, arm 1, wep 0
-            create_unit Marseille, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Marseille, Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Marseille_siege 10
-    end_monitor
-
     ;hre / Frankfurt / Frankfurt_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Frankfurt
@@ -539,75 +370,6 @@ script
             create_unit Frankfurt, Town Militia, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Frankfurt_siege 10
-    end_monitor
-
-    ;hre / Innsbruck / Innsbruck_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Innsbruck
-        and I_CompareCounter Innsbruck_siege < 1
-        if I_SettlementOwner Innsbruck = hre
-            and I_IsFactionAIControlled hre
-            and I_CompareCounter hre_start = 0
-            create_unit Innsbruck, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Innsbruck, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Innsbruck, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Innsbruck, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Innsbruck_siege 10
-    end_monitor
-
-    ;hre / Bologna / Bologna_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Bologna
-        and I_CompareCounter Bologna_siege < 1
-        if I_SettlementOwner Bologna = hre
-            and I_IsFactionAIControlled hre
-            and I_CompareCounter hre_start = 0
-            create_unit Bologna, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Bologna, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Bologna, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Bologna, Crossbow Militia, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Bologna = venice
-            and I_IsFactionAIControlled venice
-            and I_CompareCounter venice_start = 0
-            create_unit Bologna, Venetian Heavy Infantry, num 2, exp 1, arm 1, wep 0
-            create_unit Bologna, Italian Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Bologna, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Bologna, Venetian Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Bologna = milan
-            and I_IsFactionAIControlled milan
-            and I_CompareCounter milan_start = 0
-            create_unit Bologna, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Bologna, Italian Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Bologna, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Bologna, Genoese Crossbow Militia, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Bologna_siege 10
-    end_monitor
-
-    ;hre / Hamburg / Hamburg_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Hamburg
-        and I_CompareCounter Hamburg_siege < 1
-        if I_SettlementOwner Hamburg = hre
-            and I_IsFactionAIControlled hre
-            and I_CompareCounter hre_start = 0
-            create_unit Hamburg, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Hamburg, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Hamburg, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Hamburg, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Hamburg = denmark
-            and I_IsFactionAIControlled denmark
-            and I_CompareCounter denmark_start = 0
-            create_unit Hamburg, Sami Axemen, num 2, exp 1, arm 1, wep 0
-            create_unit Hamburg, Dismounted Huscarls, num 5, exp 0, arm 1, wep 0
-            create_unit Hamburg, Huscarls, num 1, exp 0, arm 1, wep 0
-            create_unit Hamburg, Norse Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Hamburg_siege 10
     end_monitor
 
     ;denmark / Arhus / Arhus_Province / Power_Centre
@@ -626,21 +388,6 @@ script
         set_counter Arhus_siege 10
     end_monitor
 
-    ;denmark / Lund / Lund_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Lund
-        and I_CompareCounter Lund_siege < 1
-        if I_SettlementOwner Lund = denmark
-            and I_IsFactionAIControlled denmark
-            and I_CompareCounter denmark_start = 0
-            create_unit Lund, Sami Axemen, num 2, exp 1, arm 1, wep 0
-            create_unit Lund, Dismounted Huscarls, num 5, exp 0, arm 1, wep 0
-            create_unit Lund, Huscarls, num 1, exp 0, arm 1, wep 0
-            create_unit Lund, Norse Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Lund_siege 10
-    end_monitor
-
     ;spain / Toledo / Toledo_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Toledo
@@ -654,22 +401,6 @@ script
             create_unit Toledo, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
         end_if
         set_counter Toledo_siege 10
-    end_monitor
-
-    ;spain / Leon / Leon_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Leon
-        and I_CompareCounter Leon_siege < 1
-        if I_SettlementOwner Leon = spain
-            and I_IsFactionAIControlled spain
-            and I_CompareCounter spain_start = 0
-            create_unit Leon, Dismounted Feudal Knights, num 3, exp 1, arm 1, wep 0
-            create_unit Leon, Swordsmen Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Leon, Knights of Santiago, num 1, exp 0, arm 1, wep 0
-            create_unit Leon, Crossbow Militia, num 3, exp 0, arm 1, wep 0
-            create_unit Leon, Town Militia, num 2, exp 0, arm 1, wep 0
-        end_if
-        set_counter Leon_siege 10
     end_monitor
 
     ;portugal / Lisbon / Lisbon_Province / Power_Centre
@@ -705,20 +436,6 @@ script
         set_counter Lisbon_siege 10
     end_monitor
 
-    ;portugal / Oporto / Oporto_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Oporto
-        and I_CompareCounter Oporto_siege < 1
-        if I_SettlementOwner Oporto = portugal
-            and I_IsFactionAIControlled portugal
-            and I_CompareCounter portugal_start = 0
-            create_unit Oporto, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Oporto, Swordsmen Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Oporto, Crossbow Militia, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Oporto_siege 10
-    end_monitor
-
     ;italy / Milan / Milan_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Milan
@@ -733,21 +450,6 @@ script
             create_unit Milan, Italian Militia, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Milan_siege 10
-    end_monitor
-
-    ;italy / Genoa / Genoa_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Genoa
-        and I_CompareCounter Genoa_siege < 1
-        if I_SettlementOwner Genoa = milan
-            and I_IsFactionAIControlled milan
-            and I_CompareCounter milan_start = 0
-            create_unit Genoa, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Genoa, Italian Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Genoa, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Genoa, Genoese Crossbow Militia, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Genoa_siege 10
     end_monitor
 
     ;italy / Venice / Venice_Province / Power_Centre
@@ -765,21 +467,6 @@ script
         set_counter Venice_siege 10
     end_monitor
 
-    ;italy / Ragusa / Ragusa_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Ragusa
-        and I_CompareCounter Ragusa_siege < 1
-        if I_SettlementOwner Ragusa = venice
-            and I_IsFactionAIControlled venice
-            and I_CompareCounter venice_start = 0
-            create_unit Ragusa, Venetian Heavy Infantry, num 2, exp 1, arm 1, wep 0
-            create_unit Ragusa, Italian Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Ragusa, Venetian Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Ragusa, Italian Militia, num 2, exp 0, arm 1, wep 0
-        end_if
-        set_counter Ragusa_siege 10
-    end_monitor
-
     ;italy / Naples / Naples_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Naples
@@ -795,22 +482,7 @@ script
         end_if
         set_counter Naples_siege 10
     end_monitor
-
-    ;italy / Palermo / Palermo_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Palermo
-        and I_CompareCounter Palermo_siege < 1
-        if I_SettlementOwner Palermo = sicily
-            and I_IsFactionAIControlled sicily
-            and I_CompareCounter sicily_start = 0
-            create_unit Palermo, Dismounted Norman Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Palermo, Armored Sergeants, num 5, exp 0, arm 1, wep 0
-            create_unit Palermo, Norman Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Palermo, Sicilian Muslim Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Palermo_siege 10
-    end_monitor
-
+	
     ;poland / Krakow / Krakow_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Krakow
@@ -827,44 +499,6 @@ script
         set_counter Krakow_siege 10
     end_monitor
 
-    ;poland / Poznan / Poznan_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Poznan
-        and I_CompareCounter Poznan_siege < 1
-        if I_SettlementOwner Poznan = poland
-            and I_IsFactionAIControlled poland
-            and I_CompareCounter poland_start = 0
-            create_unit Poznan, Dismounted Polish Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Poznan, EE Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Poznan, Polish Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Poznan, Lithuanian Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Poznan_siege 10
-    end_monitor
-
-    ;poland / Danzig / Danzig_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Danzig
-        and I_CompareCounter Danzig_siege < 1
-        if I_SettlementOwner Danzig = poland
-            and I_IsFactionAIControlled poland
-            and I_CompareCounter poland_start = 0
-            create_unit Danzig, Dismounted Polish Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Danzig, EE Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Danzig, Polish Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Danzig, Lithuanian Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Danzig = teutonic_order
-            and I_IsFactionAIControlled teutonic_order
-            and I_CompareCounter teutonic_order_start = 0
-            create_unit Danzig, Order Spearmen, num 3, exp 1, arm 1, wep 0
-            create_unit Danzig, Sword Brethren, num 5, exp 0, arm 1, wep 0
-            create_unit Danzig, Christ Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Danzig, Prussian Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Danzig_siege 10
-    end_monitor
-
     ;hungary / Budapest / Budapest_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Budapest
@@ -879,21 +513,6 @@ script
             create_unit Budapest, EE Town Militia, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Budapest_siege 10
-    end_monitor
-
-    ;hungary / Bran / Bran_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Bran
-        and I_CompareCounter Bran_siege < 1
-        if I_SettlementOwner Bran = hungary
-            and I_IsFactionAIControlled hungary
-            and I_CompareCounter hungary_start = 0
-            create_unit Bran, Dismounted Feudal Knights, num 2, exp 0, arm 1, wep 0
-            create_unit Bran, Pavise Spearmen, num 5, exp 0, arm 1, wep 0
-            create_unit Bran, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Bran, Bosnian Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Bran_siege 10
     end_monitor
 
     ;russia / Novgorod / Novgorod_Province / Power_Centre
@@ -952,54 +571,6 @@ script
         set_counter Kiev_siege 10
     end_monitor
 
-    ;russia / Moscow / Moscow_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Moscow
-        and I_CompareCounter Moscow_siege < 1
-        if I_SettlementOwner Moscow = russia
-            and I_IsFactionAIControlled russia
-            and I_CompareCounter russia_start = 0
-            create_unit Moscow, Dismounted Boyar Sons, num 2, exp 1, arm 1, wep 0
-            create_unit Moscow, EE Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Moscow, EE Cavalry Militia, num 1, exp 0, arm 1, wep 0
-            create_unit Moscow, Dismounted Dvor, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Moscow = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Moscow, Dismounted Heavy Lancers, num 2, exp 1, arm 1, wep 0
-            create_unit Moscow, ME Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Moscow, Khan's Guard, num 1, exp 0, arm 1, wep 0
-            create_unit Moscow, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Moscow, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Moscow_siege 10
-    end_monitor
-
-    ;russia / Smolensk / Smolensk_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Smolensk
-        and I_CompareCounter Smolensk_siege < 1
-        if I_SettlementOwner Smolensk = russia
-            and I_IsFactionAIControlled russia
-            and I_CompareCounter russia_start = 0
-            create_unit Smolensk, Dismounted Boyar Sons, num 2, exp 1, arm 1, wep 0
-            create_unit Smolensk, EE Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Smolensk, EE Cavalry Militia, num 1, exp 0, arm 1, wep 0
-            create_unit Smolensk, Dismounted Dvor, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Smolensk = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Smolensk, Dismounted Heavy Lancers, num 4, exp 0, arm 1, wep 0
-            create_unit Smolensk, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Smolensk, Mongol Heavy Archers, num 2, exp 1, arm 1, wep 0
-            create_unit Smolensk, Mongol Heavy Lancers, num 2, exp 0, arm 1, wep 0
-            create_unit Smolensk, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Smolensk_siege 10
-    end_monitor
-
     ;byzantium / Constantinople / Constantinople_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Constantinople
@@ -1033,75 +604,6 @@ script
         set_counter Constantinople_siege 10
     end_monitor
 
-    ;byzantium / Thessalonica / Thessalonica_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Thessalonica
-        and I_CompareCounter Thessalonica_siege < 1
-        if I_SettlementOwner Thessalonica = byzantium
-            and I_IsFactionAIControlled byzantium
-            and I_CompareCounter byzantium_start = 0
-            create_unit Thessalonica, Byzantine Infantry, num 4, exp 2, arm 1, wep 1
-            create_unit Thessalonica, Pronoia Infantry, num 2, exp 0, arm 1, wep 0
-            create_unit Thessalonica, Byzantine Lancers, num 1, exp 1, arm 1, wep 1
-            create_unit Thessalonica, Trebizond Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Thessalonica_siege 10
-    end_monitor
-
-    ;byzantium / Corinth / Corinth_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Corinth
-        and I_CompareCounter Corinth_siege < 1
-        if I_SettlementOwner Corinth = byzantium
-            and I_IsFactionAIControlled byzantium
-            and I_CompareCounter byzantium_start = 0
-            create_unit Corinth, Dismounted Byzantine Lancers, num 4, exp 2, arm 1, wep 1
-            create_unit Corinth, Byzantine Spearmen, num 3, exp 0, arm 1, wep 0
-            create_unit Corinth, Byzantine Lancers, num 1, exp 1, arm 1, wep 1
-            create_unit Corinth, Trebizond Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Corinth_siege 10
-    end_monitor
-
-    ;byzantium / Trebizond / Trebizond_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Trebizond
-        and I_CompareCounter Trebizond_siege < 1
-        if I_SettlementOwner Trebizond = byzantium
-            and I_IsFactionAIControlled byzantium
-            and I_CompareCounter byzantium_start = 0
-            create_unit Trebizond, Dismounted Byzantine Lancers, num 4, exp 2, arm 1, wep 1
-            create_unit Trebizond, Byzantine Spearmen, num 3, exp 0, arm 1, wep 0
-            create_unit Trebizond, Byzantine Lancers, num 1, exp 1, arm 1, wep 1
-            create_unit Trebizond, Trebizond Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Trebizond = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Trebizond, Dismounted Heavy Lancers, num 4, exp 0, arm 1, wep 0
-            create_unit Trebizond, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Trebizond, Mongol Heavy Archers, num 2, exp 1, arm 1, wep 0
-            create_unit Trebizond, Mongol Heavy Lancers, num 2, exp 0, arm 1, wep 0
-            create_unit Trebizond, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Trebizond_siege 10
-    end_monitor
-
-    ;byzantium / Smyrna / Smyrna_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Smyrna
-        and I_CompareCounter Smyrna_siege < 1
-        if I_SettlementOwner Smyrna = byzantium
-            and I_IsFactionAIControlled byzantium
-            and I_CompareCounter byzantium_start = 0
-            create_unit Smyrna, Dismounted Byzantine Lancers, num 4, exp 2, arm 1, wep 1
-            create_unit Smyrna, Byzantine Spearmen, num 3, exp 0, arm 1, wep 0
-            create_unit Smyrna, Byzantine Lancers, num 1, exp 1, arm 1, wep 1
-            create_unit Smyrna, Trebizond Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Smyrna_siege 10
-    end_monitor
-
     ;moors / Cordoba / Cordoba_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Cordoba
@@ -1116,90 +618,6 @@ script
             create_unit Cordoba, ME Town Militia, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Cordoba_siege 10
-    end_monitor
-
-    ;moors / Marrakesh / Marrakesh_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Marrakesh
-        and I_CompareCounter Marrakesh_siege < 1
-        if I_SettlementOwner Marrakesh = moors
-            and I_IsFactionAIControlled moors
-            and I_CompareCounter moors_start = 0
-            create_unit Marrakesh, ME Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Marrakesh, Arab Cavalry, num 1, exp 1, arm 1, wep 0
-            create_unit Marrakesh, Desert Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Marrakesh, ME Town Militia, num 2, exp 0, arm 1, wep 0
-        end_if
-        set_counter Marrakesh_siege 10
-    end_monitor
-
-    ;moors / Granada / Granada_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Granada
-        and I_CompareCounter Granada_siege < 1
-        if I_SettlementOwner Granada = moors
-            and I_IsFactionAIControlled moors
-            and I_CompareCounter moors_start = 0
-            create_unit Granada, Dismounted Arab Cavalry, num 2, exp 1, arm 1, wep 0
-            create_unit Granada, Lamtuna Spearmen, num 5, exp 0, arm 1, wep 0
-            create_unit Granada, Arab Cavalry, num 1, exp 1, arm 1, wep 0
-            create_unit Granada, Desert Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Granada_siege 10
-    end_monitor
-
-    ;moors / Valencia / Valencia_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Valencia
-        and I_CompareCounter Valencia_siege < 1
-        if I_SettlementOwner Valencia = moors
-            and I_IsFactionAIControlled moors
-            and I_CompareCounter moors_start = 0
-            create_unit Valencia, Dismounted Arab Cavalry, num 2, exp 1, arm 1, wep 0
-            create_unit Valencia, Lamtuna Spearmen, num 5, exp 0, arm 1, wep 0
-            create_unit Valencia, Arab Cavalry, num 1, exp 1, arm 1, wep 0
-            create_unit Valencia, Desert Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Valencia = spain
-            and I_IsFactionAIControlled spain
-            and I_CompareCounter spain_start = 0
-            create_unit Valencia, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Valencia, Swordsmen Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Valencia, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Valencia, Peasant Crossbowmen, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Valencia_siege 10
-    end_monitor
-
-    ;moors / Algiers / Algiers_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Algiers
-        and I_CompareCounter Algiers_siege < 1
-        if I_SettlementOwner Algiers = moors
-            and I_IsFactionAIControlled moors
-            and I_CompareCounter moors_start = 0
-            create_unit Algiers, Dismounted Arab Cavalry, num 2, exp 1, arm 1, wep 0
-            create_unit Algiers, Lamtuna Spearmen, num 5, exp 0, arm 1, wep 0
-            create_unit Algiers, Arab Cavalry, num 1, exp 1, arm 1, wep 0
-            create_unit Algiers, Desert Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Algiers_siege 10
-    end_monitor
-
-    ;egypt / Cairo / Cairo_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Cairo
-        and I_CompareCounter Cairo_siege < 1
-        if I_SettlementOwner Cairo = egypt
-            and I_IsFactionAIControlled egypt
-            and I_CompareCounter egypt_start = 0
-            create_unit Cairo, Tabardariyya, num 3, exp 1, arm 1, wep 0
-            create_unit Cairo, Saracen Militia, num 5, exp 1, arm 1, wep 0
-            create_unit Cairo, Mamluks, num 1, exp 3, arm 1, wep 0
-            create_unit Cairo, Desert Archers, num 4, exp 1, arm 1, wep 0
-            create_unit Cairo, al Ashair, num 2, exp 0, arm 1, wep 0
-        end_if
-        set_counter Cairo_siege 10
     end_monitor
 
     ;egypt / Alexandria / Alexandria_Province / Power_Centre
@@ -1259,59 +677,20 @@ script
         set_counter Rome_siege 10
     end_monitor
 
-    ;turkey / Baghdad / Baghdad_Province / Power_Centre
+    ;timurids / Baghdad / Baghdad_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Baghdad
         and I_CompareCounter Baghdad_siege < 1
-        if I_SettlementOwner Baghdad = turks
-            and I_IsFactionAIControlled turks
-            and I_CompareCounter turks_start = 0
-            create_unit Baghdad, Janissary Heavy Inf, num 3, exp 1, arm 1, wep 0
-            create_unit Baghdad, Saracen Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Baghdad, Kurdish Auxiliaries, num 2, exp 0, arm 1, wep 0
-            create_unit Baghdad, Janissary Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Baghdad, ME Town Militia, num 2, exp 0, arm 1, wep 0
+        if I_SettlementOwner Baghdad = timurids
+            and I_IsFactionAIControlled timurids
+            and I_CompareCounter timurids_start = 0
+            create_unit Baghdad, Mongol Heavy Lancers, num 3, exp 1, arm 1, wep 0
+            create_unit Baghdad, ME Spear Militia, num 5, exp 0, arm 1, wep 0
+            create_unit Baghdad, Sipahis, num 2, exp 0, arm 1, wep 0
+            create_unit Baghdad, ME Halberd Militia, num 3, exp 0, arm 1, wep 0
+            create_unit Baghdad, Dismounted Heavy Archers, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Baghdad_siege 10
-    end_monitor
-
-    ;turkey / Yerevan / Yerevan_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Yerevan
-        and I_CompareCounter Yerevan_siege < 1
-        if I_SettlementOwner Yerevan = turks
-            and I_IsFactionAIControlled turks
-            and I_CompareCounter turks_start = 0
-            create_unit Yerevan, Hashishim, num 2, exp 1, arm 1, wep 0
-            create_unit Yerevan, Saracen Militia, num 4, exp 0, arm 1, wep 0
-            create_unit Yerevan, Kurdish Auxiliaries, num 2, exp 0, arm 1, wep 0
-            create_unit Yerevan, Turkish Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Yerevan = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Yerevan, Dismounted Heavy Lancers, num 2, exp 1, arm 1, wep 0
-            create_unit Yerevan, ME Spear Militia, num 4, exp 0, arm 1, wep 0
-            create_unit Yerevan, Khan's Guard, num 1, exp 0, arm 1, wep 0
-            create_unit Yerevan, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Yerevan, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Yerevan_siege 10
-    end_monitor
-
-    ;turkey / Adana / Adana_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Adana
-        and I_CompareCounter Adana_siege < 1
-        if I_SettlementOwner Adana = turks
-            and I_IsFactionAIControlled turks
-            and I_CompareCounter turks_start = 0
-            create_unit Adana, Hashishim, num 2, exp 1, arm 1, wep 0
-            create_unit Adana, Dismounted Hasham, num 5, exp 0, arm 1, wep 0
-            create_unit Adana, Turkish Horse Archers, num 1, exp 0, arm 1, wep 0
-            create_unit Adana, Turkish Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Adana_siege 10
     end_monitor
 
     ;turkey / Iconium / Iconium_Province / Power_Centre
@@ -1353,21 +732,6 @@ script
         set_counter Jerusalem_siege 10
     end_monitor
 
-    ;kingdom of jerusalem / Acre / Acre_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Acre
-        and I_CompareCounter Acre_siege < 1
-        if I_SettlementOwner Acre = jerusalem
-            and I_IsFactionAIControlled jerusalem
-            and I_CompareCounter jerusalem_start = 0
-            create_unit Acre, Dismounted Knights Of Jerusalem, num 2, exp 1, arm 1, wep 0
-            create_unit Acre, Templar Sergeant, num 5, exp 0, arm 1, wep 0
-            create_unit Acre, Knights Templar, num 1, exp 0, arm 1, wep 0
-            create_unit Acre, Maronites of Lebanon, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Acre_siege 10
-    end_monitor
-
     ;antioch / Antioch / Antioch_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Antioch
@@ -1390,37 +754,6 @@ script
             create_unit Antioch, Janissary Archers, num 3, exp 0, arm 1, wep 0
         end_if
         set_counter Antioch_siege 10
-    end_monitor
-
-    ;antioch / Krak_de_Chevaliers / Krak_de_Chevaliers_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Krak_de_Chevaliers
-        and I_CompareCounter Krak_de_Chevaliers_siege < 1
-        if I_SettlementOwner Krak_de_Chevaliers = antioch
-            and I_IsFactionAIControlled antioch
-            and I_CompareCounter antioch_start = 0
-            create_unit Krak_de_Chevaliers, Dismounted Knights of Antioch, num 2, exp 1, arm 1, wep 0
-            create_unit Krak_de_Chevaliers, Hospitaller Sergeant, num 5, exp 0, arm 1, wep 0
-            create_unit Krak_de_Chevaliers, Knights Hospitaller, num 2, exp 1, arm 1, wep 0
-            create_unit Krak_de_Chevaliers, Armenians of Celicia, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Krak_de_Chevaliers_siege 10
-    end_monitor
-
-    ;teutonic_order / Marienburg / Marienburg_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Marienburg
-        and I_CompareCounter Marienburg_siege < 1
-        if I_SettlementOwner Marienburg = teutonic_order
-            and I_IsFactionAIControlled teutonic_order
-            and I_CompareCounter teutonic_order_start = 0
-            create_unit Marienburg, Dismounted Ritterbruder, num 2, exp 1, arm 1, wep 0
-            create_unit Marienburg, Order Spearmen, num 6, exp 0, arm 1, wep 0
-            create_unit Marienburg, Christ Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Marienburg, Prussian Archers, num 3, exp 1, arm 1, wep 0
-            create_unit Marienburg, Order Militia, num 2, exp 0, arm 1, wep 0
-        end_if
-        set_counter Marienburg_siege 10
     end_monitor
 
     ;teutonic_order / Konigsberg / Konigsberg_Province / Power_Centre
@@ -1463,44 +796,6 @@ script
         set_counter Vilnius_siege 10
     end_monitor
 
-    ;lithuania / Minsk / Minsk_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Minsk
-        and I_CompareCounter Minsk_siege < 1
-        if I_SettlementOwner Minsk = lithuania
-            and I_IsFactionAIControlled lithuania
-            and I_CompareCounter lithuania_start = 0
-            create_unit Minsk, Samogitian Axemen, num 2, exp 0, arm 1, wep 0
-            create_unit Minsk, Dismounted Szlachta, num 5, exp 1, arm 1, wep 0
-            create_unit Minsk, Szlachta, num 1, exp 0, arm 1, wep 0
-            create_unit Minsk, Baltic Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Minsk_siege 10
-    end_monitor
-
-    ;lithuania / Riga / Riga_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Riga
-        and I_CompareCounter Riga_siege < 1
-        if I_SettlementOwner Riga = lithuania
-            and I_IsFactionAIControlled lithuania
-            and I_CompareCounter lithuania_start = 0
-            create_unit Riga, Samogitian Axemen, num 3, exp 1, arm 1, wep 0
-            create_unit Riga, EE Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Riga, Dievas Guard, num 1, exp 1, arm 1, wep 0
-            create_unit Riga, Baltic Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Riga = teutonic_order
-            and I_IsFactionAIControlled teutonic_order
-            and I_CompareCounter teutonic_order_start = 0
-            create_unit Riga, Order Spearmen, num 3, exp 1, arm 1, wep 0
-            create_unit Riga, Sword Brethren, num 5, exp 0, arm 1, wep 0
-            create_unit Riga, Christ Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Riga, Prussian Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Riga_siege 10
-    end_monitor
-
     ;norway / Oslo / Oslo_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Oslo
@@ -1515,44 +810,6 @@ script
             create_unit Oslo, Town Militia, num 2, exp 0, arm 1, wep 0
         end_if
         set_counter Oslo_siege 10
-    end_monitor
-
-    ;norway / Agder / Agder_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Agder
-        and I_CompareCounter Agder_siege < 1
-        if I_SettlementOwner Agder = norway
-            and I_IsFactionAIControlled norway
-            and I_CompareCounter norway_start = 0
-            create_unit Agder, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Agder, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Agder, Huscarls, num 1, exp 0, arm 1, wep 0
-            create_unit Agder, Norse Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        set_counter Agder_siege 10
-    end_monitor
-
-    ;norway / Wick / Wick_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Wick
-        and I_CompareCounter Wick_siege < 1
-        if I_SettlementOwner Wick = norway
-            and I_IsFactionAIControlled norway
-            and I_CompareCounter norway_start = 0
-            create_unit Wick, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Wick, Norse Swordsmen, num 5, exp 0, arm 1, wep 0
-            create_unit wick, Huscarls, num 1, exp 0, arm 1, wep 0
-            create_unit Wick, Norse Archers, num 3, exp 1, arm 1, wep 0
-        end_if
-        if I_SettlementOwner Wick = scotland
-            and I_IsFactionAIControlled scotland
-            and I_CompareCounter scotland_start = 0
-            create_unit Wick, Dismounted Feudal Knights, num 2, exp 1, arm 1, wep 0
-            create_unit Wick, Spear Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Wick, Feudal Knights, num 1, exp 0, arm 1, wep 0
-            create_unit Wick, Highland Archers, num 3, exp 0, arm 1, wep 0
-        end_if
-        set_counter Wick_siege 10
     end_monitor
 
     ;aztecs / Tenochtitlan / Tenochtitlan_Province / Power_Centre
@@ -1571,38 +828,6 @@ script
         set_counter Tenochtitlan_siege 10
     end_monitor
 
-    ;aztecs / Tixtla / Tixtla_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Tixtla
-        and I_CompareCounter Tixtla_siege < 1
-        if I_SettlementOwner Tixtla = aztecs
-            and I_IsFactionAIControlled aztecs
-            and I_CompareCounter aztecs_start = 0
-            create_unit Tixtla, Jaguar Warriors, num 2, exp 1, arm 1, wep 0
-            create_unit Tixtla, Cuahchiqueh, num 6, exp 0, arm 1, wep 0
-            create_unit Tixtla, Coyote Priests, num 1, exp 0, arm 1, wep 0
-            create_unit Tixtla, Arrow Warriors, num 3, exp 1, arm 1, wep 0
-            create_unit Tixtla, Aztec Archers, num 2, exp 1, arm 1, wep 0
-        end_if
-        set_counter Tixtla_siege 10
-    end_monitor
-
-    ;aztecs / Tollan / Tollan_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Tollan
-        and I_CompareCounter Tollan_siege < 1
-        if I_SettlementOwner Tollan = aztecs
-            and I_IsFactionAIControlled aztecs
-            and I_CompareCounter aztecs_start = 0
-            create_unit Tollan, Jaguar Warriors, num 2, exp 1, arm 1, wep 0
-            create_unit Tollan, Cuahchiqueh, num 6, exp 0, arm 1, wep 0
-            create_unit Tollan, Coyote Priests, num 1, exp 0, arm 1, wep 0
-            create_unit Tollan, Arrow Warriors, num 3, exp 1, arm 1, wep 0
-            create_unit Tollan, Aztec Archers, num 2, exp 1, arm 1, wep 0
-        end_if
-        set_counter Tollan_siege 10
-    end_monitor
-
     ;aztecs / Huaxtepec / Huaxtepec_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Huaxtepec
@@ -1619,22 +844,6 @@ script
         set_counter Huaxtepec_siege 10
     end_monitor
 
-    ;mongols / Bulgar / Volga-Bulgar_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Bulgar
-        and I_CompareCounter Bulgar_siege < 1
-        if I_SettlementOwner Bulgar = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Bulgar, Dismounted Heavy Lancers, num 3, exp 1, arm 1, wep 0
-            create_unit Bulgar, ME Halberd Militia, num 5, exp 0, arm 1, wep 0
-            create_unit Bulgar, Khan's Guard, num 1, exp 0, arm 1, wep 0
-            create_unit Bulgar, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Bulgar, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Bulgar_siege 10
-    end_monitor
-
     ;mongols / Sarkel / Sarkel_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Sarkel
@@ -1649,22 +858,6 @@ script
             create_unit Sarkel, Naffatun, num 1, exp 0, arm 1, wep 0
         end_if
         set_counter Sarkel_siege 10
-    end_monitor
-
-    ;mongols / Viatka / Viatka_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Viatka
-        and I_CompareCounter Viatka_siege < 1
-        if I_SettlementOwner Viatka = mongols
-            and I_IsFactionAIControlled mongols
-            and I_CompareCounter mongols_start = 0
-            create_unit Viatka, Dismounted Heavy Lancers, num 4, exp 0, arm 1, wep 0
-            create_unit Viatka, Dismounted Heavy Archers, num 3, exp 0, arm 1, wep 0
-            create_unit Viatka, Mongol Heavy Archers, num 2, exp 1, arm 1, wep 0
-            create_unit Viatka, Mongol Heavy Lancers, num 2, exp 0, arm 1, wep 0
-            create_unit Viatka, Naffatun, num 1, exp 0, arm 1, wep 0
-        end_if
-        set_counter Viatka_siege 10
     end_monitor
 
     ;Is_the_ai
