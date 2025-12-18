@@ -201,7 +201,7 @@ Antioch_Province
 	turks
 	Seljuk_Rebels
 	13 244 165
-	crusade, st_johns_chapter_house, horde_target, antioch, explorers_guild
+	crusade, st_johns_chapter_house, horde_target, antioch, explorers_guild, jihad
 	5
 	7
 	religions { catholic 70 orthodox 2 islam 25 pagan 0 heretic 3 sungod 0 }
@@ -709,15 +709,15 @@ York_Province
 	5
 	6
 	religions { catholic 85 orthodox 0 islam 0 pagan 15 heretic 5 sungod 0 }
-Cuba
-	Havana
-	spain
-	Native_Rebels
+Dagestan
+	Balanjar
+	turks
+	Seljuk_Rebels
 	145 198 206
-	america
+	explorers_guild
 	5
 	6
-	religions { catholic 0 orthodox 0 islam 0 pagan 60 heretic 5 sungod 35 }
+	religions { catholic 0 orthodox 0 islam 40 pagan 20 heretic 40 sungod 0 }
 Ryazan_Province
 	Ryazan
 	russia
@@ -906,7 +906,7 @@ Prague_Province
 	horde_target, explorers_guild
 	5
 	5
-	religions { catholic 90 orthodox 2 islam 0 pagan 6 heretic 2 sungod 0 }
+	religions { catholic 10 orthodox 5 islam 0 pagan 10 heretic 75 sungod 0 }
 Rheims_Province
 	Rheims
 	france
@@ -1321,15 +1321,15 @@ Bari_Province
 	5
 	6
 	religions { catholic 60 orthodox 30 islam 0 pagan 10 heretic 0 sungod 0 }
-Syracuse_Province
-	Syracuse
+Media_Province
+	Raqqah
 	sicily
-	Italian_Rebels
+	Arab_Rebels
 	62 98 157
 	templars_chapter_house
 	5
 	6
-	religions { catholic 50 orthodox 15 islam 30 pagan 5 heretic 0 sungod 0 }
+	religions { catholic 0 orthodox 5 islam 90 pagan 5 heretic 0 sungod 0 }
 Caesarea_Province
 	Caesarea
 	turks
@@ -1465,15 +1465,15 @@ Granada_Province
 	5
 	6
 	religions { catholic 15 orthodox 0 islam 80 pagan 0 heretic 5 sungod 0 }
-Brazil
-	Fortaleza
-	aztecs
-	Native_Rebels
+Fezzan
+	Gadir
+	moors
+	Saharan_Rebels
 	0 223 255
-	america
+	explorers_guild
 	5
 	6
-	religions { catholic 0 orthodox 0 islam 0 pagan 65 heretic 5 sungod 30 }
+	religions { catholic 0 orthodox 0 islam 30 pagan 35 heretic 5 sungod 30 }
 Aleppo_Province
 	Aleppo
 	turks
@@ -1519,15 +1519,15 @@ Medina_Province
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 99 pagan 0 heretic 1 sungod 0 }
-Buraidah_Province
-	Buraidah
-	egypt
-	Arab_Rebels
+Skopje_Province
+	Skopje
+	hungary
+	Bulgarian_Rebels
 	241 88 41
 	none
 	5
 	3
-	religions { catholic 0 orthodox 0 islam 99 pagan 0 heretic 1 sungod 0 }
+	religions { catholic 20 orthodox 50 islam 10 pagan 5 heretic 15 sungod 0 }
 Palermo_Province
 	Palermo
 	egypt
@@ -1573,16 +1573,16 @@ Sijilmasa_Province
 	5
 	6
 	religions { catholic 0 orthodox 0 islam 96 pagan 2 heretic 2 sungod 0 }
-Isle_of_Cyprus
-	Nicosia
-	byzantium
-	Greek_Rebels
+Dacia_Province
+	Debrecen
+	hungary
+	Magyar_Rebels
 	126 144 111
-	st_johns_chapter_house
+	assassins_guild, horde_target, st_johns_chapter_house
 	5
 	6
-	religions { catholic 5 orthodox 80 islam 10 pagan 3 heretic 2 sungod 0 }
-Isle_of_Cyprus2
+	religions { catholic 40 orthodox 40 islam 0 pagan 8 heretic 12 sungod 0 }
+Isle_of_Cyprus
 	Famagusta
 	byzantium
 	Greek_Rebels

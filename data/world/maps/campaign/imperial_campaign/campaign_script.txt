@@ -22,9 +22,9 @@ script
         set_event_counter lithuania_conversion_accepted 0
         set_event_counter lithuania_conversion_declined 0
 
-        ;setup CRUSADING NOBLE counters
+        ;setup CAMPAIGN EVENTS
 			
-        generate_random_counter	crusader1_timer 0 3
+        generate_random_counter	campaign_event_timer 0 2
 		
 		;setup HANSEATIC LEAGUE counters
 
@@ -117,161 +117,65 @@ script
     set_counter timurids_start 0
 
     declare_counter London_siege
-    declare_counter Nottingham_siege
-    declare_counter Caen_siege
-    declare_counter Dublin_siege
-    declare_counter Gloucester_siege
-    declare_counter York_siege
     declare_counter Edinburgh_siege
     declare_counter Cork_siege
-    declare_counter Galway_siege
-    declare_counter Donegal_siege
     declare_counter Caernarvon_siege
-    declare_counter Cardiff_siege
     declare_counter Paris_siege
-    declare_counter Toulouse_siege
-    declare_counter Angers_siege
-    declare_counter Marseille_siege
     declare_counter Frankfurt_siege
-    declare_counter Innsbruck_siege
-    declare_counter Bologna_siege
-    declare_counter Hamburg_siege
     declare_counter Arhus_siege
-    declare_counter Lund_siege
     declare_counter Toledo_siege
-    declare_counter Leon_siege
     declare_counter Lisbon_siege
-    declare_counter Oporto_siege
     declare_counter Milan_siege
-    declare_counter Genoa_siege
     declare_counter Venice_siege
-    declare_counter Ragusa_siege
     declare_counter Naples_siege
-    declare_counter Palermo_siege
     declare_counter Krakow_siege
-    declare_counter Poznan_siege
-    declare_counter Danzig_siege
     declare_counter Budapest_siege
-    declare_counter Bran_siege
     declare_counter Novgorod_siege
     declare_counter Kiev_siege
-    declare_counter Moscow_siege
-    declare_counter Smolensk_siege
     declare_counter Constantinople_siege
-    declare_counter Thessalonica_siege
-    declare_counter Corinth_siege
-    declare_counter Trebizond_siege
-    declare_counter Smyrna_siege
     declare_counter Cordoba_siege
-    declare_counter Granada_siege
-    declare_counter Valencia_siege
-    declare_counter Algiers_siege
-    declare_counter Marrakesh_siege
-    declare_counter Cairo_siege
     declare_counter Alexandria_siege
     declare_counter Rome_siege
     declare_counter Baghdad_siege
-    declare_counter Yerevan_siege
-    declare_counter Adana_siege
     declare_counter Iconium_siege
     declare_counter Jerusalem_siege
-    declare_counter Acre_siege
     declare_counter Antioch_siege
-    declare_counter Krak_de_Chevaliers_siege
-    declare_counter Marienburg_siege
     declare_counter Konigsberg_siege
     declare_counter Vilnius_siege
-    declare_counter Riga_siege
-    declare_counter Minsk_siege
     declare_counter Oslo_siege
-    declare_counter Agder_siege
-    declare_counter Wick_siege
     declare_counter Tenochtitlan_siege
-    declare_counter Tixtla_siege
-    declare_counter Tollan_siege
-    declare_counter Huaxtepec_siege
-    declare_counter Bulgar_siege
     declare_counter Sarkel_siege
-    declare_counter Viatka_siege
 
     monitor_event FactionTurnEnd FactionType slave
         inc_counter London_siege -1
-        inc_counter Nottingham_siege -1
-        inc_counter Caen_siege -1
-        inc_counter Dublin_siege -1
-        inc_counter Gloucester_siege -1
-        inc_counter York_siege -1
         inc_counter Edinburgh_siege -1
         inc_counter Cork_siege -1
-        inc_counter Galway_siege -1
-        inc_counter Donegal_siege -1
         inc_counter Caernarvon_siege -1
-        inc_counter Cardiff_siege -1
         inc_counter Paris_siege -1
-        inc_counter Toulouse_siege -1
-        inc_counter Angers_siege -1
-        inc_counter Marseille_siege -1
         inc_counter Frankfurt_siege -1
-        inc_counter Innsbruck_siege -1
-        inc_counter Bologna_siege -1
-        inc_counter Hamburg_siege -1
         inc_counter Arhus_siege -1
-        inc_counter Lund_siege -1
         inc_counter Toledo_siege -1
-        inc_counter Leon_siege -1
         inc_counter Lisbon_siege -1
-        inc_counter Oporto_siege -1
         inc_counter Milan_siege -1
-        inc_counter Genoa_siege -1
         inc_counter Venice_siege -1
-        inc_counter Ragusa_siege -1
         inc_counter Naples_siege -1
-        inc_counter Palermo_siege -1
         inc_counter Krakow_siege -1
-        inc_counter Poznan_siege -1
-        inc_counter Danzig_siege -1
         inc_counter Budapest_siege -1
-        inc_counter Bran_siege -1
         inc_counter Novgorod_siege -1
         inc_counter Kiev_siege -1
-        inc_counter Moscow_siege -1
-        inc_counter Smolensk_siege -1
         inc_counter Constantinople_siege -1
-        inc_counter Thessalonica_siege -1
-        inc_counter Corinth_siege -1
-        inc_counter Trebizond_siege -1
-        inc_counter Smyrna_siege -1
         inc_counter Cordoba_siege -1
-        inc_counter Granada_siege -1
-        inc_counter Valencia_siege -1
-        inc_counter Algiers_siege -1
-        inc_counter Marrakesh_siege -1
-        inc_counter Cairo_siege -1
         inc_counter Alexandria_siege -1
         inc_counter Rome_siege -1
         inc_counter Baghdad_siege -1
-        inc_counter Yerevan_siege -1
-        inc_counter Adana_siege -1
         inc_counter Iconium_siege -1
         inc_counter Jerusalem_siege -1
-        inc_counter Acre_siege -1
         inc_counter Antioch_siege -1
-        inc_counter Krak_de_Chevaliers_siege -1
-        inc_counter Marienburg_siege -1
         inc_counter Konigsberg_siege -1
         inc_counter Vilnius_siege -1
-        inc_counter Riga_siege -1
-        inc_counter Minsk_siege -1
         inc_counter Oslo_siege -1
-        inc_counter Agder_siege -1
-        inc_counter Wick_siege -1
         inc_counter Tenochtitlan_siege -1
-        inc_counter Tixtla_siege -1
-        inc_counter Tollan_siege -1
-        inc_counter Huaxtepec_siege -1
-        inc_counter Bulgar_siege -1
         inc_counter Sarkel_siege -1
-        inc_counter Viatka_siege -1
     end_monitor
 
     ;england / London / London_Province / Power_Centre
@@ -828,22 +732,6 @@ script
         set_counter Tenochtitlan_siege 10
     end_monitor
 
-    ;aztecs / Huaxtepec / Huaxtepec_Province / Power_Centre
-
-    monitor_conditions I_SettlementUnderSiege Huaxtepec
-        and I_CompareCounter Huaxtepec_siege < 1
-        if I_SettlementOwner Huaxtepec = aztecs
-            and I_IsFactionAIControlled aztecs
-            and I_CompareCounter aztecs_start = 0
-            create_unit Huaxtepec, Jaguar Warriors, num 2, exp 1, arm 1, wep 0
-            create_unit Huaxtepec, Cuahchiqueh, num 6, exp 0, arm 1, wep 0
-            create_unit Huaxtepec, Coyote Priests, num 1, exp 0, arm 1, wep 0
-            create_unit Huaxtepec, Arrow Warriors, num 3, exp 1, arm 1, wep 0
-            create_unit Huaxtepec, Aztec Archers, num 2, exp 1, arm 1, wep 0
-        end_if
-        set_counter Huaxtepec_siege 10
-    end_monitor
-
     ;mongols / Sarkel / Sarkel_Province / Power_Centre
 
     monitor_conditions I_SettlementUnderSiege Sarkel
@@ -1362,27 +1250,7 @@ script
             if I_IsFactionAIControlled lithuania
 
                 generate_random_counter	random_accept 0 8
-                if I_EventCounter random_accept < 3
-                    set_event_counter lithuania_conversion_accepted 1
-                end_if
-
-            end_if
-
-            terminate_monitor
-
-        end_if
-
-        if I_EventCounter lithuania_conversion_timer >= 40
-            and I_EventCounter lithuania_conversion_accepted = 0
-
-            ;offer conversion to christianity
-            historic_event lithuania_conversion true factions { lithuania, }
-
-            ;if AI random chance to accept
-            if I_IsFactionAIControlled lithuania
-
-                generate_random_counter	random_accept 0 2
-                if I_EventCounter random_accept < 2
+                if I_EventCounter random_accept < 4
                     set_event_counter lithuania_conversion_accepted 1
                 end_if
 
@@ -1430,10 +1298,10 @@ script
 	;------------------- CRUSADING NOBLES TEUTONIC BALTIC CRUSADE -------------------;
 
 	monitor_event FactionTurnStart FactionType teutonic_order	
-		inc_event_counter crusader1_timer 1		
+		inc_event_counter campaign_event_timer 1		
 	end_monitor
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 12
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 4
 		and I_NumberOfSettlements lithuania > 0
 		and I_EventCounter lithuania_conversion_accepted = 0
 		
@@ -1480,7 +1348,7 @@ script
 	
 	;------------------- CRUSADING NOBLES TEUTONIC SWEDISH CRUSADE -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 16
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 5
 		
 		historic_event teutonic_order_scandinavia
 		
@@ -1527,7 +1395,7 @@ script
 	
 	;------------------- CRUSADING NOBLES LITHUANIAN PAGAN UPRISING -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 14
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 6
 		
 		historic_event lithuanians_arise
 		
@@ -1564,7 +1432,7 @@ script
 	
 	;------------------- TIMURID REINFORCEMENTS -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 18
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 7
 		
 		historic_event timurid_reinforcements
 		
@@ -1573,7 +1441,7 @@ script
 		spawn_army 
                 faction timurids
                 character	Husayn of Turkistan, named character, x 505, y 163
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
@@ -1595,7 +1463,7 @@ script
 		spawn_army 
                 faction timurids
                 character	Daritai of Lahore, named character, x 504, y 163
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		AS Ballista				exp 0 armour 0 weapon_lvl 0
                 unit		AS Trebuchet				exp 0 armour 0 weapon_lvl 0
@@ -1617,7 +1485,7 @@ script
 		spawn_army 
                 faction timurids
                 character	Mongke of Khojend, named character, x 505, y 164
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
@@ -1639,7 +1507,7 @@ script
 		spawn_army 
                 faction timurids
                 character	Yurukhan of Tashkent, named character, x 504, y 164
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
@@ -1666,7 +1534,7 @@ script
 	
 	;------------------- MONGOL FRESH HORDES -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 24
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 8
 		
 		historic_event mongol_reinforcements
 		
@@ -1676,7 +1544,7 @@ script
 		spawn_army 
                 faction mongols
                 character	Ogadai, named character, x 501, y 195
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		Mongol Foot Archers				exp 0 armour 0 weapon_lvl 0
                 unit		Mongol Foot Archers				exp 0 armour 0 weapon_lvl 0
@@ -1698,7 +1566,7 @@ script
 		spawn_army 
                 faction mongols
                 character	Mengadai, named character, x 504, y 194
-                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , PublicFaith 4 , Loyal 1 , ContentGeneral 3
+                traits EasternWarlord 3 , GoodCommander 3 , Bloodthirsty 2 , BattleDread 3 , StrategyDread 2 , Loyal 1 , ContentGeneral 3
                 unit		Mongol Bodyguard				exp 3 armour 0 weapon_lvl 0
                 unit		Bedouin Cavalry				exp 0 armour 0 weapon_lvl 0
                 unit		Mongol Heavy Lancers				exp 0 armour 0 weapon_lvl 0
@@ -1723,7 +1591,7 @@ script
 	
 	;------------------- WELSH UPRISING -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 20
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 9
 		
 		historic_event owain_glindir
 		
@@ -1758,9 +1626,268 @@ script
 	
 	end_monitor
 	
+	;------------------- WILLIAM WALLACE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 10
+		
+		historic_event william_wallace
+		
+		add_money scotland 8000
+			
+		spawn_army 
+                faction scotland 
+                character	William Wallace, named character, x 168, y 320
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Highland Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Highland Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Highland Archers				exp 0 armour 0 weapon_lvl 0
+                unit		Highlanders	exp 0 armour 0 weapon_lvl 0
+                unit		Highlanders	exp 0 armour 0 weapon_lvl 0
+				unit		Highlanders	exp 0 armour 0 weapon_lvl 0
+				unit		Highlanders	exp 0 armour 0 weapon_lvl 0
+				unit		Highlanders	exp 0 armour 0 weapon_lvl 0
+                unit		Highland Nobles	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Nobles	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Rabble	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Rabble	exp 0 armour 0 weapon_lvl 0
+				unit		Highland Archers	exp 0 armour 0 weapon_lvl 0
+				unit		NE Trebuchet	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- SPANISH CRUSADE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 11
+		
+		historic_event spanish_crusade
+		
+		add_money spain 8000
+			
+		spawn_army 
+                faction spain 
+                character	Rodrigo Santiago, named character, x 167, y 169
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		SE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+                unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+                unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Pike Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Pike Militia	exp 0 armour 0 weapon_lvl 0
+				unit		NE Trebuchet	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- PORTUGUESE CRUSADE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 12
+		
+		historic_event portuguese_crusade
+		
+		add_money portugal 8000
+			
+		spawn_army 
+                faction portugal 
+                character	Theodosio de Santiago, named character, x 106, y 165
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		SE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Knights of Santiago				exp 0 armour 0 weapon_lvl 0
+                unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+                unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Mailed Knights	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+                unit		Peasant Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Peasant Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Pike Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Pike Militia	exp 0 armour 0 weapon_lvl 0
+				unit		NE Trebuchet	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- JERUSALEM CRUSADE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 13
+		
+		historic_event jerusalem_crusade
+		
+		add_money jerusalem 8000
+			
+		spawn_army 
+                faction jerusalem 
+                character	Balain of Ibelin, named character, x 439, y 94
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Tripolitan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Tripolitan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Longbowmen				exp 0 armour 0 weapon_lvl 0
+                unit		Longbowmen	exp 0 armour 0 weapon_lvl 0
+                unit		Longbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Papal Guard	exp 0 armour 0 weapon_lvl 0
+				unit		Great Cross	exp 0 armour 0 weapon_lvl 0
+				unit		Templar Sergeant	exp 0 armour 0 weapon_lvl 0
+                unit		Templar Sergeant	exp 0 armour 0 weapon_lvl 0
+				unit		Templar Sergeant	exp 0 armour 0 weapon_lvl 0
+				unit		Ritterbruder	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Deisi Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Welsh Spearmen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- ANTIOCH CRUSADE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 14
+		
+		historic_event antioch_crusade
+		
+		add_money antioch 8000
+			
+		spawn_army 
+                faction antioch 
+                character	Lancelot Longsword, named character, x 432, y 124
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen	exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Swiss Guard	exp 0 armour 0 weapon_lvl 0
+				unit		Great Cross	exp 0 armour 0 weapon_lvl 0
+				unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+                unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+				unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+				unit		Scots Guard	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Mounted Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Welsh Spearmen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- MAMELUKES ARISE -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 15
+		
+		historic_event mamelukes_arise
+		
+		add_money egypt 8000
+			
+		spawn_army 
+                faction egypt 
+                character	Baybars of Siwah, named character, x 438, y 45
+                traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+                unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+                unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen				exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen	exp 0 armour 0 weapon_lvl 0
+                unit		Flemish Pikemen	exp 0 armour 0 weapon_lvl 0
+				unit		Swiss Guard	exp 0 armour 0 weapon_lvl 0
+				unit		Great Cross	exp 0 armour 0 weapon_lvl 0
+				unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+                unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+				unit		Almughavars	exp 0 armour 0 weapon_lvl 0
+				unit		Scots Guard	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Jinetes	exp 0 armour 0 weapon_lvl 0
+				unit		Sodeer Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Mounted Crossbowmen	exp 0 armour 0 weapon_lvl 0
+				unit		Welsh Spearmen Mercs	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+				unit		Flagellants	exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- NORWAY NORTH SEA EXPANSION -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 16
+		
+		historic_event norwegian_expansion
+		
+		add_money norway 8000
+
+		spawn_army 
+				faction norway 
+				character	Haakon Thorrodson, named character, x 166, y 293
+				traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
+				unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
+				unit		Feudal Knights			exp 0 armour 0 weapon_lvl 0
+				unit		Feudal Knights				exp 0 armour 0 weapon_lvl 0
+				unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+				unit		Norse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Norse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Norse Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Ostmen	exp 0 armour 0 weapon_lvl 0
+				unit		Ostmen	exp 0 armour 0 weapon_lvl 0
+				unit		Sami Axemen	exp 0 armour 0 weapon_lvl 0
+				unit		Viking Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Viking Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Viking Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Viking Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Viking Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Armored Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Armored Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Armored Sergeants	exp 0 armour 0 weapon_lvl 0
+				unit		Armored Sergeants	exp 0 armour 0 weapon_lvl 0
+		end
+		
+		terminate_monitor
+	
+	end_monitor
+	
 	;------------------- CUMANS FLEE INTO THE BALKANS -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 16
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 17
 		
 		historic_event cumans_arrival
 			
@@ -1812,6 +1939,116 @@ script
 		terminate_monitor
 	
 	end_monitor
+	
+	;------------------- HUSSITE REVOLT -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 18
+		
+		historic_event hussite_revolt
+			
+		spawn_army 
+                faction slave
+                character	Skaris, named character, age 24, x 286, y 237 
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Burgher Pikemen				exp 0 armour 0 weapon_lvl 0
+				unit		Burgher Pikemen				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Levies				exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction slave
+                character	Rhesus, named character, age 30, x 271, y 233
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Hussites				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Slav Mercenaries				exp 0 armour 0 weapon_lvl 0
+				unit		Burgher Pikemen				exp 0 armour 0 weapon_lvl 0
+				unit		Burgher Pikemen				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Bulgarian Brigands				exp 0 armour 0 weapon_lvl 0
+				unit		Albanian Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Albanian Cavalry				exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
+	
+	;------------------- WALDENSIAN REVOLT -------------------;
+	
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 19
+		
+		historic_event waldensian_revolt
+			
+		spawn_army 
+                faction slave
+                character	Moses, named character, age 24, x 194, y 190 
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Longbowmen				exp 0 armour 0 weapon_lvl 0
+				unit		Longbowmen				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Magyar Cavalry				exp 0 armour 0 weapon_lvl 0
+				unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+				unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+				unit		Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+        end
+		
+		spawn_army 
+                faction slave
+                character	Abraham, named character, age 30, x 198, y 194
+				traits GoodCommander 2 , GoodAttacker 2, ReligionStarter 1 
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Hobilars				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		Catalans				exp 0 armour 0 weapon_lvl 0
+				unit		SE Town Militia				exp 0 armour 0 weapon_lvl 0
+				unit		SE Town Militia				exp 0 armour 0 weapon_lvl 0
+				unit		SE Town Militia				exp 0 armour 0 weapon_lvl 0
+				unit		SE Town Militia				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+				unit		Religious Fanatics				exp 0 armour 0 weapon_lvl 0
+        end
+
+		terminate_monitor
+	
+	end_monitor
 
     ;----------------- KIEV SACKED ----------------;
 
@@ -1825,7 +2062,7 @@ script
 	
 	;------------------- EUROPEAN SUPPORT TO THE KIEVAN RUS -------------------;
 	
-	monitor_event FactionTurnStart I_EventCounter crusader1_timer = 9
+	monitor_event FactionTurnStart I_EventCounter campaign_event_timer = 20
 		
 		historic_event european_aid
 		
@@ -1907,18 +2144,15 @@ script
 
 	;----------------- AMERICA DISCOVERED ----------------;
 
-
-    ;-- America discovered --
-    ;monitor_event TileSeen not FactionType aztecs
-    ;    and not FactionType slave
-    ;    and IsPositionInRect 0 85 69 252
-    ;    historic_event america_discovered event/america_discovered.bik
-    ;    terminate_monitor
-    ;end_monitor
+    monitor_event TileSeen not FactionType aztecs
+        and not FactionType slave
+        and IsPositionInRect 0 85 69 252
+        historic_event america_discovered event/america_discovered.bik
+        terminate_monitor
+    end_monitor
 
 	;----------------- AZTEC EMPIRE REVEALED ----------------;
 
-    ;-- Aztecs contacted --
             monitor_event ObjSeen  TargetFactionType aztecs
                 and not FactionType slave
                     historic_event aztecs_contacted event/aztecs_contacted.bik
@@ -2017,6 +2251,10 @@ script
 
         if I_IsFactionAIControlled mongols
             increment_kings_purse mongols 10000
+        end_if
+		
+		if I_IsFactionAIControlled timurids
+            increment_kings_purse timurids 8000
         end_if
 
         if I_IsFactionAIControlled novgorod
@@ -2125,6 +2363,10 @@ script
 
         if I_IsFactionAIControlled mongols
             increment_kings_purse mongols 15000
+        end_if
+		
+		if I_IsFactionAIControlled timurids
+            increment_kings_purse timurids 10000
         end_if
 
         if I_IsFactionAIControlled novgorod

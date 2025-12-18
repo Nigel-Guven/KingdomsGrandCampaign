@@ -1851,7 +1851,7 @@ building siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1 
                 recruit_pool "GR Bombard"  1   0.15   1  0  requires factions { byzantium, } 
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, } 
+                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, timurids, } 
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, }
                 weapon_naval_gunpowder 1
             }
@@ -1895,7 +1895,7 @@ building siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "GR Bombard"  1   0.25   1  0  requires factions { byzantium, } 
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, } 
+                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, timurids, } 
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, } 
                 weapon_naval_gunpowder 1
             }
@@ -1944,7 +1944,7 @@ building siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1 
                 recruit_pool "GR Bombard"  1   0.25   1  0  requires factions { byzantium, } 
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.25   1  0  requires factions { mongols, }
+                recruit_pool "AS Rocket Launcher"  1   0.25   1  0  requires factions { mongols, timurids, }
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, }  
                 weapon_naval_gunpowder 1
             }
@@ -2039,7 +2039,7 @@ building castle_siege
                 recruit_pool "EE Bombard"  1   0.15   2  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "GR Bombard"  1   0.15    2  0  requires factions { byzantium, } 
                 recruit_pool "ME Bombard"  1   0.15    2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15    2  0  requires factions { mongols, }
+                recruit_pool "AS Rocket Launcher"  1   0.15    2  0  requires factions { mongols, timurids, }
                 recruit_pool "AS Bombard"  1   0.15    2  0  requires factions { timurids, mongols, }  
             }
             material wooden
@@ -2069,7 +2069,7 @@ building castle_siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { poland, russia, novgorod, hungary, }
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, }
+                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, timurids, }
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, }  
                 weapon_naval_gunpowder 1
             }
@@ -2112,7 +2112,7 @@ building castle_siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { poland, russia, novgorod, hungary, }
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1  
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, }
+                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, timurids, }
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, }  
                 weapon_naval_gunpowder 1
             }
@@ -2160,7 +2160,7 @@ building castle_siege
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { poland, russia, novgorod, hungary, } 
                 recruit_pool "EE Bombard"  1   0.15   1  0  requires factions { lithuania, }  and event_counter not_pagan_lithuania 1 
                 recruit_pool "ME Bombard"  1   0.15   1  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, }
+                recruit_pool "AS Rocket Launcher"  1   0.15   1  0  requires factions { mongols, timurids, }
                 recruit_pool "AS Bombard"  1   0.15   1  0  requires factions { timurids, mongols, }  
                 weapon_naval_gunpowder 1
             }

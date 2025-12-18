@@ -30,13 +30,13 @@ playable
 	moors
 	hre
 	byzantium
-	timurids
+	portugal
 end
 unlockable
 end
 nonplayable
+	timurids
 	aztecs
-	portugal
 	papal_states
 	slave
 end
@@ -55,7 +55,7 @@ night_battles_enabled
 show_date_as_turns
 brigand_spawn_value 20000
 pirate_spawn_value 20000
-free_upkeep_forts 3
+free_upkeep_forts 4
 
 
 ; ## Resources 
@@ -1007,7 +1007,7 @@ resource	silver,	410,	108
 resource	wine,	414,	109
 resource	fish,	411,	116
 
-;Isle_of_Cyprus2
+;Isle_of_Cyprus
 resource	silver,	415,	117
 resource	silk,	415,	115
 resource	sugar,	417,	114
@@ -1117,8 +1117,8 @@ resource	camels,	385,	7
 
 faction	wales, balanced smith
 ai_label		catholic
-denari	10000
-denari_kings_purse	2000
+denari	8000
+denari_kings_purse	2400
 settlement castle
 {
 	level large_town
@@ -1210,7 +1210,7 @@ relative 	Llywelyn of Gwynedd,	Senena,	Dafydd,	end
 faction	ireland, balanced smith
 ai_label		catholic
 denari	8000
-denari_kings_purse	2000
+denari_kings_purse	2400
 settlement
 {
 	level town
@@ -1310,8 +1310,8 @@ relative 	Domnall O'Neill,	Ester,	Magnus,	end
 
 faction	novgorod, balanced smith
 ai_label		orthodox
-denari	8000
-denari_kings_purse	2000
+denari	14000
+denari_kings_purse	3600
 settlement
 {
 	level city
@@ -1461,8 +1461,8 @@ relative 	Alexander Nevski,	Khristin,	Dmitrii,	end
 
 faction	teutonic_order, balanced smith
 ai_label		teutonic
-denari	8000
-denari_kings_purse	3000
+denari	12000
+denari_kings_purse	7000
 settlement
 {
 	level large_town
@@ -1611,8 +1611,14 @@ character	Ludwig, general, male, age 22, x 317, y 311
 army
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
 unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
+unit		Peasant Archers				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
 unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Order Militia				exp 0 armour 0 weapon_lvl 0
+unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
+unit		Sword Brethren				exp 0 armour 0 weapon_lvl 0
 
 character	Wikerus, general, male, age 22, x 305, y 285 
 army
@@ -1645,8 +1651,8 @@ relative 	Gunther von Schwarzenburg, 	Agnes, Maximillian, Dietrich,	end
 
 faction	lithuania, balanced smith
 ai_label		pagan
-denari	8000
-denari_kings_purse	3000
+denari	10000
+denari_kings_purse	4000
 settlement
 {
 	level large_town
@@ -1743,7 +1749,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Vaisvilkas, named character, male, heir, age 24, x 332, y 292, portrait vaisvilkas 
+character	Vaisvilkas, named character, male, heir, age 24, x 323, y 279, portrait vaisvilkas 
 traits Factionheir 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , LoyaltyStarter 1 
 army
 unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -1801,8 +1807,8 @@ relative 	Vaisvilkas,	Ludmila,	Alexander,	end
 
 faction	jerusalem, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	10000
+denari_kings_purse	6000
 settlement
 {
 	level city
@@ -1852,33 +1858,6 @@ settlement
 	population 9000
 	plan_set default_set
 	faction_creator egypt
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Isle_of_Cyprus
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -1982,7 +1961,7 @@ unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Templar Sergeant			exp 0 armour 0 weapon_lvl 0
 
-character	Fraunce, general, male, age 40, x 412, y 109
+character	Fraunce, general, male, age 40, x 435, y 97
 army
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
 unit		Maronites of Lebanon			exp 0 armour 0 weapon_lvl 0
@@ -2009,8 +1988,8 @@ relative 	Almaric,	Agnes,	Guy of Lusignan, Raymond of Tripoli,	Sibylla,	Baldwin,
 
 faction	antioch, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	10000
+denari_kings_purse	5600
 settlement
 {
 	level city
@@ -2177,7 +2156,7 @@ unit		Edessan Squires				exp 0 armour 0 weapon_lvl 0
 unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
 unit		Hospitaller Sergeant			exp 0 armour 0 weapon_lvl 0
 
-character	Guiot de Bordeaux, named character, male, age 32, x 436, y 135, portrait guiot 
+character	Guiot de Bordeaux, named character, male, age 32, x 458, y 143, portrait guiot 
 traits NaturalMilitarySkill 1 , ReligionStarter 1, Ugly 2, Intelligent 3, Cultured 2 , Fertile 1 , LoyaltyStarter 1 , CrusaderHistory 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -2224,8 +2203,8 @@ relative 	Bohemond,	Orguilleuse,	Reynald of Chatillon,	Guy,	Constance,	end
 
 faction	norway, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	3000
+denari	10000
+denari_kings_purse	3600
 settlement
 {
 	level large_town
@@ -2400,8 +2379,8 @@ relative 	Magnus Haakonsson,	Ingrid,	end
 
 faction	scotland, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	3000
+denari	10000
+denari_kings_purse	3600
 settlement
 {
 	level large_town
@@ -2519,8 +2498,8 @@ relative 	Edmund,	Elizabeth,	Donald,	end
 
 faction	milan, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	16000
+denari_kings_purse	3200
 settlement
 {
 	level city
@@ -2562,7 +2541,43 @@ settlement
 		type temple_catholic church 
 	}
 }
-
+settlement
+{
+	level large_town
+	region Cherson_Province
+	year_founded 0
+	population 13000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+}
 settlement
 {
 	level town
@@ -2626,11 +2641,37 @@ unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
+character	Argometto Rossi, named character, male, age 23, x 393, y 204, portrait cristoforo 
+traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Fertile 1 , ReligionStarter 1 
+army
+unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Genoese Crossbow Militia		exp 0 armour 0 weapon_lvl 0
+unit		Genoese Crossbow Militia		exp 0 armour 0 weapon_lvl 0
+unit		Genoese Crossbow Militia		exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Mailed Knights				exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+
 character	Frolio Carcano, diplomat, male, age 26, x 238, y 195 
 traits GoodDiplomat 2 
 
+character	Girolamo Borromini, diplomat, male, age 22, x 391, y 211 
+traits GoodDiplomat 1 
+
 character	Lerino Matarrese, merchant, male, age 30, x 235, y 183 
 traits GoodMerchant 2 
+
+character	Virgilio Caetani, priest, male, age 24, x 392, y 218
+traits NaturalPriestSkill 2 , StrongFaith 2 , PriestLevel 1
 
 character	Evio Perego, priest, male, age 38, x 237, y 198 
 traits NaturalPriestSkill 2 , StrongFaith 2 , PriestLevel 1 
@@ -2644,14 +2685,14 @@ character_record		Maria, 	female, age 30, alive, never_a_leader
 character_record		Bella, 	female, age 30, alive, never_a_leader
 character_record		Simona, 	female, age 6, alive, never_a_leader
 
-relative 	Giorgio Rossi,	Jacopa,	Bernardo Rossi,	Cristoforo Rossi,	Fiora Rossi,	end
+relative 	Giorgio Rossi,	Jacopa,	Bernardo Rossi,	Cristoforo Rossi, Argometto Rossi,	Fiora Rossi,	end
 relative 	Bernardo Rossi,	Maria,	Puccio Rossi,	Catelano Rossi,	end
 relative 	Cristoforo Rossi,	Bella,	Simona,	Agostino Rossi,	end
 
 faction	venice, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	20000
+denari_kings_purse	3600
 settlement
 {
 	level city
@@ -2815,8 +2856,8 @@ relative 	Alessandro,	Alegreza,	Barbus,	end
 
 faction	sicily, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	16000
+denari_kings_purse	5000
 settlement castle
 {
 	level large_town
@@ -2912,23 +2953,19 @@ settlement castle
 
 settlement castle
 {
-	level town
-	region Syracuse_Province
+	level village
+	region Bari_Province
 	year_founded 0
-	population 900
+	population 480
 	plan_set default_set
 	faction_creator sicily
 	building
 	{
-		type core_castle_building wooden_castle
+		type core_castle_building motte_and_bailey
 	}
 	building
 	{
 		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
 	}
 }
 
@@ -2970,6 +3007,28 @@ unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
 
+character	Deo, named character, male, age 19, x 265, y 103
+traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 2 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
+army
+unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Mounted Sergeants			exp 0 armour 0 weapon_lvl 0
+unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+
+character	Ottobono, named character, male, age 24, x 288, y 152
+traits LoyaltyStarter 1 , GoodCommander 2 , NaturalMilitarySkill 2 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
+army
+unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Mounted Sergeants			exp 0 armour 0 weapon_lvl 0
+unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Italian Spear Militia			exp 0 armour 0 weapon_lvl 0
+
 character	Niccolo Amocacci, priest, male, age 28, x 280, y 128 
 traits NaturalPriestSkill 2 , StrongFaith 2 , PriestLevel 1 
 
@@ -2983,14 +3042,14 @@ character_record		Judith, 	female, age 44, alive, never_a_leader
 character_record		Joanna, 	female, age 25, alive, never_a_leader
 character_record		Belloza, 	female, age 20, alive, never_a_leader
 
-relative 	Roger,	Judith,	Simon,	Matilda,	Alberto,	end
+relative 	Roger,	Judith,	Simon,	Matilda,	Alberto, Deo,	end
 relative 	Simon,	Joanna,	Filippa,	Giovanni,	end
 relative 	Alberto,	Belloza,	Coluccio,	end
 
 faction	spain, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	14000
+denari_kings_purse	5000
 settlement castle
 {
 	level large_town
@@ -3165,8 +3224,8 @@ relative 	Vaasco,	Ana,	Aldara,	Sebastian,	end
 
 faction	portugal, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	12000
+denari_kings_purse	4400
 settlement
 {
 	level large_town
@@ -3242,7 +3301,7 @@ unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Johao Henriques, named character, male, age 19, x 102, y 146, portrait johao 
+character	Johao Henriques, named character, male, age 19, x 106, y 179, portrait johao 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , GoodCommander 1 , GoodCavalryGeneral 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		SE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -3268,8 +3327,8 @@ relative 	Sancho Henriques,	Felipa,	Fernanado Henriques,	end
 
 faction	denmark, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	2000
+denari	12000
+denari_kings_purse	4000
 settlement castle
 {
 	level town
@@ -3373,32 +3432,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region York_Province
-	year_founded 0
-	population 9000
-	plan_set default_set
-	faction_creator denmark
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type market corn_exchange
-	}
-}
-
 settlement castle
 {
 	level town
@@ -3466,7 +3499,7 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 
-character	Ragnvald Forkbeard, named character, male, age 19, x 183, y 292, portrait ragnvald 
+character	Ragnvald Forkbeard, named character, male, age 19, x 324, y 319, portrait ragnvald 
 traits LoyaltyStarter 1 , Bloodthirsty 2 , BattleDread 2 , NaturalMilitarySkill 1 , Drink 1 , GoodCommander 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -3484,6 +3517,12 @@ character	Sigurd, general, male, age 28, x 320, y 322
 army
 unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
 unit		Norse Archers				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
@@ -3512,8 +3551,8 @@ relative 	Erik,	Thorbjorg,	Thorkel,	end
 
 faction	poland, balanced smith
 ai_label		catholic
-denari	10000
-denari_kings_purse	3000
+denari	14000
+denari_kings_purse	5000
 settlement
 {
 	level large_town
@@ -3663,8 +3702,8 @@ relative 	Zbigniew,	Dorotha,	Leszek,	end
 
 faction	hungary, balanced smith
 ai_label		catholic
-denari	10000
-denari_kings_purse	3000
+denari	16000
+denari_kings_purse	5000
 settlement
 {
 	level large_town
@@ -3691,6 +3730,39 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level large_town
+	region Dacia_Province
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+}
 
 settlement castle
 {
@@ -3714,7 +3786,8 @@ settlement castle
 	}
 }
 
-character	Bela, named character, male, leader, age 37, x 294, y 217, portrait bela, battle_model norman_king 
+
+character	Bela, named character, male, leader, age 37, x 298, y 216, portrait bela, battle_model norman_king 
 traits Factionleader 1 , GoodCommander 3 , Energetic 1 , PublicFaith 2 , BattleChivalry 4 , StrategyChivalry 3 , GoodDiplomacy 2 , GoodCavalryGeneral 1, ReligionStarter 1 , PoliticsSkill 1, Fertile 1 
 ancillaries crown_hungary, apothecary
 army
@@ -3737,7 +3810,18 @@ unit		Bosnian Archers				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 
-character	Istvan, named character, male, age 20, x 324, y 191, portrait istvan 
+character	Istvan, named character, male, age 20, x 318, y 220, portrait istvan 
+traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , Intelligent 2 , Drink 1 , ReligionStarter 1 , Fertile 1 
+army
+unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Pavise Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+
+character	Georgius of Szegedin, named character, male, age 28, x 339, y 203
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , Intelligent 2 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -3778,8 +3862,8 @@ relative 	Emeric,	Irisko,	Ladislaus,	end
 
 faction	russia, balanced smith
 ai_label		orthodox
-denari	8000
-denari_kings_purse	3000
+denari	16000
+denari_kings_purse	5000
 settlement
 {
 	level city
@@ -3821,43 +3905,7 @@ settlement
 		type temple_orthodox church_o
 	}
 }
-settlement
-{
-	level large_town
-	region Cherson_Province
-	year_founded 0
-	population 13000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type barracks town_watch
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-}
+
 settlement
 {
 	level village
@@ -3877,6 +3925,23 @@ settlement
 	building
 	{
 		type market corn_exchange
+	}
+}
+settlement castle
+{
+	level village
+	region Turov_Province
+	year_founded 0
+	population 480
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
 	}
 }
 settlement castle
@@ -3912,7 +3977,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Vladimir, named character, male, heir, age 25, x 381, y 261, portrait vladimir 
+character	Vladimir, named character, male, heir, age 25, x 356, y 264, portrait vladimir 
 traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1 ,  ReligionStarter 1 , Fertile 1 
 army
 unit		EE Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -3979,8 +4044,33 @@ relative 	Vladimir,	Gravriia,	Miroslav,	Ivan,	end
 
 faction	mongols, balanced smith
 ai_label		mongol
-denari	10000
-denari_kings_purse	7000
+denari	24000
+denari_kings_purse	13000
+settlement
+{
+	level large_town
+	region Atil_Province
+	year_founded 0
+	population 9000
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
 settlement castle
 {
 	level town
@@ -4038,7 +4128,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 
-character	Ogedei, named character, male, heir, age 22, x 464, y 296 
+character	Ogedei, named character, male, heir, age 22, x 478, y 232 
 traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
 army
 unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
@@ -4055,7 +4145,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Batu, named character, male, age 16, x 471, y 223
+character	Batu, named character, male, age 16, x 480, y 232
 traits EasternWarlord 2 , GoodCommander 1 , Bloodthirsty 1 , BattleDread 2 , StrategyDread 1 , PublicFaith 1 , Loyal 2 , ContentGeneral 2 
 army
 unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -4070,7 +4160,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
 
-character	Subutai, named character, male, age 21, x 476, y 223
+character	Subutai, named character, male, age 21, x 484, y 262
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2 
 army
 unit		Mongol Bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -4084,7 +4174,7 @@ unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
 
-character	Kubadai, named character, age 30, x 476, y 224
+character	Kubadai, named character, age 30, x 471, y 263
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4104,7 +4194,7 @@ unit		Mongol Heavy Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Heavy Lancers	exp 6 armour 0 weapon_lvl 0
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 
-character	 Aradai, named character, male, age 32, x 492, y 212
+character	 Aradai, named character, male, age 32, x 417, y 218
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4128,7 +4218,7 @@ unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 
-character	 Jebe of the Tatar, named character, male, age 32, x 420, y 242
+character	 Jebe of the Tatar, named character, male, age 32, x 477, y 266
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4152,7 +4242,7 @@ unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 
-character	 Temugis of the Kereyid, named character, male, age 32, x 420, y 241
+character	 Temugis of the Kereyid, named character, male, age 32, x 479, y 266
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4176,7 +4266,7 @@ unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 
-character	 Batutai of the Bashkirs, named character, male, age 32, x 490, y 237
+character	 Batutai of the Bashkirs, named character, male, age 32, x 437, y 254
 traits EasternWarlord 2 , GoodCommander 1 , BattleDread 2 , StrategyDread 2 , PublicFaith 1, Loyal 1, ContentGeneral 2
 army
 unit		Mongol Bodyguard		exp 6 armour 0 weapon_lvl 0
@@ -4199,13 +4289,6 @@ unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
 unit		Mongol Horse Archers	exp 6 armour 0 weapon_lvl 0
-
-character	Kitbuqa, general, male, age 30, x 507, y 216 
-army
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 
 character	Kubeke, general, male, age 30, x 490, y 229 
 army
@@ -4213,23 +4296,6 @@ unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
 unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
 unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-
-character	Chaghatai, general, male, age 30, x 464, y 227
-army
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Foot Archers			exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-unit		ME Town Militia				exp 0 armour 0 weapon_lvl 0
-
-character	Genduk, general, male, age 26, x 433, y 246
-army
-unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Horse Archers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
-unit		Mongol Light Lancers			exp 0 armour 0 weapon_lvl 0
-unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		ME Levy Spearmen			exp 0 armour 0 weapon_lvl 0
 
 character	Ugedai, priest, male, age 25, x 448, y 285 
 traits NaturalPriestSkill 1 
@@ -4243,8 +4309,8 @@ relative 	Genghis,	Mandughai,	Ogedei,	Batu,	end
 
 faction	timurids, balanced smith
 ai_label		mongol
-denari	20000
-denari_kings_purse	6000
+denari	24000
+denari_kings_purse	13000
 settlement
 {
 	level city
@@ -4310,7 +4376,7 @@ unit		Mongol Heavy Archers			exp 0 armour 0 weapon_lvl 0
 unit		Dismounted Heavy Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Naffatun			exp 0 armour 0 weapon_lvl 0
 
-character	Bodonchar, named character, male, heir, age 17, x 499, y 120 
+character	Bodonchar, named character, male, heir, age 17, x 486, y 176
 traits Factionheir 1 , EasternWarlord 1 , Bloodthirsty 1 , GoodCommander 2 , BattleDread 2 , StrategyDread 1 , PublicFaith 1, Loyal 2, ContentGeneral 3 
 army
 unit		Mongol Bodyguard			exp 6 armour 0 weapon_lvl 0
@@ -4346,8 +4412,8 @@ relative 	Timur,	Hogelun,	Bodonchar,	end
 
 faction	egypt, balanced smith
 ai_label		islam
-denari	8000
-denari_kings_purse	3000
+denari	22000
+denari_kings_purse	8000
 settlement
 {
 	level city
@@ -4393,7 +4459,27 @@ settlement
 		type temple_muslim minareted_masjid
 	}
 }
-
+settlement castle
+{
+	level town
+	region Media_Province
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+}
 settlement
 {
 	level large_town
@@ -4497,8 +4583,22 @@ unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 
-character	al_Adil, named character, male, heir, age 29, x 398, y 69 
-traits Factionheir 1 , GoodCommander 2 , StrategyChivalry 1 , GoodInfantryGeneral 1 , ReligionStarter 1 , LoyaltyStarter 1 , PublicFaith 1 , Fertile 1 , JihadHistory 1 
+character	Amir, named character, male, age 23, x 465, y 127 
+traits Factionheir 1 , ReligionStarter 1 , LoyaltyStarter 1 , GoodAttacker 2 , NaturalMilitarySkill 1 , ReligionStarter 1 , Fertile 1 
+army
+unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
+unit		Ghulams					exp 0 armour 0 weapon_lvl 0
+unit		Ghulams					exp 0 armour 0 weapon_lvl 0
+unit		Ghulams					exp 0 armour 0 weapon_lvl 0
+unit		Ghulams					exp 0 armour 0 weapon_lvl 0
+unit		Ghulams					exp 0 armour 0 weapon_lvl 0
+
+character	al_Adil, named character, male, heir, age 26, x 398, y 69 
+traits GoodCommander 2 , StrategyChivalry 1 , GoodInfantryGeneral 1 , ReligionStarter 1 , LoyaltyStarter 1 , PublicFaith 1 , Fertile 1 , JihadHistory 1 
 army
 unit		ME Bodyguard				exp 3 armour 0 weapon_lvl 0
 unit		Mamluk Archers				exp 0 armour 0 weapon_lvl 0
@@ -4525,7 +4625,7 @@ unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 
-character	Hazem Ibrahim, named character, male, age 40, x 410, y 38 
+character	Hazem Ibrahim, named character, male, age 40, x 432, y 15 
 traits ReligionStarter 1 , LoyaltyStarter 1 , GoodAttacker 2 , BattleDread 3 , StrategyDread 2 , NaturalMilitarySkill 1 , ReligionStarter 1 , JihadHistory 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -4536,7 +4636,7 @@ unit		Dismounted Ghulams			exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 unit		Ghulams					exp 0 armour 0 weapon_lvl 0
 
-character	Zein Ahmad, general, male, age 23, x 412, y 69 
+character	Zein Ahmad, general, male, age 23, x 405, y 54 
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -4572,13 +4672,13 @@ character_record		Nagla, 	female, age 22, alive, never_a_leader
 character_record		al_Kamil, 	male, age 5, alive, never_a_leader
 
 relative 	Najm_ad_Din,	Jaida,	Saladin,	al_Adil,	end
-relative 	Saladin,	Zaynab,	Al-Afdal,	al_Aziz,	Al-Zahir,	end
+relative 	Saladin,	Zaynab,	Amir, Al-Afdal,	al_Aziz,	Al-Zahir,	end
 relative 	al_Adil,	Nagla,	al_Kamil,	end
 
 faction	france, balanced smith
 ai_label		catholic
-denari	6000
-denari_kings_purse	3000
+denari	18000
+denari_kings_purse	7000
 settlement
 {
 	level city
@@ -4858,8 +4958,8 @@ relative 	Godfrey,	Leonete,	Isabelle,	end
 
 faction	england, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	3000
+denari	18000
+denari_kings_purse	7000
 settlement
 {
 	level city
@@ -5155,8 +5255,8 @@ relative 	John,	Isabel,	Arthur,	end
 
 faction	turks, balanced smith
 ai_label		islam
-denari	8000
-denari_kings_purse	3000
+denari	16000
+denari_kings_purse	6000
 settlement
 {
 	level large_town
@@ -5329,7 +5429,7 @@ settlement castle
 	}
 }
 
-character	Nur ed-Din, named character, male, leader, age 40, x 434, y 146, portrait nur, battle_model sultan_nur_eldin, hero_ability Light_of_the_Faith 
+character	Nur ed-Din, named character, male, leader, age 40, x 452, y 157, portrait nur, battle_model sultan_nur_eldin, hero_ability Light_of_the_Faith 
 traits Factionleader 1 , GoodCommander 4 , BattleChivalry 4 , StrategyChivalry 3 , PublicFaith 2 , Intelligent 1 , ReligionStarter 1 , IslamHero 1 , JihadHistory 2 , AssassinMaster 1 , SpyMaster 1 , Fertile 1 
 ancillaries crown_turks, apothecary
 army
@@ -5390,7 +5490,7 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Mustafa, named character, male, age 20, x 387, y 132 
+character	Mustafa, named character, male, age 20, x 392, y 125 
 traits LoyaltyStarter 1 , GoodCommander 2 , PublicFaith 2 , GoodCavalryGeneral 1 , StrategyDread 2 , Bloodthirsty 1 , ReligionStarter 1 , JihadHistory 1 , Fertile 1 
 ancillaries foodtaster
 army
@@ -5454,8 +5554,8 @@ relative 	as_Salih ed-Din,	Kadem,	Haluk ed-Din,	end
 
 faction	moors, balanced smith
 ai_label		islam
-denari	10000
-denari_kings_purse	2000
+denari	18000
+denari_kings_purse	5600
 settlement
 {
 	level city
@@ -5502,32 +5602,39 @@ settlement
 	}
 }
 
-settlement
+settlement castle
 {
 	level large_town
-	region Oran_Province
+	region Granada_Province
 	year_founded 0
-	population 9000
+	population 2000
 	plan_set default_set
 	faction_creator moors
 	building
 	{
-		type core_building wooden_wall
+		type core_castle_building castle
 	}
 	building
 	{
-		type hinterland_farms farms
+		type castle_barracks garrison_quarters
 	}
 	building
 	{
-		type barracks town_watch
+		type missiles bowyer
 	}
 	building
 	{
-		type market corn_exchange
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
 	}
 }
-
 
 settlement
 {
@@ -5616,7 +5723,7 @@ unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Qassim, named character, male, age 30, x 151, y 113 
+character	Qassim, named character, male, age 30, x 134, y 131 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , BattleDread 3 , Bloodthirsty 1 , PublicFaith 3 , Intelligent 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		ME Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -5651,7 +5758,7 @@ unit		Desert Cavalry				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Berber Spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Khayri, general, male, age 20, x 117, y 0 
+character	Khayri, general, male, age 20, x 111, y 129 
 army
 unit		Desert Cavalry				exp 0 armour 0 weapon_lvl 0
 unit		Desert Cavalry				exp 0 armour 0 weapon_lvl 0
@@ -5699,8 +5806,8 @@ relative 	Qassim,	Saheena,	Zizi,	end
 
 faction	hre, balanced smith
 ai_label		catholic
-denari	8000
-denari_kings_purse	3000
+denari	20000
+denari_kings_purse	7000
 settlement
 {
 	level city
@@ -5943,7 +6050,7 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	Conrad, named character, male, age 20, x 282, y 222, portrait leopold 
+character	Conrad, named character, male, age 20, x 281, y 221, portrait leopold 
 traits LoyaltyStarter 1 , GoodCommander 1 , NaturalMilitarySkill 2 , BattleDread 3 , Bloodthirsty 1 , Energetic 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -5967,7 +6074,7 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 
-character	Maximillian Mandorf, named character, male, age 30, x 246, y 186, portrait max 
+character	Maximillian Mandorf, named character, male, age 30, x 229, y 225, portrait max 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleDread 2 , Austere 1 , Drink 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6044,8 +6151,8 @@ relative 	Conrad,	Bertha,	Bernhard,	end
 
 faction	byzantium, balanced smith
 ai_label		orthodox
-denari	8000
-denari_kings_purse	4000
+denari	24000
+denari_kings_purse	9000
 settlement
 {
 	level city
@@ -6091,39 +6198,7 @@ settlement
 		type temple_orthodox church_o
 	}
 }
-settlement castle
-{
-	level large_town
-	region Isle_of_Cyprus2
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator byzantium
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-}
+
 settlement castle
 {
 	level village
@@ -6174,7 +6249,31 @@ settlement castle
 		type castle_smith c_leather_tanner
 	}
 }
-
+settlement
+{
+	level large_town
+	region Isle_of_Cyprus
+	year_founded 0
+	population 9000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
 settlement
 {
 	level large_town
@@ -6357,7 +6456,7 @@ unit		Byzantine Infantry			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		SE Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	Mavros, named character, male, age 26, x 364, y 144, portrait mavros 
+character	Mavros, named character, male, age 26, x 419, y 116, portrait mavros 
 traits LoyaltyStarter 1 , GoodCommander 1 , BattleChivalry 1 , StrategyChivalry 1 , ReligionStarter 1 , Fertile 1 
 army
 unit		Greek Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6455,8 +6554,8 @@ relative 	Andronicus Komnenos,	Rossana,	end
 
 faction	papal_states, balanced smith
 ai_label		papal_faction
-denari	8000
-denari_kings_purse	5000
+denari	14000
+denari_kings_purse	10000
 settlement
 {
 	level city
@@ -6554,8 +6653,8 @@ relative 	Gregory,	Angela,	Guido de Avena,	end
 
 faction	aztecs, balanced smith
 ai_label		aztecs
-denari	10000
-denari_kings_purse	7000
+denari	24000
+denari_kings_purse	9000
 settlement
 {
 	level city
@@ -6696,7 +6795,7 @@ settlement
 	}
 }
 
-character	Montezuma, named character, male, leader, age 58, x 5, y 234 
+character	Montezuma, named character, male, leader, age 58, x 89, y 3 
 traits Factionleader 1 , GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , ReligionStarter 1 
 ancillaries crown_aztecs, spymaster
 army
@@ -6713,7 +6812,7 @@ unit		Aztec Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Nopaltzin, named character, male, heir, age 42, x 5, y 220 
+character	Nopaltzin, named character, male, heir, age 42, x 198, y 35 
 traits Factionheir 1 , LoyaltyStarter 1 , ContentGeneral 3 , GoodDefender 1 , Energetic 1 , GoodAmbusher 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 3 armour 0 weapon_lvl 0
@@ -6724,7 +6823,7 @@ unit		Aztec Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Cuitlauac, named character, male, age 32, x 4, y 199 
+character	Cuitlauac, named character, male, age 32, x 117, y 6 
 traits LoyaltyStarter 1 , ContentGeneral 3 , NaturalMilitarySkill 1 , Intelligent 2 , Drink 1 , GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6736,7 +6835,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Arrow Warriors				exp 0 armour 0 weapon_lvl 0
 unit		Arrow Warriors				exp 0 armour 0 weapon_lvl 0
 
-character	Huitzilihuitl, named character, male, age 19, x 6, y 257 
+character	Huitzilihuitl, named character, male, age 19, x 172, y 8 
 traits LoyaltyStarter 1 , ContentGeneral 3 , NaturalMilitarySkill 1 , StrategicSkill 1 , Intelligent 1 , PublicFaith 1 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6747,7 +6846,7 @@ unit		Eagle Warriors				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Tenoch, named character, male, age 22, x 8, y 154 
+character	Tenoch, named character, male, age 22, x 81, y 22 
 traits LoyaltyStarter 1 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6762,7 +6861,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 
-character	Cuautemoc, named character, male, age 23, x 6, y 208
+character	Cuautemoc, named character, male, age 23, x 71, y 23
 traits LoyaltyStarter 7 , ContentGeneral 3 , GoodCommander 2 , ReligionStarter 1 
 army
 unit		Aztec Bodyguard				exp 1 armour 0 weapon_lvl 0
@@ -6783,7 +6882,7 @@ unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Aztec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Elephants Mercs			exp 0 armour 0 weapon_lvl 0
 
-character	Itzquemitl, diplomat, male, age 28, x 101, y 158 
+character	Itzquemitl, diplomat, male, age 28, x 58, y 8 
 traits GoodDiplomat 2
 
 character_record		Teotalco, 	female, age 58, alive, never_a_leader
@@ -6981,19 +7080,23 @@ settlement
 settlement
 {
 	level village
-	region Cuba
+	region Dagestan
 
 	year_founded 0
-	population 2000
+	population 2400
 	plan_set default_set
-	faction_creator aztecs
+	faction_creator mongols
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type meso_market marketplace
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
 	}
 }
 
@@ -7406,11 +7509,11 @@ settlement
 settlement
 {
 	level village
-	region Buraidah_Province
+	region Skopje_Province
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator egypt
+	faction_creator hungary
 }
 
 settlement
@@ -7814,39 +7917,6 @@ settlement castle
 settlement castle
 {
 	level large_town
-	region Granada_Province
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type core_castle_building castle
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_castle_roads c_roads
-	}
-	building
-	{
-		type castle_smith c_leather_tanner
-	}
-}
-settlement castle
-{
-	level large_town
 	region Castle_Town_Province
 	year_founded 0
 	population 2000
@@ -7976,6 +8046,32 @@ settlement
 settlement
 {
 	level large_town
+	region York_Province
+	year_founded 0
+	population 9000
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement
+{
+	level large_town
 	region Bern_Province
 	year_founded 0
 	population 9000
@@ -8040,19 +8136,19 @@ settlement castle
 settlement
 {
 	level village
-	region Brazil
+	region Fezzan
 
 	year_founded 0
-	population 2000
+	population 1400
 	plan_set default_set
-	faction_creator aztecs
+	faction_creator egypt
 	building
 	{
 		type hinterland_farms farms
 	}
 	building
 	{
-		type meso_market marketplace
+		type barracks town_watch
 	}
 }
 settlement castle
@@ -8279,25 +8375,6 @@ settlement
 	building
 	{
 		type market corn_exchange
-	}
-}
-
-
-settlement castle
-{
-	level village
-	region Bari_Province
-	year_founded 0
-	population 480
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
 	}
 }
 
@@ -8788,40 +8865,8 @@ settlement
 		type temple_orthodox church_o
 	}
 }
-settlement castle
-{
-	level village
-	region Atil_Province
-	year_founded 0
-	population 480
-	plan_set default_set
-	faction_creator mongols
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
-settlement castle
-{
-	level village
-	region Turov_Province
-	year_founded 0
-	population 480
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
-	}
-}
+
+
 settlement castle
 {
 	level village
@@ -8840,8 +8885,31 @@ settlement castle
 	}
 }
 
-
-
+settlement
+{
+	level large_town
+	region Oran_Province
+	year_founded 0
+	population 9000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
 
 settlement castle
 {
@@ -9050,6 +9118,34 @@ unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction egypt, Ghali, general, male, age 23, x 482, y 84 
+army
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Mostafa, general, male, age 23, x 432, y 80 
+army
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Nubian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+unit		Tuareg Camel Spearmens			exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction egypt, Tarek Gaballah, general, male, age 23, x 391, y 3
 army
 unit		Nubian Archers				exp 0 armour 0 weapon_lvl 0
@@ -9245,7 +9341,17 @@ unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction hungary, Istvan Mihaly, general, male, age 26, x 354, y 224 
+character	sub_faction hungary, Oremus, general, male, age 41, x 319, y 65 
+army
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+unit		Croat Axemen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hungary, Istvan Mihaly, general, male, age 26, x 355, y 222 
 army
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		S Archer Militia			exp 0 armour 0 weapon_lvl 0
@@ -9389,7 +9495,17 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 302, y 47 
+character	sub_faction france, Berthelmi, general, male, age 28, x 219, y 234
+army
+unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
+unit		Armored Sergeants			exp 0 armour 0 weapon_lvl 0
+unit		Armored Sergeants			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Shabana Gamal, general, male, age 23, x 303, y 4
 army
 unit		Azabs				exp 0 armour 0 weapon_lvl 0
 unit		Azabs				exp 0 armour 0 weapon_lvl 0
@@ -9477,6 +9593,18 @@ unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction spain, Goncaluo, general, male, age 30, x 155, y 182 
+army
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Jinetes					exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Spear Militia				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		Javelinmen				exp 0 armour 0 weapon_lvl 0
+
 character	sub_faction turks, Khalil, general, male, age 21, x 261, y 72
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9523,7 +9651,14 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Mustafa, general, male, age 21, x 484, y 262
+character	sub_faction turks, Mustafa, general, male, age 21, x 417, y 213
+army
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Mustafa, general, male, age 21, x 424, y 61
 army
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9620,7 +9755,18 @@ unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction moors, Salim, general, male, age 31, x 424, y 61 
+character	sub_faction moors, Benyounes, general, male, age 31, x 95, y 96
+army
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		ME Spear Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction moors, Alarbi, general, male, age 31, x 151, y 113
 army
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
 unit		Desert Archers				exp 0 armour 0 weapon_lvl 0
@@ -9684,6 +9830,23 @@ unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 
+character	sub_faction denmark, Christoffer, general, male, age 34, x 183, y 292
+army
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Viking Raiders				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+
+
 character	sub_faction byzantium, Komanos, general, male, age 26, x 303, y 155 
 army
 unit		Trebizond Archers			exp 0 armour 0 weapon_lvl 0
@@ -9717,7 +9880,21 @@ unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 309, y 320 
+character	sub_faction papal_states, Alexander, general, male, age 30, x 263, y 172
+army
+unit		Mailed Knights				exp 1 armour 0 weapon_lvl 0
+unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
+unit		Peasant Crossbowmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Sergeant Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Chernek, general, male, age 27, x 309, y 320 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9726,7 +9903,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 323, y 246 
+character	sub_faction russia, Guba, general, male, age 27, x 323, y 246 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9735,7 +9912,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 348, y 283 
+character	sub_faction russia, Vladimir, general, male, age 27, x 348, y 283 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9744,7 +9921,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 338, y 243 
+character	sub_faction russia, Sviatopolk, general, male, age 27, x 338, y 243 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9753,7 +9930,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 422, y 283 
+character	sub_faction russia, Nikita, general, male, age 27, x 422, y 283 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9762,7 +9939,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 406, y 302 
+character	sub_faction russia, Sidor, general, male, age 27, x 406, y 302 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9771,7 +9948,27 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 480, y 291 
+character	sub_faction russia, Volchok, general, male, age 27, x 486, y 293
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Yuri, general, male, age 27, x 507, y 215 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Mixail, general, male, age 27, x 482, y 315 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9780,7 +9977,7 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction russia, Kiselev, general, male, age 27, x 482, y 315 
+character	sub_faction russia, Bolda, general, male, age 27, x 366, y 289 
 army
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
@@ -9788,6 +9985,32 @@ unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
 unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Kazaks						exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Chernek, general, male, age 27, x 413, y 324
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Kazaks						exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction russia, Domaslav, general, male, age 27, x 446, y 291 
+army
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Spear Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		EE Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Kazaks						exp 0 armour 0 weapon_lvl 0
 
 ; ## DIPLOMACY - Relations Points
 
@@ -9849,7 +10072,7 @@ faction_standings	norway,			-0.20	ireland
 faction_standings	norway,			-0.60	denmark, scotland
 faction_standings	norway,			0.40	lithuania, novgorod
 
-faction_standings	papal_states,		0.40	antioch, jerusalem
+faction_standings	papal_states,		0.80	antioch, jerusalem, teutonic_order
 faction_standings	papal_states,		0.20	milan
 faction_standings	papal_states,		-0.40	russia
 faction_standings	papal_states,		-0.60	hre

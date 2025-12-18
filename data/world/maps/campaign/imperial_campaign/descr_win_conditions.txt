@@ -1,5 +1,5 @@
 wales
-hold_regions Caernarvon_Province Dublin_Province Wexford_Province London_Province Gloucester_Province Castle_Town_Province Lancaster_Province Exeter_Province Dumfries_Province 
+hold_regions Caernarvon_Province Dublin_Province London_Province Castle_Town_Province Cairo_Province 
 take_regions 50
 outlive england, scotland
 short_campaign hold_regions
@@ -7,7 +7,7 @@ take_regions 25
 outlive england, scotland
 
 ireland
-hold_regions Cork_Province Dublin_Province Wexford_Province London_Province Castle_Town_Province Caernarvon_Province Cardiff_Province Dumfries_Province 
+hold_regions Cork_Province Dublin_Province London_Province Castle_Town_Province Cairo_Province  
 take_regions 50
 outlive england, scotland
 short_campaign hold_regions
@@ -15,7 +15,7 @@ take_regions 25
 outlive england, scotland
 
 novgorod
-hold_regions Novgorod_Province Jerusalem_Province Marienburg_Province Konigsberg_Province Arensburg_Province Minsk_Province Smolensk_Province Riga_Province Visby_Province Reval_Province 
+hold_regions Novgorod_Province Konigsberg_Province Krakow_Province Riga_Province Kiev_Province 
 take_regions 50
 outlive teutonic_order, russia
 short_campaign hold_regions
@@ -23,7 +23,7 @@ take_regions 30
 outlive teutonic_order, russia
 
 teutonic_order
-hold_regions Marienburg_Province Novgorod_Province Vilnius_Province Palanga_Province Hrodna_Province Riga_Province Danzig_Province Poznan_Province Visby_Province Kalmar_Province 
+hold_regions Marienburg_Province Novgorod_Province Vilnius_Province Riga_Province Kalmar_Province 
 take_regions 50
 outlive lithuania, poland
 short_campaign hold_regions
@@ -31,7 +31,7 @@ take_regions 25
 outlive lithuania, poland
 
 lithuania
-hold_regions Vilnius_Province Marienburg_Province Konigsberg_Province Danzig_Province Riga_Province Novgorod_Province Hamburg_Province Pskov_Province Visby_Province 
+hold_regions Vilnius_Province Konigsberg_Province Krakow_Province Novgorod_Province Riga_Province 
 take_regions 50
 outlive teutonic_order, poland
 short_campaign hold_regions
@@ -39,15 +39,15 @@ take_regions 25
 outlive teutonic_order, poland
 
 jerusalem
-hold_regions Jerusalem_Province Cairo_Province Alexandria_Province Constantinople_Province Acre_Province Damascus_Province Isle_of_Cyprus2 Dumyat_Province Kerak_Province 
+hold_regions Jerusalem_Province Cairo_Province Alexandria_Province Constantinople_Province Isle_of_Crete
 take_regions 50
 outlive egypt, turks
-short_campaign hold_regions Antioch_Province Constantinople_Province Baghdad_Province Mosul_Province Cairo_Province Damascus_Province Krak_de_Chevaliers_Province Adana_Province 
+short_campaign hold_regions
 take_regions 25
 outlive turks, egypt
 
 antioch
-hold_regions Antioch_Province Constantinople_Province Baghdad_Province Mosul_Province Cairo_Province Damascus_Province Krak_de_Chevaliers_Province Adana_Province 
+hold_regions Antioch_Province Constantinople_Province Baghdad_Province Damascus_Province Iconium_Province
 take_regions 50
 outlive turks, egypt
 short_campaign hold_regions
@@ -55,7 +55,7 @@ take_regions 25
 outlive turks, egypt
 
 norway
-hold_regions Oslo_Province Arhus_Province London_Province Edinburgh_Province Dublin_Province Hamburg_Province Wick_Province Skara_Province Kalmar_Province Stockholm_Province Visby_Province 
+hold_regions Oslo_Province Edinburgh_Province Dublin_Province Arhus_Province Stockholm_Province
 take_regions 50
 outlive denmark, scotland
 short_campaign hold_regions
@@ -63,7 +63,7 @@ take_regions 25
 outlive denmark, scotland
 
 scotland
-hold_regions Edinburgh_Province London_Province York_Province Nottingham_Province Lancaster_Province Dublin_Province Donegal_Province Caernarvon_Province Cardiff_Province Wick_Province 
+hold_regions Edinburgh_Province London_Province Dublin_Province Caernarvon_Province Oslo_Province
 take_regions 50
 outlive england, ireland
 short_campaign hold_regions
@@ -71,7 +71,7 @@ take_regions 25
 outlive england, ireland
 
 milan
-hold_regions Milan_Province Constantinople_Province Bologna_Province Venice_Province Ancona_Province Bern_Province Marseille_Province Dijon_Province Cagliari_Province 
+hold_regions Milan_Province Constantinople_Province Venice_Province Roman_Province Marseille_Province 
 take_regions 50
 outlive venice, sicily
 short_campaign hold_regions
@@ -79,7 +79,7 @@ take_regions 30
 outlive venice, sicily
 
 venice
-hold_regions Venice_Province Constantinople_Province Bologna_Province Milan_Province Genoa_Province Ancona_Province Isle_of_Crete Zagreb_Province Durazzo_Province Corinth_Province 
+hold_regions Venice_Province Constantinople_Province Milan_Province Isle_of_Crete Corinth_Province 
 take_regions 50
 outlive byzantium, milan
 short_campaign hold_regions
@@ -87,7 +87,7 @@ take_regions 25
 outlive byzantium, milan
 
 sicily
-hold_regions Naples_Province Constantinople_Province Venice_Province Ancona_Province Bologna_Province Durazzo_Province Algiers_Province Cagliari_Province Tunis_Province 
+hold_regions Naples_Province Constantinople_Province Venice_Province Bologna_Province Tunis_Province 
 take_regions 50
 outlive moors, venice
 short_campaign hold_regions
@@ -95,7 +95,7 @@ take_regions 25
 outlive moors, venice
 
 spain
-hold_regions Leon_Province Cordoba_Province Badajoz_Province Granada_Province Valencia_Province Lisbon_Province Sevilla_Province Oporto_Province Zaragoza_Province Barcelona_Province 
+hold_regions Leon_Province Cordoba_Province Granada_Province Valencia_Province Lisbon_Province 
 take_regions 50
 outlive moors, portugal
 short_campaign hold_regions
@@ -103,7 +103,7 @@ take_regions 25
 outlive moors, portugal
 
 portugal
-hold_regions Lisbon_Province Cordoba_Province Sevilla_Province Badajoz_Province Granada_Province Leon_Province Toledo_Province Santiago_Province Valladolid_Province Pamplona_Province 
+hold_regions Lisbon_Province Cordoba_Province Granada_Province Toledo_Province Pamplona_Province 
 take_regions 50
 outlive moors, spain
 short_campaign hold_regions
@@ -111,7 +111,7 @@ take_regions 25
 outlive moors, spain
 
 denmark
-hold_regions Arhus_Province Constantinople_Province Frankfurt_Province Oslo_Province Hamburg_Province Riga_Province Kalmar_Province Novgorod_Province Danzig_Province Reval_Province Visby_Province 
+hold_regions Arhus_Province Constantinople_Province Frankfurt_Province Konigsberg_Province Riga_Province
 take_regions 50
 outlive hre, norway
 short_campaign hold_regions
@@ -119,7 +119,7 @@ take_regions 25
 outlive hre, norway
 
 poland
-hold_regions Krakow_Province Novgorod_Province Marienburg_Province Konigsberg_Province Vilnius_Province Palanga_Province Danzig_Province Hamburg_Province Riga_Province Reval_Province Visby_Province 
+hold_regions Krakow_Province Novgorod_Province Konigsberg_Province Vilnius_Province Hamburg_Province
 take_regions 50
 outlive lithuania, hre
 short_campaign hold_regions
@@ -127,7 +127,7 @@ take_regions 25
 outlive lithuania, hre
 
 hungary
-hold_regions Budapest_Province Constantinople_Province Kiev_Province Thessalonica_Province Zagreb_Province Sofia_Province Preslav_Province Belgrade_Province 
+hold_regions Budapest_Province Constantinople_Province Kiev_Province Zagreb_Province Belgrade_Province 
 take_regions 50
 outlive byzantium, venice
 short_campaign hold_regions
@@ -135,7 +135,7 @@ take_regions 25
 outlive byzantium, venice
 
 russia
-hold_regions Kiev_Province Novgorod_Province Jerusalem_Province Marienburg_Province Konigsberg_Province Vilnius_Province Minsk_Province Tver_Province Danzig_Province Riga_Province Visby_Province 
+hold_regions Kiev_Province Novgorod_Province Konigsberg_Province Sarkel_Province Riga_Province
 take_regions 50
 outlive mongols, novgorod
 short_campaign hold_regions
@@ -143,7 +143,7 @@ take_regions 30
 outlive mongols, novgorod
 
 mongols
-hold_regions Constantinople_Province Kiev_Province Novgorod_Province Vilnius_Province Riga_Province Marienburg_Province Krakow_Province Budapest_Province Baghdad_Province Yerevan_Province 
+hold_regions Constantinople_Province Kiev_Province Novgorod_Province Vilnius_Province Budapest_Province 
 take_regions 50
 outlive russia, novgorod, hungary
 short_campaign hold_regions
@@ -151,7 +151,7 @@ take_regions 25
 outlive russia, novgorod, hungary
 
 egypt
-hold_regions Cairo_Province Jerusalem_Province Ascalon_Province Antioch_Province Acre_Province Krak_de_Chevaliers_Province Constantinople_Province Damascus_Province 
+hold_regions Cairo_Province Jerusalem_Province Antioch_Province Krak_de_Chevaliers_Province Constantinople_Province
 take_regions 50
 outlive jerusalem, antioch
 short_campaign hold_regions
@@ -159,7 +159,7 @@ take_regions 25
 outlive jerusalem, antioch
 
 france
-hold_regions Paris_Province London_Province Caen_Province Turin_Province Barcelona_Province Toulouse_Province Genoa_Province Rennes_Province Bern_Province Metz_Province 
+hold_regions Paris_Province London_Province Turin_Province Genoa_Province Metz_Province 
 take_regions 50
 outlive england, hre
 short_campaign hold_regions
@@ -167,7 +167,7 @@ take_regions 25
 outlive england, hre
 
 england
-hold_regions London_Province Paris_Province Edinburgh_Province Inverness_Province Aberdeen_Province Dublin_Province Cork_Province Cardiff_Province Caernarvon_Province Bordeaux_Province Angers_Province 
+hold_regions London_Province Paris_Province Edinburgh_Province Dublin_Province Caernarvon_Province
 take_regions 50
 outlive france, scotland
 short_campaign hold_regions
@@ -175,7 +175,7 @@ take_regions 25
 outlive france, scotland
 
 turks
-hold_regions Baghdad_Province Nicaea_Province Constantinople_Province Jerusalem_Province Antioch_Province Krak_de_Chevaliers_Province Edessa_Province Damascus_Province 
+hold_regions Baghdad_Province Constantinople_Province Jerusalem_Province Antioch_Province Budapest_Province 
 take_regions 50
 outlive byzantium, antioch
 short_campaign hold_regions
@@ -183,7 +183,7 @@ take_regions 25
 outlive byzantium, antioch
 
 moors
-hold_regions Cordoba_Province Leon_Province Lisbon_Province Badajoz_Province Toledo_Province Oporto_Province Zaragoza_Province Valladolid_Province Cagliari_Province Palermo_Province Syracuse_Province 
+hold_regions Cordoba_Province Leon_Province Lisbon_Province Toledo_Province Tunis_Province
 take_regions 50
 outlive spain, portugal
 short_campaign hold_regions
@@ -191,7 +191,7 @@ take_regions 25
 outlive spain, portugal
 
 hre
-hold_regions Frankfurt_Province Roman_Province Arhus_Province Venice_Province Milan_Province Bologna_Province Genoa_Province Roskilde_Province Stettin_Province Danzig_Province Visby_Province 
+hold_regions Frankfurt_Province Roman_Province Arhus_Province Venice_Province Milan_Province 
 take_regions 60
 outlive denmark, france
 short_campaign hold_regions
@@ -199,21 +199,21 @@ take_regions 30
 outlive denmark, france
 
 byzantium
-hold_regions Roman_Province Constantinople_Province Antioch_Province Cairo_Province Alexandria_Province Jerusalem_Province Naples_Province Venice_Province Iconium_Province 
+hold_regions Roman_Province Constantinople_Province Antioch_Province Alexandria_Province Jerusalem_Province 
 take_regions 60
 outlive turks, hungary
 short_campaign hold_regions
 take_regions 30
 outlive turks, hungary
 
-papal_states
+papal_states Roman_Province Jerusalem_Province Alexandria_Province Constantinople_Province Kiev_Province
 hold_regions
 take_regions 100
 short_campaign hold_regions
 take_regions 30
 
 aztecs
-hold_regions Brazil North_America Lisbon_Province Leon_Province Santiago_Province Oporto_Province Sevilla_Province 
+hold_regions Tenochtitlan_Province Lisbon_Province Leon_Province Cordoba_Province Roman_Province
 take_regions 50
 outlive spain, portugal
 short_campaign hold_regions
@@ -221,11 +221,11 @@ take_regions 25
 outlive spain, portugal
 
 timurids
-hold_regions
-take_regions 100
+hold_regions Baghdad_Province Constantinople_Province Jerusalem_Province Antioch_Province Cairo_Province
+take_regions 50
 outlive byzantium, turks
 short_campaign hold_regions
-take_regions 80
+take_regions 25
 outlive byzantium, turks
 
 slave

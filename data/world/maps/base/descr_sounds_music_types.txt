@@ -28,7 +28,7 @@ regions Halych_Province Peremyshl_Province Tzernigov_Province Kozelsk_Province T
 regions Minsk_Province Metz_Province Prague_Province Nuremburg_Province Hohenstauffen_Province
 regions Iasi_Province Bran_Province Vienna_Province Bern_Province Innsbruck_Province
 regions Bucharest_Province Zagreb_Province Belgrade_Province Sofia_Province Preslav_Province
-regions Ragusa_Province Zara_Province
+regions Ragusa_Province Zara_Province Dagestan Dacia_Province
 
 factions novgorod teutonic_order lithuania norway denmark poland hungary russia hre
 
@@ -42,9 +42,9 @@ regions Dijon_Province Bordeaux_Province Turin_Province Toulouse_Province Barcel
 regions Leon_Province Bologna_Province Pamplona_Province Genoa_Province Florence_Province
 regions Trebizond_Province Sinope_Province Marseille_Province Zaragoza_Province Oporto_Province
 regions Thessalonica_Province Ajaccio_Province Nicaea_Province Athens_Province Adrianople_Province
-regions Abydus_Province Bari_Province Syracuse_Province Durazzo_Province Kerkyra_Province
+regions Abydus_Province Bari_Province Durazzo_Province Kerkyra_Province
 regions Valencia_Province Mallorca_Province Cagliari_Province Smyrna_Province Corinth_Province
-regions Isle_of_Cyprus Isle_of_Cyprus2 Isle_of_Rhodes Isle_of_Crete
+regions Isle_of_Cyprus Isle_of_Rhodes Isle_of_Crete Skopje_Province
 
 factions milan venice sicily spain portugal france byzantium papal_states slave
 
@@ -55,11 +55,11 @@ regions Malta_Province Malatya_Province Krak_de_Chevaliers_Province Kerak_Provin
 regions Viatka_Province Tbilisi_Province Kutais_Province Yerevan_Province Tabriz_Province
 regions Caesarea_Province Ankara_Province Baghdad_Province Sevilla_Province Adana_Province
 regions Attalia_Province Mosul_Province Edessa_Province Granada_Province Aleppo_Province
-regions Ayla_Province Al_Suways_Province Mekka_Province Medina_Province Buraidah_Province
+regions Ayla_Province Al_Suways_Province Mekka_Province Medina_Province 
 regions Palermo_Province Marrakesh_Province Fez_Province Sijilmasa_Province Damascus_Province
 regions Algiers_Province Tunis_Province Acre_Province Ascalon_Province Tripoli_Province
 regions Al-Mahdiya_Province Barqa_Province Alexandria_Province Dumyat_Province Arguin_Province
-regions Timbuktu_Province Thebes_Province Dongola_Province
+regions Timbuktu_Province Thebes_Province Dongola_Province Fezzan Media_Province
 
 factions jerusalem antioch mongols egypt turks moors
 
