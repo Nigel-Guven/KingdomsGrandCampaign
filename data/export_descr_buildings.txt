@@ -2443,7 +2443,7 @@ building port
     convert_to castle_port
     levels port shipwright dockyard naval_drydock 
     {
-        port city requires factions { northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } 
+        port city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, } 
         {
             convert_to 0
             capability
