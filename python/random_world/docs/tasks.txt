@@ -1,0 +1,16 @@
+Steps to make randomizer for imperial campaign
+
+1. Load required files
+2. Random Generation Logic for settlements
+3. Faction Assignment 
+4. Settlement Assignment
+5. Character Assignment
+6. Character Placement
+7. Army Generation
+9. Generate Random Alliances
+10. Generate Random Wars
+11. Generate Faction Standings
+12. descr_strat validator
+13. Output descr_strat modified file
+14. Edit .bat launch file
+15. 

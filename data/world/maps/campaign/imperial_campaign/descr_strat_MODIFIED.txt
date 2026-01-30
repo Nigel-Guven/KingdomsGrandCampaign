@@ -1349,10 +1349,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_orthodox church_o
-	}
 }
 settlement castle
 {
@@ -1406,10 +1402,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_orthodox small_church_o
 	}
 }
 settlement
@@ -1526,10 +1518,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_catholic small_church
-	}
 }
 settlement castle
 {
@@ -1599,10 +1587,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
 	}
 }
 
@@ -1716,10 +1700,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_dievas dievas_sanctuary
-	}
 }
 settlement castle
 {
@@ -1741,10 +1721,6 @@ settlement castle
 	{
 		type missiles bowyer
 	}
-	building
-	{
-		type temple_perkunas perkunas_altar
-	}
 }
 settlement castle
 {
@@ -1761,10 +1737,6 @@ settlement castle
 	building
 	{
 		type castle_barracks garrison_quarters
-	}
-	building
-	{
-		type temple_giltine giltine_altar
 	}
 }
 settlement
@@ -1798,10 +1770,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_giltine giltine_altar
 	}
 }
 
@@ -1912,10 +1880,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
 	}
 }
 settlement castle
@@ -2126,10 +2090,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
 	}
 }
 settlement castle
@@ -2723,10 +2683,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_catholic church 
-	}
 }
 settlement
 {
@@ -2759,10 +2715,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_orthodox small_church_o
 	}
 }
 settlement castle
@@ -2821,10 +2773,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
 	}
 }
 settlement
@@ -2977,10 +2925,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
 	}
 }
 
@@ -3206,10 +3150,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church 
 	}
 }
 settlement castle
@@ -4439,10 +4379,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_orthodox church_o
-	}
 }
 settlement
 {
@@ -5014,10 +4950,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 } 
 settlement castle
 {
@@ -5134,10 +5066,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 settlement castle
 {
@@ -5221,10 +5149,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 settlement castle
 {
@@ -5293,10 +5217,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
 	}
 }
 
@@ -5469,10 +5389,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
 	}
 }
 
@@ -5792,10 +5708,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_catholic church
 	}
 }
 settlement castle
@@ -6180,10 +6092,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
 }
 settlement castle
 {
@@ -6414,10 +6322,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 
 settlement castle
@@ -6530,10 +6434,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
 	}
 }
 settlement castle
@@ -6707,10 +6607,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_catholic church
-	}
 }
 settlement castle
 {
@@ -6797,10 +6693,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
 	}
 }
 settlement castle
@@ -6898,10 +6790,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_catholic small_church
-	}
 }
 settlement
 {
@@ -6934,10 +6822,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
 	}
 }
 
@@ -7119,10 +7003,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_orthodox church_o
-	}
 }
 settlement castle
 {
@@ -7293,10 +7173,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_orthodox church_o
 	}
 }
 
@@ -7550,10 +7426,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_catholic church 
-	}
 }
 
 character	Gregory, named character, male, leader, age 36, x 255, y 161 
@@ -7625,10 +7497,6 @@ settlement
 	building
 	{
 		type core_building stone_wall
-	}
-	building
-	{
-		type temple_pagan great_pyramid
 	}
 	building
 	{
@@ -7908,10 +7776,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_catholic small_church
-	}
 }
 
 settlement
@@ -8070,10 +7934,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_catholic church
-	}
 }
 settlement
 {
@@ -8184,10 +8044,6 @@ settlement
 	building
 	{
 		type taverns brothel
-	}
-	building
-	{
-		type temple_muslim minareted_masjid
 	}
 }
 
@@ -8344,10 +8200,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_muslim small_masjid
-	}
 }
 
 settlement castle
@@ -8399,10 +8251,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
 	}
 }
 
@@ -8460,10 +8308,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_muslim small_masjid
 	}
 }
 
@@ -8604,10 +8448,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_catholic church 
-	}
 }
 settlement
 {
@@ -8640,10 +8480,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_catholic small_church
 	}
 }
 
@@ -8766,10 +8602,6 @@ settlement
 	{
 		type market market
 	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
 }
 settlement castle
 {
@@ -8850,10 +8682,6 @@ settlement
 	{
 		type taverns brothel
 	}
-	building
-	{
-		type temple_muslim minareted_masjid
-	}
 }
 
 settlement castle
@@ -8905,10 +8733,6 @@ settlement
 	building
 	{
 		type market market
-	}
-	building
-	{
-		type temple_orthodox church_o
 	}
 }
 

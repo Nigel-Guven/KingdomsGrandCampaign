@@ -2137,7 +2137,7 @@ script
     ; ---------------------
     ; start up
 
-    ;freeze_faction_ai aztecs
+    freeze_faction_ai aztecs
 
     ;----------------------
     ; monitors
@@ -2153,11 +2153,11 @@ script
 
 	;----------------- AZTEC EMPIRE REVEALED ----------------;
 
-            monitor_event ObjSeen  TargetFactionType aztecs
-                and not FactionType slave
-                    historic_event aztecs_contacted event/aztecs_contacted.bik
-                    terminate_monitor
-            end_monitor
+	monitor_event ObjSeen  TargetFactionType aztecs
+        and not FactionType slave
+        historic_event aztecs_contacted event/aztecs_contacted.bik
+        terminate_monitor
+    end_monitor
 
 
     ;------------------- AI KINGS PURSE BONUS -------------------;

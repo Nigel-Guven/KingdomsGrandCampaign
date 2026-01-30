@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 pool America
-	regions North_America Cuba
+	regions North_America
 	unit Native Mercenaries			exp 0 cost 600 replenish 0.06 - 0.18 max 4 initial 4
 
 pool Scotland_Ireland
@@ -72,7 +72,7 @@ pool Netherlands
 	unit Crusader Sergeants			exp 0 cost 210 replenish 0.15 - 0.35 max 4 initial 1  end_year 1280 religions { catholic } crusading
 
 pool Northern_Germany
-	regions Frankfurt_Province Stettin_Province Hamburg_Province Roskilde_Province Magdeburg_Province
+	regions Frankfurt_Province Stettin_Province Hamburg_Province Roskilde_Province Magdeburg_Province Oldenburg_Province
 	unit merc cog,				exp 0 cost 300 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,				exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary German Knights		exp 0 cost 1050 replenish 0.02 - 0.10 max 2 initial 0 end_year 1280 religions { catholic orthodox }
@@ -87,7 +87,7 @@ pool Northern_Germany
 	unit Crusader Sergeants			exp 0 cost 210 replenish 0.15 - 0.35 max 4 initial 1  end_year 1280 religions { catholic } crusading
 
 pool Southern_Germany
-	regions Prague_Province Nuremburg_Province Hohenstauffen_Province Vienna_Province Innsbruck_Province
+	regions Prague_Province Nuremburg_Province Hohenstauffen_Province Vienna_Province Innsbruck_Province Moravia_Province
 	unit Mercenary German Knights		exp 0 cost 1050 replenish 0.02 - 0.10 max 2 initial 0 end_year 1280 religions { catholic orthodox }
 	unit Landschneckt Pikemen		exp 0 cost 630 replenish 0.08 - 0.25 max 4 initial 0 start_year 1280 religions { catholic orthodox }
 	unit Mercenary Crossbowmen		exp 0 cost 900 replenish 0.08 - 0.25 max 2 initial 1 end_year 1200
@@ -114,12 +114,12 @@ pool Poland
 	unit Crusader Knights			exp 0 cost 320 replenish 0.12 - 0.28 max 3 initial 1  end_year 1280 religions { catholic } crusading
 
 pool Steppes
-	regions Sarkel_Province Kiev_Province Murom_Province Volga-Bulgar_Province Viatka_Province Ryazan_Province Azov_Province Atil_Province Samandar_Province Tzernigov_Province Kozelsk_Province Turov_Province Tmutarakan_Province Cherson_Province
+	regions Sarkel_Province Dagestan Kiev_Province Murom_Province Volga-Bulgar_Province Viatka_Province Ryazan_Province Azov_Province Atil_Province Samandar_Province Tzernigov_Province Kozelsk_Province Turov_Province Tmutarakan_Province Cherson_Province
 	unit Cuman Horse Archers		exp 0 cost 720 replenish 0.04 - 0.13 max 2 initial 1
 	unit Alan Light Cavalry			exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 1
 
 pool Mexico
-	regions Tenochtitlan_Province Huaxtepec_Province Tollan_Province Tixtla_Province
+	regions Tenochtitlan_Province
 	unit Native Mercenaries			exp 0 cost 600 replenish 0.36 - 1.0 max 12 initial 4
 
 pool France
@@ -179,7 +179,7 @@ pool West Balkans
 	unit Akinjis				exp 0 cost 720 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
 
 pool East Balkans
-	regions Iasi_Province Bran_Province Bucharest_Province Sofia_Province Preslav_Province
+	regions Iasi_Province Bran_Province Bucharest_Province Sofia_Province Preslav_Province Skopje_Province Dacia_Province
 	unit merc galley,			exp 0 cost 300 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc galley,			exp 0 cost 300 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
 	unit merc galley,			exp 0 cost 1140 replenish 0.01 - 0.05 max 1 initial 1
@@ -241,7 +241,7 @@ pool Northern_Italy
 	unit Swiss Pikemen Mercs		exp 0 cost 790 replenish 0.06 - 0.18 max 3 initial 0 start_year 1280
 
 pool Sicily
-	regions Naples_Province Bari_Province Syracuse_Province Palermo_Province
+	regions Naples_Province Bari_Province Palermo_Province
 	unit merc galley,			exp 0 cost 300 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc galley,			exp 0 cost 1140 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary Crossbowmen		exp 0 cost 900 replenish 0.04 - 0.13 max 2 initial 1 end_year 1200
@@ -283,7 +283,7 @@ pool Greece
 	unit Alamanoi				exp 0 cost 930 replenish 0.06 - 0.18 max 3 initial 1 start_year 1200 religions { catholic orthodox }
 
 pool Anatolia
-	regions Iconium_Province Trebizond_Province Sinope_Province Nicaea_Province Caesarea_Province Smyrna_Province Isle_of_Cyprus Isle_of_Cyprus2
+	regions Iconium_Province Trebizond_Province Sinope_Province Nicaea_Province Caesarea_Province Smyrna_Province Isle_of_Cyprus
 	unit merc galley,			exp 0 cost 300 replenish 0.36 - 1.0 max 2 initial 1 religions { islam } crusading
 	unit merc galley,			exp 0 cost 1140 replenish 0.06 - 0.18 max 1 initial 0
 	unit Alan Light Cavalry			exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 1
@@ -309,7 +309,7 @@ pool Armenia
 	unit Armenians of Celicia		exp 0 cost 840 replenish 0.06 - 0.18 max 3 initial 1 religions { catholic orthodox }
 
 pool Arabia
-	regions Baghdad_Province Mosul_Province Ayla_Province Al_Suways_Province Mekka_Province Medina_Province Buraidah_Province
+	regions Baghdad_Province Mosul_Province Ayla_Province Al_Suways_Province Mekka_Province Medina_Province Media_Province
 	unit Bedouin Cavalry			exp 0 cost 730 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
 	unit Bedouin Camel Riders		exp 0 cost 1020 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
 	unit Kwarizmian Cavalry			exp 0 cost 1120 replenish 0.08 - 0.25 max 4 initial 0 religions { islam }
@@ -319,10 +319,6 @@ pool Arabia
 	unit Elephants Mercs			exp 0 cost 3000 replenish 0.02 - 0.04 max 1 initial 1
 	unit Elephant Artillery Mercs		exp 0 cost 5000 replenish 0.02 - 0.04 max 1 initial 0 start_year 1200 events { gunpowder_discovered }
 	unit Afghan Javelinmen Mercs		exp 0 cost 1020 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-
-pool Brazil
-	regions Brazil
-	unit Native Mercenaries			exp 0 cost 600 replenish 0.12 - 0.33 max 4 initial 0
 
 pool North_Africa
 	regions Malta_Province Marrakesh_Province Fez_Province Sijilmasa_Province Algiers_Province Tunis_Province Tripoli_Province Al-Mahdiya_Province Al-Mansurya_Province Barqa_Province
@@ -350,7 +346,7 @@ pool Levant
 	unit Dismounted Ghulams			exp 0 cost 820 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
 
 pool Egypt
-	regions Cairo_Province Alexandria_Province Dumyat_Province Thebes_Province
+	regions Cairo_Province Alexandria_Province Dumyat_Province
 	unit merc galley,			exp 0 cost 300 replenish 0.36 - 1.0 max 2 initial 1 religions { islam } crusading
 	unit merc galley,			exp 0 cost 1140 replenish 0.06 - 0.18 max 1 initial 1
 	unit Bedouin Cavalry			exp 0 cost 730 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
@@ -362,12 +358,12 @@ pool Egypt
 	unit Dismounted Ghulams			exp 0 cost 660 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
 
 pool West_Africa
-	regions Arguin_Province Timbuktu_Province
+	regions Arguin_Province Timbuktu_Province Jolof_Province
 	unit merc galley,			exp 0 cost 1140 replenish 0.06 - 0.18 max 1 initial 1
 	unit Sudanese Tribesmen Mercs		exp 0 cost 540 replenish 0.11 - 0.33 max 6 initial 1
 	unit Elephants Mercs			exp 0 cost 3000 replenish 0.02 - 0.04 max 1 initial 1
 
 pool Nubia
-	regions Dongola_Province
+	regions Dongola_Province Fezzan Thebes_Province
 	unit Sudanese Tribesmen Mercs		exp 0 cost 540 replenish 0.08 - 0.25 max 4 initial 1
 
