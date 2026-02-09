@@ -188,18 +188,18 @@
    </factor_modifiers>
    <population_levels>
 	  <!-- city -->
-	  <level name="village" base="1000" upgrade="4000" min="400" max="5000"/>
-	  <level name="town" base="4000" upgrade="9000" min="400" max="12000"/>
-	  <level name="large_town" base="9000" upgrade="16000" min="400" max="25000"/>
-	  <level name="city" base="16000" upgrade="30000" min="400" max="40000"/>
-	  <level name="large_city" base="30000" upgrade="50000" min="400" max="80000"/>
-	  <level name="huge_city" base="50000" min="400" max="100000"/>
+	  <level name="village" base="1000" upgrade="4000" min="400" max="6000"/>
+	  <level name="town" base="4000" upgrade="12000" min="400" max="15000"/>
+	  <level name="large_town" base="12000" upgrade="24000" min="400" max="30000"/>
+	  <level name="city" base="24000" upgrade="45000" min="400" max="55000"/>
+	  <level name="large_city" base="45000" upgrade="75000" min="400" max="90000"/>
+	  <level name="huge_city" base="75000" min="400" max="120000"/>
 
 	  <!-- castle -->
-	  <level name="moot_and_bailey" base="500" upgrade="2500" min="400" max="3000"/>
-	  <level name="wooden_castle" base="2500" upgrade="6000" min="400" max="8000"/>
-	  <level name="castle" base="6000" upgrade="16000" min="400" max="20000"/>
-	  <level name="fortress" base="16000" upgrade="30000" min="400" max="40000"/>
-	  <level name="citadel" base="30000" upgrade="60000" min="400" max="70000"/>
+	  <level name="moot_and_bailey" base="500" upgrade="3500" min="400" max="4500"/>
+	  <level name="wooden_castle" base="3500" upgrade="8000" min="400" max="10000"/>
+	  <level name="castle" base="8000" upgrade="18000" min="400" max="22000"/>
+	  <level name="fortress" base="18000" upgrade="30000" min="400" max="40000"/>
+	  <level name="citadel" base="30000" min="400" max="45000"/>
 	</population_levels>
 </root>
