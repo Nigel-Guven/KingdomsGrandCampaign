@@ -40,7 +40,7 @@ def parse_regions(region_data):
             
             religions_dictionary[key] = value
 
-        region = Region(province_name, settlement_name, culture, rebels_type, rgb_value, features, famine_level, agriculture_level, religions_dictionary, None, None)
+        region = Region(province_name, settlement_name, culture, rebels_type, rgb_value, features, famine_level, agriculture_level, religions_dictionary, None, None, None)
         regions.append(region)
         
         i+=9

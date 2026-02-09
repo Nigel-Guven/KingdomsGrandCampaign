@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from decimal import Decimal
 
 @dataclass
 class FactionCharacterNames:
@@ -19,6 +20,8 @@ class Faction:
     characters: list
     character_records: list
     factionCharacterNames : FactionCharacterNames
+    factionRelations : dict[Decimal, list] = field(default_factory=dict)
+    enemies: list = field(default_factory=list)
         
 
     

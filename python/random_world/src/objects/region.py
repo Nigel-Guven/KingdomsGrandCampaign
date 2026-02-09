@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+from objects.settlementconfiguration import SettlementConfiguration
+
 @dataclass
 class Region:
         province_name: str
@@ -13,3 +15,4 @@ class Region:
         religions: dict[str, int]
         settlement_positionX: int
         settlement_positionY: int
+        settlement_configuration: SettlementConfiguration

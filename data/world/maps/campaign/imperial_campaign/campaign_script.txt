@@ -1858,7 +1858,7 @@ script
 
 		spawn_army 
 				faction norway 
-				character	Haakon Thorrodson, named character, x 166, y 293
+				character	Haakon Thorrodson, named character, x 216, y 271
 				traits 		GoodCommander 2 , BattleChivalry 4 , StrategyChivalry 2 , Loyal 2, ContentGeneral 3
 				unit		NE Bodyguard				exp 3 armour 0 weapon_lvl 0
 				unit		Feudal Knights			exp 0 armour 0 weapon_lvl 0

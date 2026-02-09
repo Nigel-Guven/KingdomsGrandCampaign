@@ -3637,43 +3637,10 @@ faction: denmark
 faction: egypt
 
 	characters
-		al Adid
-		al Adil
-		Al-Afdal
-		al Amir
-		al Aziz
-		al Az_iz
-		al Faiz
-		al Hafiz
-		al Hakim
-		al Ikhshid
-		al Kamil
-		al Labi
-		al Mahdi
-		al Mansur
-		al Muazzam
-		al Mu_izz
-		al Mustain
-		al Mustakfi
-		al Mustali
-		al Mustamsik
-		al Mustanjid
-		Al-Mustansir
-		al Mutadid
-		al Mutasim
-		al Mutawakkil
-		al Qaim
-		al Wathiq
-		Al-Assel
-		Al-Fayed
 		Allam
-		Al-Sadat
-		Al-Zahir
 		Aly
 		Amir
-		as Salih
 		Ayyubid
-		az Zafir
 		Batrawi
 		Baybars
 		Camona
@@ -3687,7 +3654,6 @@ faction: egypt
 		Hakki
 		Hazem
 		Iamam
-		Imad ad Din
 		Mahfouz
 		Mahmoud
 		Marsal
@@ -3698,8 +3664,6 @@ faction: egypt
 		Nabih
 		Nagib
 		Naguib
-		Najm ad Din
-		Nasir ad Din
 		Nasser
 		Rassul
 		Reis
@@ -3707,10 +3671,8 @@ faction: egypt
 		Saadauri
 		Sabry
 		Saladin
-		Salahud Din
 		Salam
 		Samy
-		Sayf ad Din
 		Shabana
 		Shehata
 		Sindhom
@@ -3768,11 +3730,8 @@ faction: egypt
 		of Dandera
 		of Hurghada
 		of Imbaba
-		of Al Jizah
 		of Kharga
-		of Kom Ombo
 		of Luxor
-		of Al Minya
 		of Noubarya
 		of Siwah
 		of Suez
@@ -4924,10 +4883,10 @@ faction: mongols
 		Mandughai
 		Maria
 		Minghan
-		Oghul Qamish
+		Oghul
 		Orqina
 		Qacha
-		Sorghaghtani Beki
+		Sorghaghtani
 		Suhe
 		Tilik
 		Toregene
@@ -5049,7 +5008,6 @@ faction: timurids
 
 
 	women
-		Al Alta
 		Alagh
 		Alan
 		Altan
@@ -5084,7 +5042,6 @@ faction: timurids
 		Eiji
 		Fedora
 		Goland
-		Ho'elun
 		Jambyn
 		Jochi
 		Khultulun

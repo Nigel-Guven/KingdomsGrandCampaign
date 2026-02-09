@@ -15,7 +15,7 @@ class MaleCharacter(BaseCharacter):
         positionX: int = 0 
         positionY: int = 0 
         traits: list = field(default_factory=list)
-        ancillaries: list = field(default_factory=list)
+        ancillaries: str = ""
         army_units: list  = field(default_factory=list)
         
 @dataclass
