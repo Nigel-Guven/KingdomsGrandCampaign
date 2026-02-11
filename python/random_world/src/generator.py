@@ -6,6 +6,8 @@ from objects.script_enums import AztecCityBuilding, CastleBuilding, CityBuilding
 from objects.faction import Faction
 from objects.character.character import FemaleCharacter, MaleCharacter
 from objects.settlementconfiguration import SettlementConfiguration
+import matplotlib.pyplot as plt
+
 
 seed_value = None
 random.seed(seed_value)
@@ -15,6 +17,7 @@ def create_factions_configuration(regions, names, region_amount):
     
     factions_list = create_factions(names)
     assign_settlements(factions_list, regions, region_amount)
+    #visualize_map(factions_list, regions)
     #Create Characters for faction based on amount of regions
     assign_characters(factions_list)
     #Create family records for Faction characters
@@ -74,7 +77,8 @@ def getAILabel(factionName):
                 return "slave_faction"
             case _:
                 return "catholic"
-            
+  
+# TODO: Aztec need changes here    
 def assign_settlements(factions, regions, region_amount):
 
     special_papal_regions = {"Roman_Province"}
@@ -84,13 +88,9 @@ def assign_settlements(factions, regions, region_amount):
         "Arguin_Province", 
         "Timbuktu_Province", 
         "Jolof_Province", 
-        "Fezzan", 
-        "Dongola_Province",
-        "Mekka_Province",
-        "Viatka_Province"}
-    
-    
-    excluded =special_slave_regions | special_aztec_regions | special_papal_regions
+        "Fezzan"}
+     
+    excluded = special_slave_regions | special_aztec_regions | special_papal_regions
     
     available_regions = [r for r in regions if r.province_name not in excluded]    
     
@@ -108,7 +108,8 @@ def assign_settlements(factions, regions, region_amount):
         
         if faction.faction_name in {
             FactionEnum.AZTECS.value,
-            FactionEnum.PAPAL_STATES.value
+            FactionEnum.PAPAL_STATES.value,
+            FactionEnum.SLAVE.value
         }:
             continue
         
@@ -132,24 +133,32 @@ def assign_settlements(factions, regions, region_amount):
 
         faction.settlements = cluster
 
-    aztecs = next(f for f in factions if f.faction_name == FactionEnum.AZTECS.value)
-    aztecs.settlements = [
+    aztec_faction = next(f for f in factions if f.faction_name == FactionEnum.AZTECS.value)
+    aztec_faction.settlements = [
         r for r in regions
         if r.province_name in special_aztec_regions
     ]
     
-    papal = next(f for f in factions if f.faction_name == FactionEnum.PAPAL_STATES.value)
-    papal.settlements = [
+    papal_faction = next(f for f in factions if f.faction_name == FactionEnum.PAPAL_STATES.value)
+    papal_faction.settlements = [
         r for r in regions
         if r.province_name in special_papal_regions
     ]
         
-    slave = next(f for f in factions if f.faction_name == FactionEnum.SLAVE.value)
-    slave.settlements = [
+    slave_faction = next(f for f in factions if f.faction_name == FactionEnum.SLAVE.value)
+    slave_faction.settlements = [
         r for r in regions
         if r.province_name in special_slave_regions
     ]
-    slave.settlements.extend(unclaimed)
+    slave_faction.settlements.extend(unclaimed)
+    
+    count = 0
+    for faction in factions:
+        for settlement in faction.settlements:
+            if settlement in regions:
+                count+=1
+    
+    print(count)
     
 def assign_characters(factions):
 
@@ -523,11 +532,11 @@ def assign_character_names(faction):
             character.character_name = f"{fname}".strip()
         else: 
             character.character_name = f"{fname} {sname}".strip().replace("  ", " ")
-        
+# TODO: Changes for algorithm here        
 def weighted_distance(regionA, regionB):
     
-    x_weight = 1.0
-    y_weight = 460 / 315
+    x_weight = (regionA.settlement_positionX + regionB.settlement_positionX) / 510
+    y_weight = (regionA.settlement_positionY + regionB.settlement_positionY) / 337
     
     dx = (regionA.settlement_positionX - regionB.settlement_positionX) * x_weight
     dy = (regionA.settlement_positionY - regionB.settlement_positionY) * y_weight
@@ -616,7 +625,7 @@ def assign_allies_and_enemies(factions):
                 
             if factionJ.faction_name == "slave":
                 factionI.enemies.append(factionJ.faction_name)
-
+# TODO: Aztec need changes here
 def update_region_settlement_configurations(factions):
     for factionI in factions:
         
@@ -748,6 +757,29 @@ def create_large_town_buildings():
         CityBuilding.CITY_MARKET_MARKET,
         CityBuilding.CITY_SMITH_LEATHER_TANNER,
         CityBuilding.CITY_FARM_LEVEL_1]     
+
+# Aztec Faction
+def create_aztec_city_buildings():
+    return [
+        AztecCityBuilding.AZTEC_CORE_CITY_BUILDING_STONE_WALL,
+        AztecCityBuilding.AZTEC_CITY_PALACE_COMPLEX,
+        AztecCityBuilding.AZTEC_CITY_MARKET_MARKET,
+        AztecCityBuilding.AZTEC_GREAT_PYRAMID,
+        AztecCityBuilding.AZTEC_CITY_ROADS,
+        AztecCityBuilding.AZTEC_FARM_LEVEL_2]
+def create_aztec_large_town_buildings():
+    return [
+        AztecCityBuilding.AZTEC_CORE_CITY_BUILDING_WOODEN_WALL,
+        AztecCityBuilding.AZTEC_CITY_PALACE,
+        AztecCityBuilding.AZTEC_CITY_MARKET_MARKET,
+        AztecCityBuilding.AZTEC_PYRAMID,
+        AztecCityBuilding.AZTEC_FARM_LEVEL_2]
+def create_aztec_village_buildings():
+    return [
+        AztecCityBuilding.AZTEC_CORE_CITY_BUILDING_NO_WALLS,
+        AztecCityBuilding.AZTEC_FARM_LEVEL_1]
+    
+# Papal Faction
 def create_city_buildings():
     return [
         CityBuilding.CORE_CITY_BUILDING_STONE_WALL,
@@ -757,15 +789,45 @@ def create_city_buildings():
         CityBuilding.CITY_SMITH_BLACKSMITH,
         CityBuilding.CITY_FARM_LEVEL_2,
         CityBuilding.CITY_ROADS,]        
-def create_aztec_city_buildings():
-    return [
-        AztecCityBuilding.AZTEC_CORE_CITY_BUILDING_STONE_WALL,
-        AztecCityBuilding.AZTEC_CITY_PALACE_COMPLEX,
-        AztecCityBuilding.AZTEC_CITY_MARKET_MARKET,
-        AztecCityBuilding.AZTEC_GREAT_PYRAMID,
-        AztecCityBuilding.AZTEC_CITY_ROADS,
-        AztecCityBuilding.AZTEC_FARM_LEVEL_2]
-        
 
-#character	sub_faction spain, El_Cid, named character, male, age 32, x 160, y 172 
-#character	Brian O'Neill, named character, male, leader, age 38, x 137, y 276,
+def visualize_map(factions, regions):
+    plt.figure(figsize=(12, 8))
+
+    # plot all regions in light gray
+    xs = [r.settlement_positionX for r in regions]
+    ys = [r.settlement_positionY for r in regions]
+    plt.scatter(xs, ys, s=10, c="lightgray", label="All regions")
+
+    for faction in factions:
+        if not faction.settlements:
+            continue
+
+        fx = [r.settlement_positionX for r in faction.settlements]
+        fy = [r.settlement_positionY for r in faction.settlements]
+
+        plt.scatter(
+            fx,
+            fy,
+            s=30,
+            label=faction.faction_name
+        )
+
+        # mark the seed clearly
+        seed = faction.settlements[0]
+        plt.scatter(
+            seed.settlement_positionX,
+            seed.settlement_positionY,
+            s=120,
+            marker="X",
+            edgecolors="black"
+        )
+
+    plt.legend(
+        fontsize=8,
+        bbox_to_anchor=(1.05, 1),
+        loc="upper left"
+    )
+    plt.title("MTW2 Campaign Region Assignment")
+    plt.axis("equal")
+    plt.tight_layout()
+    plt.show()  
