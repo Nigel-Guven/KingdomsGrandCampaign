@@ -2137,27 +2137,27 @@ script
     ; ---------------------
     ; start up
 
-    freeze_faction_ai aztecs
+    ;freeze_faction_ai aztecs
 
     ;----------------------
     ; monitors
 
 	;----------------- AMERICA DISCOVERED ----------------;
 
-    monitor_event TileSeen not FactionType aztecs
-        and not FactionType slave
-        and IsPositionInRect 0 85 69 252
-        historic_event america_discovered event/america_discovered.bik
-        terminate_monitor
-    end_monitor
+    ;monitor_event TileSeen not FactionType aztecs
+    ;    and not FactionType slave
+    ;    and IsPositionInRect 0 85 69 252
+    ;    historic_event america_discovered event/america_discovered.bik
+    ;    terminate_monitor
+    ;end_monitor
 
 	;----------------- AZTEC EMPIRE REVEALED ----------------;
 
-	monitor_event ObjSeen  TargetFactionType aztecs
-        and not FactionType slave
-        historic_event aztecs_contacted event/aztecs_contacted.bik
-        terminate_monitor
-    end_monitor
+	;monitor_event ObjSeen  TargetFactionType aztecs
+    ;    and not FactionType slave
+    ;    historic_event aztecs_contacted event/aztecs_contacted.bik
+    ;    terminate_monitor
+    ;end_monitor
 
 
     ;------------------- AI KINGS PURSE BONUS -------------------;

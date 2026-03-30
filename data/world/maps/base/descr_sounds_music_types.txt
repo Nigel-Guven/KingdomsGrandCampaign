@@ -59,13 +59,13 @@ regions Ayla_Province Al_Suways_Province Mekka_Province Medina_Province
 regions Palermo_Province Marrakesh_Province Fez_Province Sijilmasa_Province Damascus_Province
 regions Algiers_Province Tunis_Province Acre_Province Ascalon_Province Tripoli_Province
 regions Al-Mahdiya_Province Barqa_Province Alexandria_Province Dumyat_Province Arguin_Province
-regions Timbuktu_Province Thebes_Province Dongola_Province Fezzan Media_Province
+regions Timbuktu_Province Thebes_Province Dongola_Province Fezzan Media_Province Euphrates_Province
 
 factions jerusalem antioch mongols egypt turks moors
 
 music_type mesoamerican
 
-regions Tenochtitlan_Province North_America Huaxtepec_Province Cuba Tollan_Province
+regions Tenochtitlan_Province Huaxtepec_Province Cuba Tollan_Province
 regions Tixtla_Province Brazil
 
 factions aztecs

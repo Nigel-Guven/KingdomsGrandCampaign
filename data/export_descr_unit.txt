@@ -11210,7 +11210,7 @@ stat_food        60, 300
 stat_cost        1, 1100, 250, 60, 140, 1100, 1, 260
 armour_ug_levels 0
 armour_ug_models NE_Cannon_Crew
-ownership        hre, sicily, denmark, teutonic_order, norway
+ownership        hre, sicily, denmark, a_order, norway
 era 2            hre, sicily, denmark, teutonic_order, norway
 recruit_priority_offset   15
 

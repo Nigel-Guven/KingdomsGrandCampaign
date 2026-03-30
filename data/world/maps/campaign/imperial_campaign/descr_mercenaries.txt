@@ -4,10 +4,6 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-pool America
-	regions North_America
-	unit Native Mercenaries			exp 0 cost 600 replenish 0.06 - 0.18 max 4 initial 4
-
 pool Scotland_Ireland
 	regions Edinburgh_Province Cork_Province Galway_Province Inverness_Province Aberdeen_Province Dumfries_Province Dublin_Province Wexford_Province Donegal_Province
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
@@ -309,7 +305,7 @@ pool Armenia
 	unit Armenians of Celicia		exp 0 cost 840 replenish 0.06 - 0.18 max 3 initial 1 religions { catholic orthodox }
 
 pool Arabia
-	regions Baghdad_Province Mosul_Province Ayla_Province Al_Suways_Province Mekka_Province Medina_Province Media_Province
+	regions Baghdad_Province Mosul_Province Ayla_Province Al_Suways_Province Mekka_Province Medina_Province Media_Province Euphrates_Province
 	unit Bedouin Cavalry			exp 0 cost 730 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
 	unit Bedouin Camel Riders		exp 0 cost 1020 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
 	unit Kwarizmian Cavalry			exp 0 cost 1120 replenish 0.08 - 0.25 max 4 initial 0 religions { islam }
